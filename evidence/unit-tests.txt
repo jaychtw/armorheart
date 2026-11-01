@@ -1,0 +1,23 @@
+
+> armorheart-guardian-poc@0.1.0 test
+> node tests/engine.test.mjs
+
+✔ facing changes while an adjacent solid wall prevents movement (1.176109ms)
+✔ cardinal movement has fixed speed, no diagonal and remains in bounds (2.639438ms)
+✔ first held shot is immediate, repeat interval is one second, ammunition is unlimited (5.67187ms)
+✔ tapping fire cannot bypass cooldown (0.961279ms)
+✔ one shell hits nearest wall, consumes itself and does not pierce (0.609025ms)
+✔ muzzle overlap cannot shoot through an adjacent wall (0.243882ms)
+✔ steel consumes shell and remains unchanged (0.168732ms)
+✔ swept collision finds thin crossing even when endpoint is beyond wall (0.096681ms)
+✔ completion occurs on sixth removed brick and reset restores scene (0.257154ms)
+✔ independent recoil peaks then recovers; reduced motion preserves smaller cue (0.321126ms)
+✔ settings reject corrupt fields and localization key coverage matches (1.465131ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21.377274

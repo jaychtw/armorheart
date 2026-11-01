@@ -1,0 +1,10 @@
+{
+  "sourceSize": 256,
+  "hullCenter": [107, 128],
+  "barrelAxisY": 126,
+  "muzzle": [243, 126],
+  "recoilMasterPixels": 12,
+  "displayScale": 0.5,
+  "directions": {"right": 0, "down": 90, "left": 180, "up": 270},
+  "note": "All cardinal facings rotate the same assembled layer pair around the same hull center; no independent aiming. Prototype anchors require visual review."
+}
