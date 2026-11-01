@@ -10,7 +10,7 @@
 </defs>
 <g id="hull" aria-label="Fixed hull and turret">
   <use href="#master" mask="url(#fixedMask)" />
-  
+
   <path d="M166 118 L188 118 L188 135 L166 135Z" fill="url(#repair)" />
   <path d="M166 118 H188 M188 118 V135 M166 135 H188" fill="none" stroke="#73542e" stroke-width="1" />
   <path d="M171 120 V133 M179 120 V133" stroke="#d0ad6c" stroke-width=".7" />

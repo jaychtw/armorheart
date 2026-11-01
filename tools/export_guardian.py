@@ -31,5 +31,7 @@ for layer in ['hull', 'barrel']:
     for node in list(root):
         if node.tag.endswith('g') and node.get('id') != layer:
             root.remove(node)
-    tree.write(ASSET / (layer + '.svg'), encoding='unicode', xml_declaration=True)
+    target = ASSET / (layer + '.svg')
+    tree.write(target, encoding='unicode', xml_declaration=True)
+    target.write_text('\n'.join(line.rstrip() for line in target.read_text().splitlines()) + '\n')
 print('Exported hull.svg and barrel.svg from editable guardian-source.svg')
