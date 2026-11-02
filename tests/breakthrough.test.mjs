@@ -84,3 +84,16 @@ test('all map subsets/orientations stay clear with local R2 turn correction',()=
   }
  }
 });
+test('crowd overlap never blocks tank motion or consumes a shot',()=>{
+ const s=createMission();s.tank={x:384,y:720,facing:'up'};const c=structuredClone(s.mission.crowd);
+ assert.ok(canMove(s,384,720));step(s,{fire:true},1/60);assert.equal(s.hits,0);assert.equal(s.shots,1);assert.deepEqual(s.mission.crowd,c);
+ s.tank={x:348,y:704,facing:'right'};step(s,{direction:'right'},1/60);assert.ok(s.tank.x>348);assert.deepEqual(s.mission.crowd,c);
+});
+test('topology change after a deadline cannot create a late win',()=>{
+ const s=createMission();remove(s,1);s.tank={x:384,y:301.5,facing:'up'};s.mission.elapsed=89.99;
+ advanceMission(s,.02);step(s,{fire:true},.05);assert.equal(refreshRoute(s),false);assert.equal(s.mission.phase,'timeout');assert.equal(s.destroyed,1);assert.ok(s.walls.some(w=>w.id===0));
+});
+test('replan while moving keeps the continuous crowd center and valid edge',()=>{
+ const s=createMission();remove(s,0,1);advanceMission(s,.1);const p={x:s.mission.crowd.x,y:s.mission.crowd.y};
+ remove(s,2);assert.equal(s.mission.crowd.x,p.x);assert.equal(s.mission.crowd.y,p.y);advanceMission(s,.1);assert.ok(crowdSegmentClear(p,s.mission.crowd,s.walls));
+});

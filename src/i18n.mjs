@@ -5,7 +5,7 @@ export const messages = {
   missionStart:'Start mission',timeLeft:'SECONDS LEFT',waiting:'Waiting · route blocked',evacuating:'Route open · evacuating',evacCue:'Route open. Evacuation has begun.',
   missionSuccess:'Evacuation complete.',missionSuccessText:'The entire crowd reached safety before the deadline.',missionTimeout:'Evacuation window closed.',missionTimeoutText:'Time expired. Reposition around steel and open a complete route. Retry the mission.',
   missionRestartConfirm:'Restart Breakthrough? The map, crowd and 90-second deadline will reset.',missionRetry:'Retry mission',missionReplay:'Replay mission',levelExit:'Level exit',exitConfirm:'Leave this exercise? Current progress will be discarded.',
-  missionCanvas:'Breakthrough: central corridor, two lower brick entrances and one offset upper gate. Open a complete route for the crowd before 90 seconds.',exitMark:'EXIT',missionFooter:'Breakthrough M1 prototype · creative review pending.',
+  crowdMark:'CROWD',missionCanvas:'Breakthrough: central corridor, two lower brick entrances and one offset upper gate. Open a complete route for the crowd before 90 seconds.',exitMark:'EXIT',missionFooter:'Breakthrough M1 prototype · creative review pending.',
 
   subtitle:'GUARDIAN / FEASIBILITY STUDY 01',prototype:'PROTOTYPE · NOT PRODUCTION ART',title:'Small scene. Real recoil.',
   intro:'One Guardian. Six breakable walls. A proving ground for how it looks, moves and feels.',
@@ -30,7 +30,7 @@ export const messages = {
   missionStart:'開始任務',timeLeft:'剩餘秒數',waiting:'等待中 · 路線受阻',evacuating:'路線暢通 · 正在撤離',evacCue:'路線已暢通，人群開始撤離。',
   missionSuccess:'撤離完成。',missionSuccessText:'所有人已在時限前抵達安全區。',missionTimeout:'撤離時限已過。',missionTimeoutText:'時間已到。請繞過鋼牆、開闢完整通道，再次嘗試任務。',
   missionRestartConfirm:'重新開始突破任務？地圖、人群與 90 秒時限將重設。',missionRetry:'重試任務',missionReplay:'重玩任務',levelExit:'離開關卡',exitConfirm:'離開目前練習？本次進度將不會保留。',
-  missionCanvas:'突破：中央走廊、下方兩側磚牆入口，以及上方錯位的出口。請在 90 秒內為人群開闢完整路線。',exitMark:'出口',missionFooter:'突破 M1 原型 · 等待創意審查。',
+  crowdMark:'人群',missionCanvas:'突破：中央走廊、下方兩側磚牆入口，以及上方錯位的出口。請在 90 秒內為人群開闢完整路線。',exitMark:'出口',missionFooter:'突破 M1 原型 · 等待創意審查。',
 
   subtitle:'守護者 / 可行性研究 01',prototype:'原型素材 · 非正式美術',title:'小場景，真實後座。',
   intro:'一輛守護者、六座可破壞磚牆。檢驗外觀、移動與操作手感的測試場。',

@@ -7,13 +7,14 @@ let storageFailed=false,settings;
 try{settings=normalizeSettings(JSON.parse(localStorage.getItem('armorheart-guardian-settings')));}catch{settings=normalizeSettings(null);storageFailed=true;}
 const mq=matchMedia('(prefers-reduced-motion: reduce)');
 let reduced=()=>settings.reduced??mq.matches;
-let scene='range',dialogAction='reset',dialogWasPaused=false;
+let scene='range',dialogAction='reset',dialogWasPaused=false,announcementKey=null;
 let state=createState(),started=false,paused=false,exploded=false,size=64,accumulator=0,last=0;
 const held=new Map(),pointers=new Map();let order=0,fireKey=false;
 const arena=$('#arena'),ctx=arena.getContext('2d'),asset=$('#asset-view'),ax=asset.getContext('2d');
 const images=await Promise.all(['hull','barrel'].map(name=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=`assets/guardian/${name}.svg`;})));
 function save(){try{localStorage.setItem('armorheart-guardian-settings',JSON.stringify(settings));storageFailed=false;}catch{storageFailed=true;}$('#storage-warning').hidden=!storageFailed;$('#storage-warning').textContent=t('storage');}
 function t(key){return messages[settings.language][key]??key;}
+function announce(key){announcementKey=key;$('#announcement').textContent=t(key);}
 function translate(){
  document.documentElement.lang=settings.language;
  $$('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n));
@@ -23,7 +24,8 @@ function translate(){
  $('#sound').textContent=t(settings.muted?'mute':'sound');$('#sound').setAttribute('aria-pressed',String(!settings.muted));
  $('#motion').checked=reduced();$('#pause').textContent=t(paused?'resume':'pause');
  $('#asset-note').textContent=t(exploded?'layersNote':'art');$('#storage-warning').textContent=t('storage');$('#storage-warning').hidden=!storageFailed;
- updateSceneText();updateOverlay();drawComparisons();updateStats();
+ if(announcementKey&&$('#announcement').textContent!==t(announcementKey))$('#announcement').textContent=t(announcementKey);
+ updateSceneText();updateOverlay();drawComparisons();updateStats();draw();
 }
 function isMission(){return scene==='breakthrough';}
 function updateSceneText(){
@@ -42,14 +44,14 @@ function updateOverlay(){
 }
 function selectScene(next){
  scene=next;state=isMission()?createMission():createState();started=false;paused=false;particles=[];accumulator=0;clearInput();$('#pause').disabled=true;
- $('#announcement').textContent='';translate();$('#start').focus({preventScroll:true});
+ announcementKey=null;$('#announcement').textContent='';translate();$('#start').focus({preventScroll:true});
 }
 function confirmAction(action){dialogAction=action;dialogWasPaused=paused;setPaused(true);updateSceneText();$('#reset-dialog').showModal();}
 function requestScene(next){if(started&&!state.complete)confirmAction(next);else selectScene(next);}
 $('#choose-range').onclick=()=>requestScene('range');$('#choose-mission').onclick=()=>requestScene('breakthrough');
 $('#level-exit').onclick=()=>{if(started&&!state.complete)confirmAction('exit');else selectScene('range');};
 function clearInput(){held.clear();pointers.clear();fireKey=false;$$('.active').forEach(e=>e.classList.remove('active'));}
-function reset(){state=isMission()?createMission():createState();last=performance.now();accumulator=0;started=true;paused=false;particles=[];clearInput();$('#pause').disabled=false;updateOverlay();updateStats();arena.focus({preventScroll:true});}
+function reset(){announcementKey=null;$('#announcement').textContent='';state=isMission()?createMission():createState();last=performance.now();accumulator=0;started=true;paused=false;particles=[];clearInput();$('#pause').disabled=false;updateOverlay();updateStats();arena.focus({preventScroll:true});}
 function setPaused(value){if(isMission()&&!value)last=performance.now();paused=value;clearInput();$('#pause').textContent=t(paused?'resume':'pause');updateOverlay();}
 $('#start').onclick=()=>{if(state.complete)reset();else{started=true;setPaused(false);$('#pause').disabled=false;arena.focus({preventScroll:true});arena.scrollIntoView({block:'start',behavior:'instant'});}};
 $('#pause').onclick=()=>{setPaused(!paused);if(!paused)arena.focus({preventScroll:true});};
@@ -84,7 +86,7 @@ let audio;
 function ensureAudio(){try{audio??=new AudioContext();audio.resume().catch(()=>{});}catch{}}
 function sound(kind){if(settings.muted)return;ensureAudio();if(!audio)return;const osc=audio.createOscillator(),gain=audio.createGain();osc.type='triangle';osc.frequency.setValueAtTime(kind==='fire'?125:65,audio.currentTime);osc.frequency.exponentialRampToValueAtTime(35,audio.currentTime+.12);gain.gain.setValueAtTime(.07,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.15);osc.connect(gain);gain.connect(audio.destination);osc.start();osc.stop(audio.currentTime+.16);}
 let particles=[];
-function events(){for(const e of state.events){if(e.type==='fire')sound('fire');if(e.type==='impact'){sound('impact');particles.push({x:e.x,y:e.y,age:0,brick:e.brick});}if(e.type==='complete'){clearInput();updateOverlay();$('#pause').disabled=true;$('#announcement').textContent=t('successText');$('#start').focus({preventScroll:true});}}}
+function events(){for(const e of state.events){if(e.type==='fire')sound('fire');if(e.type==='impact'){sound('impact');particles.push({x:e.x,y:e.y,age:0,brick:e.brick});}if(e.type==='complete'){clearInput();updateOverlay();$('#pause').disabled=true;announce('successText');$('#start').focus({preventScroll:true});}}}
 function tank(c,x,y,scale,facing,age,split=false){
  c.save();c.translate(x,y);c.rotate(ANGLES[facing]);c.scale(scale,scale);
  if(split){c.save();c.translate(-10,22);c.drawImage(images[0],-107,-128);c.restore();c.save();c.translate(10,-34);c.drawImage(images[1],-107,-128);c.restore();}
@@ -145,6 +147,10 @@ function drawMissionGround(){
 }
 function drawCrowd(){
  const c=state.mission.crowd;ctx.save();ctx.translate(c.x,c.y);
+ if(state.mission.phase==='waiting'){
+   ctx.font='bold 24px system-ui';ctx.lineWidth=3;ctx.strokeStyle='#172b22';ctx.strokeText(t('crowdMark'),-140,7);ctx.fillStyle='#fff1b5';ctx.fillText(t('crowdMark'),-140,7);
+   ctx.strokeStyle='#fff1b5';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-46,0);ctx.lineTo(-17,0);ctx.stroke();
+ }
  ctx.fillStyle='#172b22';ctx.beginPath();ctx.arc(0,0,15.5,0,Math.PI*2);ctx.fill();
  for(const [x,y] of CROWD_DOTS){ctx.fillStyle='#fff1b5';ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fill();}
  // A single, restrained ring on route opening; static in reduced motion.
@@ -152,19 +158,19 @@ function drawCrowd(){
  if(state.mission.evacuatingAt!==null&&age<2){ctx.strokeStyle='#fff8df';ctx.lineWidth=1;ctx.beginPath();ctx.arc(0,0,reduced()?15:14+Math.sin(age*Math.PI)*1,0,Math.PI*2);ctx.stroke();}
  ctx.restore();
 }
-function finishMission(){clearInput();updateOverlay();$('#pause').disabled=true;$('#announcement').textContent=t(state.mission.phase==='success'?'missionSuccessText':'missionTimeoutText');$('#start').focus({preventScroll:true});}
+function finishMission(){clearInput();updateOverlay();$('#pause').disabled=true;announce(state.mission.phase==='success'?'missionSuccessText':'missionTimeoutText');$('#start').focus({preventScroll:true});}
 function updateStats(){if(isMission()){const m=state.mission;$('#mission-clock').textContent=String(Math.ceil(Math.max(0,90-m.elapsed)));const status=t(m.phase==='success'?'missionSuccess':m.phase==='timeout'?'missionTimeout':m.phase==='evacuating'?'evacuating':'waiting');if($('#mission-status').textContent!==status)$('#mission-status').textContent=status;$('#mission-ready').textContent=t(state.time+1e-8>=state.nextShot?'ready':'cooldown');$('#mission-hud').classList.toggle('route-open',m.phase==='evacuating');}$('#shot-count').textContent=state.shots;$('#wall-count').innerHTML=`${state.destroyed} <small>/ 6</small>`;const ready=state.time+1e-8>=state.nextShot;$('#reload-label').textContent=t(ready?'ready':'cooldown');$('#reload-fill').style.width=Math.min(1,Math.max(0,1-(state.nextShot-state.time)))*100+'%';$('#facing-label').textContent=t('facing')+' / '+t(state.tank.facing+'Name');}
 function frame(now){
  const rawElapsed=last?Math.max(0,(now-last)/1000):0,elapsed=Math.min(rawElapsed,.1);last=now;
  if(started&&!paused&&!state.complete){
    if(isMission()){advanceMission(state,rawElapsed);if(state.complete)finishMission();}
    if(!state.complete){accumulator+=elapsed;while(accumulator>=1/60){step(state,input(),1/60);events();for(const p of particles)p.age+=1/60;particles=particles.filter(p=>p.age<.5);accumulator-=1/60;if(state.complete)break;}
-     if(isMission()&&refreshRoute(state)){$('#announcement').textContent=t('evacCue');}
+     if(isMission()&&refreshRoute(state)){announce('evacCue');}
    }
  }else accumulator=0;
  draw();updateStats();requestAnimationFrame(frame);
 }
-new ResizeObserver(()=>{const pixels=Math.round(arena.getBoundingClientRect().width*Math.min(devicePixelRatio||1,2));if(pixels>0){arena.width=pixels;arena.height=pixels;}}).observe(arena);
+new ResizeObserver(()=>{const pixels=Math.round(arena.getBoundingClientRect().width*Math.min(devicePixelRatio||1,2));if(pixels>0&&arena.width!==pixels){arena.width=pixels;arena.height=pixels;draw();}}).observe(arena);
 translate();requestAnimationFrame(frame);
 // Read-only diagnostics for reproducible evidence; gameplay tests use actual inputs.
 Object.defineProperty(window,'guardianPOC',{value:Object.freeze({snapshot:()=>structuredClone({scene,state:state.mission?{...state,mission:missionSnapshot(state)}:state,started,paused,settings,reduced:reduced(),exploded,size,barrelOffsetMasterPx:recoil(state.time-state.firedAt,reduced())}),assetAnchors:{hull:[107,128],muzzle:[243,126],scale:.5}})});

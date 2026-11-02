@@ -6,3 +6,5 @@ evidence/tmp/
 *.bundle
 !artifacts/Armorheart-Guardian-POC.zip
 evidence/r2/tmp/
+evidence/m1/r2-regression/tmp/
+!artifacts/Armorheart-Breakthrough-M1.zip

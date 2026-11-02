@@ -87,10 +87,14 @@ with sync_playwright() as p:
   for lang in ['en','zh-TW']:
    if snap(pg)['settings']['language']!=lang:pg.locator('#language').click()
    capture(pg,f'viewport-{width}x{height}-{lang}')
+   pixel=pg.evaluate("""()=>{const c=document.querySelector('#arena'),g=c.getContext('2d');return [...g.getImageData(Math.round(256*c.width/768),Math.round(448*c.height/768),1,1).data]}""")
+   check(f'{width} {lang} actual mission brick rendered after scene switch',pixel[0]>pixel[1]>pixel[2],pixel)
    metrics=pg.evaluate("""()=>({overflow:document.documentElement.scrollWidth>innerWidth,targets:[...document.querySelectorAll('[data-dir],#fire')].map(x=>{const r=x.getBoundingClientRect();return[r.width,r.height]}),fire:document.querySelector('#fire').getBoundingClientRect().bottom,arena:document.querySelector('#arena').getBoundingClientRect().width})""")
    check(f'{width} {lang} layout/targets/reduced motion',not metrics['overflow'] and all(x>=44 and y>=44 for x,y in metrics['targets']) and snap(pg)['reduced'],metrics)
    if width in [320,390]:check(f'{width} {lang} arena and Fire usable in portrait viewport',metrics['fire']<=height,metrics)
    if width in [320,390,1440]:
+    # axe schedules async timers; resume the browser clock for its audit.
+    pg.clock.resume()
     pg.add_script_tag(path=os.environ.get('AXE_PATH','/tmp/armorheart-audit/node_modules/axe-core/axe.min.js'))
     audit=pg.evaluate("""async()=>{const r=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}});return {violations:r.violations,passes:r.passes.length,incomplete:r.incomplete.map(x=>({id:x.id,impact:x.impact}))}}""")
     (OUT/f'axe-{width}-{lang}.json').write_text(json.dumps(audit,indent=2,ensure_ascii=False));check(f'{width} {lang} axe no violations',not audit['violations'],[x['id'] for x in audit['violations']])
