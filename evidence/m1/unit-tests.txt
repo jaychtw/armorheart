@@ -1,0 +1,71 @@
+
+> armorheart-guardian-poc@0.1.0 test
+> node tests/engine.test.mjs && node tests/breakthrough.test.mjs
+
+✔ facing changes while an adjacent solid wall prevents movement (0.995607ms)
+✔ cardinal movement has fixed speed, no diagonal and remains in bounds (2.843161ms)
+✔ first held shot is immediate, repeat interval is one second, ammunition is unlimited (0.794298ms)
+✔ tapping fire cannot bypass cooldown (0.361404ms)
+✔ one shell hits nearest wall, consumes itself and does not pierce (0.250103ms)
+✔ muzzle overlap cannot shoot through an adjacent wall (0.103148ms)
+✔ steel consumes shell and remains unchanged (0.127746ms)
+✔ swept collision finds thin crossing even when endpoint is beyond wall (0.066813ms)
+✔ completion occurs on sixth removed brick and reset restores scene (0.084089ms)
+✔ independent recoil peaks then recovers; reduced motion preserves smaller cue (0.149289ms)
+✔ settings reject corrupt fields and localization key coverage matches (0.608173ms)
+✔ hull envelope uses artwork pivot/scale and excludes the protruding barrel (0.079622ms)
+✔ brick contact clamps visible hull in up across frame deltas (8.102558ms)
+✔ brick contact clamps visible hull in right across frame deltas (5.892718ms)
+✔ brick contact clamps visible hull in down across frame deltas (6.739167ms)
+✔ brick contact clamps visible hull in left across frame deltas (6.985224ms)
+✔ steel contact clamps visible hull in up across frame deltas (6.184746ms)
+✔ steel contact clamps visible hull in right across frame deltas (5.22233ms)
+✔ steel contact clamps visible hull in down across frame deltas (5.779345ms)
+✔ steel contact clamps visible hull in left across frame deltas (5.468448ms)
+✔ adjacent walls, corner and parallel sliding do not clip or stick (0.304207ms)
+✔ blocked cardinal turn resolves hull clearance and never moves through a wall (0.315544ms)
+✔ barrel overlap still consumes one projectile at the first wall (0.095597ms)
+✔ revised proving ground keeps wall counts and avoids corridor-sized turn relocations (962.957304ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1026.353245
+✔ M1 subset 0: independent oracle connectivity and shortest route (1.367558ms)
+✔ M1 subset 1: independent oracle connectivity and shortest route (1.10191ms)
+✔ M1 subset 2: independent oracle connectivity and shortest route (0.375075ms)
+✔ M1 subset 3: independent oracle connectivity and shortest route (0.789121ms)
+✔ M1 subset 4: independent oracle connectivity and shortest route (0.82771ms)
+✔ M1 subset 5: independent oracle connectivity and shortest route (0.342205ms)
+✔ M1 subset 6: independent oracle connectivity and shortest route (0.643367ms)
+✔ M1 subset 7: independent oracle connectivity and shortest route (0.669527ms)
+✔ tied lower routes prefer left, deterministic across wall array order (1.048598ms)
+✔ mid-edge route compares both endpoints and preserves continuation on ties (0.189882ms)
+✔ swept group edges reject corner cuts even with clear endpoints (0.109889ms)
+✔ group pixels fit the envelope and full exit containment, not center alone, wins (0.099132ms)
+✔ route only replans after effective destruction; first full route announces once (0.617958ms)
+✔ crowd remains inside walls and corridor at every intermediate movement sample (2.319588ms)
+✔ long frame processes the full route, reports earlier success before late render (0.624068ms)
+✔ arrival with elapsed 88.999 respects strict deadline (0.208891ms)
+✔ arrival with elapsed 89 respects strict deadline (0.193837ms)
+✔ arrival with elapsed 89.001 respects strict deadline (0.148759ms)
+✔ visible time cannot be extended by physics clamp and terminal state is immutable (0.79528ms)
+✔ tank at exit and every brick removed do not trigger six-block/range completion (0.275743ms)
+✔ stationary spawn firing cannot open route; shells do not interact with crowd (1.326454ms)
+✔ large blocks consume one shell/one hit and corridor side boundary consumes fire (0.161708ms)
+✔ fresh Retry state resets map, time, route, shots and completion (0.27364ms)
+✔ all map subsets/orientations stay clear with local R2 turn correction (6061.584048ms)
+✔ crowd overlap never blocks tank motion or consumes a shot (0.510302ms)
+✔ topology change after a deadline cannot create a late win (0.220318ms)
+✔ replan while moving keeps the continuous crowd center and valid edge (0.443199ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6083.263658
