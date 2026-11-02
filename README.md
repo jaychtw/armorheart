@@ -2,9 +2,11 @@
 
 A bounded, zero-runtime-dependency browser proving ground. **Prototype artwork, awaiting creative-director review.** No campaign, other tanks, bosses, deployment or production approval.
 
+R2 corrects hull collision, replaces the muzzle effect and adds restrained steel-panel styling. Accepted recoil is unchanged; wall placement was adjusted with owner approval. [R2 QA and evidence](docs/QA_REPORT.md) · [Execution authorization](docs/decisions/R2_AUTHORIZATION.md).
+
 ## Play locally
 
-**[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/poc/guardian-feasibility/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This contains the existing tested Guardian POC, not a new build or public deployment.
+**[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
 Download `preview/guardian.html`. This single file embeds the code, CSS and Guardian layers. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 

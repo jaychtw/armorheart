@@ -1,4 +1,4 @@
-# Play the Guardian POC
+# Play the Guardian POC — R2 review
 
 1. Download `Armorheart-Guardian-POC.zip` from the repository's `artifacts` folder and extract it.
 2. Open `Guardian-POC/guardian.html` in a modern desktop browser. Everything is embedded; no npm packages or network services are needed by the game.

@@ -45,8 +45,8 @@ with sync_playwright() as p:
     before=snap(pg)['state']['tank'];key(pg,keyname,500)
     check(f'{width} {kind} {facing} stable contact',snap(pg)['state']['tank']==before)
     # Switch to a perpendicular facing and back at contact.
-    key(pg,'ArrowRight' if dy else 'ArrowUp',17);key(pg,keyname,17)
-    check(f'{width} {kind} {facing} immediate blocked turn clear',snap(pg)['state']['tank']['facing']==facing and edges(pg)['overlap']==0)
+    key(pg,'ArrowRight' if dy else 'ArrowUp',64);key(pg,keyname,64)
+    check(f'{width} {kind} {facing} immediate blocked turn clear',snap(pg)['state']['tank']['facing']==facing and edges(pg)['overlap']==0,dict(snapshot=snap(pg)['state']['tank'],pixels=edges(pg)))
     pg.locator('#arena').focus();pg.keyboard.down('Space');pg.clock.run_for(64)
     fs=snap(pg);check(f'{width} {kind} {facing} flash synchronized to shot',fs['state']['shots']==1 and 0<=fs['state']['time']-fs['state']['firedAt']<.09 and fs['barrelOffsetMasterPx']>0,dict(age=fs['state']['time']-fs['state']['firedAt'],offset=fs['barrelOffsetMasterPx']))
     pg.locator('#arena').screenshot(path=str(OUT/f'flash-{width}-{kind}-{facing}.png'));pg.keyboard.up('Space');c.close()
@@ -56,7 +56,7 @@ with sync_playwright() as p:
  pg=c.new_page();ready(pg);key(pg,'ArrowRight',1000)
  check('actual input parallel sliding along adjacent blocks',abs(snap(pg)['state']['tank']['x']-426)<3 and edges(pg)['overlap']==0)
  for k in ['ArrowDown','ArrowLeft','ArrowUp','ArrowRight']:
-  key(pg,k,17);check('corner turn '+k,edges(pg)['overlap']==0)
+  key(pg,k,64);check('corner turn '+k,edges(pg)['overlap']==0)
  pg.locator('#arena').screenshot(path=str(OUT/'collision-corner.png'));c.close()
  # Both languages at the requested widths; verify no additional overflow.
  for width,height in [(320,740),(390,844),(1440,900)]:
