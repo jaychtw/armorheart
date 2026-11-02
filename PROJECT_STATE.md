@@ -8,4 +8,6 @@ Delivered: editable SVG layer reconstruction, independent barrel transform, Canv
 
 Preservation: meaningful starting/WIP checkpoints pushed to the dedicated branch; final source/evidence checkpoint and exact SHA are recorded in Git history and returned to the owner. A downloadable source/Git backup is supplied separately. No force push. No further implementation until owner reviews this bounded commitment.
 
+2026-11-02 handoff clarification: the playable ZIP is now kept directly in GitHub at `artifacts/Armorheart-Guardian-POC.zip`, with a README download link and reproducible `tools/package_preview.py`. It packages the unchanged tested preview; no gameplay, deployment or acceptance status changed. GitHub is the preferred handoff location.
+
 No Actions workflow added. Pages remains workflow-based; no deployment authorized or attempted. Webhooks/secret metadata could not be inspected (403); no credentials are embedded. Prototype provenance: [asset record](assets/guardian/PROVENANCE.md).

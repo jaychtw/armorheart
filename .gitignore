@@ -4,3 +4,4 @@ __pycache__/
 evidence/tmp/
 *.zip
 *.bundle
+!artifacts/Armorheart-Guardian-POC.zip

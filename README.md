@@ -4,6 +4,8 @@ A bounded, zero-runtime-dependency browser proving ground. **Prototype artwork, 
 
 ## Play locally
 
+**[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/poc/guardian-feasibility/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This contains the existing tested Guardian POC, not a new build or public deployment.
+
 Download `preview/guardian.html`. This single file embeds the code, CSS and Guardian layers. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
