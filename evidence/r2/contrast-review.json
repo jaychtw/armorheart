@@ -1,0 +1,36 @@
+{
+  "method": "WCAG relative luminance on representative palette pairs; conservative dark steel-seam sample dfe3d7. Visual inspection of desktop and 320/390 screenshots. Not exhaustive pixel or canvas conformance.",
+  "pairs": [
+    {
+      "label": "body text",
+      "foreground": "26382f",
+      "background": "dfe3d7",
+      "ratio": 9.54
+    },
+    {
+      "label": "muted copy",
+      "foreground": "53604f",
+      "background": "dfe3d7",
+      "ratio": 5.11
+    },
+    {
+      "label": "eyebrow/footer",
+      "foreground": "4e5e46",
+      "background": "dfe3d7",
+      "ratio": 5.34
+    },
+    {
+      "label": "panel muted copy",
+      "foreground": "53604f",
+      "background": "faf9f4",
+      "ratio": 6.32
+    },
+    {
+      "label": "fire label",
+      "foreground": "26382f",
+      "background": "dfc58f",
+      "ratio": 7.41
+    }
+  ],
+  "limitations": "axe contrast remains incomplete; tank/terrain, transient effects and nonvisual spatial gameplay still require human review"
+}

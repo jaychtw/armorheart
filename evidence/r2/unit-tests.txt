@@ -1,0 +1,36 @@
+
+> armorheart-guardian-poc@0.1.0 test
+> node tests/engine.test.mjs
+
+✔ facing changes while an adjacent solid wall prevents movement (0.911428ms)
+✔ cardinal movement has fixed speed, no diagonal and remains in bounds (4.325357ms)
+✔ first held shot is immediate, repeat interval is one second, ammunition is unlimited (2.301034ms)
+✔ tapping fire cannot bypass cooldown (0.3485ms)
+✔ one shell hits nearest wall, consumes itself and does not pierce (0.395832ms)
+✔ muzzle overlap cannot shoot through an adjacent wall (0.096456ms)
+✔ steel consumes shell and remains unchanged (0.138922ms)
+✔ swept collision finds thin crossing even when endpoint is beyond wall (0.060772ms)
+✔ completion occurs on sixth removed brick and reset restores scene (0.108555ms)
+✔ independent recoil peaks then recovers; reduced motion preserves smaller cue (0.200625ms)
+✔ settings reject corrupt fields and localization key coverage matches (0.674568ms)
+✔ hull envelope uses artwork pivot/scale and excludes the protruding barrel (0.077488ms)
+✔ brick contact clamps visible hull in up across frame deltas (8.697053ms)
+✔ brick contact clamps visible hull in right across frame deltas (6.302517ms)
+✔ brick contact clamps visible hull in down across frame deltas (6.222686ms)
+✔ brick contact clamps visible hull in left across frame deltas (8.508816ms)
+✔ steel contact clamps visible hull in up across frame deltas (6.595733ms)
+✔ steel contact clamps visible hull in right across frame deltas (5.698998ms)
+✔ steel contact clamps visible hull in down across frame deltas (5.499114ms)
+✔ steel contact clamps visible hull in left across frame deltas (5.54259ms)
+✔ adjacent walls, corner and parallel sliding do not clip or stick (0.436805ms)
+✔ blocked cardinal turn resolves hull clearance and never moves through a wall (0.23648ms)
+✔ barrel overlap still consumes one projectile at the first wall (0.076837ms)
+✔ revised proving ground keeps wall counts and avoids corridor-sized turn relocations (1017.120296ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1086.524508
