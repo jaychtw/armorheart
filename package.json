@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "python3 -m http.server 8080 --bind 0.0.0.0",
-    "test": "node tests/engine.test.mjs",
+    "test": "node tests/engine.test.mjs && node tests/breakthrough.test.mjs",
     "assets": "python3 tools/export_guardian.py"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  }
 }

@@ -9,15 +9,17 @@
 <body>
 <header class="masthead"><a class="brand" href="#main" aria-label="Armorheart"><span class="shield" aria-hidden="true">A</span><span>ARMORHEART<small data-i18n="subtitle"></small></span></a><span class="prototype" data-i18n="prototype"></span><button id="language" class="text-button" data-i18n="language"></button></header>
 <main id="main">
+<nav id="scenario-chooser" class="scenario-chooser" data-label="scenarios"><button id="choose-range" aria-pressed="true" data-i18n="rangeChoice"></button><button id="choose-mission" aria-pressed="false" data-i18n="missionChoice"></button></nav>
 <section class="intro"><div><p class="eyebrow" data-i18n="review"></p><h1 data-i18n="title"></h1><p data-i18n="intro"></p></div><div class="study-number" aria-hidden="true">01<span>GUARDIAN</span></div></section>
 <div class="workbench">
 <section class="range-panel" aria-labelledby="range-title">
 <div class="panel-header"><div><h2 id="range-title" data-i18n="range"></h2><p data-i18n="rangeSub"></p></div><button id="pause" class="icon-button" data-i18n="pause" disabled></button></div>
+<div id="mission-hud" class="mission-hud" hidden><div><span data-i18n="timeLeft"></span><strong id="mission-clock">90</strong></div><div><strong id="mission-status"></strong><span id="mission-ready"></span></div></div>
 <div class="arena-wrap"><canvas id="arena" width="768" height="768" tabindex="0" role="application" aria-describedby="controls-help objective"></canvas>
 <div id="overlay" class="overlay"><div class="overlay-inner"><span class="overlay-mark" aria-hidden="true">⌖</span><h2 id="overlay-title">GUARDIAN</h2><p id="overlay-text" data-i18n="objective"></p><button id="start" class="primary" data-i18n="start"></button></div></div></div>
 <div class="range-stats"><div><span data-i18n="walls"></span><strong id="wall-count">0 <small>/ 6</small></strong></div><div><span data-i18n="shots"></span><strong id="shot-count">0</strong></div><div class="reload"><span id="reload-label" data-i18n="ready"></span><div class="reload-track"><div id="reload-fill"></div></div><span id="facing-label"></span></div></div>
 <div class="touch-controls"><div class="dpad" role="group" aria-label="Direction"><button data-dir="up" class="up" data-label="up">↑</button><button data-dir="left" class="left" data-label="left">←</button><span aria-hidden="true">✦</span><button data-dir="right" class="right" data-label="right">→</button><button data-dir="down" class="down" data-label="down">↓</button></div><div class="touch-note"><span data-i18n="objective" id="objective"></span></div><button id="fire" class="fire" data-i18n="fire"></button></div>
-<div class="range-footer"><p id="controls-help" data-i18n="help"></p><button id="restart" class="text-button" data-i18n="reset"></button></div>
+<div class="range-footer"><button id="level-exit" class="text-button" data-i18n="levelExit" hidden></button><p id="controls-help" data-i18n="help"></p><button id="restart" class="text-button" data-i18n="reset"></button></div>
 </section>
 <aside class="inspector" aria-labelledby="inspector-title">
 <p class="eyebrow" data-i18n="inspector"></p><h2 id="inspector-title" data-i18n="assetTitle"></h2><p class="muted" data-i18n="assetText"></p>

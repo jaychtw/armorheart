@@ -21,10 +21,12 @@ export function createState() {
       ...steel.map(([x,y],i)=>({id:100+i,x:x*CELL,y:y*CELL,kind:'steel'}))]};
 }
 const EPS=1e-8;
+const wallWidth=w=>w.width??CELL,wallHeight=w=>w.height??CELL;
+const activeBounds=s=>s.bounds??{left:0,right:WORLD,top:0,bottom:WORLD};
 export function canMove(s,x,y,facing=s.tank.facing) {
-  const b=hullBounds(x,y,facing);
-  return b.left>=-EPS&&b.top>=-EPS&&b.right<=WORLD+EPS&&b.bottom<=WORLD+EPS&&
-    !s.walls.some(w=>b.right>w.x+EPS&&b.left<w.x+CELL-EPS&&b.bottom>w.y+EPS&&b.top<w.y+CELL-EPS);
+  const b=hullBounds(x,y,facing),bounds=activeBounds(s);
+  return b.left>=bounds.left-EPS&&b.top>=bounds.top-EPS&&b.right<=bounds.right+EPS&&b.bottom<=bounds.bottom+EPS&&
+    !s.walls.some(w=>b.right>w.x+EPS&&b.left<w.x+wallWidth(w)-EPS&&b.bottom>w.y+EPS&&b.top<w.y+wallHeight(w)-EPS);
 }
 function turn(s,facing) {
   if(s.tank.facing===facing)return;
@@ -33,8 +35,9 @@ function turn(s,facing) {
   if(canMove(s,x,y))return;
   // Immediate cardinal rotation has no intermediate arc. Find the nearest legal
   // center on obstacle/world faces instead of drawing an expanded hull in a wall.
-  const xs=[x,-b.left,WORLD-b.right],ys=[y,-b.top,WORLD-b.bottom];
-  for(const w of s.walls){xs.push(w.x-b.right,w.x+CELL-b.left);ys.push(w.y-b.bottom,w.y+CELL-b.top);}
+  const bounds=activeBounds(s);
+  const xs=[x,bounds.left-b.left,bounds.right-b.right],ys=[y,bounds.top-b.top,bounds.bottom-b.bottom];
+  for(const w of s.walls){xs.push(w.x-b.right,w.x+wallWidth(w)-b.left);ys.push(w.y-b.bottom,w.y+wallHeight(w)-b.top);}
   let best=null;
   for(const xx of xs)for(const yy of ys){const d=(xx-x)**2+(yy-y)**2;
     if((!best||d<best.d-EPS)&&canMove(s,xx,yy))best={x:xx,y:yy,d};}
@@ -43,17 +46,17 @@ function turn(s,facing) {
 }
 function moveTank(s,dx,dy,distance) {
   const {x,y,facing}=s.tank,b=hullBounds(x,y,facing);
-  let allowed=distance;
-  if(dx)allowed=Math.min(allowed,dx>0?WORLD-b.right:b.left);
-  else allowed=Math.min(allowed,dy>0?WORLD-b.bottom:b.top);
+  const bounds=activeBounds(s);let allowed=distance;
+  if(dx)allowed=Math.min(allowed,dx>0?bounds.right-b.right:b.left-bounds.left);
+  else allowed=Math.min(allowed,dy>0?bounds.bottom-b.bottom:b.top-bounds.top);
   for(const w of s.walls){
-    if(dx&&b.bottom>w.y+EPS&&b.top<w.y+CELL-EPS){
+    if(dx&&b.bottom>w.y+EPS&&b.top<w.y+wallHeight(w)-EPS){
       if(dx>0&&w.x>=b.right-EPS)allowed=Math.min(allowed,w.x-b.right);
-      if(dx<0&&w.x+CELL<=b.left+EPS)allowed=Math.min(allowed,b.left-w.x-CELL);
+      if(dx<0&&w.x+wallWidth(w)<=b.left+EPS)allowed=Math.min(allowed,b.left-w.x-wallWidth(w));
     }
-    if(dy&&b.right>w.x+EPS&&b.left<w.x+CELL-EPS){
+    if(dy&&b.right>w.x+EPS&&b.left<w.x+wallWidth(w)-EPS){
       if(dy>0&&w.y>=b.bottom-EPS)allowed=Math.min(allowed,w.y-b.bottom);
-      if(dy<0&&w.y+CELL<=b.top+EPS)allowed=Math.min(allowed,b.top-w.y-CELL);
+      if(dy<0&&w.y+wallHeight(w)<=b.top+EPS)allowed=Math.min(allowed,b.top-w.y-wallHeight(w));
     }
   }
   allowed=Math.max(0,allowed);s.tank.x+=dx*allowed;s.tank.y+=dy*allowed;
@@ -61,7 +64,7 @@ function moveTank(s,dx,dy,distance) {
 // Earliest segment entry into an AABB, including a starting point on its edge.
 export function intersect(x,y,dx,dy,w) {
   let near=0,far=1;
-  for(const [p,d,min,max] of [[x,dx,w.x,w.x+CELL],[y,dy,w.y,w.y+CELL]]) {
+  for(const [p,d,min,max] of [[x,dx,w.x,w.x+wallWidth(w)],[y,dy,w.y,w.y+wallHeight(w)]]) {
     if(Math.abs(d)<1e-9) {if(p<min||p>max)return null;}
     else {let a=(min-p)/d,b=(max-p)/d;if(a>b)[a,b]=[b,a];near=Math.max(near,a);far=Math.min(far,b);if(near>far)return null;}
   }
@@ -69,7 +72,12 @@ export function intersect(x,y,dx,dy,w) {
 }
 function sweep(s,x,y,dx,dy) {
   let hit=null;
-  for(const w of s.walls) {
+  const bounds=activeBounds(s);
+  const boundaries=s.bounds?[{id:-4,x:bounds.left-1,y:bounds.top,width:1,height:bounds.bottom-bounds.top,kind:'steel'},
+    {id:-3,x:bounds.right,y:bounds.top,width:1,height:bounds.bottom-bounds.top,kind:'steel'},
+    {id:-2,x:bounds.left,y:bounds.top-1,width:bounds.right-bounds.left,height:1,kind:'steel'},
+    {id:-1,x:bounds.left,y:bounds.bottom,width:bounds.right-bounds.left,height:1,kind:'steel'}]:[];
+  for(const w of [...s.walls,...boundaries]) {
     const t=intersect(x,y,dx,dy,w);
     if(t!==null&&(!hit||t<hit.t||(t===hit.t&&w.id<hit.wall.id)))hit={t,wall:w};
   }
@@ -101,7 +109,7 @@ export function step(s,input,dt) {
     if(hit){impact(s,hit,b.x+dx*hit.t,b.y+dy*hit.t);return false;}
     b.x+=dx;b.y+=dy;return b.x>=0&&b.x<=WORLD&&b.y>=0&&b.y<=WORLD;
   });
-  if(s.destroyed===targets.length){s.complete=true;s.events.push({type:'complete'});}
+  if(s.scenario!=='breakthrough'&&s.destroyed===targets.length){s.complete=true;s.events.push({type:'complete'});}
   return s;
 }
 export function recoil(age,reduced=false) {

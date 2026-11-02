@@ -4,7 +4,7 @@ Optional AXE_PATH points to axe.min.js installed as a dev-only auditing tool.
 from playwright.sync_api import sync_playwright
 from pathlib import Path
 import json,os,time
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r2';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/r2');OUT.mkdir(parents=True,exist_ok=True)
 URL=os.environ.get('POC_URL','http://127.0.0.1:8080')
 results=[];errors=[];requests=[]
 def check(name,condition,detail=None):

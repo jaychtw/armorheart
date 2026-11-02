@@ -4,8 +4,8 @@ No runtime debug UI or mutable simulation API is added.
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-import json,time
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r2';OUT.mkdir(parents=True,exist_ok=True)
+import json,time,os
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/r2');OUT.mkdir(parents=True,exist_ok=True)
 results=[]
 def check(name,ok,detail=None):
     results.append(dict(name=name,passed=bool(ok),detail=detail))
