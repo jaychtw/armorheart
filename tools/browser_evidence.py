@@ -4,7 +4,7 @@ Optional AXE_PATH points to axe.min.js installed as a dev-only auditing tool.
 from playwright.sync_api import sync_playwright
 from pathlib import Path
 import json,os,time
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence';OUT.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r2';OUT.mkdir(parents=True,exist_ok=True)
 URL=os.environ.get('POC_URL','http://127.0.0.1:8080')
 results=[];errors=[];requests=[]
 def check(name,condition,detail=None):
@@ -28,19 +28,18 @@ with sync_playwright() as p:
     page=context.new_page();ready(page);page.screenshot(path=str(OUT/'desktop-entry.png'),full_page=True);start(page)
     check('initial scene has six bricks, six permanent walls',len(snap(page)['state']['walls'])==12)
     page.keyboard.down('Space');page.wait_for_function('guardianPOC.snapshot().state.shots===1');page.wait_for_timeout(30)
-    page.screenshot(path=str(OUT/'desktop-recoil.png'),full_page=True);page.wait_for_timeout(240);page.keyboard.up('Space')
+    page.screenshot(path=str(OUT/'desktop-recoil.png'),full_page=True);page.wait_for_timeout(500);page.keyboard.up('Space')
     check('immediate shot and one-shot brick destruction',snap(page)['state']['shots']==1 and snap(page)['state']['destroyed']==1)
     page.screenshot(path=str(OUT/'desktop-first-impact.png'),full_page=True)
     # Language switches preserve the simulation, live tank position and firing count.
     before=snap(page)['state'];page.locator('#language').click();after=snap(page)
     check('live zh-TW switch preserves state',after['settings']['language']=='zh-TW' and after['state']['tank']==before['tank'] and after['state']['shots']==before['shots'])
     page.screenshot(path=str(OUT/'desktop-zh-TW.png'),full_page=True);page.locator('#language').click()
-    fire_until(page,3)
+    # Six-block route through the owner-authorized clearance layout.
+    fire_until(page,2)
     move(page,'ArrowRight','x',544,1);page.keyboard.down('ArrowUp');page.wait_for_timeout(20);page.keyboard.up('ArrowUp');fire_until(page,4)
-    # Route around the steel at (9,9), rather than walking through it.
-    move(page,'ArrowUp','y',540,-1);move(page,'ArrowRight','x',672,1);move(page,'ArrowUp','y',288,-1)
-    move(page,'ArrowLeft','x',544,-1);page.keyboard.down('ArrowUp');page.wait_for_timeout(20);page.keyboard.up('ArrowUp');fire_until(page,5)
-    move(page,'ArrowLeft','x',256,-1);fire_until(page,6)
+    move(page,'ArrowUp','y',544,-1);page.keyboard.down('ArrowLeft');page.wait_for_timeout(20);page.keyboard.up('ArrowLeft');fire_until(page,5)
+    page.keyboard.down('ArrowRight');page.wait_for_timeout(20);page.keyboard.up('ArrowRight');fire_until(page,6)
     check('actual keyboard complete six-block playthrough',snap(page)['state']['complete'] and snap(page)['state']['destroyed']==6)
     page.screenshot(path=str(OUT/'desktop-range-cleared.png'),full_page=True)
     page.locator('#start').click();check('replay restores all walls and starting shot count',snap(page)['state']['destroyed']==0 and snap(page)['state']['shots']==0)
@@ -93,5 +92,5 @@ with sync_playwright() as p:
     check('no JavaScript runtime errors',not errors,errors)
     check('no external runtime network requests',not [u for u in requests if not u.startswith(URL) and not u.startswith('data:')])
     browser.close()
-(OUT/'browser-results.json').write_text(json.dumps({'date':'2026-11-01 Asia/Taipei','browser':'Chromium 154','tests':results,'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results),'runtimeErrors':errors,'axe':bool(os.environ.get('AXE_PATH'))},indent=2,ensure_ascii=False))
+(OUT/'browser-results.json').write_text(json.dumps({'date':'2026-11-03 Asia/Taipei','browser':'Chromium 154','tests':results,'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results),'runtimeErrors':errors,'axe':bool(os.environ.get('AXE_PATH'))},indent=2,ensure_ascii=False))
 print(json.dumps({'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results)},indent=2))

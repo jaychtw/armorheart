@@ -6,3 +6,14 @@
 @media(prefers-reduced-motion:reduce){button{transition:none}}
 
 @media(min-width:731px){.arena-wrap{max-width:640px;width:calc(100% - 24px);margin-inline:auto}.inspector{position:sticky;top:16px}}
+
+/* R2: local static steel plate detailing. Light work surfaces preserve contrast. */
+body{background-color:#353f3a;background-image:radial-gradient(circle at 5px 5px,#a4afa166 1px,#17251e88 2px,transparent 3px),linear-gradient(90deg,#17251e55 1px,transparent 1px),linear-gradient(#17251e55 1px,transparent 1px),linear-gradient(115deg,#ffffff07,transparent 45%,#00000012);background-size:160px 120px,160px 120px,160px 120px,100% 100%}
+.masthead{background:#e5e7dd;border-bottom:3px solid #9e8350;box-shadow:0 3px 14px #111b1744}
+main{background:#f2f0e8f5;box-shadow:0 0 35px #101b1744}
+.range-panel{border-color:#85917f;box-shadow:0 5px 16px #17251e18}
+.panel-header{background:linear-gradient(110deg,#e4e7dc,#f2f1e9);border-bottom:2px solid #9e8350}
+.arena-wrap{outline:1px solid #273a31}
+.site-footer{border-top:3px double #9ba28d}
+/* Pale plate seams remain visible on edge-to-edge phone layouts. */
+main{background-color:#eceee4;background-image:radial-gradient(circle at 5px 5px,#6e7a6630 1px,transparent 2px),linear-gradient(90deg,#65735c12 1px,transparent 1px),linear-gradient(#65735c12 1px,transparent 1px);background-size:180px 180px}

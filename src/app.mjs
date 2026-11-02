@@ -92,7 +92,23 @@ function draw(){
  for(const p of particles){const progress=p.age/.5;if(progress>=1)continue;ctx.save();ctx.globalAlpha=1-progress;ctx.fillStyle=p.brick?'#e6c88e':'#f9d99a';const count=reduced()?3:9;for(let i=0;i<count;i++){const a=i*2.399,dist=progress*(18+i*3);ctx.fillRect(p.x+Math.cos(a)*dist-2,p.y+Math.sin(a)*dist-2,4,4);}ctx.restore();}
  for(const b of state.shells){ctx.save();ctx.translate(b.x,b.y);ctx.rotate(Math.atan2(b.dy,b.dx));cFill('#f5e5b2',-7,-2,14,4);ctx.restore();}
  tank(ctx,state.tank.x,state.tank.y,.5,state.tank.facing,state.time-state.firedAt);
- if(state.time-state.firedAt<.09){const[dx,dy]=VECTORS[state.tank.facing];ctx.save();ctx.translate(state.tank.x+dx*68,state.tank.y+dy*68);ctx.rotate(ANGLES[state.tank.facing]);ctx.fillStyle='#ffdda0';ctx.beginPath();ctx.moveTo(0,-5);ctx.lineTo(19,-8);ctx.lineTo(12,0);ctx.lineTo(19,8);ctx.lineTo(0,5);ctx.closePath();ctx.fill();ctx.restore();}
+ const flashAge=state.time-state.firedAt;
+ if(flashAge>=0&&flashAge<.09){
+   const [dx,dy]=VECTORS[state.tank.facing],offset=recoil(flashAge,reduced())*.5;
+   ctx.save();ctx.translate(state.tank.x+dx*(68-offset)+dy,state.tank.y+dy*(68-offset)-dx);
+   ctx.rotate(ANGLES[state.tank.facing]);
+   const life=1-flashAge/.09;ctx.globalAlpha=.65+.35*life;
+   const glow=ctx.createRadialGradient(22,0,1,22,0,34);
+   glow.addColorStop(0,'#ffdc7ac0');glow.addColorStop(.45,'#ffad3438');glow.addColorStop(1,'#ff7b1700');
+   ctx.fillStyle=glow;ctx.fillRect(0,-34,58,68);
+   // Narrow connected root, directed jet and irregular warm forward bloom.
+   const flame=ctx.createLinearGradient(0,0,52,0);
+   flame.addColorStop(0,'#fffde5');flame.addColorStop(.35,'#fff3a2');flame.addColorStop(.7,'#ffc14f');flame.addColorStop(1,'#f07822aa');
+   ctx.fillStyle=flame;ctx.beginPath();ctx.moveTo(0,-1.4);
+   for(const [x,y] of [[12,-3],[20,-10],[25,-8],[31,-16],[34,-10],[43,-13],[41,-5],[52,-2],[44,3],[47,10],[38,9],[34,16],[28,11],[21,12],[16,5],[0,1.4]])ctx.lineTo(x,y);
+   ctx.closePath();ctx.fill();
+   ctx.fillStyle='#fffde9';ctx.beginPath();ctx.moveTo(0,-.8);ctx.lineTo(18,-2);ctx.lineTo(31,-6);ctx.lineTo(29,-1);ctx.lineTo(43,0);ctx.lineTo(29,3);ctx.lineTo(23,6);ctx.lineTo(17,2);ctx.lineTo(0,.8);ctx.closePath();ctx.fill();ctx.restore();
+ }
  // Static inspection renderer uses the same two SVGs and pivot as gameplay.
  ax.clearRect(0,0,600,400);tank(ax,280,218,.92,'up',state.time-state.firedAt,exploded);
 }

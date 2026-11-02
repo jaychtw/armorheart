@@ -2,7 +2,7 @@
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import base64,json,subprocess
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence';TMP=OUT/'tmp';TMP.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r2';TMP=OUT/'tmp';TMP.mkdir(parents=True,exist_ok=True)
 with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
     page=b.new_page(viewport={'width':1200,'height':900},device_scale_factor=1)

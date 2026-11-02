@@ -5,3 +5,4 @@ evidence/tmp/
 *.zip
 *.bundle
 !artifacts/Armorheart-Guardian-POC.zip
+evidence/r2/tmp/
