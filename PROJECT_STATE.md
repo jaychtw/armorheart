@@ -11,3 +11,5 @@ Preservation: meaningful starting/WIP checkpoints pushed to the dedicated branch
 2026-11-02 handoff clarification: the playable ZIP is now kept directly in GitHub at `artifacts/Armorheart-Guardian-POC.zip`, with a README download link and reproducible `tools/package_preview.py`. It packages the unchanged tested preview; no gameplay, deployment or acceptance status changed. GitHub is the preferred handoff location.
 
 No Actions workflow added. Pages remains workflow-based; no deployment authorized or attempted. Webhooks/secret metadata could not be inspected (403); no credentials are embedded. Prototype provenance: [asset record](assets/guardian/PROVENANCE.md).
+
+2026-11-03 (Asia/Taipei): owner explicitly authorized bounded R2 execution and safe checkpoint pushes; see [authorization](docs/decisions/R2_AUTHORIZATION.md). Recoil accepted/frozen; collision and flash rejected; restrained themed page required; wall breakup acceptable/deferred. Working branch `dev/guardian-review-r2`, based on `cfb1bd3`. No merge, deployment, publication or campaign expansion. R2 implementation/evidence pending.

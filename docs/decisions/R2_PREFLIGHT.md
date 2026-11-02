@@ -1,0 +1,7 @@
+# R2 preflight — 2026-11-03 Asia/Taipei
+
+Clean recovered baseline cfb1bd3b7529286ef10083e57df478b1c77898b6, matching remote POC; main remains a70a447512b7956128dd386ef6c447fbdc801c3f. Dedicated dev/guardian-review-r2 branch initially absent remotely. Read adopted AICP/UGDS, GDD, POC commitment and prior QA. Owner execution authorization supersedes earlier review-only gate only for bounded R2.
+
+Read-only GitHub checks: repository public/not archived, main default; zero Actions workflows; zero rulesets; Pages build_type workflow, source main:/. No executable local hooks and no tracked workflows. Hook and Actions-secret metadata returned 403 and remain unverified. No settings changes, credentials, paid dependencies or deployment introduced. Use [skip ci] development checkpoints, never force-push. Recheck divergence before pushing. This is source synchronization under the owner's authorization, not publication or release.
+
+Plan: artwork-aligned barrel-excluding collision bounds, contact-clamped movement and minimal clearance correction when cardinal rotation expands into a wall. Preserve 156 units/s and .5 source scale. Original transparent Canvas flash following Q-1C/warm blast references; CSS steel-plate page without image imports. Recoil function and asset layers frozen. Wall fragmentation deferred. Evidence will include original suite, focused rule/browser regressions, desktop/phone and bilingual/a11y review. Production licensing and physical-device testing remain open.
