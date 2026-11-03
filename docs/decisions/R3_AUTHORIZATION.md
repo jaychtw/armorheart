@@ -1,0 +1,9 @@
+# Breakthrough R3 implementation authorization — 2026-11-03 Asia/Taipei
+
+Owner explicitly authorized implementation of [verified geometry026fb7a](../offers/BREAKTHROUGH_R3_VERIFIED_GEOMETRY.md), using its exact [map](../../planning/r3-geometry/map.json). Approved: granular64-unit one-hit cells, S-bend/shortcut maze, one original U-1-inspired covered transport with restrained W-1 camouflage,128x56 body plus approved clearance, deterministic orientation-aware travel/pivots, two-shot bypass/four-shot shortcut,90-second mission and existing bilingual/pause/retry/exit/offline framework.
+
+Guardian engine/geometry/scale/speed/facing/recoil/flash/firing and original proving ground are frozen. Validate actual truck artwork against envelope and both solutions with real keyboard/touch. Check all16 destruction states and Guardian bound; preserve R2 and reusable M1 coverage. Disclose human/physical-phone testing not performed. Final delivery is for creative-director Confirm & Close, not acceptance or release.
+
+Dedicated branch `dev/breakthrough-r3` from exact approved commit. Meaningful safe intermediate/final GitHub pushes expressly authorized. No force-push, merge into main, public deployment/publication, paid resources, later missions or unrelated scope. Routine implementation/test decisions delegated; material gameplay, vehicle dimensions, Guardian behavior, budget or release changes require escalation.
+
+Preflight remote planning/M1/main matched expected commits. No workflows/rulesets, Pages workflow/main unchanged; webhook/secret metadata403 remains unverified. Existing separate staged/untracked geometry drafts preserved in named local Git stash before branch selection; not incorporated or discarded. Pinned GDD/UGDS1.0.0/AICP1.2.1 retained; applicable shared guidance reviewed in preceding assessment.
