@@ -1,6 +1,6 @@
 # Breakthrough R3 — technical delivery for Confirm & Close
 
-2026-11-03, Asia/Taipei. **Bounded R3 implementation delivered for creative-director review; creative acceptance pending.** [Authorization](decisions/R3_AUTHORIZATION.md) · [approved geometry](offers/BREAKTHROUGH_R3_VERIFIED_GEOMETRY.md) · [play instructions](PLAY_R3.md) · [evidence index](../evidence/r3/README.md).
+2026-11-03, Asia/Taipei. **Bounded R3 implementation delivered for creative-director review; creative acceptance pending.** [Authorization](decisions/R3_AUTHORIZATION.md) · [approved geometry](offers/BREAKTHROUGH_R3_VERIFIED_GEOMETRY.md) · [play instructions](PLAY_R3.md) · [review sheet](R3_REVIEW.md) · [evidence index](../evidence/r3/README.md).
 
 ## Result and preserved baseline
 
@@ -23,7 +23,7 @@ Guardian engine, all Guardian assets, tank draw and muzzle-flash code are byte-i
 | Actual truck artwork | Chromium raster alpha bounds exactly256×112 source →128×56 world; padded corner radius75.153<76. Four-facings inspection plate; production-driven pivot frames independently rasterized against surviving wall interiors:0 opaque overlap in checked frames. Circle/swept-envelope checks cover intermediate motion; pixel tests are selected actual frames, not every frame. [Footprint](../evidence/r3/art-footprint.json), [plate](../evidence/r3/transport-four-facings.png) |
 | Original range geometry/recoil |64 range demolition subsets/657,152 turns, max17.5;150 recoil samples/174 compositor frames, peak11.3925 master pixels, fixed hull. New [recording](../evidence/r3/r2-regression/guardian-recoil.webm), trace and [clearance](../evidence/r3/r2-regression/map-clearance.json). |
 | Accessibility/layout | EN/zh-TW at320×740,390×844/DPR2 touch,768×1024,1440×900,844×390. No horizontal overflow; direction/Fire targets≥44px; arena/Fire within tested portrait heights. Six mission axe audits:0 violations,20 passed rules each; **color-contrast incomplete**. Range desktop/mobile audits also0 violations. Reduced motion honored; clock/pivot pause verified. This is not comprehensive accessibility certification. |
-| Offline/artifact | Self-contained preview plays **both** routes with all subsequent HTTP requests denied; range fires/destroys a brick under the same restriction. ZIP manifest checks actual committed preview and payload hashes. Clean tracked-source archive reconstruction must match the committed HTML byte-for-byte; see package/rebuild reports in evidence. |
+| Offline/artifact | Self-contained preview plays **both** routes with all subsequent HTTP requests denied; range fires/destroys a brick under the same restriction. ZIP manifest checks actual committed preview and payload hashes. Clean tracked-source archive reconstruction passed byte-for-byte:372,137-byte HTML, SHA256 `8e2615b93b2075bac468a9519b62786ab4096d36307ff1d29d944d99ad227e2a`. ZIP222,462 bytes; source `ad8a35fb479d25c72bd7d5db53ac1aa12bb3bf1d`. See [package](../evidence/r3/package-check.json) and [rebuild](../evidence/r3/rebuild-check.json) reports. |
 
 These are new runs on this R3 instance. Earlier M1/Guardian reports remain historical, not substituted for R3 evidence. The reference geometry reports remain preserved in planning; fresh engine report also records the old witness replay. The browser harness now waits for an observed facing rather than assuming a20ms input pulse contains a rendered update; this changes only test synchronization.
 
@@ -53,6 +53,7 @@ EVIDENCE_DIR=evidence/r3/r2-regression AXE_PATH=/tmp/armorheart-audit/node_modul
 EVIDENCE_DIR=evidence/r3/r2-regression python3 tools/r2_browser.py
 EVIDENCE_DIR=evidence/r3/r2-regression python3 tools/capture_recoil.py
 node tools/check_map_clearance.mjs
+python3 tools/check_r3_rebuild.py
 python3 tools/package_r3.py
 ```
 

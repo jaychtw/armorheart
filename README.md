@@ -4,7 +4,7 @@ A bounded browser prototype with no external runtime dependencies. Accepted Guar
 
 ## Breakthrough R3 review build
 
-**[Download R3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/breakthrough-r3/artifacts/Armorheart-Breakthrough-R3.zip)**. Extract and choose **Breakthrough · Level 1** in the bundled HTML. [Play guide](docs/PLAY_R3.md) · [QA and remaining human gates](docs/QA_R3.md) · [desktop/mobile evidence](evidence/r3/README.md) · [current continuity](PROJECT_STATE.md).
+**[Download R3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/breakthrough-r3/artifacts/Armorheart-Breakthrough-R3.zip)**. Extract and choose **Breakthrough · Level 1** in the bundled HTML. [Play guide](docs/PLAY_R3.md) · [Review sheet](docs/R3_REVIEW.md) · [QA and remaining human gates](docs/QA_R3.md) · [desktop/mobile evidence](evidence/r3/README.md) · [current continuity](PROJECT_STATE.md).
 
 Open the exact approved S-bend maze one64-unit cell per shot. A single original covered transport takes the two-shot longer bypass or four-shot shorter shortcut automatically; steel stays. Cardinal travel/pivots, provisional90-second clock, bilingual UI, keyboard/touch, pause/retry/exit and offline play. Accepted Guardian mechanics/assets/proving ground unchanged. Both routes verified through actual keyboard and emulated touch; independent first-time-player and physical-phone tests were not performed.
 
