@@ -70,7 +70,7 @@ export function intersect(x,y,dx,dy,w) {
   }
   return near>=0&&near<=1?near:null;
 }
-function sweep(s,x,y,dx,dy) {
+function sweep(s,x,y,dx,dy,combat=null,instant=false) {
   let hit=null;
   const bounds=activeBounds(s);
   const boundaries=s.bounds?[{id:-4,x:bounds.left-1,y:bounds.top,width:1,height:bounds.bottom-bounds.top,kind:'steel'},
@@ -81,14 +81,17 @@ function sweep(s,x,y,dx,dy) {
     const t=intersect(x,y,dx,dy,w);
     if(t!==null&&(!hit||t<hit.t||(t===hit.t&&w.id<hit.wall.id)))hit={t,wall:w};
   }
+  const entity=combat?.sweep(x,y,dx,dy,instant);
+  if(entity&&(!hit||entity.t<hit.t-1e-10))hit=entity;
   return hit;
 }
-function impact(s,hit,x,y) {
+function impact(s,hit,x,y,combat=null,instant=false) {
+  if(hit.entity){combat.impact(hit,x,y,instant);return;}
   const brick=hit.wall.kind==='brick';
   s.events.push({type:'impact',x,y,brick});s.hits++;
   if(brick){s.walls=s.walls.filter(w=>w.id!==hit.wall.id);s.destroyed++;}
 }
-export function step(s,input,dt) {
+export function step(s,input,dt,combat=null) {
   s.events=[];
   if(s.complete)return s;
   dt=Math.max(0,Math.min(dt,.05));s.time+=dt;
@@ -99,17 +102,17 @@ export function step(s,input,dt) {
   }
   if(input.fire&&s.time+1e-8>=s.nextShot) {
     const [dx,dy]=VECTORS[s.tank.facing];s.nextShot=s.time+1;s.firedAt=s.time;s.shots++;
-    const muzzle=68;const hit=sweep(s,s.tank.x,s.tank.y,dx*muzzle,dy*muzzle);
+    const muzzle=68;const hit=sweep(s,s.tank.x,s.tank.y,dx*muzzle,dy*muzzle,combat,true);
     s.events.push({type:'fire',x:s.tank.x+dx*muzzle,y:s.tank.y+dy*muzzle,facing:s.tank.facing});
-    if(hit)impact(s,hit,s.tank.x+dx*muzzle*hit.t,s.tank.y+dy*muzzle*hit.t);
+    if(hit)impact(s,hit,s.tank.x+dx*muzzle*hit.t,s.tank.y+dy*muzzle*hit.t,combat,true);
     else s.shells.push({x:s.tank.x+dx*muzzle,y:s.tank.y+dy*muzzle,dx,dy});
   }
   s.shells=s.shells.filter(b=>{
-    const dx=b.dx*480*dt,dy=b.dy*480*dt,hit=sweep(s,b.x,b.y,dx,dy);
-    if(hit){impact(s,hit,b.x+dx*hit.t,b.y+dy*hit.t);return false;}
+    const dx=b.dx*480*dt,dy=b.dy*480*dt,hit=sweep(s,b.x,b.y,dx,dy,combat);
+    if(hit){impact(s,hit,b.x+dx*hit.t,b.y+dy*hit.t,combat);return false;}
     b.x+=dx;b.y+=dy;return b.x>=0&&b.x<=WORLD&&b.y>=0&&b.y<=WORLD;
   });
-  if(s.scenario!=='breakthrough'&&s.destroyed===targets.length){s.complete=true;s.events.push({type:'complete'});}
+  if((!s.scenario||s.scenario==='range')&&s.destroyed===targets.length){s.complete=true;s.events.push({type:'complete'});}
   return s;
 }
 export function recoil(age,reduced=false) {

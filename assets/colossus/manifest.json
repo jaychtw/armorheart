@@ -1,0 +1,718 @@
+{
+  "frame": [
+    448,
+    448
+  ],
+  "anchor": [
+    224,
+    350
+  ],
+  "world_per_pixel": 0.6530612244897959,
+  "world_frame": 292.57142857142856,
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "poses": [
+    "idle",
+    "airborne",
+    "landing",
+    "hit",
+    "fatigued",
+    "wounded",
+    "look"
+  ],
+  "decoded_frame_bytes": 22478848,
+  "ground_contact_ellipse": [
+    112,
+    64
+  ],
+  "frames": {
+    "north_idle": {
+      "source": "north-poses.png",
+      "source_box": [
+        56,
+        18,
+        468,
+        494
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          70,
+          45
+        ]
+      },
+      "alpha_bounds": [
+        61,
+        40,
+        386,
+        414
+      ],
+      "sha256": "e2c4757b7c58d2a970b8523fa06bdb7214faeb107aeaf0e38d6d549e861113cd",
+      "hurt_rectangles": 107
+    },
+    "north_airborne": {
+      "source": "north-poses.png",
+      "source_box": [
+        28,
+        14,
+        481,
+        403
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          52,
+          45
+        ]
+      },
+      "alpha_bounds": [
+        46,
+        39,
+        402,
+        346
+      ],
+      "sha256": "cf06e0dbc829b13f969eb1e109cc6c892997a1a63f910e6566c8db49f1ef5e3a",
+      "hurt_rectangles": 94
+    },
+    "north_landing": {
+      "source": "north-poses.png",
+      "source_box": [
+        23,
+        104,
+        486,
+        472
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          48,
+          142
+        ]
+      },
+      "alpha_bounds": [
+        42,
+        124,
+        407,
+        414
+      ],
+      "sha256": "b99cd463424ef7e6bc84b27f741e6fb0ab6f225a4029c5416effab9d3af4249a",
+      "hurt_rectangles": 88
+    },
+    "north_hit": {
+      "source": "north-poses.png",
+      "source_box": [
+        56,
+        10,
+        482,
+        477
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          64,
+          53
+        ]
+      },
+      "alpha_bounds": [
+        56,
+        47,
+        391,
+        414
+      ],
+      "sha256": "66d9bd3167a3404ae49bba4191131d88b52fd008e23bc43fc5b4704835e53a67",
+      "hurt_rectangles": 121
+    },
+    "north_fatigued": {
+      "source": "north-poses.png",
+      "source_box": [
+        52,
+        50,
+        457,
+        470
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          74,
+          95
+        ]
+      },
+      "alpha_bounds": [
+        65,
+        83,
+        384,
+        414
+      ],
+      "sha256": "15a0049686905cb2fcab72c44a85d0fab4133664a208588b1c29530ec25b3432",
+      "hurt_rectangles": 96
+    },
+    "north_wounded": {
+      "source": "north-poses.png",
+      "source_box": [
+        53,
+        21,
+        455,
+        478
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          75,
+          62
+        ]
+      },
+      "alpha_bounds": [
+        65,
+        54,
+        382,
+        414
+      ],
+      "sha256": "b5bb2b6bcf191c0b0048474e33af0900a1ddfce9e0c6f7bb8ad25012c0f2102e",
+      "hurt_rectangles": 108
+    },
+    "north_look": {
+      "source": "look.png",
+      "source_box": [
+        88,
+        23,
+        586,
+        579
+      ],
+      "registration": {
+        "scale": 0.7705035971223022,
+        "design_offset": [
+          64,
+          45
+        ]
+      },
+      "alpha_bounds": [
+        56,
+        40,
+        392,
+        412
+      ],
+      "sha256": "87d21104d5948aceaf3ca7867d712a2669c7596ea9c51943c76a5338e7408c5b",
+      "hurt_rectangles": 100
+    },
+    "east_idle": {
+      "source": "east-poses.png",
+      "source_box": [
+        54,
+        19,
+        450,
+        494
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          78,
+          45
+        ]
+      },
+      "alpha_bounds": [
+        68,
+        39,
+        380,
+        414
+      ],
+      "sha256": "32c7084206c8376e0658166c7d908ab74da9e0ec851e9832b93c6801044588f1",
+      "hurt_rectangles": 109
+    },
+    "east_airborne": {
+      "source": "east-poses.png",
+      "source_box": [
+        58,
+        12,
+        481,
+        393
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          66,
+          46
+        ]
+      },
+      "alpha_bounds": [
+        58,
+        40,
+        391,
+        341
+      ],
+      "sha256": "494c77f37536ae3954612c1877887ccffdf15f967b7b478c0a14e444d15493df",
+      "hurt_rectangles": 85
+    },
+    "east_landing": {
+      "source": "east-poses.png",
+      "source_box": [
+        58,
+        76,
+        476,
+        476
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          68,
+          113
+        ]
+      },
+      "alpha_bounds": [
+        59,
+        99,
+        388,
+        414
+      ],
+      "sha256": "f035af030b2bbfd5980280f94e7fcc4aa83167bdd7268c4299df20f86aedaea4",
+      "hurt_rectangles": 92
+    },
+    "east_hit": {
+      "source": "east-poses.png",
+      "source_box": [
+        55,
+        20,
+        458,
+        497
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          74,
+          44
+        ]
+      },
+      "alpha_bounds": [
+        65,
+        39,
+        383,
+        414
+      ],
+      "sha256": "56fa3fdfc6b6de88e948b2603fb923fc1f0d635286d5ba433117a239ce6cef12",
+      "hurt_rectangles": 107
+    },
+    "east_fatigued": {
+      "source": "east-poses.png",
+      "source_box": [
+        54,
+        44,
+        462,
+        498
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          72,
+          64
+        ]
+      },
+      "alpha_bounds": [
+        63,
+        56,
+        384,
+        414
+      ],
+      "sha256": "4878bb16c486e4aa5b7e393e4a40b4d1a42c99e07df4b7685ec2cf36383828e7",
+      "hurt_rectangles": 104
+    },
+    "east_wounded": {
+      "source": "east-poses.png",
+      "source_box": [
+        62,
+        22,
+        447,
+        498
+      ],
+      "registration": {
+        "scale": 0.9,
+        "design_offset": [
+          83,
+          45
+        ]
+      },
+      "alpha_bounds": [
+        73,
+        39,
+        375,
+        414
+      ],
+      "sha256": "de57f3555b2297b6f36fdfdde2d25cdf851bd4a76c17bedfff4fbbc83dbb70f3",
+      "hurt_rectangles": 88
+    },
+    "east_look": {
+      "source": "look.png",
+      "source_box": [
+        79,
+        18,
+        557,
+        598
+      ],
+      "registration": {
+        "scale": 0.7370689655172413,
+        "design_offset": [
+          80,
+          46
+        ]
+      },
+      "alpha_bounds": [
+        70,
+        40,
+        378,
+        414
+      ],
+      "sha256": "c6808a24b36f8432087960cb6cb8b4a0def11788280b5a13b6b419f5e595c720",
+      "hurt_rectangles": 104
+    },
+    "south_idle": {
+      "source": "south-poses.png",
+      "source_box": [
+        37,
+        25,
+        473,
+        490
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          51,
+          36
+        ]
+      },
+      "alpha_bounds": [
+        45,
+        32,
+        403,
+        414
+      ],
+      "sha256": "511ced71e813b0b3b5e1c45b9297220fb186d1ab34ca83f78d909f287758d18b",
+      "hurt_rectangles": 117
+    },
+    "south_airborne": {
+      "source": "south-poses.png",
+      "source_box": [
+        33,
+        10,
+        493,
+        386
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          40,
+          36
+        ]
+      },
+      "alpha_bounds": [
+        35,
+        31,
+        413,
+        341
+      ],
+      "sha256": "45e434beb183926eec186c6c465bb4796292085312960f594db68d4e18d180e6",
+      "hurt_rectangles": 99
+    },
+    "south_landing": {
+      "source": "south-poses.png",
+      "source_box": [
+        34,
+        90,
+        499,
+        479
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          38,
+          107
+        ]
+      },
+      "alpha_bounds": [
+        34,
+        94,
+        415,
+        414
+      ],
+      "sha256": "0a74ff0b90ece75563191e29a53bc7f778abb3fe5ccff994c43829a857838505",
+      "hurt_rectangles": 94
+    },
+    "south_hit": {
+      "source": "south-poses.png",
+      "source_box": [
+        36,
+        13,
+        464,
+        500
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          55,
+          15
+        ]
+      },
+      "alpha_bounds": [
+        48,
+        13,
+        400,
+        414
+      ],
+      "sha256": "b79f23f730932a3920b9e6e50bd9642987a1e048b5cb09b6195578019f024727",
+      "hurt_rectangles": 115
+    },
+    "south_fatigued": {
+      "source": "south-poses.png",
+      "source_box": [
+        37,
+        44,
+        476,
+        497
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          50,
+          47
+        ]
+      },
+      "alpha_bounds": [
+        44,
+        41,
+        405,
+        414
+      ],
+      "sha256": "dcece7761b10e0f0bd399a17de7d63496f24f674244f170c24753aed38f1f8fb",
+      "hurt_rectangles": 120
+    },
+    "south_wounded": {
+      "source": "south-poses.png",
+      "source_box": [
+        46,
+        26,
+        466,
+        500
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          58,
+          27
+        ]
+      },
+      "alpha_bounds": [
+        50,
+        24,
+        396,
+        414
+      ],
+      "sha256": "ddcd7d1c4cc34030ea14f0b731325005dbe131c19e12200fe76e114323f1d3b4",
+      "hurt_rectangles": 88
+    },
+    "south_look": {
+      "source": "look.png",
+      "source_box": [
+        60,
+        16,
+        614,
+        608
+      ],
+      "registration": {
+        "scale": 0.7383445945945946,
+        "design_offset": [
+          52,
+          36
+        ]
+      },
+      "alpha_bounds": [
+        46,
+        32,
+        403,
+        414
+      ],
+      "sha256": "5e6f631be5e3ae2ec4f9a3c0478b86f14fe0657261c9525d89307439b324a4ae",
+      "hurt_rectangles": 109
+    },
+    "west_idle": {
+      "source": "west-poses.png",
+      "source_box": [
+        63,
+        31,
+        463,
+        487
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          68,
+          44
+        ]
+      },
+      "alpha_bounds": [
+        59,
+        38,
+        388,
+        414
+      ],
+      "sha256": "9ecba6ce382f8839e620d1673d41e82e81d9b40fa0d5f163a0e3d9eb8acd2124",
+      "hurt_rectangles": 115
+    },
+    "west_airborne": {
+      "source": "west-poses.png",
+      "source_box": [
+        46,
+        17,
+        443,
+        391
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          70,
+          44
+        ]
+      },
+      "alpha_bounds": [
+        61,
+        39,
+        388,
+        346
+      ],
+      "sha256": "fe61dc1639da243b8c9374031aecd722c02662f535c062d590c42464e8de0321",
+      "hurt_rectangles": 93
+    },
+    "west_landing": {
+      "source": "west-poses.png",
+      "source_box": [
+        47,
+        106,
+        473,
+        475
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          56,
+          126
+        ]
+      },
+      "alpha_bounds": [
+        49,
+        110,
+        399,
+        414
+      ],
+      "sha256": "1deec693e823e92a02ef6e64be104ccef99f339ee28f96d99703640984bed9af",
+      "hurt_rectangles": 91
+    },
+    "west_hit": {
+      "source": "west-poses.png",
+      "source_box": [
+        56,
+        22,
+        458,
+        482
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          67,
+          41
+        ]
+      },
+      "alpha_bounds": [
+        59,
+        36,
+        390,
+        414
+      ],
+      "sha256": "35b869f7e679c6b539a0f81d54f510f7efb9690965b1c60d947abf74a19f5b42",
+      "hurt_rectangles": 114
+    },
+    "west_fatigued": {
+      "source": "west-poses.png",
+      "source_box": [
+        46,
+        49,
+        455,
+        492
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          64,
+          57
+        ]
+      },
+      "alpha_bounds": [
+        56,
+        50,
+        392,
+        414
+      ],
+      "sha256": "7cb930cb114312d3349c4bcfb4896ff003dec964fb1d8d96a52166de7115e67f",
+      "hurt_rectangles": 110
+    },
+    "west_wounded": {
+      "source": "west-poses.png",
+      "source_box": [
+        52,
+        44,
+        474,
+        461
+      ],
+      "registration": {
+        "scale": 0.94,
+        "design_offset": [
+          58,
+          81
+        ]
+      },
+      "alpha_bounds": [
+        51,
+        71,
+        399,
+        414
+      ],
+      "sha256": "c6595e19beab460b182976468e5728b9764ab5f38c15692ff4aa2543b7ef5ff5",
+      "hurt_rectangles": 114
+    },
+    "west_look": {
+      "source": "look.png",
+      "source_box": [
+        52,
+        17,
+        581,
+        601
+      ],
+      "registration": {
+        "scale": 0.733972602739726,
+        "design_offset": [
+          62,
+          44
+        ]
+      },
+      "alpha_bounds": [
+        54,
+        39,
+        394,
+        414
+      ],
+      "sha256": "21f2d61063eff933ad9d6f508b81f1382626ee09ab24f7382d0e978a527eebba",
+      "hurt_rectangles": 113
+    }
+  },
+  "source_sha256": {
+    "east-idle-reference.png": "a15ec9ed5387ca07efe39d5872e646ed6e0b0c80a3c1668138ca87031ec5940f",
+    "east-poses.png": "35008d07908192448ca280de442bcb43a68a23763793f58d334214d63e119384",
+    "look.png": "8954ce35c51bcd6d37ac2c8fc9c0ce524e9a1acae42a461a309656ddeb69203a",
+    "north-idle-reference.png": "91f32658b2f2329edd1e3647374d138509b5ea41823899fa1b51f96a0cd0f5aa",
+    "north-poses.png": "885c2a83ec9174e08c752d03ef99e3712327209cf7339003b0a0009c9b765fad",
+    "south-idle-reference.png": "647d8b3fa4d4896c76e624715ad3eb045e93df27ed86a5ce89dcd1db025f12fc",
+    "south-poses.png": "b6bc17542f4a29148b9b216dc363839d8e3942c2eec1afa904d9cc2c60131f83",
+    "turnaround.png": "25e88910c901bda113332dcda16571317071bffecdeae73ee1c56b6ba6af4a28",
+    "west-idle-reference.png": "2ae43143ece639163024297b75c463571165b2ffb17b05ab0a1e60043c1e98a7",
+    "west-poses.png": "5de95be1a3ecfa828b41947c27c07ae552a897abb40643dd11642e841117d483"
+  }
+}
