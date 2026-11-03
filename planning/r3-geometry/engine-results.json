@@ -1,0 +1,251 @@
+{
+  "map_sha256": "eaf26607ef26331fba5e22147e45b828adf50ae6f00c6c410811fcd1957586d6",
+  "engine_sha256": "70da6c1c67604d120f0237595e27ebd4a8248d233624909c9a2cb25cde785499",
+  "method": "Actual unchanged engine: every 8-unit sampled legal pose, all 16 cell states, all requested facings; deterministic physics/firing route replays",
+  "checked": 530944,
+  "worst": {
+    "distance": 15.5,
+    "mask": 0,
+    "before": {
+      "x": 224,
+      "y": 48,
+      "facing": "up"
+    },
+    "requested": "right",
+    "after": {
+      "x": 239.5,
+      "y": 48,
+      "facing": "right"
+    }
+  },
+  "hulls": {
+    "up": {
+      "left": -29,
+      "right": 28.5,
+      "top": -45.5,
+      "bottom": 47.5
+    },
+    "right": {
+      "left": -47.5,
+      "right": 45.5,
+      "top": -29,
+      "bottom": 28.5
+    },
+    "down": {
+      "left": -28.5,
+      "right": 29,
+      "top": -47.5,
+      "bottom": 45.5
+    },
+    "left": {
+      "left": -45.5,
+      "right": 47.5,
+      "top": -28.5,
+      "bottom": 29
+    }
+  },
+  "solutions": {
+    "long": {
+      "updates": 165,
+      "maxCorrection": 13.5,
+      "trace": [
+        {
+          "x": 512,
+          "y": 704,
+          "facing": "up"
+        },
+        {
+          "x": 512,
+          "y": 704,
+          "facing": "up"
+        },
+        {
+          "x": 512,
+          "y": 400,
+          "facing": "up"
+        },
+        {
+          "x": 512,
+          "y": 400,
+          "facing": "left"
+        },
+        {
+          "x": 288,
+          "y": 400,
+          "facing": "left"
+        },
+        {
+          "x": 288,
+          "y": 400,
+          "facing": "up"
+        },
+        {
+          "x": 288,
+          "y": 160,
+          "facing": "up"
+        },
+        {
+          "x": 274.5,
+          "y": 160,
+          "facing": "right"
+        }
+      ],
+      "damage": [
+        {
+          "removed": "U0",
+          "remaining": [
+            "U1",
+            "US0",
+            "US1",
+            "P",
+            "L0",
+            "LS0",
+            "L1",
+            "LS1"
+          ]
+        },
+        {
+          "removed": "U1",
+          "remaining": [
+            "US0",
+            "US1",
+            "P",
+            "L0",
+            "LS0",
+            "L1",
+            "LS1"
+          ]
+        }
+      ],
+      "shots": 2,
+      "removed": [
+        "U0",
+        "U1"
+      ],
+      "stateDestroyed": 2
+    },
+    "shortcut": {
+      "updates": 238,
+      "maxCorrection": 13.5,
+      "trace": [
+        {
+          "x": 512,
+          "y": 704,
+          "facing": "up"
+        },
+        {
+          "x": 512,
+          "y": 704,
+          "facing": "left"
+        },
+        {
+          "x": 320,
+          "y": 704,
+          "facing": "left"
+        },
+        {
+          "x": 320,
+          "y": 704,
+          "facing": "up"
+        },
+        {
+          "x": 320,
+          "y": 704,
+          "facing": "up"
+        },
+        {
+          "x": 320,
+          "y": 400,
+          "facing": "up"
+        },
+        {
+          "x": 320,
+          "y": 400,
+          "facing": "left"
+        },
+        {
+          "x": 288,
+          "y": 400,
+          "facing": "left"
+        },
+        {
+          "x": 288,
+          "y": 400,
+          "facing": "up"
+        },
+        {
+          "x": 288,
+          "y": 160,
+          "facing": "up"
+        },
+        {
+          "x": 274.5,
+          "y": 160,
+          "facing": "right"
+        }
+      ],
+      "damage": [
+        {
+          "removed": "L1",
+          "remaining": [
+            "U0",
+            "U1",
+            "US0",
+            "US1",
+            "P",
+            "L0",
+            "LS0",
+            "LS1"
+          ]
+        },
+        {
+          "removed": "L0",
+          "remaining": [
+            "U0",
+            "U1",
+            "US0",
+            "US1",
+            "P",
+            "LS0",
+            "LS1"
+          ]
+        },
+        {
+          "removed": "U0",
+          "remaining": [
+            "U1",
+            "US0",
+            "US1",
+            "P",
+            "LS0",
+            "LS1"
+          ]
+        },
+        {
+          "removed": "U1",
+          "remaining": [
+            "US0",
+            "US1",
+            "P",
+            "LS0",
+            "LS1"
+          ]
+        }
+      ],
+      "shots": 4,
+      "removed": [
+        "L1",
+        "L0",
+        "U0",
+        "U1"
+      ],
+      "stateDestroyed": 4
+    }
+  },
+  "stationarySpawnFire": {
+    "seconds": 10,
+    "destroyed": 0,
+    "shots": 10,
+    "hits": 10
+  }
+}
