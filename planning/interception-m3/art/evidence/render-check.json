@@ -1,0 +1,229 @@
+{
+  "passed": true,
+  "status": "Art assessment renders, not Stage3 game/creative acceptance",
+  "date": "2026-11-04 Asia/Taipei",
+  "renders": [
+    {
+      "width": 1440,
+      "name": "left-coast",
+      "state": {
+        "distance": 184,
+        "time": 2.5555555555555554,
+        "x": 112,
+        "y": 520,
+        "heading": -1.5707963267948966,
+        "leg": "left"
+      },
+      "fieldContentCSSWidth": 640,
+      "proxySameCSSWidth": 640
+    },
+    {
+      "width": 1440,
+      "name": "left-turn-45",
+      "state": {
+        "distance": 593.0973355292325,
+        "time": 8.237462993461563,
+        "x": 154.1766235091371,
+        "y": 122.17662350913722,
+        "heading": -0.7853981633974487,
+        "leg": "leftTurn"
+      },
+      "fieldContentCSSWidth": 640,
+      "proxySameCSSWidth": 640
+    },
+    {
+      "width": 1440,
+      "name": "north-coast",
+      "state": {
+        "distance": 834.1946710584651,
+        "time": 11.586037098034238,
+        "x": 384,
+        "y": 80,
+        "heading": 0,
+        "leg": "top"
+      },
+      "fieldContentCSSWidth": 640,
+      "proxySameCSSWidth": 640
+    },
+    {
+      "width": 1440,
+      "name": "right-turn-45",
+      "state": {
+        "distance": 1075.2920065876976,
+        "time": 14.934611202606911,
+        "x": 613.8233764908628,
+        "y": 122.17662350913713,
+        "heading": 0.7853981633974483,
+        "leg": "rightTurn"
+      },
+      "fieldContentCSSWidth": 640,
+      "proxySameCSSWidth": 640
+    },
+    {
+      "width": 1440,
+      "name": "right-coast",
+      "state": {
+        "distance": 1508.3893421169303,
+        "time": 20.949851973846254,
+        "x": 656,
+        "y": 544,
+        "heading": 1.5707963267948966,
+        "leg": "right"
+      },
+      "fieldContentCSSWidth": 640,
+      "proxySameCSSWidth": 640
+    },
+    {
+      "width": 390,
+      "name": "left-coast",
+      "state": {
+        "distance": 184,
+        "time": 2.5555555555555554,
+        "x": 112,
+        "y": 520,
+        "heading": -1.5707963267948966,
+        "leg": "left"
+      },
+      "fieldContentCSSWidth": 350,
+      "proxySameCSSWidth": 350
+    },
+    {
+      "width": 390,
+      "name": "left-turn-45",
+      "state": {
+        "distance": 593.0973355292325,
+        "time": 8.237462993461563,
+        "x": 154.1766235091371,
+        "y": 122.17662350913722,
+        "heading": -0.7853981633974487,
+        "leg": "leftTurn"
+      },
+      "fieldContentCSSWidth": 350,
+      "proxySameCSSWidth": 350
+    },
+    {
+      "width": 390,
+      "name": "north-coast",
+      "state": {
+        "distance": 834.1946710584651,
+        "time": 11.586037098034238,
+        "x": 384,
+        "y": 80,
+        "heading": 0,
+        "leg": "top"
+      },
+      "fieldContentCSSWidth": 350,
+      "proxySameCSSWidth": 350
+    },
+    {
+      "width": 390,
+      "name": "right-turn-45",
+      "state": {
+        "distance": 1075.2920065876976,
+        "time": 14.934611202606911,
+        "x": 613.8233764908628,
+        "y": 122.17662350913713,
+        "heading": 0.7853981633974483,
+        "leg": "rightTurn"
+      },
+      "fieldContentCSSWidth": 350,
+      "proxySameCSSWidth": 350
+    },
+    {
+      "width": 390,
+      "name": "right-coast",
+      "state": {
+        "distance": 1508.3893421169303,
+        "time": 20.949851973846254,
+        "x": 656,
+        "y": 544,
+        "heading": 1.5707963267948966,
+        "leg": "right"
+      },
+      "fieldContentCSSWidth": 350,
+      "proxySameCSSWidth": 350
+    },
+    {
+      "width": 320,
+      "name": "left-coast",
+      "state": {
+        "distance": 184,
+        "time": 2.5555555555555554,
+        "x": 112,
+        "y": 520,
+        "heading": -1.5707963267948966,
+        "leg": "left"
+      },
+      "fieldContentCSSWidth": 280,
+      "proxySameCSSWidth": 280
+    },
+    {
+      "width": 320,
+      "name": "left-turn-45",
+      "state": {
+        "distance": 593.0973355292325,
+        "time": 8.237462993461563,
+        "x": 154.1766235091371,
+        "y": 122.17662350913722,
+        "heading": -0.7853981633974487,
+        "leg": "leftTurn"
+      },
+      "fieldContentCSSWidth": 280,
+      "proxySameCSSWidth": 280
+    },
+    {
+      "width": 320,
+      "name": "north-coast",
+      "state": {
+        "distance": 834.1946710584651,
+        "time": 11.586037098034238,
+        "x": 384,
+        "y": 80,
+        "heading": 0,
+        "leg": "top"
+      },
+      "fieldContentCSSWidth": 280,
+      "proxySameCSSWidth": 280
+    },
+    {
+      "width": 320,
+      "name": "right-turn-45",
+      "state": {
+        "distance": 1075.2920065876976,
+        "time": 14.934611202606911,
+        "x": 613.8233764908628,
+        "y": 122.17662350913713,
+        "heading": 0.7853981633974483,
+        "leg": "rightTurn"
+      },
+      "fieldContentCSSWidth": 280,
+      "proxySameCSSWidth": 280
+    },
+    {
+      "width": 320,
+      "name": "right-coast",
+      "state": {
+        "distance": 1508.3893421169303,
+        "time": 20.949851973846254,
+        "x": 656,
+        "y": 544,
+        "heading": 1.5707963267948966,
+        "leg": "right"
+      },
+      "fieldContentCSSWidth": 280,
+      "proxySameCSSWidth": 280
+    }
+  ],
+  "renderCount": 15,
+  "recording": {
+    "frames": 291,
+    "realSeconds": 9.913450002670288,
+    "maximumAdjacentHeadingChangeRadians": 0.008400000000000851,
+    "method": "native live art-viewer RAF and compositor; both curves; no clock override; not gameplay"
+  },
+  "errors": [],
+  "first_time_player": "Not performed",
+  "physical_phone": "Not performed",
+  "M3_gameplay": "Not implemented or tested",
+  "original_reference_binary": "Not available; inline visual only"
+}

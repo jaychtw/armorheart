@@ -4,7 +4,7 @@ A bounded browser prototype with no external runtime dependencies. Guardian, Bre
 
 ## Interception M3 — Offer only
 
-[Bounded implementation Offer](docs/offers/INTERCEPTION_M3_OFFER.md) · [peninsula diagram](planning/interception-m3/evidence/map.png) · [continuous-turn recording and assessment](planning/interception-m3/README.md). Clockwise offshore route resolves fixed starboard fire; conservative turn holds are proposed. The ship shown is a technical scale proxy; the owner's reference is still needed for art matching. **Stage3 gameplay is not implemented or authorized.**
+[Bounded implementation Offer](docs/offers/INTERCEPTION_M3_OFFER.md) · [peninsula diagram](planning/interception-m3/evidence/map.png) · [continuous-turn recording and assessment](planning/interception-m3/README.md). Working clockwise route/starboard fire windows are accepted. [Original editable ship art study and normal-scale turn evidence](planning/interception-m3/art/README.md) are ready for creative review. The inline owner reference was inspected; original-file archival remains pending because its bytes are not exposed. **Stage3 gameplay is not implemented or authorized.**
 
 ## Colossus M2 accepted presentation
 

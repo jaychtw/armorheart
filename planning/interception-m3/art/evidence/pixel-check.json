@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "method": "actual Chromium4px/world render; alpha body coverage and3 physical barrel mouths; antialias fringe threshold16 and0.35-world geometric tolerance; interior coverage>=1world from edge; not aesthetic acceptance",
+  "renderScale": 4,
+  "paintPixels": 374517,
+  "paintBounds": [
+    -159.875,
+    -43.875,
+    159.875,
+    66.375
+  ],
+  "paintOutsideHullOrThreeBores": 0,
+  "bodyChecks": 21908,
+  "bodyFailures": 0,
+  "muzzleAlpha": [
+    {
+      "x": -88,
+      "y": 65.5,
+      "alpha": 255
+    },
+    {
+      "x": 0,
+      "y": 65.5,
+      "alpha": 255
+    },
+    {
+      "x": 88,
+      "y": 65.5,
+      "alpha": 255
+    }
+  ],
+  "canvasCornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ]
+}
