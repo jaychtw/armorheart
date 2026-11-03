@@ -1,5 +1,7 @@
 # Interception M3 — bounded implementation Offer
 
+Update2026-11-04: owner accepted the working geography/route/starboard/fire-window design and initial defaults. [Bounded visual-identity assessment](../decisions/M3_VISUAL_ASSESSMENT.md) is authorized; full Stage3 implementation is still unauthorized. Original Offer text below remains the proposal record.
+
 2026-11-04, Asia/Taipei. **Offer for owner review; Stage 3 execution is not authorized.** [Assignment](../INTERCEPTION_M3_HANDOFF.md) · [exact map/defaults](../../planning/interception-m3/map.json) · [diagram](../../planning/interception-m3/evidence/map.png) · [continuous-turn recording](../../planning/interception-m3/evidence/route-live.webm) · [study/evidence index](../../planning/interception-m3/README.md).
 
 The authorized Colossus presentation correction is complete and preserved at [94493a6](https://github.com/jaychtw/armorheart/commit/94493a6380f5fd34a6f56e059728c7b6ec69e21e): no battlefield Next label or separate landing ellipse, original natural shadow retained. [Corrected playable ZIP](https://github.com/jaychtw/armorheart/raw/94493a6380f5fd34a6f56e059728c7b6ec69e21e/artifacts/Armorheart-Colossus-M2-Final.zip) · [fresh QA](../../evidence/m2-final/README.md). M2 creative acceptance and its known safe-lane limitation are recorded, not reopened by this Offer.
