@@ -19,3 +19,5 @@ evidence/r3-visual/r2-regression/tmp/
 # Retain focused correction screenshots; prior full galleries remain in historical evidence.
 evidence/r3-visual/r3-regression/*.png
 evidence/r3-visual/r2-regression/*.png
+
+planning/colossus-m2/evidence/tmp/

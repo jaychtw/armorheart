@@ -1,0 +1,25 @@
+{
+ "status":"Offer proposal only; no Level2 gameplay implemented",
+ "world":768,
+ "bounds":{"left":0,"top":0,"right":768,"bottom":768},
+ "walls":[],
+ "tank":{"x":64,"y":704,"facing":"up","hp":3},
+ "jump_order":[
+  {"id":"UL","x":208,"y":288},
+  {"id":"UR","x":560,"y":288},
+  {"id":"LR","x":560,"y":544},
+  {"id":"LL","x":208,"y":544},
+  {"id":"C","x":384,"y":416}
+ ],
+ "initial_stop":"UL",
+ "grounded_seconds":2,
+ "jump_seconds":1.2,
+ "jump_visual_height":64,
+ "contact_ellipse_radii":[112,64],
+ "boss_hp":4,
+ "immunity_seconds":3,
+ "deadline":null,
+ "tank_contact":"grounded/landing only;1 damage,nonblocking,no knockback",
+ "projectile_target":"grounded visible-body core polygon union from final approved views; not the floor ellipse; exact proxy is an art-gate deliverable",
+ "attack_example":{"south_station_offset":160,"core_source_pixel":[625,600],"first_station":[560,704],"second_station":[208,704],"emission_times":[6.45,7.45,9.85,10.85]}
+}

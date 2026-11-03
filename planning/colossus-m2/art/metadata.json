@@ -1,0 +1,35 @@
+{
+  "status": "unaccepted original front-quarter raster concept; editable composition, not fully vector or four-facing proof",
+  "source": [
+    1254,
+    1254
+  ],
+  "nominal_world_size": [
+    256,
+    256
+  ],
+  "ground_anchor_source": [
+    625,
+    1030
+  ],
+  "ground_contact_ellipse_world": [
+    112,
+    64
+  ],
+  "pose_names": [
+    "idle"
+  ],
+  "sha256": "2fdd6d1d37f7ebb2976dea7d6cb64ea9ff4333e4d57153a62e6522e25fc555ee",
+  "method": "existing session image generation, original described character; supplied references visually inspected in conversation, not copied pixels",
+  "poses_sheet": {
+    "source": [
+      1536,
+      1024
+    ],
+    "role": "pose concepts only; not a registered transparent atlas",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  }
+}
