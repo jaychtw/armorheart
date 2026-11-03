@@ -91,7 +91,8 @@ function events(){for(const e of state.events){if(e.type==='fire')sound('fire');
 function tank(c,x,y,scale,facing,age,split=false){
  c.save();c.translate(x,y);c.rotate(ANGLES[facing]);c.scale(scale,scale);
  if(split){c.save();c.translate(-10,22);c.drawImage(images[0],-107,-128);c.restore();c.save();c.translate(10,-34);c.drawImage(images[1],-107,-128);c.restore();}
- else{c.drawImage(images[0],-107,-128);c.drawImage(images[1],-107-recoil(age,reduced()),-128);}
+ // Fixed turret covers the sliding mount; the barrel transform is unchanged.
+ else{c.drawImage(images[1],-107-recoil(age,reduced()),-128);c.drawImage(images[0],-107,-128);}
  c.restore();
 }
 function drawComparisons(){const root=$('#facings');root.replaceChildren();root.style.gridTemplateColumns=`repeat(auto-fit,minmax(${size}px,1fr))`;const dpr=Math.min(devicePixelRatio||1,2);
@@ -150,7 +151,6 @@ function drawTransport(){
  const m=state.mission,truck=m.truck;ctx.save();ctx.translate(truck.x,truck.y);ctx.rotate((truckRenderHeading(truck)-1)*Math.PI/2);
  ctx.save();ctx.fillStyle='#13251b44';ctx.beginPath();ctx.ellipse(-1,4,64,27,0,0,Math.PI*2);ctx.fill();ctx.restore();
  ctx.drawImage(truckImage,-64,-28,128,56);
- if(m.evacuatingAt!==null&&m.elapsed-m.evacuatingAt<2){ctx.strokeStyle='#fff4c4';ctx.lineWidth=2;ctx.strokeRect(-67,-31,134,62);}
  ctx.restore();
  if(m.phase==='waiting'){ctx.fillStyle='#fff2c4';ctx.strokeStyle='#21372a';ctx.lineWidth=3;ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.strokeText(t('transportMark'),truck.x,truck.y+48);ctx.fillText(t('transportMark'),truck.x,truck.y+48);ctx.textAlign='start';}
 }

@@ -1,0 +1,11 @@
+# R3 visual completion — owner commitment,2026-11-03 Asia/Taipei
+
+Baseline: `7d9720d8cee846735d5f1bb2dfc231b66eb4af7c`. The creative director accepts all reviewed R3 gameplay/presentation except two visual defects, and authorizes their bounded correction on a dedicated branch. This supersedes the earlier blanket pending-acceptance status for the reviewed baseline only; corrected visuals still require final Confirm & Close.
+
+P1: draw the sliding barrel beneath the fixed hull/turret so its mounting portion is occluded. Preserve source artwork, pivot, recoil timing/amplitude/direction, muzzle attachment, cadence, collision, movement and scale. P1: remove the light transport rectangle including departure. Its cause is the deliberate two-second `drawTransport()` route-opening stroke, not a debug/collision overlay. Preserve localized announcement/HUD; add no replacement bounding-box effect. Preserve transport artwork/dimensions/navigation and both routes, exact maze/cells, original range, bilingual/accessibility/timer/pause/retry/results/offline framework.
+
+P2: tank/truck pass-through is explicitly accepted as a noncritical milestone limitation. Record it as optional future consideration only; no collision, avoidance, rerouting or displacement work is authorized or required.
+
+Branch: `fix/r3-visual-completion`, created from the verified baseline after confirming a clean working tree and unchanged remote R3/main. Safe intermediate/final checkpoint pushes expressly authorized. Budget$0; no force push, main merge, deployment/publication, new missions or unrelated expansion. Existing named geometry-draft stash preserved. Read adopted GDD/UGDS1.0.0/AICP1.2.1; pins unchanged. Preflight: remote Actions workflow count0/rulesets0; Pages remains workflow-based from main, with no settings changes. Hooks/secrets metadata remains unverified from prior403; no settings/credentials changed.
+
+Evidence commitment: real assembled rendering in all four facings, rest and recoil frames, short actual-render recording, desktop/narrow-phone departure capture and rectangle absence, frozen-mechanics hashes plus proportionate existing rule/browser/offline regressions. Report human/physical-device tests honestly. Stop at final creative-director Confirm & Close.
