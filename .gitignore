@@ -31,3 +31,8 @@ evidence/m2/visual/tmp/
 evidence/m2/r3/*.png
 evidence/m2/guardian/*.png
 evidence/m2/visual/*.png
+
+evidence/m2-final/tmp/
+evidence/m2-final/regression/*.png
+evidence/m2-final/r3/*.png
+!artifacts/Armorheart-Colossus-M2-Final.zip

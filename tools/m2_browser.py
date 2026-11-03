@@ -4,7 +4,7 @@ No modified gameplay/initial fixtures in these playthroughs. Clock is controlled
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import json,time,os
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/m2';OUT.mkdir(parents=True,exist_ok=True);results=[];errors=[];plays=[];net=[]
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/m2');OUT.mkdir(parents=True,exist_ok=True);results=[];errors=[];plays=[];net=[]
 def check(name,ok,detail=None):
  results.append(dict(name=name,passed=bool(ok),detail=detail))
  if not ok:raise AssertionError((name,detail))
@@ -129,4 +129,4 @@ with sync_playwright() as p:
   else:safe(pg,name='offline-held-safe')
   check('offline bundle only initial HTML '+str(fail),net[before:]==['http://127.0.0.1:8080/preview/guardian.html'],net[before:]);c.close()
  check('no M2 JavaScript errors',not errors,errors);check('no external runtime HTTP',not [u for u in net if not u.startswith('http://127.0.0.1:8080')]);b.close()
-(OUT/'browser-results.json').write_text(json.dumps(dict(date='2026-11-03 Asia/Taipei',passed=len(results),failed=0,tests=results,playthroughs=plays,errors=errors,independent_first_time_player='Not performed',physical_phone='Not performed',other_browser_engines='Not performed'),indent=2,ensure_ascii=False)+'\n');print(json.dumps(dict(passed=len(results),failed=0,plays=plays)))
+(OUT/'browser-results.json').write_text(json.dumps(dict(date=os.environ.get('EVIDENCE_DATE','2026-11-03 Asia/Taipei'),passed=len(results),failed=0,tests=results,playthroughs=plays,errors=errors,independent_first_time_player='Not performed',physical_phone='Not performed',other_browser_engines='Not performed'),indent=2,ensure_ascii=False)+'\n');print(json.dumps(dict(passed=len(results),failed=0,plays=plays)))
