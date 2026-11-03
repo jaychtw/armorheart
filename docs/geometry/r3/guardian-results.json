@@ -1,0 +1,567 @@
+{
+  "model": "Actual accepted M1 engine; unchanged source. Mask bit=removed brick.",
+  "engine_sha256": "70da6c1c67604d120f0237595e27ebd4a8248d233624909c9a2cb25cde785499",
+  "states": [
+    {
+      "mask": 0,
+      "positions": 52812,
+      "turns": 211248,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 1,
+      "positions": 55116,
+      "turns": 220464,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 2,
+      "positions": 55116,
+      "turns": 220464,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 3,
+      "positions": 47212,
+      "turns": 188848,
+      "criticalAxes": [
+        223,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 4,
+      "positions": 55116,
+      "turns": 220464,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 5,
+      "positions": 49452,
+      "turns": 197808,
+      "criticalAxes": [
+        191,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 6,
+      "positions": 57420,
+      "turns": 229680,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 7,
+      "positions": 41548,
+      "turns": 166192,
+      "criticalAxes": [
+        191,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 8,
+      "positions": 55116,
+      "turns": 220464,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 9,
+      "positions": 57420,
+      "turns": 229680,
+      "criticalAxes": [
+        223,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 10,
+      "positions": 49196,
+      "turns": 196784,
+      "criticalAxes": [
+        191,
+        255
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 11,
+      "positions": 41292,
+      "turns": 165168,
+      "criticalAxes": [
+        191,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 12,
+      "positions": 47212,
+      "turns": 188848,
+      "criticalAxes": [
+        223,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 13,
+      "positions": 41548,
+      "turns": 166192,
+      "criticalAxes": [
+        191,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 14,
+      "positions": 41292,
+      "turns": 165168,
+      "criticalAxes": [
+        191,
+        223
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "mask": 15,
+      "positions": 24740,
+      "turns": 98960,
+      "criticalAxes": [
+        159,
+        191
+      ],
+      "worst": {
+        "distance": 19,
+        "before": {
+          "x": 220.5,
+          "y": 239.5,
+          "facing": "down"
+        },
+        "direction": "right",
+        "after": {
+          "x": 239.5,
+          "y": 239.5,
+          "facing": "right"
+        }
+      }
+    }
+  ],
+  "witnesses": {
+    "lowerDemolition": {
+      "mask": 12,
+      "shots": 2,
+      "seconds": 2.3346153846153896,
+      "trace": [
+        {
+          "action": {
+            "action": "move",
+            "direction": "up",
+            "axis": "y",
+            "target": 500
+          },
+          "tank": {
+            "x": 416,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 0,
+          "time": 1.307692307692315
+        },
+        {
+          "action": {
+            "action": "fire",
+            "direction": "up",
+            "remove": "D"
+          },
+          "tank": {
+            "x": 416,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 1,
+          "time": 1.3243589743589816
+        },
+        {
+          "action": {
+            "action": "move",
+            "direction": "left",
+            "axis": "x",
+            "target": 352
+          },
+          "tank": {
+            "x": 352,
+            "y": 500,
+            "facing": "left"
+          },
+          "destroyed": 1,
+          "time": 1.7346153846153918
+        },
+        {
+          "action": {
+            "action": "fire",
+            "direction": "up",
+            "remove": "C"
+          },
+          "tank": {
+            "x": 352,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 2,
+          "time": 2.3346153846153896
+        }
+      ],
+      "guardianFollowsTruckRoute": {
+        "passed": true,
+        "actions": 51,
+        "end": {
+          "x": 416,
+          "y": 128,
+          "facing": "up"
+        },
+        "extraDemolition": 0
+      }
+    },
+    "shortcut": {
+      "mask": 14,
+      "shots": 3,
+      "seconds": 3.3346153846153843,
+      "trace": [
+        {
+          "action": {
+            "action": "move",
+            "direction": "up",
+            "axis": "y",
+            "target": 500
+          },
+          "tank": {
+            "x": 416,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 0,
+          "time": 1.307692307692315
+        },
+        {
+          "action": {
+            "action": "fire",
+            "direction": "up",
+            "remove": "D"
+          },
+          "tank": {
+            "x": 416,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 1,
+          "time": 1.3243589743589816
+        },
+        {
+          "action": {
+            "action": "fire",
+            "direction": "up",
+            "remove": "B"
+          },
+          "tank": {
+            "x": 416,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 2,
+          "time": 2.407692307692311
+        },
+        {
+          "action": {
+            "action": "move",
+            "direction": "left",
+            "axis": "x",
+            "target": 352
+          },
+          "tank": {
+            "x": 352,
+            "y": 500,
+            "facing": "left"
+          },
+          "destroyed": 2,
+          "time": 2.8179487179487195
+        },
+        {
+          "action": {
+            "action": "fire",
+            "direction": "up",
+            "remove": "C"
+          },
+          "tank": {
+            "x": 352,
+            "y": 500,
+            "facing": "up"
+          },
+          "destroyed": 3,
+          "time": 3.3346153846153843
+        }
+      ],
+      "guardianFollowsTruckRoute": {
+        "passed": true,
+        "actions": 41,
+        "end": {
+          "x": 416,
+          "y": 128,
+          "facing": "up"
+        },
+        "extraDemolition": 0
+      }
+    }
+  },
+  "negativeControl": {
+    "expectedViolationDetected": true,
+    "oldBefore": {
+      "x": 224,
+      "y": 304,
+      "facing": "up"
+    },
+    "oldAfter": {
+      "x": 239.5,
+      "y": 349,
+      "facing": "right"
+    },
+    "oldCorrection": 47.59464255564906
+  },
+  "rejectedPoseOnNewMap": {
+    "after": {
+      "x": 239.5,
+      "y": 304,
+      "facing": "right"
+    },
+    "correction": 15.5
+  },
+  "totalTurns": 3086432,
+  "maximumCorrection": 19,
+  "passed": true,
+  "limitations": "Exhaustive16 destruction masks; finite uniform and critical-boundary spatial tests. Not a proof over continuous positions, rendered artwork or a human playtest.",
+  "map_sha256": "8274f4012084ac4453984b53b146c1d76c15f827a8a09d4712e4487cac247ffd"
+}
