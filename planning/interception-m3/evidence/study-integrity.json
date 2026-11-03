@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "correction_baseline": "94493a6380f5fd34a6f56e059728c7b6ec69e21e",
+  "runtime_artifacts_and_tests_unchanged_during_M3_planning": true,
+  "planning_sources_sha256": {
+    "map.json": "2f0b05fad44856ffa12da7b2264eefa9a9035e7ff975f6e17a88971e22b35988",
+    "model.mjs": "5c39b742a350279d527ea5b020841079b6e70d543d11f0ba0a83459de0af9b46",
+    "geometry.mjs": "7c2fd2d23caa2a3aa16375833c9f62b8a7c0d034dce57255f322a35fccc6ea2f",
+    "ship-scale-proxy.svg": "d9a0c0e9c47a3f94e90689f2c94ea415100cba9488b143b6b1d438e1fdfc67fb",
+    "verify-geometry.mjs": "5228cf5833dd238f60fd814395751ef69691a763ef13205392e513387f238cd2",
+    "assess.mjs": "03acbffcd551b7f90996c5e56a8e5874adb4ea3305eb340a018a4ee6912f08b0",
+    "volley-escape.mjs": "e72f291db65833262b950f591082f50b8e48f791abec660268f8b3a2e7966aac",
+    "proof.html": "1272f9317a3fbaa0dd54a20cf800d2525d589e554a1415a80a98465bdbfdaaa1"
+  },
+  "status": "Offer studies only, no Stage3 game integration"
+}

@@ -36,3 +36,5 @@ evidence/m2-final/tmp/
 evidence/m2-final/regression/*.png
 evidence/m2-final/r3/*.png
 !artifacts/Armorheart-Colossus-M2-Final.zip
+
+planning/interception-m3/evidence/tmp/

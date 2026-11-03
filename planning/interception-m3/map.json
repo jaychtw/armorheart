@@ -1,0 +1,149 @@
+{
+  "status": "Offer-only engineering proposal; not implementation authorization",
+  "world": {
+    "width": 768,
+    "height": 768
+  },
+  "land": {
+    "left": 224,
+    "top": 240,
+    "right": 544,
+    "bottom": 768
+  },
+  "tank": {
+    "x": 384,
+    "y": 688,
+    "facing": "up",
+    "hp": 3,
+    "speed": 156,
+    "invulnerabilitySeconds": 3
+  },
+  "ship": {
+    "hp": 6,
+    "speed": 72,
+    "length": 320,
+    "beam": 88,
+    "hullPolygon": [
+      [
+        160,
+        0
+      ],
+      [
+        124,
+        34
+      ],
+      [
+        -120,
+        44
+      ],
+      [
+        -150,
+        26
+      ],
+      [
+        -160,
+        0
+      ],
+      [
+        -150,
+        -26
+      ],
+      [
+        -120,
+        -44
+      ],
+      [
+        124,
+        -34
+      ]
+    ],
+    "turretStations": [
+      -88,
+      0,
+      88
+    ],
+    "muzzleStarboardOffset": 66,
+    "states": {
+      "intact": [
+        6,
+        5
+      ],
+      "smoking": [
+        4,
+        3
+      ],
+      "onFire": [
+        2,
+        1
+      ]
+    }
+  },
+  "route": {
+    "direction": "clockwise, land on starboard",
+    "start": [
+      112,
+      704
+    ],
+    "leftTangent": [
+      112,
+      224
+    ],
+    "leftCorner": {
+      "center": [
+        256,
+        224
+      ],
+      "radius": 144,
+      "fromAngle": 180,
+      "toAngle": 270
+    },
+    "topLeft": [
+      256,
+      80
+    ],
+    "topRight": [
+      512,
+      80
+    ],
+    "rightCorner": {
+      "center": [
+        512,
+        224
+      ],
+      "radius": 144,
+      "fromAngle": 270,
+      "toAngle": 360
+    },
+    "rightTangent": [
+      656,
+      224
+    ],
+    "exit": [
+      656,
+      928
+    ]
+  },
+  "volley": {
+    "periodSeconds": 3,
+    "firstTickSeconds": 3,
+    "shellSpeed": 180,
+    "shellRadius": 4,
+    "parallelShells": 3,
+    "holdDuringTurns": true,
+    "requireAllThreeRaysIntersectLand": true,
+    "skipHeldTicks": true,
+    "aiming": "fixed starboard, non-homing",
+    "prechargeSeconds": 0.6
+  },
+  "playerProjectile": {
+    "speed": 480,
+    "cooldownSeconds": 1,
+    "muzzleOffset": 68
+  },
+  "terrain": {
+    "destructibleWalls": [],
+    "steelWalls": [],
+    "waterBlocksTankOnly": true,
+    "shellsCrossShore": true
+  }
+}

@@ -1,0 +1,862 @@
+[
+  {
+    "speed": 40,
+    "duration": 47.309733552923255,
+    "spawn": {
+      "outcome": "win",
+      "time": 22.041666666665737,
+      "bossHP": 0,
+      "tankHP": 2,
+      "shots": 23,
+      "history": [
+        {
+          "type": "tankHit",
+          "time": 3.9611111111111024,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 17.143050320191193,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 18.053147946821838,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 19.049744270851733,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 20.04634059488163,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 21.042936918911526,
+          "hp": 1
+        },
+        {
+          "type": "shipHit",
+          "time": 22.03953324294142,
+          "hp": 0
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 9,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 12,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 15,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 21,
+          "leg": "top",
+          "fired": true
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 384,
+        "y": 688,
+        "facing": "up"
+      }
+    },
+    "active": {
+      "outcome": "win",
+      "time": 9.94583333333309,
+      "bossHP": 0,
+      "tankHP": 1,
+      "shots": 8,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 5.012537553648087,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 5.9574583049693555,
+          "hp": 4
+        },
+        {
+          "type": "tankHit",
+          "time": 6.291666666666692,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 6.954054628999252,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 7.950650953029148,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 8.947247277059045,
+          "hp": 1
+        },
+        {
+          "type": "tankHit",
+          "time": 9.291666666666693,
+          "hp": 1
+        },
+        {
+          "type": "shipHit",
+          "time": 9.94384360108894,
+          "hp": 0
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 9,
+          "leg": "left",
+          "fired": true
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 280.00000000000364,
+        "y": 351.95000000001176,
+        "facing": "left"
+      }
+    }
+  },
+  {
+    "speed": 56,
+    "duration": 33.79266682351661,
+    "spawn": {
+      "outcome": "win",
+      "time": 17.037499999999355,
+      "bossHP": 0,
+      "tankHP": 3,
+      "shots": 18,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 12.164720966580099,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 13.052395876194216,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 14.047637208621081,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 15.042878541047944,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 16.038119873474812,
+          "hp": 1
+        },
+        {
+          "type": "shipHit",
+          "time": 17.033361205901674,
+          "hp": 0
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 15,
+          "leg": "top",
+          "fired": true
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 384,
+        "y": 688,
+        "facing": "up"
+      }
+    },
+    "active": {
+      "outcome": "tankDefeat",
+      "time": 25.437499999998877,
+      "bossHP": 1,
+      "tankHP": 0,
+      "shots": 23,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 3.9696465804838055,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 4.954117097212826,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 5.94935842963969,
+          "hp": 3
+        },
+        {
+          "type": "tankHit",
+          "time": 6.291666666666692,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 6.944599762066554,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 7.939841094493419,
+          "hp": 1
+        },
+        {
+          "type": "tankHit",
+          "time": 15.963611111111195,
+          "hp": 1
+        },
+        {
+          "type": "tankHit",
+          "time": 25.436111111111085,
+          "hp": 0
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 15,
+          "leg": "top",
+          "fired": true
+        },
+        {
+          "time": 18,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 21,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": true
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 280.00000000000364,
+        "y": 351.95000000001176,
+        "facing": "left"
+      }
+    }
+  },
+  {
+    "speed": 64,
+    "duration": 29.568583470577035,
+    "spawn": {
+      "outcome": "shipEscaped",
+      "time": 29.568583470577035,
+      "bossHP": 1,
+      "tankHP": 1,
+      "shots": 30,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 11.05893394407805,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 12.04896354203925,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 13.0435287594305,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 14.038093976821747,
+          "hp": 2
+        },
+        {
+          "type": "tankHit",
+          "time": 14.73611111111111,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 15.045282889748394,
+          "hp": 1
+        },
+        {
+          "type": "tankHit",
+          "time": 24.963888888888874,
+          "hp": 1
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": true
+        },
+        {
+          "time": 15,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 27,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 384,
+        "y": 688,
+        "facing": "up"
+      }
+    },
+    "active": {
+      "outcome": "shipEscaped",
+      "time": 29.568583470577035,
+      "bossHP": 1,
+      "tankHP": 1,
+      "shots": 27,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 3.025991981907921,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 3.9561863111414017,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 4.950751528532654,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 5.945316745923902,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 6.939881963315151,
+          "hp": 1
+        },
+        {
+          "type": "tankHit",
+          "time": 12.963611111111195,
+          "hp": 2
+        },
+        {
+          "type": "tankHit",
+          "time": 22.436111111111085,
+          "hp": 1
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": true
+        },
+        {
+          "time": 15,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 27,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 280.00000000000364,
+        "y": 351.95000000001176,
+        "facing": "left"
+      }
+    }
+  },
+  {
+    "speed": 72,
+    "duration": 26.283185307179586,
+    "spawn": {
+      "outcome": "shipEscaped",
+      "time": 26.283185307179586,
+      "bossHP": 2,
+      "tankHP": 2,
+      "shots": 27,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 10.053003621101116,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 11.046893641467658,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 12.040783661834201,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 13.034673682200744,
+          "hp": 2
+        },
+        {
+          "type": "tankHit",
+          "time": 14.73611111111111,
+          "hp": 2
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": true
+        },
+        {
+          "time": 15,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 384,
+        "y": 688,
+        "facing": "up"
+      }
+    },
+    "active": {
+      "outcome": "shipEscaped",
+      "time": 26.283185307179586,
+      "bossHP": 2,
+      "tankHP": 1,
+      "shots": 24,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 2.984271086780235,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 3.9535005091650666,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 4.947390529531614,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 5.941280549898157,
+          "hp": 2
+        },
+        {
+          "type": "tankHit",
+          "time": 12.963611111111195,
+          "hp": 2
+        },
+        {
+          "type": "tankHit",
+          "time": 19.436111111111085,
+          "hp": 1
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": true
+        },
+        {
+          "time": 15,
+          "leg": "rightTurn",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 280.00000000000364,
+        "y": 351.95000000001176,
+        "facing": "left"
+      }
+    }
+  },
+  {
+    "speed": 80,
+    "duration": 23.654866776461628,
+    "spawn": {
+      "outcome": "shipEscaped",
+      "time": 23.654866776461628,
+      "bossHP": 2,
+      "tankHP": 3,
+      "shots": 24,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 9.05296766206379,
+          "hp": 5
+        },
+        {
+          "type": "shipHit",
+          "time": 10.046183401548129,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 11.03939914103247,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 12.04788906118788,
+          "hp": 2
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 15,
+          "leg": "right",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 384,
+        "y": 688,
+        "facing": "up"
+      }
+    },
+    "active": {
+      "outcome": "shipEscaped",
+      "time": 23.654866776461628,
+      "bossHP": 2,
+      "tankHP": 2,
+      "shots": 21,
+      "history": [
+        {
+          "type": "shipHit",
+          "time": 2.9576026119403465,
+          "hp": 5
+        },
+        {
+          "type": "tankHit",
+          "time": 3.29166666666669,
+          "hp": 2
+        },
+        {
+          "type": "shipHit",
+          "time": 3.950818351424792,
+          "hp": 4
+        },
+        {
+          "type": "shipHit",
+          "time": 4.9440340909091365,
+          "hp": 3
+        },
+        {
+          "type": "shipHit",
+          "time": 5.941597222222228,
+          "hp": 2
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false
+        },
+        {
+          "time": 9,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": false
+        },
+        {
+          "time": 15,
+          "leg": "right",
+          "fired": false
+        },
+        {
+          "time": 18,
+          "leg": "right",
+          "fired": true
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": false
+        }
+      ],
+      "turnCorrection": 0,
+      "tank": {
+        "x": 280.00000000000364,
+        "y": 351.95000000001176,
+        "facing": "left"
+      }
+    }
+  }
+]
