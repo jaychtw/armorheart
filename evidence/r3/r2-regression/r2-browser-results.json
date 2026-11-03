@@ -1,0 +1,797 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "fixture_method": "HTTP initial-state substitution only; real keyboard input and unchanged production rendering/physics",
+  "passed": 81,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "1440 brick up actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 429.5,
+          "facing": "up"
+        }
+      }
+    },
+    {
+      "name": "1440 brick up stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 brick up immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 429.5,
+          "facing": "up"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 429.5,
+            "facing": "up"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 brick up flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 brick right actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 274.5,
+          "y": 352,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "name": "1440 brick right stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 brick right immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 274.5,
+          "y": 341.5999999999999,
+          "facing": "right"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 274.5,
+            "y": 341.5999999999999,
+            "facing": "right"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 brick right flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 brick down actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 274.5,
+          "facing": "down"
+        }
+      }
+    },
+    {
+      "name": "1440 brick down stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 brick down immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 274.5,
+          "facing": "down"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 274.5,
+            "facing": "down"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 brick down flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 brick left actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 429.5,
+          "y": 352,
+          "facing": "left"
+        }
+      }
+    },
+    {
+      "name": "1440 brick left stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 brick left immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 429.5,
+          "y": 341.5999999999999,
+          "facing": "left"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 429.5,
+            "y": 341.5999999999999,
+            "facing": "left"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 brick left flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 steel up actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 429.5,
+          "facing": "up"
+        }
+      }
+    },
+    {
+      "name": "1440 steel up stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 steel up immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 429.5,
+          "facing": "up"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 429.5,
+            "facing": "up"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 steel up flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 steel right actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 274.5,
+          "y": 352,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "name": "1440 steel right stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 steel right immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 274.5,
+          "y": 341.5999999999999,
+          "facing": "right"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 274.5,
+            "y": 341.5999999999999,
+            "facing": "right"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 steel right flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 steel down actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 274.5,
+          "facing": "down"
+        }
+      }
+    },
+    {
+      "name": "1440 steel down stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 steel down immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 274.5,
+          "facing": "down"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 274.5,
+            "facing": "down"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 steel down flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "1440 steel left actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 429.5,
+          "y": 352,
+          "facing": "left"
+        }
+      }
+    },
+    {
+      "name": "1440 steel left stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 steel left immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 429.5,
+          "y": 341.5999999999999,
+          "facing": "left"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 429.5,
+            "y": 341.5999999999999,
+            "facing": "left"
+          }
+        }
+      }
+    },
+    {
+      "name": "1440 steel left flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 brick up actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 429.5,
+          "facing": "up"
+        }
+      }
+    },
+    {
+      "name": "390 brick up stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 brick up immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 429.5,
+          "facing": "up"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 429.5,
+            "facing": "up"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 brick up flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 brick right actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 274.5,
+          "y": 352,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "name": "390 brick right stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 brick right immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 274.5,
+          "y": 341.5999999999999,
+          "facing": "right"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 274.5,
+            "y": 341.5999999999999,
+            "facing": "right"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 brick right flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.033333333333333215,
+        "offset": 8.888888888888857
+      }
+    },
+    {
+      "name": "390 brick down actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 274.5,
+          "facing": "down"
+        }
+      }
+    },
+    {
+      "name": "390 brick down stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 brick down immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 359.80000000000007,
+          "y": 274.5,
+          "facing": "down"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 359.80000000000007,
+            "y": 274.5,
+            "facing": "down"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 brick down flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 brick left actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 429.5,
+          "y": 352,
+          "facing": "left"
+        }
+      }
+    },
+    {
+      "name": "390 brick left stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 brick left immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 429.5,
+          "y": 341.5999999999999,
+          "facing": "left"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 429.5,
+            "y": 341.5999999999999,
+            "facing": "left"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 brick left flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 steel up actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 429.5,
+          "facing": "up"
+        }
+      }
+    },
+    {
+      "name": "390 steel up stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 steel up immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 429.5,
+          "facing": "up"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 429.5,
+            "facing": "up"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 steel up flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 steel right actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 274.5,
+          "y": 352,
+          "facing": "right"
+        }
+      }
+    },
+    {
+      "name": "390 steel right stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 steel right immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 274.5,
+          "y": 341.5999999999999,
+          "facing": "right"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 274.5,
+            "y": 341.5999999999999,
+            "facing": "right"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 steel right flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 steel down actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 352,
+          "y": 274.5,
+          "facing": "down"
+        }
+      }
+    },
+    {
+      "name": "390 steel down stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 steel down immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 362.4000000000001,
+          "y": 274.5,
+          "facing": "down"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 362.4000000000001,
+            "y": 274.5,
+            "facing": "down"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 steel down flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "390 steel left actual input: visible hull outside wall",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "tank": {
+          "x": 429.5,
+          "y": 352,
+          "facing": "left"
+        }
+      }
+    },
+    {
+      "name": "390 steel left stable contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 steel left immediate blocked turn clear",
+      "passed": true,
+      "detail": {
+        "snapshot": {
+          "x": 429.5,
+          "y": 341.5999999999999,
+          "facing": "left"
+        },
+        "pixels": {
+          "overlap": 0,
+          "tank": {
+            "x": 429.5,
+            "y": 341.5999999999999,
+            "facing": "left"
+          }
+        }
+      }
+    },
+    {
+      "name": "390 steel left flash synchronized to shot",
+      "passed": true,
+      "detail": {
+        "age": 0.04999999999999982,
+        "offset": 11.392504930966489
+      }
+    },
+    {
+      "name": "actual input parallel sliding along adjacent blocks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corner turn ArrowDown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corner turn ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corner turn ArrowUp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corner turn ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 320 en no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 320 en reduced motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 320 zh-TW no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 320 zh-TW reduced motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 390 en no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 390 en reduced motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 390 zh-TW no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 390 zh-TW reduced motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 1440 en no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 1440 en reduced motion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 1440 zh-TW no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "theme 1440 zh-TW reduced motion",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

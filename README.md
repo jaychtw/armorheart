@@ -1,20 +1,24 @@
-# Armorheart — Guardian POC
+# Armorheart — Guardian / Breakthrough R3
 
-A bounded, zero-runtime-dependency browser proving ground. **Prototype artwork, awaiting creative-director review.** No campaign, other tanks, bosses, deployment or production approval.
+A bounded browser prototype with no external runtime dependencies. Accepted Guardian R2 remains the default proving ground; Breakthrough R3 is delivered for **creative-director Confirm & Close**, with creative acceptance pending. No deployment or production-art approval.
 
-R2 corrects hull collision, replaces the muzzle effect and adds restrained steel-panel styling. Accepted recoil is unchanged; wall placement was adjusted with owner approval. [R2 QA and evidence](docs/QA_REPORT.md) · [Execution authorization](docs/decisions/R2_AUTHORIZATION.md).
+## Breakthrough R3 review build
 
-## Breakthrough M1 review build
+**[Download R3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/breakthrough-r3/artifacts/Armorheart-Breakthrough-R3.zip)**. Extract and choose **Breakthrough · Level 1** in the bundled HTML. [Play guide](docs/PLAY_R3.md) · [QA and remaining human gates](docs/QA_R3.md) · [desktop/mobile evidence](evidence/r3/README.md) · [current continuity](PROJECT_STATE.md).
+
+Open the exact approved S-bend maze one64-unit cell per shot. A single original covered transport takes the two-shot longer bypass or four-shot shorter shortcut automatically; steel stays. Cardinal travel/pivots, provisional90-second clock, bilingual UI, keyboard/touch, pause/retry/exit and offline play. Accepted Guardian mechanics/assets/proving ground unchanged. Both routes verified through actual keyboard and emulated touch; independent first-time-player and physical-phone tests were not performed.
+
+## Historical Breakthrough M1 review build
 
 **[Download Breakthrough M1 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/breakthrough-m1/artifacts/Armorheart-Breakthrough-M1.zip)**. Open the bundled HTML, choose **Breakthrough · Level 1**, then Start mission. The accepted Guardian range remains available and its original ZIP below is preserved. [M1 play instructions](docs/PLAY_M1.md) · [QA and pending human gate](docs/QA_M1.md) · [screenshots/evidence](evidence/m1/README.md).
 
-One crowd, two alternative lower gates and an offset upper exit gate; no enemies, 90-second deadline. M1 is delivered for creative-director review, not accepted production or a public deployment. Independent first-time-player and physical-phone tests were not performed.
+The historical M1 build uses one crowd, two alternative lower gates and an offset upper exit gate; no enemies, 90-second deadline. M1 is delivered for creative-director review, not accepted production or a public deployment. Independent first-time-player and physical-phone tests were not performed.
 
 ## Play locally
 
 **[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
-Download `preview/guardian.html`. This single file embeds the code, CSS and Guardian layers. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
+Download `preview/guardian.html`. This current single file embeds the R3 code, CSS, Guardian layers and transport artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
 
@@ -45,6 +49,6 @@ Browser verification (development tools only): install Python Playwright 1.62.0 
 AXE_PATH=/tmp/armorheart-audit/node_modules/axe-core/axe.min.js python3 tools/browser_evidence.py
 ```
 
-Use `POC_URL` and `CHROMIUM` environment variables to override the test URL/browser executable. These test utilities are not runtime dependencies. See [QA evidence](docs/QA_REPORT.md), [asset construction/provenance](assets/guardian/PROVENANCE.md), [commitment](docs/POC_COMMITMENT.md), and [current state](PROJECT_STATE.md). The exact pinned standards/GDD are in `docs/`.
+Use `POC_URL` and `CHROMIUM` environment variables to override the test URL/browser executable. These test utilities are not runtime dependencies. See [current R3 QA evidence](docs/QA_R3.md), [asset construction/provenance](assets/guardian/PROVENANCE.md), [commitment](docs/POC_COMMITMENT.md), and [current state](PROJECT_STATE.md). The exact pinned standards/GDD are in `docs/`.
 
 Production licensing is unresolved; no blanket license to redistribute underlying artwork is asserted. Development synchronization is not human acceptance, merge or release authorization.

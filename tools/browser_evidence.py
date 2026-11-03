@@ -19,6 +19,10 @@ def move(page,key,axis,target,sign):
     page.locator('#arena').focus();page.keyboard.down(key)
     page.wait_for_function('([axis,target,sign])=>guardianPOC.snapshot().state.tank[axis]*sign>=target*sign',arg=[axis,target,sign],timeout=15000)
     page.keyboard.up(key)
+def face(page,key,facing):
+    page.locator('#arena').focus();page.keyboard.down(key)
+    page.wait_for_function('(f)=>guardianPOC.snapshot().state.tank.facing===f',arg=facing)
+    page.keyboard.up(key)
 def fire_until(page,count):
     page.locator('#arena').focus();page.keyboard.down('Space')
     page.wait_for_function('(n)=>guardianPOC.snapshot().state.destroyed>=n',arg=count,timeout=12000);page.keyboard.up('Space')
@@ -37,9 +41,9 @@ with sync_playwright() as p:
     page.screenshot(path=str(OUT/'desktop-zh-TW.png'),full_page=True);page.locator('#language').click()
     # Six-block route through the owner-authorized clearance layout.
     fire_until(page,2)
-    move(page,'ArrowRight','x',544,1);page.keyboard.down('ArrowUp');page.wait_for_timeout(20);page.keyboard.up('ArrowUp');fire_until(page,4)
-    move(page,'ArrowUp','y',544,-1);page.keyboard.down('ArrowLeft');page.wait_for_timeout(20);page.keyboard.up('ArrowLeft');fire_until(page,5)
-    page.keyboard.down('ArrowRight');page.wait_for_timeout(20);page.keyboard.up('ArrowRight');fire_until(page,6)
+    move(page,'ArrowRight','x',544,1);face(page,'ArrowUp','up');fire_until(page,4)
+    move(page,'ArrowUp','y',544,-1);face(page,'ArrowLeft','left');fire_until(page,5)
+    face(page,'ArrowRight','right');fire_until(page,6)
     check('actual keyboard complete six-block playthrough',snap(page)['state']['complete'] and snap(page)['state']['destroyed']==6)
     page.screenshot(path=str(OUT/'desktop-range-cleared.png'),full_page=True)
     page.locator('#start').click();check('replay restores all walls and starting shot count',snap(page)['state']['destroyed']==0 and snap(page)['state']['shots']==0)

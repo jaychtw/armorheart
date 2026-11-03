@@ -1,0 +1,17 @@
+{
+  "method": "24-unit spatial grid; all four initial and requested facings; all 64 subsets of destroyed bricks",
+  "count": 657152,
+  "max": 17.5,
+  "worst": {
+    "mask": 0,
+    "x": 30,
+    "y": 54,
+    "f": "up",
+    "direction": "right",
+    "result": {
+      "x": 47.5,
+      "y": 54,
+      "facing": "right"
+    }
+  }
+}

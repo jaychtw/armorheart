@@ -8,3 +8,6 @@ evidence/tmp/
 evidence/r2/tmp/
 evidence/m1/r2-regression/tmp/
 !artifacts/Armorheart-Breakthrough-M1.zip
+
+evidence/r3/r2-regression/tmp/
+!artifacts/Armorheart-Breakthrough-R3.zip

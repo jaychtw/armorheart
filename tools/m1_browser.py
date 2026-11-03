@@ -1,4 +1,5 @@
-"""Real-input M1 evidence. Only Playwright controls time; game state is read-only.
+"""Historical M1 only: run from frozen M1 revision, not the current R3 map.
+Real-input M1 evidence. Only Playwright controls time; game state is read-only.
 Run a loopback server on8080. No scenario fixtures in the main playthroughs.
 """
 from pathlib import Path

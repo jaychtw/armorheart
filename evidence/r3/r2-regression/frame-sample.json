@@ -1,0 +1,6 @@
+{
+  "environment": "headless Chromium on cloud host; desktop idle render only; not physical phone performance",
+  "samples": 90,
+  "median_ms": 16.69999999999999,
+  "max_ms": 16.800000000000182
+}

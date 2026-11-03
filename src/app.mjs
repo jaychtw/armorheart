@@ -147,12 +147,12 @@ function drawMissionGround(){
  ctx.fillStyle='#fff5cc';ctx.font='bold 22px system-ui';ctx.textAlign='center';ctx.fillText(t('exitMark'),384,45);ctx.textAlign='start';
 }
 function drawTransport(){
- const m=state.mission,t=m.truck;ctx.save();ctx.translate(t.x,t.y);ctx.rotate((truckRenderHeading(t)-1)*Math.PI/2);
+ const m=state.mission,truck=m.truck;ctx.save();ctx.translate(truck.x,truck.y);ctx.rotate((truckRenderHeading(truck)-1)*Math.PI/2);
  ctx.save();ctx.fillStyle='#13251b44';ctx.beginPath();ctx.ellipse(-1,4,64,27,0,0,Math.PI*2);ctx.fill();ctx.restore();
  ctx.drawImage(truckImage,-64,-28,128,56);
  if(m.evacuatingAt!==null&&m.elapsed-m.evacuatingAt<2){ctx.strokeStyle='#fff4c4';ctx.lineWidth=2;ctx.strokeRect(-67,-31,134,62);}
  ctx.restore();
- if(m.phase==='waiting'){ctx.fillStyle='#fff2c4';ctx.strokeStyle='#21372a';ctx.lineWidth=3;ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.strokeText(t('transportMark'),t.x,t.y+48);ctx.fillText(t('transportMark'),t.x,t.y+48);ctx.textAlign='start';}
+ if(m.phase==='waiting'){ctx.fillStyle='#fff2c4';ctx.strokeStyle='#21372a';ctx.lineWidth=3;ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.strokeText(t('transportMark'),truck.x,truck.y+48);ctx.fillText(t('transportMark'),truck.x,truck.y+48);ctx.textAlign='start';}
 }
 function finishMission(){clearInput();updateOverlay();$('#pause').disabled=true;announce(state.mission.phase==='success'?'missionSuccessText':'missionTimeoutText');$('#start').focus({preventScroll:true});}
 function updateStats(){if(isMission()){const m=state.mission;$('#mission-clock').textContent=String(Math.ceil(Math.max(0,90-m.elapsed)));const status=t(m.phase==='success'?'missionSuccess':m.phase==='timeout'?'missionTimeout':m.phase==='evacuating'?'evacuating':'waiting');if($('#mission-status').textContent!==status)$('#mission-status').textContent=status;$('#mission-ready').textContent=t(state.time+1e-8>=state.nextShot?'ready':'cooldown');$('#mission-hud').classList.toggle('route-open',m.phase==='evacuating');}$('#shot-count').textContent=state.shots;$('#wall-count').innerHTML=`${state.destroyed} <small>/ 6</small>`;const ready=state.time+1e-8>=state.nextShot;$('#reload-label').textContent=t(ready?'ready':'cooldown');$('#reload-fill').style.width=Math.min(1,Math.max(0,1-(state.nextShot-state.time)))*100+'%';$('#facing-label').textContent=t('facing')+' / '+t(state.tank.facing+'Name');}

@@ -65,3 +65,11 @@ test('all bricks removed or Guardian reaching refuge is not mission success',()=
 test('navigation rejects a point-only passage and radius76 protects full pivot',()=>{
  const s=createMission();assert.equal(transportTurnClear({x:224,y:400,heading:0},s.walls),false);assert.equal(transportPoseClear({x:560,y:400,heading:1},s.walls),false);assert.deepEqual(transportBounds({x:272,y:688,heading:1},0),{left:208,right:336,top:660,bottom:716});
 });
+for(let mask=0;mask<16;mask++)test(`R3 state ${mask}: each remaining brick takes exactly one shot from a legal pose`,()=>{
+ const poses={U0:{x:274.5,y:160,facing:'right'},U1:{x:500,y:160,facing:'left'},L0:{x:240,y:512,facing:'right'},L1:{x:240,y:576,facing:'right'}};
+ for(const id of ids.filter((_,i)=>!(mask>>i&1))){
+  const s=createMission();remove(s,...ids.filter((_,i)=>mask>>i&1));s.tank={...poses[id]};assert.ok(canMove(s,s.tank.x,s.tank.y));
+  const before=s.walls.map(w=>w.id),damage=s.destroyed;step(s,{fire:true},1/60);
+  assert.deepEqual(before.filter(n=>!s.walls.some(w=>w.id===n)),[id]);assert.equal(s.destroyed,damage+1);assert.equal(s.shots,1);assert.equal(s.walls.filter(w=>w.kind==='steel').length,5);
+ }
+});
