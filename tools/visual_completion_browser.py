@@ -4,8 +4,8 @@ Browser clock controls time; simulation state is read-only.
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-import json,time,subprocess
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r3-visual';TMP=OUT/'tmp';TMP.mkdir(parents=True,exist_ok=True)
+import json,time,subprocess,os
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/r3-visual');TMP=OUT/'tmp';TMP.mkdir(parents=True,exist_ok=True)
 BASE='7d9720d8cee846735d5f1bb2dfc231b66eb4af7c';oldapp=subprocess.check_output(['git','show',BASE+':src/app.mjs'],cwd=ROOT).decode()
 results=[];traces=[];errors=[];film=[]
 def check(name,ok,detail=None):

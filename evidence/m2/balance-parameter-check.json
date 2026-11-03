@@ -1,0 +1,108 @@
+{
+  "method": "same current combat module with only jumpSeconds substituted in an isolated imported map; informed held-fire simulation, not browser/human testing",
+  "rows": [
+    {
+      "jumpSeconds": 1,
+      "outcome": "success",
+      "finishedAt": 7.373874950320479,
+      "tankHP": 3,
+      "shots": 5,
+      "hitTimes": [
+        {
+          "time": 3.9507457003204918,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.945303512820488,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.41197017948715,
+          "hp": 1,
+          "stop": "LR",
+          "view": "west"
+        },
+        {
+          "time": 7.373874950320479,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "after_aim_movement": false
+    },
+    {
+      "jumpSeconds": 1.2,
+      "outcome": "success",
+      "finishedAt": 7.373874950320481,
+      "tankHP": 3,
+      "shots": 5,
+      "hitTimes": [
+        {
+          "time": 3.950745700320493,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.94530351282049,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.3999999999999835,
+          "hp": 1,
+          "stop": "LR",
+          "view": "south"
+        },
+        {
+          "time": 7.373874950320481,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "after_aim_movement": false
+    },
+    {
+      "jumpSeconds": 1.4,
+      "outcome": "success",
+      "finishedAt": 8.373874950320497,
+      "tankHP": 3,
+      "shots": 6,
+      "hitTimes": [
+        {
+          "time": 3.9453035128204936,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.94530351282049,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 7.319453158653815,
+          "hp": 1,
+          "stop": "LR",
+          "view": "west"
+        },
+        {
+          "time": 8.373874950320497,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "after_aim_movement": false
+    }
+  ],
+  "decision": "retain approved1.2s;1.0/1.4 still permit a damage-free stationary lane and do not create ongoing responses; no HP/attack/sequence/vulnerability change adopted"
+}

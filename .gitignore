@@ -21,3 +21,8 @@ evidence/r3-visual/r3-regression/*.png
 evidence/r3-visual/r2-regression/*.png
 
 planning/colossus-m2/evidence/tmp/
+
+evidence/m2/tmp/
+evidence/m2/guardian/tmp/
+evidence/m2/visual/tmp/
+!artifacts/Armorheart-Colossus-M2.zip

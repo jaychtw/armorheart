@@ -1,6 +1,7 @@
 import {createState,step,recoil,ANGLES,VECTORS,WORLD,normalizeSettings} from './engine.mjs';
 import {createMission,refreshRoute,advanceMission,missionSnapshot,truckRenderHeading} from './breakthrough.mjs';
 import {BREAKTHROUGH} from './maps/breakthrough.mjs';
+import {createColossus,stepColossus,bossRender,bossStage,COLOSSUS_SPRITES} from './colossus.mjs';
 import {messages} from './i18n.mjs';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let storageFailed=false,settings;
@@ -13,48 +14,53 @@ const held=new Map(),pointers=new Map();let order=0,fireKey=false;
 const arena=$('#arena'),ctx=arena.getContext('2d'),asset=$('#asset-view'),ax=asset.getContext('2d');
 const images=await Promise.all(['hull','barrel'].map(name=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=`assets/guardian/${name}.svg`;})));
 const truckImage=await new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src='assets/transport/transport.svg';});
+const bossImages=Object.fromEntries(await Promise.all(COLOSSUS_SPRITES.keys.map(name=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve([name,im]);im.onerror=reject;im.src=`assets/colossus/frames/${name}.png`;}))));
 function save(){try{localStorage.setItem('armorheart-guardian-settings',JSON.stringify(settings));storageFailed=false;}catch{storageFailed=true;}$('#storage-warning').hidden=!storageFailed;$('#storage-warning').textContent=t('storage');}
-function t(key){return messages[settings.language][key]??key;}
+function t(key){return (messages[settings.language][key]??key).replace('{boss}',String(state.colossus?.bossHP??4)).replace('{tank}',String(state.colossus?.tankHP??3)).replace('{next}',state.colossus?(messages[settings.language]['stop'+bossRender(state).next.id]??''):'');}
 function announce(key){announcementKey=key;$('#announcement').textContent=t(key);}
 function translate(){
  document.documentElement.lang=settings.language;
  $$('[data-i18n]').forEach(el=>el.textContent=t(el.dataset.i18n));
  $$('[data-label]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.label)));
- arena.setAttribute('aria-label',t(isMission()?'missionCanvas':'canvas'));$('#asset-view').setAttribute('aria-label',t('assetText'));
+ arena.setAttribute('aria-label',t(isColossus()?'bossCanvas':isMission()?'missionCanvas':'canvas'));$('#asset-view').setAttribute('aria-label',t('assetText'));
  $('.dpad').setAttribute('aria-label',t('facing'));$('.sizes').setAttribute('aria-label',t('scale'));
  $('#sound').textContent=t(settings.muted?'mute':'sound');$('#sound').setAttribute('aria-pressed',String(!settings.muted));
+ $('#boss-sound').textContent=settings.muted?'♩':'♪';$('#boss-sound').setAttribute('aria-label',t(settings.muted?'mute':'sound'));$('#boss-sound').setAttribute('aria-pressed',String(!settings.muted));$('#boss-motion').textContent='≈';$('#boss-motion').setAttribute('aria-label',t('motion'));$('#boss-motion').setAttribute('aria-pressed',String(reduced()));
  $('#motion').checked=reduced();$('#pause').textContent=t(paused?'resume':'pause');
  $('#asset-note').textContent=t(exploded?'layersNote':'art');$('#storage-warning').textContent=t('storage');$('#storage-warning').hidden=!storageFailed;
  if(announcementKey&&$('#announcement').textContent!==t(announcementKey))$('#announcement').textContent=t(announcementKey);
  updateSceneText();updateOverlay();drawComparisons();updateStats();draw();
 }
-function isMission(){return scene==='breakthrough';}
+function isBreakthrough(){return scene==='breakthrough';}
+function isColossus(){return scene==='colossus';}
+function isMission(){return scene!=='range';}
+function freshScene(){return isColossus()?createColossus():isBreakthrough()?createMission():createState();}
 function updateSceneText(){
- document.body.classList.toggle('mission',isMission());$('#mission-hud').hidden=!isMission();$('#level-exit').hidden=!isMission();
- $('#choose-range').setAttribute('aria-pressed',String(!isMission()));$('#choose-mission').setAttribute('aria-pressed',String(isMission()));
- $('#range-title').textContent=t(isMission()?'missionTitle':'range');$('.panel-header p').textContent=t(isMission()?'missionSub':'rangeSub');
- $('#objective').textContent=t(isMission()?'missionObjective':'objective');$('.site-footer p').textContent=t(isMission()?'missionFooter':'footer');
- $('#reset-dialog p').textContent=t(dialogAction==='reset'?(isMission()?'missionRestartConfirm':'restartConfirm'):'exitConfirm');
+ document.body.classList.toggle('mission',isMission());$('#mission-hud').hidden=!isBreakthrough();$('#boss-hud').hidden=!isColossus();$('.boss-settings').hidden=!isColossus();document.body.classList.toggle('boss-mode',isColossus());$('#level-exit').hidden=!isMission();
+ $('#choose-range').setAttribute('aria-pressed',String(!isMission()));$('#choose-mission').setAttribute('aria-pressed',String(isBreakthrough()));$('#choose-colossus').setAttribute('aria-pressed',String(isColossus()));
+ $('#range-title').textContent=t(isColossus()?'bossTitle':isMission()?'missionTitle':'range');$('.panel-header p').textContent=t(isColossus()?'bossSub':isMission()?'missionSub':'rangeSub');
+ $('#objective').textContent=t(isColossus()?'bossObjective':isMission()?'missionObjective':'objective');$('.site-footer p').textContent=t(isColossus()?'bossFooter':isMission()?'missionFooter':'footer');
+ $('#reset-dialog p').textContent=t(dialogAction==='reset'?(isColossus()?'bossRestartConfirm':isMission()?'missionRestartConfirm':'restartConfirm'):'exitConfirm');
  $('#restart').textContent=t(isMission()?'missionRetry':'reset');
 }
 function updateOverlay(){
  const overlay=$('#overlay');overlay.hidden=started&&!paused&&!state.complete;
- if(state.complete){const won=!isMission()||state.mission.phase==='success';$('#overlay-title').textContent=t(isMission()?(won?'missionSuccess':'missionTimeout'):'success');$('#overlay-text').textContent=t(isMission()?(won?'missionSuccessText':'missionTimeoutText'):'successText');$('#start').textContent=t(isMission()?(won?'missionReplay':'missionRetry'):'reset');}
+ if(state.complete){const won=isColossus()?state.colossus.outcome==='success':!isMission()||state.mission.phase==='success';$('#overlay-title').textContent=t(isColossus()?(won?'bossVictory':'bossDefeat'):isMission()?(won?'missionSuccess':'missionTimeout'):'success');$('#overlay-text').textContent=t(isColossus()?(won?'bossVictoryText':'bossDefeatText'):isMission()?(won?'missionSuccessText':'missionTimeoutText'):'successText');$('#start').textContent=t(isMission()?(won?'missionReplay':'missionRetry'):'reset');}
  else if(started){$('#overlay-title').textContent=t('paused');$('#overlay-text').textContent=t('pausedText');$('#start').textContent=t('resume');}
- else{$('#overlay-title').textContent=isMission()?t('missionTitle'):'GUARDIAN';$('#overlay-text').textContent=t(isMission()?'missionObjective':'objective');$('#start').textContent=t(isMission()?'missionStart':'start');}
+ else{$('#overlay-title').textContent=isColossus()?t('bossTitle'):isMission()?t('missionTitle'):'GUARDIAN';$('#overlay-text').textContent=t(isColossus()?'bossObjective':isMission()?'missionObjective':'objective');$('#start').textContent=t(isMission()?'missionStart':'start');}
 }
 function selectScene(next){
- scene=next;state=isMission()?createMission():createState();started=false;paused=false;particles=[];accumulator=0;clearInput();$('#pause').disabled=true;
+ scene=next;state=freshScene();started=false;paused=false;particles=[];accumulator=0;clearInput();$('#pause').disabled=true;
  announcementKey=null;$('#announcement').textContent='';translate();$('#start').focus({preventScroll:true});
 }
 function confirmAction(action){dialogAction=action;dialogWasPaused=paused;setPaused(true);updateSceneText();$('#reset-dialog').showModal();}
 function requestScene(next){if(started&&!state.complete)confirmAction(next);else selectScene(next);}
-$('#choose-range').onclick=()=>requestScene('range');$('#choose-mission').onclick=()=>requestScene('breakthrough');
+$('#choose-range').onclick=()=>requestScene('range');$('#choose-mission').onclick=()=>requestScene('breakthrough');$('#choose-colossus').onclick=()=>requestScene('colossus');
 $('#level-exit').onclick=()=>{if(started&&!state.complete)confirmAction('exit');else selectScene('range');};
 function clearInput(){held.clear();pointers.clear();fireKey=false;$$('.active').forEach(e=>e.classList.remove('active'));}
-function reset(){announcementKey=null;$('#announcement').textContent='';state=isMission()?createMission():createState();last=performance.now();accumulator=0;started=true;paused=false;particles=[];clearInput();$('#pause').disabled=false;updateOverlay();updateStats();arena.focus({preventScroll:true});}
-function setPaused(value){if(isMission()){const now=performance.now();if(value&&started&&!paused&&!state.complete){advanceMission(state,Math.max(0,(now-last)/1000));if(state.complete)finishMission();}last=now;}paused=value;clearInput();$('#pause').textContent=t(paused?'resume':'pause');updateOverlay();}
-$('#start').onclick=()=>{if(state.complete)reset();else{started=true;setPaused(false);$('#pause').disabled=false;arena.focus({preventScroll:true});arena.scrollIntoView({block:'start',behavior:'instant'});}};
+function reset(){announcementKey=null;$('#announcement').textContent='';state=freshScene();last=performance.now();accumulator=0;started=true;paused=false;particles=[];clearInput();$('#pause').disabled=false;updateOverlay();updateStats();arena.focus({preventScroll:true});}
+function setPaused(value){if(isBreakthrough()){const now=performance.now();if(value&&started&&!paused&&!state.complete){advanceMission(state,Math.max(0,(now-last)/1000));if(state.complete)finishMission();}last=now;}else if(isColossus())last=performance.now();paused=value;clearInput();$('#pause').textContent=t(paused?'resume':'pause');updateOverlay();}
+$('#start').onclick=()=>{if(state.complete)reset();else{started=true;setPaused(false);$('#pause').disabled=false;arena.focus({preventScroll:true});(isColossus()?$('#boss-hud'):arena).scrollIntoView({block:'start',behavior:'instant'});}};
 $('#pause').onclick=()=>{setPaused(!paused);if(!paused)arena.focus({preventScroll:true});};
 $('#restart').onclick=()=>{clearInput();if(started&&!state.complete)confirmAction('reset');else reset();};
 $('#cancel-reset').onclick=()=>{$('#reset-dialog').close();setPaused(dialogWasPaused);arena.focus({preventScroll:true});};
@@ -62,7 +68,8 @@ $('#confirm-reset').onclick=()=>{$('#reset-dialog').close();if(dialogAction==='r
 $('#reset-dialog').addEventListener('cancel',()=>setPaused(dialogWasPaused));
 $('#language').onclick=()=>{settings.language=settings.language==='en'?'zh-TW':'en';save();translate();};
 $('#motion').onchange=e=>{settings.reduced=e.target.checked;save();};
-mq.addEventListener('change',()=>{$('#motion').checked=reduced();});
+mq.addEventListener('change',()=>{$('#motion').checked=reduced();$('#boss-motion').setAttribute('aria-pressed',String(reduced()));});
+$('#boss-sound').onclick=()=>$('#sound').click();$('#boss-motion').onclick=()=>{settings.reduced=!reduced();save();translate();};
 $('#sound').onclick=()=>{settings.muted=!settings.muted;save();if(!settings.muted)ensureAudio();translate();};
 for(const id of ['assembled','layers'])$('#'+id).onclick=()=>{exploded=id==='layers';$('#assembled').setAttribute('aria-pressed',String(!exploded));$('#layers').setAttribute('aria-pressed',String(exploded));$('#asset-note').textContent=t(exploded?'layersNote':'art');};
 $$('[data-size]').forEach(b=>b.onclick=()=>{size=Number(b.dataset.size);$$('[data-size]').forEach(el=>el.setAttribute('aria-pressed',String(el===b)));drawComparisons();});
@@ -87,7 +94,7 @@ let audio;
 function ensureAudio(){try{audio??=new AudioContext();audio.resume().catch(()=>{});}catch{}}
 function sound(kind){if(settings.muted)return;ensureAudio();if(!audio)return;const osc=audio.createOscillator(),gain=audio.createGain();osc.type='triangle';osc.frequency.setValueAtTime(kind==='fire'?125:65,audio.currentTime);osc.frequency.exponentialRampToValueAtTime(35,audio.currentTime+.12);gain.gain.setValueAtTime(.07,audio.currentTime);gain.gain.exponentialRampToValueAtTime(.001,audio.currentTime+.15);osc.connect(gain);gain.connect(audio.destination);osc.start();osc.stop(audio.currentTime+.16);}
 let particles=[];
-function events(){for(const e of state.events){if(e.type==='fire')sound('fire');if(e.type==='impact'){sound('impact');particles.push({x:e.x,y:e.y,age:0,brick:e.brick});}if(e.type==='complete'){clearInput();updateOverlay();$('#pause').disabled=true;announce('successText');$('#start').focus({preventScroll:true});}}}
+function events(){for(const e of state.events){if(e.type==='fire')sound('fire');if(e.type==='impact'){sound('impact');particles.push({x:e.x,y:e.y,age:0,brick:e.brick});}if(e.type==='bossHit')announce('bossHitStatus');if(e.type==='tankHit')announce('tankHitStatus');if(e.type==='bossLanding')announce('bossLandingStatus');if(e.type==='colossusComplete'){clearInput();updateOverlay();$('#pause').disabled=true;announce(state.colossus.outcome==='success'?'bossVictoryText':'bossDefeatText');$('#start').focus({preventScroll:true});}if(e.type==='complete'){clearInput();updateOverlay();$('#pause').disabled=true;announce('successText');$('#start').focus({preventScroll:true});}}}
 function tank(c,x,y,scale,facing,age,split=false){
  c.save();c.translate(x,y);c.rotate(ANGLES[facing]);c.scale(scale,scale);
  if(split){c.save();c.translate(-10,22);c.drawImage(images[0],-107,-128);c.restore();c.save();c.translate(10,-34);c.drawImage(images[1],-107,-128);c.restore();}
@@ -113,11 +120,14 @@ function draw(){
  // Non-colliding ground markings, deliberately subordinate to wall geometry.
  ctx.strokeStyle='#d9d5ac32';ctx.lineWidth=2;ctx.setLineDash([9,12]);ctx.strokeRect(22,22,724,724);ctx.setLineDash([]);
  ctx.fillStyle='#dee0c33a';ctx.font='10px monospace';for(let x=0;x<12;x++)ctx.fillText(String(x+1).padStart(2,'0'),x*64+8,15);
- if(isMission())drawMissionGround();
+ if(isBreakthrough())drawMissionGround();if(isColossus())drawBossGround();
  for(const w of state.walls){ctx.save();ctx.translate(w.x,w.y);ctx.scale((w.width??64)/64,(w.height??64)/64);drawWall({...w,x:0,y:0});ctx.restore();}
  for(const p of particles){const progress=p.age/.5;if(progress>=1)continue;ctx.save();ctx.globalAlpha=1-progress;ctx.fillStyle=p.brick?'#e6c88e':'#f9d99a';const count=reduced()?3:9;for(let i=0;i<count;i++){const a=i*2.399,dist=progress*(18+i*3);ctx.fillRect(p.x+Math.cos(a)*dist-2,p.y+Math.sin(a)*dist-2,4,4);}ctx.restore();}
  for(const b of state.shells){ctx.save();ctx.translate(b.x,b.y);ctx.rotate(Math.atan2(b.dy,b.dx));cFill('#f5e5b2',-7,-2,14,4);ctx.restore();}
+ if(isColossus()&&state.tank.y>=bossRender(state).y)drawBoss();
+ ctx.save();if(isColossus()&&state.colossus.immuneUntil>state.colossus.elapsed)ctx.globalAlpha=reduced()?.7:.72+.28*Math.cos(state.colossus.elapsed*Math.PI*2)**2;
  tank(ctx,state.tank.x,state.tank.y,.5,state.tank.facing,state.time-state.firedAt);
+ ctx.restore();
  const flashAge=state.time-state.firedAt;
  if(flashAge>=0&&flashAge<.09){
    const [dx,dy]=VECTORS[state.tank.facing],offset=recoil(flashAge,reduced())*.5;
@@ -135,10 +145,14 @@ function draw(){
    ctx.closePath();ctx.fill();
    ctx.fillStyle='#fffde9';ctx.beginPath();ctx.moveTo(0,-.8);ctx.lineTo(18,-2);ctx.lineTo(31,-6);ctx.lineTo(29,-1);ctx.lineTo(43,0);ctx.lineTo(29,3);ctx.lineTo(23,6);ctx.lineTo(17,2);ctx.lineTo(0,.8);ctx.closePath();ctx.fill();ctx.restore();
  }
- if(isMission())drawTransport();
+ if(isBreakthrough())drawTransport();if(isColossus()&&state.tank.y<bossRender(state).y){drawBoss();const p=bossRender(state);if(Math.abs(state.tank.x-p.x)<150&&Math.abs(state.tank.y-p.y)<230){ctx.save();ctx.globalAlpha=.45;tank(ctx,state.tank.x,state.tank.y,.5,state.tank.facing,state.time-state.firedAt);ctx.restore();}}
  // Static inspection renderer uses the same two SVGs and pivot as gameplay.
  ax.clearRect(0,0,600,400);tank(ax,280,218,.92,'up',state.time-state.firedAt,exploded);
 }
+function drawBossGround(){
+ const p=bossRender(state),next=p.next;ctx.save();ctx.fillStyle='#dabf7330';ctx.strokeStyle='#ecdaa0';ctx.lineWidth=3;ctx.setLineDash([10,7]);ctx.beginPath();ctx.ellipse(next.x,next.y,112,64,0,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#f3e4af';ctx.font='bold 18px system-ui';ctx.textAlign='center';ctx.fillText(t('bossNextShort'),next.x,next.y);ctx.textAlign='start';ctx.fillStyle='#122a2355';ctx.beginPath();ctx.ellipse(p.x,p.y,112*(1-p.z/256),64*(1-p.z/256),0,0,Math.PI*2);ctx.fill();ctx.restore();
+}
+function drawBoss(){const p=bossRender(state);ctx.save();if(state.colossus.bossHP===0)ctx.globalAlpha=.6;ctx.drawImage(bossImages[p.view+'_'+p.pose],p.x-COLOSSUS_SPRITES.anchor[0],p.y-COLOSSUS_SPRITES.anchor[1]-p.z,COLOSSUS_SPRITES.size,COLOSSUS_SPRITES.size);ctx.restore();}
 function drawMissionGround(){
  cFill('#273a31',0,0,192,WORLD);cFill('#273a31',576,0,192,WORLD);
  ctx.strokeStyle='#8f9b76';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(192,0);ctx.lineTo(192,768);ctx.moveTo(576,0);ctx.lineTo(576,768);ctx.stroke();
@@ -155,13 +169,13 @@ function drawTransport(){
  if(m.phase==='waiting'){ctx.fillStyle='#fff2c4';ctx.strokeStyle='#21372a';ctx.lineWidth=3;ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.strokeText(t('transportMark'),truck.x,truck.y+48);ctx.fillText(t('transportMark'),truck.x,truck.y+48);ctx.textAlign='start';}
 }
 function finishMission(){clearInput();updateOverlay();$('#pause').disabled=true;announce(state.mission.phase==='success'?'missionSuccessText':'missionTimeoutText');$('#start').focus({preventScroll:true});}
-function updateStats(){if(isMission()){const m=state.mission;$('#mission-clock').textContent=String(Math.ceil(Math.max(0,90-m.elapsed)));const status=t(m.phase==='success'?'missionSuccess':m.phase==='timeout'?'missionTimeout':m.phase==='evacuating'?'evacuating':'waiting');if($('#mission-status').textContent!==status)$('#mission-status').textContent=status;$('#mission-ready').textContent=t(state.time+1e-8>=state.nextShot?'ready':'cooldown');$('#mission-hud').classList.toggle('route-open',m.phase==='evacuating');}$('#shot-count').textContent=state.shots;$('#wall-count').innerHTML=`${state.destroyed} <small>/ 6</small>`;const ready=state.time+1e-8>=state.nextShot;$('#reload-label').textContent=t(ready?'ready':'cooldown');$('#reload-fill').style.width=Math.min(1,Math.max(0,1-(state.nextShot-state.time)))*100+'%';$('#facing-label').textContent=t('facing')+' / '+t(state.tank.facing+'Name');}
+function updateStats(){if(isColossus()){const m=state.colossus;$('#tank-health').textContent=m.tankHP+' / 3';$('#boss-health').textContent=m.bossHP+' / 4';$('#boss-phase').textContent=t(m.outcome==='success'?'bossVictory':m.outcome==='defeat'?'bossDefeat':m.phase==='airborne'?'bossAirborne':'bossGrounded')+' · '+t('stage'+bossStage(m.bossHP));$('#boss-immunity').textContent=m.immuneUntil>m.elapsed?t('bossProtected'):t('bossNext');}if(isBreakthrough()){const m=state.mission;$('#mission-clock').textContent=String(Math.ceil(Math.max(0,90-m.elapsed)));const status=t(m.phase==='success'?'missionSuccess':m.phase==='timeout'?'missionTimeout':m.phase==='evacuating'?'evacuating':'waiting');if($('#mission-status').textContent!==status)$('#mission-status').textContent=status;$('#mission-ready').textContent=t(state.time+1e-8>=state.nextShot?'ready':'cooldown');$('#mission-hud').classList.toggle('route-open',m.phase==='evacuating');}$('#shot-count').textContent=state.shots;$('#wall-count').innerHTML=`${state.destroyed} <small>/ 6</small>`;const ready=state.time+1e-8>=state.nextShot;$('#reload-label').textContent=t(ready?'ready':'cooldown');$('#reload-fill').style.width=Math.min(1,Math.max(0,1-(state.nextShot-state.time)))*100+'%';$('#facing-label').textContent=t('facing')+' / '+t(state.tank.facing+'Name');}
 function frame(now){
  const rawElapsed=last?Math.max(0,(now-last)/1000):0,elapsed=Math.min(rawElapsed,.1);last=now;
  if(started&&!paused&&!state.complete){
-   if(isMission()){advanceMission(state,rawElapsed);if(state.complete)finishMission();}
-   if(!state.complete){accumulator+=elapsed;while(accumulator>=1/60){step(state,input(),1/60);events();for(const p of particles)p.age+=1/60;particles=particles.filter(p=>p.age<.5);accumulator-=1/60;if(state.complete)break;}
-     if(isMission()&&refreshRoute(state)){announce('evacCue');}
+   if(isBreakthrough()){advanceMission(state,rawElapsed);if(state.complete)finishMission();}
+   if(!state.complete){accumulator+=elapsed;while(accumulator>=1/60){if(isColossus())stepColossus(state,input(),1/60);else step(state,input(),1/60);events();for(const p of particles)p.age+=1/60;particles=particles.filter(p=>p.age<.5);accumulator-=1/60;if(state.complete)break;}
+     if(isBreakthrough()&&refreshRoute(state)){announce('evacCue');}
    }
  }else accumulator=0;
  draw();updateStats();requestAnimationFrame(frame);

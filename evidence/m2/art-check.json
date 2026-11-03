@@ -1,0 +1,360 @@
+{
+  "passed": true,
+  "frames": 28,
+  "source_hashes": {
+    "east-idle-reference.png": "a15ec9ed5387ca07efe39d5872e646ed6e0b0c80a3c1668138ca87031ec5940f",
+    "east-poses.png": "35008d07908192448ca280de442bcb43a68a23763793f58d334214d63e119384",
+    "look.png": "8954ce35c51bcd6d37ac2c8fc9c0ce524e9a1acae42a461a309656ddeb69203a",
+    "north-idle-reference.png": "91f32658b2f2329edd1e3647374d138509b5ea41823899fa1b51f96a0cd0f5aa",
+    "north-poses.png": "885c2a83ec9174e08c752d03ef99e3712327209cf7339003b0a0009c9b765fad",
+    "south-idle-reference.png": "647d8b3fa4d4896c76e624715ad3eb045e93df27ed86a5ce89dcd1db025f12fc",
+    "south-poses.png": "b6bc17542f4a29148b9b216dc363839d8e3942c2eec1afa904d9cc2c60131f83",
+    "turnaround.png": "25e88910c901bda113332dcda16571317071bffecdeae73ee1c56b6ba6af4a28",
+    "west-idle-reference.png": "2ae43143ece639163024297b75c463571165b2ffb17b05ab0a1e60043c1e98a7",
+    "west-poses.png": "5de95be1a3ecfa828b41947c27c07ae552a897abb40643dd11642e841117d483"
+  },
+  "decoded_bytes": 22478848,
+  "airborne_bound_samples": 2420,
+  "minimum_painted_world_margin": 15.673470000000009,
+  "south_idle_width": 233.79592,
+  "geometry_method": "opaque4px blocks merged to core rectangles; every represented pixel independently checked alpha>=200; soft fur/gaps excluded",
+  "frames_inspected": [
+    {
+      "key": "north_idle",
+      "painted_world_bounds": [
+        -106.44898,
+        -202.44898,
+        105.79592,
+        41.79592
+      ],
+      "opaque_body_pixels": 78627,
+      "conservative_core_coverage": 0.9576354178590052,
+      "target_rects": 107
+    },
+    {
+      "key": "north_airborne",
+      "painted_world_bounds": [
+        -116.2449,
+        -203.10204,
+        116.2449,
+        -2.61224
+      ],
+      "opaque_body_pixels": 62902,
+      "conservative_core_coverage": 0.954627833773171,
+      "target_rects": 94
+    },
+    {
+      "key": "north_landing",
+      "painted_world_bounds": [
+        -118.85714,
+        -147.59184,
+        119.5102,
+        41.79592
+      ],
+      "opaque_body_pixels": 68702,
+      "conservative_core_coverage": 0.9623009519373527,
+      "target_rects": 88
+    },
+    {
+      "key": "north_hit",
+      "painted_world_bounds": [
+        -109.71429,
+        -197.87755,
+        109.06122,
+        41.79592
+      ],
+      "opaque_body_pixels": 74556,
+      "conservative_core_coverage": 0.9536992327914587,
+      "target_rects": 121
+    },
+    {
+      "key": "north_fatigued",
+      "painted_world_bounds": [
+        -103.83673,
+        -174.36735,
+        104.4898,
+        41.79592
+      ],
+      "opaque_body_pixels": 69690,
+      "conservative_core_coverage": 0.9585306356722629,
+      "target_rects": 96
+    },
+    {
+      "key": "north_wounded",
+      "painted_world_bounds": [
+        -103.83673,
+        -193.30612,
+        103.18367,
+        41.79592
+      ],
+      "opaque_body_pixels": 71311,
+      "conservative_core_coverage": 0.9540183141450828,
+      "target_rects": 108
+    },
+    {
+      "key": "north_look",
+      "painted_world_bounds": [
+        -109.71429,
+        -202.44898,
+        109.71429,
+        40.4898
+      ],
+      "opaque_body_pixels": 81804,
+      "conservative_core_coverage": 0.9650383844310791,
+      "target_rects": 100
+    },
+    {
+      "key": "east_idle",
+      "painted_world_bounds": [
+        -101.87755,
+        -203.10204,
+        101.87755,
+        41.79592
+      ],
+      "opaque_body_pixels": 74058,
+      "conservative_core_coverage": 0.9581679224391693,
+      "target_rects": 109
+    },
+    {
+      "key": "east_airborne",
+      "painted_world_bounds": [
+        -108.40816,
+        -202.44898,
+        109.06122,
+        -5.87755
+      ],
+      "opaque_body_pixels": 60743,
+      "conservative_core_coverage": 0.9574765816637308,
+      "target_rects": 85
+    },
+    {
+      "key": "east_landing",
+      "painted_world_bounds": [
+        -107.7551,
+        -163.91837,
+        107.10204,
+        41.79592
+      ],
+      "opaque_body_pixels": 71077,
+      "conservative_core_coverage": 0.9623366208478129,
+      "target_rects": 92
+    },
+    {
+      "key": "east_hit",
+      "painted_world_bounds": [
+        -103.83673,
+        -203.10204,
+        103.83673,
+        41.79592
+      ],
+      "opaque_body_pixels": 71673,
+      "conservative_core_coverage": 0.9567898650816905,
+      "target_rects": 107
+    },
+    {
+      "key": "east_fatigued",
+      "painted_world_bounds": [
+        -105.14286,
+        -192.0,
+        104.4898,
+        41.79592
+      ],
+      "opaque_body_pixels": 76887,
+      "conservative_core_coverage": 0.9599542185284898,
+      "target_rects": 104
+    },
+    {
+      "key": "east_wounded",
+      "painted_world_bounds": [
+        -98.61224,
+        -203.10204,
+        98.61224,
+        41.79592
+      ],
+      "opaque_body_pixels": 71366,
+      "conservative_core_coverage": 0.9633719137964857,
+      "target_rects": 88
+    },
+    {
+      "key": "east_look",
+      "painted_world_bounds": [
+        -100.57143,
+        -202.44898,
+        100.57143,
+        41.79592
+      ],
+      "opaque_body_pixels": 73348,
+      "conservative_core_coverage": 0.9595899002017778,
+      "target_rects": 104
+    },
+    {
+      "key": "south_idle",
+      "painted_world_bounds": [
+        -116.89796,
+        -207.67347,
+        116.89796,
+        41.79592
+      ],
+      "opaque_body_pixels": 87556,
+      "conservative_core_coverage": 0.9601169537210471,
+      "target_rects": 117
+    },
+    {
+      "key": "south_airborne",
+      "painted_world_bounds": [
+        -123.42857,
+        -208.32653,
+        123.42857,
+        -5.87755
+      ],
+      "opaque_body_pixels": 72524,
+      "conservative_core_coverage": 0.9599029286856765,
+      "target_rects": 99
+    },
+    {
+      "key": "south_landing",
+      "painted_world_bounds": [
+        -124.08163,
+        -167.18367,
+        124.73469,
+        41.79592
+      ],
+      "opaque_body_pixels": 85174,
+      "conservative_core_coverage": 0.9651771667410243,
+      "target_rects": 94
+    },
+    {
+      "key": "south_hit",
+      "painted_world_bounds": [
+        -114.93878,
+        -220.08163,
+        114.93878,
+        41.79592
+      ],
+      "opaque_body_pixels": 90276,
+      "conservative_core_coverage": 0.9595462802959812,
+      "target_rects": 115
+    },
+    {
+      "key": "south_fatigued",
+      "painted_world_bounds": [
+        -117.55102,
+        -201.79592,
+        118.20408,
+        41.79592
+      ],
+      "opaque_body_pixels": 89685,
+      "conservative_core_coverage": 0.9624797903774321,
+      "target_rects": 120
+    },
+    {
+      "key": "south_wounded",
+      "painted_world_bounds": [
+        -113.63265,
+        -212.89796,
+        112.32653,
+        41.79592
+      ],
+      "opaque_body_pixels": 83031,
+      "conservative_core_coverage": 0.9673495441461623,
+      "target_rects": 88
+    },
+    {
+      "key": "south_look",
+      "painted_world_bounds": [
+        -116.2449,
+        -207.67347,
+        116.89796,
+        41.79592
+      ],
+      "opaque_body_pixels": 87291,
+      "conservative_core_coverage": 0.9593657994524063,
+      "target_rects": 109
+    },
+    {
+      "key": "west_idle",
+      "painted_world_bounds": [
+        -107.7551,
+        -203.7551,
+        107.10204,
+        41.79592
+      ],
+      "opaque_body_pixels": 79797,
+      "conservative_core_coverage": 0.9568279509254733,
+      "target_rects": 115
+    },
+    {
+      "key": "west_airborne",
+      "painted_world_bounds": [
+        -106.44898,
+        -203.10204,
+        107.10204,
+        -2.61224
+      ],
+      "opaque_body_pixels": 61926,
+      "conservative_core_coverage": 0.9554629719342441,
+      "target_rects": 93
+    },
+    {
+      "key": "west_landing",
+      "painted_world_bounds": [
+        -114.28571,
+        -156.73469,
+        114.28571,
+        41.79592
+      ],
+      "opaque_body_pixels": 71760,
+      "conservative_core_coverage": 0.9603121516164994,
+      "target_rects": 91
+    },
+    {
+      "key": "west_hit",
+      "painted_world_bounds": [
+        -107.7551,
+        -205.06122,
+        108.40816,
+        41.79592
+      ],
+      "opaque_body_pixels": 80826,
+      "conservative_core_coverage": 0.9594932323757207,
+      "target_rects": 114
+    },
+    {
+      "key": "west_fatigued",
+      "painted_world_bounds": [
+        -109.71429,
+        -195.91837,
+        109.71429,
+        41.79592
+      ],
+      "opaque_body_pixels": 81735,
+      "conservative_core_coverage": 0.9588058971065028,
+      "target_rects": 110
+    },
+    {
+      "key": "west_wounded",
+      "painted_world_bounds": [
+        -112.97959,
+        -182.20408,
+        114.28571,
+        41.79592
+      ],
+      "opaque_body_pixels": 74399,
+      "conservative_core_coverage": 0.95678705358943,
+      "target_rects": 114
+    },
+    {
+      "key": "west_look",
+      "painted_world_bounds": [
+        -111.02041,
+        -203.10204,
+        111.02041,
+        41.79592
+      ],
+      "opaque_body_pixels": 80304,
+      "conservative_core_coverage": 0.9595536959553695,
+      "target_rects": 113
+    }
+  ],
+  "creative_acceptance": "Pending final human review of directional extension and in-game transitions"
+}

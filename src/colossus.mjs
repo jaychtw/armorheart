@@ -23,7 +23,7 @@ export function contactInterval(a,b,p){
  lo=center;hi=1;if(distance(1)<=1+EPS)lo=1;else for(let i=0;i<40;i++){const t=(lo+hi)/2;if(distance(t)<=1+EPS)lo=t;else hi=t;}return [enter,lo];
 }
 function finish(s,outcome,at){const m=s.colossus;m.outcome=outcome;m.finishedAt=at;s.complete=true;s.events.push({type:'colossusComplete',outcome});}
-function transition(s){const m=s.colossus;m.phaseTime=0;if(m.phase==='grounded'){m.phase='airborne';m.history.push({event:'takeoff',time:m.elapsed,stop:C.stops[m.stop].id});}else{m.arrivalView=routeView(m.stop);m.stop=(m.stop+1)%5;m.phase='grounded';m.landings++;m.history.push({event:'landing',time:m.elapsed,stop:C.stops[m.stop].id});s.events.push({type:'bossLanding',stop:C.stops[m.stop].id});}}
+function transition(s){const m=s.colossus;m.phaseTime=0;if(m.phase==='grounded'){m.phase='airborne';m.history.push({event:'takeoff',time:m.elapsed,stop:C.stops[m.stop].id});}else{m.arrivalView=routeView(m.stop);m.stop=(m.stop+1)%5;m.phase='grounded';m.landings++;m.history.push({event:'landing',time:m.elapsed,stop:C.stops[m.stop].id});s.events.push({type:'bossLanding',stop:C.stops[m.stop].id});}if(m.history.length>128)m.history.splice(0,m.history.length-128);}
 export function stepColossus(s,input,dt){if(s.complete)return s;if(!Number.isFinite(dt)||dt<0)throw Error('Invalid M2 interval');dt=Math.min(dt,.05);let remaining=dt,allEvents=[],first=true;
  while((remaining>1e-12||first)&&!s.complete){first=false;const m=s.colossus,period=m.phase==='grounded'?C.groundSeconds:C.jumpSeconds;
   if(period-m.phaseTime<EPS){s.events=[];transition(s);allEvents.push(...s.events);continue;}
@@ -34,7 +34,7 @@ export function stepColossus(s,input,dt){if(s.complete)return s;if(!Number.isFin
    const interval=contactInterval(before,s.tank,position);
    if(interval){const eligible=Math.max(start+interval[0]*delta,m.immuneUntil);if(eligible<=start+interval[1]*delta+EPS&&eligible<m.elapsed+(boundary?-EPS:EPS))events.push({kind:'tank',at:eligible});}
   }
-  events.sort((a,b)=>Math.abs(a.at-b.at)<EPS?(a.kind==='boss'?-1:1):a.at-b.at);
+  events.sort((a,b)=>Math.abs(a.at-b.at)<EPS?((a.kind==='boss'?0:1)-(b.kind==='boss'?0:1)):a.at-b.at);
   for(const event of events){if(s.complete)break;
    if(event.kind==='boss'&&m.bossHP>0){m.bossHP--;m.bossHitAt=event.at;s.hits++;s.events.push({type:'impact',x:event.x,y:event.y,brick:false});m.shotHits.push({time:event.at,hp:m.bossHP,stop:C.stops[m.stop].id,view:bossView(s)});s.events.push({type:'bossHit',hp:m.bossHP});if(!m.bossHP)finish(s,'success',event.at);}
    else if(event.kind==='tank'&&event.at+EPS>=m.immuneUntil){m.tankHP--;m.damageAt=event.at;m.immuneUntil=event.at+C.immunity;m.tankHits.push({time:event.at,hp:m.tankHP,stop:C.stops[m.stop].id});s.events.push({type:'tankHit',hp:m.tankHP});if(!m.tankHP)finish(s,'defeat',event.at);}
@@ -44,3 +44,4 @@ export function stepColossus(s,input,dt){if(s.complete)return s;if(!Number.isFin
  }
  s.events=allEvents;return s;
 }
+export const COLOSSUS_SPRITES={keys:Object.keys(ART.images),size:ART.frame*ART.worldPerPixel,anchor:ART.anchor.map(x=>x*ART.worldPerPixel)};

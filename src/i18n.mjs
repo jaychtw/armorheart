@@ -1,5 +1,7 @@
 export const messages = {
  en: {
+  bossChoice:'Colossus · Level 2',bossTitle:'COLOSSUS',bossSub:'Read the landing. Find your shot.',bossObjective:'Watch the marked landing. Hit grounded Colossus four times; shots pass under jumps. Guardian has 3 HP and 3s protection after contact. No deadline.',bossCanvas:'Colossus arena: a five-stop jumping gorilla. Follow the marked next landing; shoot the visible grounded body and avoid contact.',bossFooter:'Colossus M2 · bounded review build',bossRestartConfirm:'Restart Colossus? Both health bars and the jump sequence will reset.',bossVictory:'Colossus defeated.',bossDefeat:'Guardian destroyed.',bossVictoryText:'Colossus is defeated. Replay or leave the level.',bossDefeatText:'Guardian lost all three HP. Watch the next landing and retry.',tankHealth:'GUARDIAN',bossHealth:'COLOSSUS',bossAirborne:'Airborne · shots pass under',bossGrounded:'Grounded · vulnerable',bossProtected:'Protected · keep moving',bossNext:'Next: {next}',bossNextShort:'NEXT',bossHitStatus:'Colossus hit. {boss} HP remaining.',tankHitStatus:'Guardian hit. {tank} HP remaining. Protected for three seconds.',bossLandingStatus:'Colossus landed. Next: {next}.',stageintact:'Intact',stagefatigued:'Fatigued',stagewounded:'Wounded',stagedefeated:'Defeated',stopUL:'upper left',stopUR:'upper right',stopLR:'lower right',stopLL:'lower left',stopC:'center',
+
   scenarios:'Choose an exercise',rangeChoice:'Guardian range',missionChoice:'Breakthrough · Level 1',missionTitle:'BREAKTHROUGH',missionSub:'Open a route for the transport.',
   missionObjective:'Open both upper brick cells for the transport. Clear the lower brick column too for a shorter route. Each shot removes one cell; steel stays. Park the whole truck in the refuge before 90 seconds.',
   missionStart:'Start mission',timeLeft:'SECONDS LEFT',waiting:'Waiting · route blocked',evacuating:'Route open · evacuating',evacCue:'Route open. The transport is evacuating.',
@@ -25,6 +27,8 @@ export const messages = {
   fullscreen:'Focus range',exitFocus:'Exit focus',comparison:'Cardinal facing comparison',review:'LOCAL POC / NO CAMPAIGN',
  },
  'zh-TW': {
+  bossChoice:'巨獸 · 第二關',bossTitle:'巨獸',bossSub:'觀察落點，把握射擊時機。',bossObjective:'命中四次擊敗巨獸。注意標示落點，落地時射擊；跳躍時砲彈會從下方通過。守護者有三點生命，接觸受傷後保護三秒。沒有時限。',bossCanvas:'巨獸競技場：大猩猩依序跳向五個位置。注意下一個落點，射擊落地的身體並避開接觸。',bossFooter:'巨獸 M2 · 限定範圍審查版本',bossRestartConfirm:'重新開始巨獸關卡？雙方生命與跳躍順序將重設。',bossVictory:'巨獸已擊敗。',bossDefeat:'守護者已被摧毀。',bossVictoryText:'已擊敗巨獸。可重玩或離開關卡。',bossDefeatText:'守護者失去全部三點生命。注意下一個落點後重試。',tankHealth:'守護者',bossHealth:'巨獸',bossAirborne:'跳躍中 · 砲彈穿過下方',bossGrounded:'落地中 · 可命中',bossProtected:'保護中 · 可繼續移動',bossNext:'下一站：{next}',bossNextShort:'下一站',bossHitStatus:'命中巨獸，剩餘 {boss} 點生命。',tankHitStatus:'守護者受傷，剩餘 {tank} 點生命，保護三秒。',bossLandingStatus:'巨獸已落地。下一站：{next}。',stageintact:'完整',stagefatigued:'疲倦',stagewounded:'受傷',stagedefeated:'已擊敗',stopUL:'左上',stopUR:'右上',stopLR:'右下',stopLL:'左下',stopC:'中央',
+
   scenarios:'選擇練習',rangeChoice:'守護者測試場',missionChoice:'突破 · 第一關',missionTitle:'突破',missionSub:'為運輸車開闢完整撤離路線。',
   missionObjective:'打開上方兩格磚牆，讓運輸車出發。再清除下方磚牆直列，可縮短路程。每發砲彈只摧毀一格，鋼牆不會損壞。請在 90 秒內讓整輛車停入安全區。',
   missionStart:'開始任務',timeLeft:'剩餘秒數',waiting:'等待中 · 路線受阻',evacuating:'路線暢通 · 正在撤離',evacCue:'路線已暢通，運輸車開始撤離。',
