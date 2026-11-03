@@ -2,6 +2,12 @@
 
 A bounded browser prototype with no external runtime dependencies. Guardian and Breakthrough R3 are accepted; Colossus M2 is delivered for **creative-director Confirm & Close**. Guardian range remains the default scene. No public deployment or production-art approval.
 
+## Colossus M2 accepted presentation
+
+**[Download corrected M2 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/fix/m2-presentation-m3-offer/artifacts/Armorheart-Colossus-M2-Final.zip)**. M2 is creatively accepted; this authorized correction removes the battlefield Next label and separate landing ellipse while keeping its natural shadow and all gameplay/art. [Play guide](docs/PLAY_M2_FINAL.md) · [before/after and fresh regression evidence](evidence/m2-final/README.md) · [acceptance record](docs/decisions/M2_FINAL_PRESENTATION.md).
+
+The known safe-lane win is an accepted M2 balance limitation. Stage3 Interception remains planning/Offer only. Earlier M2 build/evidence follow for history.
+
 ## Colossus M2 review build
 
 **[Download playable M2 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/colossus-m2/artifacts/Armorheart-Colossus-M2.zip)**. Choose **Colossus · Level 2**. Four-HP natural gorilla, genuine directional/registered poses, five-stop jumps, three-HP Guardian, grounded shots/contact and protection; no walls or timer. [Play guide](docs/PLAY_M2.md) · [QA and balance measurements](docs/QA_M2.md) · [live recordings and desktop/mobile evidence](evidence/m2/README.md) · [continuity](PROJECT_STATE.md).
