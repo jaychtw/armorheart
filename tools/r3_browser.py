@@ -144,5 +144,5 @@ with sync_playwright() as p:
   c=b.new_context();before=len(requests);pg=ready(c,True);play(pg,shortcut,prefix='offline-'+('shortcut' if shortcut else 'bypass'),offline=True)
   net=[u for u in requests[before:] if u.startswith(('http:','https:'))];check('offline no subsequent HTTP '+str(shortcut),net==['http://127.0.0.1:8080/preview/guardian.html'],net);c.close()
  check('no JavaScript errors',not errors,errors);check('no external runtime network',not [u for u in requests if u.startswith(('http:','https:')) and not u.startswith('http://127.0.0.1:8080')]);b.close()
-(OUT/'browser-results.json').write_text(json.dumps(dict(date='2026-11-03 Asia/Taipei',passed=len(results),failed=0,tests=results,playthroughs=plays,errors=errors,independent_human_playtest='Not performed',physical_phone='Not performed',other_browser_engines='Not performed'),indent=2,ensure_ascii=False)+'\n')
+(OUT/'browser-results.json').write_text(json.dumps(dict(date=os.environ.get('EVIDENCE_DATE','2026-11-03 Asia/Taipei'),passed=len(results),failed=0,tests=results,playthroughs=plays,errors=errors,independent_human_playtest='Not performed',physical_phone='Not performed',other_browser_engines='Not performed'),indent=2,ensure_ascii=False)+'\n')
 print(json.dumps(dict(passed=len(results),failed=0)))

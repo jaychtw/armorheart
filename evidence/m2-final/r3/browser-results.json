@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03 Asia/Taipei",
+  "date": "2026-11-04 Asia/Taipei",
   "passed": 122,
   "failed": 0,
   "tests": [
@@ -1801,5 +1801,6 @@
   "errors": [],
   "independent_human_playtest": "Not performed",
   "physical_phone": "Not performed",
-  "other_browser_engines": "Not performed"
+  "other_browser_engines": "Not performed",
+  "date_note": "This fresh correction run originally inherited the legacy harness fixed 2026-11-03 label; corrected to the actual client execution date. Assertions/results unchanged."
 }

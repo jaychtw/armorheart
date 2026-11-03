@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_commit": "a2d7778cafc27de240f683d864176c18d39d1164",
+  "method": "clean git archive of committed selected-model sources; rerun three isolated Node calculations and compare four JSON reports byte-for-byte; same installed Node, not independent player/browser validation",
+  "node": "v24.19.0",
+  "identical_reports": {
+    "geometry-check.json": "455d4fecfc0f177989cbdd8ab19bb4618f17d92bf1b59b47e11026002c40a4d6",
+    "parameter-assessment.json": "1e825e3bfe05078676d9af5c46e86689820a0dff756fe462612bf7a29e43a4f5",
+    "combat-assessment.json": "9c42f6648cdc536ce0575dbc2d9ada3223f624a38dc47d4045216ba38df0732d",
+    "volley-escape.json": "2ad23eaebbd06c79b161f45bda862a916a36e62d7f0afa8b51731480222ac9ea"
+  }
+}

@@ -1,6 +1,10 @@
 # Armorheart — Guardian / Breakthrough / Colossus
 
-A bounded browser prototype with no external runtime dependencies. Guardian and Breakthrough R3 are accepted; Colossus M2 is delivered for **creative-director Confirm & Close**. Guardian range remains the default scene. No public deployment or production-art approval.
+A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3 and Colossus M2 are creatively accepted; the final M2 presentation correction is complete. Guardian range remains the default scene. No public deployment or production-art approval.
+
+## Interception M3 — Offer only
+
+[Bounded implementation Offer](docs/offers/INTERCEPTION_M3_OFFER.md) · [peninsula diagram](planning/interception-m3/evidence/map.png) · [continuous-turn recording and assessment](planning/interception-m3/README.md). Clockwise offshore route resolves fixed starboard fire; conservative turn holds are proposed. The ship shown is a technical scale proxy; the owner's reference is still needed for art matching. **Stage3 gameplay is not implemented or authorized.**
 
 ## Colossus M2 accepted presentation
 
