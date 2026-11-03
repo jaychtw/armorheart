@@ -1,5 +1,7 @@
 # Breakthrough R3 — creative-director review
 
+Historical review sheet: the owner accepted the reviewed gameplay/presentation except barrel occlusion/truck outline, and accepted pass-through. Those two visual corrections are now delivered; see [current QA and concise evidence](QA_R3_VISUAL.md). The pending statuses below record the prior delivery, not the latest owner decision.
+
 **Pending Confirm & Close.** The bounded implementation is complete; these technical passes do not record human acceptance. [Playable ZIP](../artifacts/Armorheart-Breakthrough-R3.zip) · [play guide](PLAY_R3.md) · [QA](QA_R3.md) · [evidence](../evidence/r3/README.md).
 
 Begin with the original [truck/four headings](../evidence/r3/transport-four-facings.png), [desktop departure](../evidence/r3/keyboard-shortcut-departure.png), [phone pivot](../evidence/r3/touch-bypass-pivot.png), and [320px Traditional Chinese](../evidence/r3/viewport-320x740-zh-TW.png). Then play Breakthrough and return to the Guardian range to compare the accepted baseline.

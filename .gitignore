@@ -11,3 +11,11 @@ evidence/m1/r2-regression/tmp/
 
 evidence/r3/r2-regression/tmp/
 !artifacts/Armorheart-Breakthrough-R3.zip
+
+evidence/r3-visual/tmp/
+evidence/r3-visual/r2-regression/tmp/
+!artifacts/Armorheart-Breakthrough-R3-Visual.zip
+
+# Retain focused correction screenshots; prior full galleries remain in historical evidence.
+evidence/r3-visual/r3-regression/*.png
+evidence/r3-visual/r2-regression/*.png

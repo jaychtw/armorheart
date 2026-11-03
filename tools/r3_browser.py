@@ -4,7 +4,7 @@ Loopback server :8080 required. Playwright controls time, not simulation state.
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import json,time,os,math
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/r3';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/r3');OUT.mkdir(parents=True,exist_ok=True)
 results=[];errors=[];requests=[];plays=[]
 def check(name,ok,detail=None):
  results.append(dict(name=name,passed=bool(ok),detail=detail))

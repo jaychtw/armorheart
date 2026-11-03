@@ -1,8 +1,14 @@
 # Armorheart — Guardian / Breakthrough R3
 
-A bounded browser prototype with no external runtime dependencies. Accepted Guardian R2 remains the default proving ground; Breakthrough R3 is delivered for **creative-director Confirm & Close**, with creative acceptance pending. No deployment or production-art approval.
+A bounded browser prototype with no external runtime dependencies. The creative director accepts the reviewed R3 gameplay/presentation except two visual defects; their corrections are delivered for **final Confirm & Close**. Accepted Guardian range remains the default scene. No deployment or production-art approval.
 
-## Breakthrough R3 review build
+## R3 visual completion
+
+**[Download corrected playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/fix/r3-visual-completion/artifacts/Armorheart-Breakthrough-R3-Visual.zip)**. Barrel mounting now renders beneath the fixed turret with the same recoil; the truck departure rectangle is removed. [Play guide](docs/PLAY_R3_VISUAL.md) · [four-facing screenshots and short recording](evidence/r3-visual/README.md) · [QA](docs/QA_R3_VISUAL.md) · [current state](PROJECT_STATE.md).
+
+Gameplay, source artwork, both evacuation solutions, Guardian mechanics and UI/offline framework are unchanged. Tank/truck pass-through is explicitly accepted as a noncritical limitation for this milestone; no new collision or avoidance system is added. Physical-phone and independent first-time-player tests were not performed in this correction task. Previous builds below are preserved for history.
+
+## Previously reviewed Breakthrough R3 build
 
 **[Download R3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/breakthrough-r3/artifacts/Armorheart-Breakthrough-R3.zip)**. Extract and choose **Breakthrough · Level 1** in the bundled HTML. [Play guide](docs/PLAY_R3.md) · [Review sheet](docs/R3_REVIEW.md) · [QA and remaining human gates](docs/QA_R3.md) · [desktop/mobile evidence](evidence/r3/README.md) · [current continuity](PROJECT_STATE.md).
 

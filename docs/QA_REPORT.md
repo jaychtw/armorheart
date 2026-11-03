@@ -1,6 +1,6 @@
 # Guardian R2 — verification and owner review
 
-Current milestone: [Breakthrough R3 QA](QA_R3.md). This R2 report preserves its delivery-time evidence/status; owner subsequently accepted R2, as recorded in PROJECT_STATE and the M1 assignment.
+Current milestone: [R3 visual completion QA](QA_R3_VISUAL.md). This R2 report preserves its delivery-time evidence/status; owner subsequently accepted R2, as recorded in PROJECT_STATE and the M1 assignment.
 
 2026-11-03 (Asia/Taipei). **R2 technical delivery for Confirm & Close; new visual acceptance pending.** [Owner authorization](decisions/R2_AUTHORIZATION.md), [implementation decisions](decisions/R2_IMPLEMENTATION.md), [preflight](decisions/R2_PREFLIGHT.md). Prior POC report is preserved in [QA_REPORT_POC.md](QA_REPORT_POC.md); prior evidence in `evidence/` is historical, current evidence in `evidence/r2/`.
 

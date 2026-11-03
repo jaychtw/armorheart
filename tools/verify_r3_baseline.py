@@ -1,4 +1,6 @@
-"""Bind R3 evidence to accepted engine/assets/Guardian renderer and approved map."""
+"""Historical pre-correction R3 proof; current build uses verify_visual_baseline.py.
+Run this historical draw-identity check at the original R3 delivery revision.
+"""
 from pathlib import Path
 import subprocess,hashlib,json
 ROOT=Path(__file__).resolve().parents[1];BASE='bfd228359fbf56f03f921cb3d3439c7c26ed5c79';PLAN='026fb7a68b6a2e6ae18c11e38fee6a75e8d9c931'

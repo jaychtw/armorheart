@@ -1,5 +1,7 @@
 # Breakthrough R3 — technical delivery for Confirm & Close
 
+Historical report for the reviewed baseline. The creative director subsequently accepted its reviewed gameplay/presentation except two visual defects and accepted tank/truck pass-through as a noncritical limitation. See [current visual-completion QA](QA_R3_VISUAL.md) for the authorized corrections and final review.
+
 2026-11-03, Asia/Taipei. **Bounded R3 implementation delivered for creative-director review; creative acceptance pending.** [Authorization](decisions/R3_AUTHORIZATION.md) · [approved geometry](offers/BREAKTHROUGH_R3_VERIFIED_GEOMETRY.md) · [play instructions](PLAY_R3.md) · [review sheet](R3_REVIEW.md) · [evidence index](../evidence/r3/README.md).
 
 ## Result and preserved baseline
