@@ -52,6 +52,36 @@
     625,
     600
   ],
+  "safe_stationary_lane": {
+    "station": [
+      560,
+      704
+    ],
+    "safe_at_all_grounded_stops": true,
+    "shots": [
+      {
+        "emission": 3.25,
+        "arrivalUpperBound": 4.15788144603934,
+        "stop": "UR"
+      },
+      {
+        "emission": 4.25,
+        "arrivalUpperBound": 5.15788144603934,
+        "stop": "UR"
+      },
+      {
+        "emission": 6.45,
+        "arrivalUpperBound": 6.824548112706007,
+        "stop": "LR"
+      },
+      {
+        "emission": 7.45,
+        "arrivalUpperBound": 7.824548112706007,
+        "stop": "LR"
+      }
+    ],
+    "status": "balance characteristic needing owner review; do not silently add attacks or shorten pause"
+  },
   "default_hp_stage_mapping": {
     "0": "Defeated",
     "1": "Wounded",

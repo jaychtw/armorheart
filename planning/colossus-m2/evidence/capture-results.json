@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "passed": 29,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "original master has actual transparent exterior and visible body",
+      "passed": true,
+      "detail": {
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.40957484693319496,
+        "bounds_alpha8": [
+          50,
+          11,
+          1206,
+          1244
+        ],
+        "bounds_alpha200": [
+          52,
+          12,
+          1204,
+          1243
+        ],
+        "sha256": "2fdd6d1d37f7ebb2976dea7d6cb64ea9ff4333e4d57153a62e6522e25fc555ee",
+        "pose_concepts": {
+          "size": [
+            1536,
+            1024
+          ],
+          "transparent_gutter_samples": [
+            0,
+            0,
+            0
+          ],
+          "cells": [
+            {
+              "name": "idle",
+              "alpha8_bounds": [
+                39,
+                23,
+                483,
+                495
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            },
+            {
+              "name": "airborne",
+              "alpha8_bounds": [
+                25,
+                14,
+                487,
+                379
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            },
+            {
+              "name": "landing",
+              "alpha8_bounds": [
+                10,
+                103,
+                483,
+                471
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            },
+            {
+              "name": "hit",
+              "alpha8_bounds": [
+                54,
+                14,
+                479,
+                496
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            },
+            {
+              "name": "fatigued",
+              "alpha8_bounds": [
+                30,
+                33,
+                470,
+                493
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            },
+            {
+              "name": "wounded",
+              "alpha8_bounds": [
+                47,
+                25,
+                461,
+                498
+              ],
+              "status": "unregistered concept, not a finished sprite"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "analytical shot witness uses opaque visible torso point",
+      "passed": true,
+      "detail": {
+        "point": [
+          625,
+          600
+        ],
+        "rgba": [
+          80,
+          59,
+          50,
+          253
+        ]
+      }
+    },
+    {
+      "name": "accepted runtime/assets/tests/pins and playable ZIPs unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 same actual accepted arena size",
+      "passed": true,
+      "detail": {
+        "accepted": 278.40625,
+        "study": 278.390625,
+        "dpr": 2
+      }
+    },
+    {
+      "name": "320 no horizontal assessment overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 ground registration upper-left",
+      "passed": true,
+      "detail": {
+        "view": "upper-left",
+        "pose": "idle",
+        "anchor": [
+          208,
+          288
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "320 ground registration upper-right",
+      "passed": true,
+      "detail": {
+        "view": "upper-right",
+        "pose": "idle",
+        "anchor": [
+          560,
+          288
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "320 ground registration lower-right",
+      "passed": true,
+      "detail": {
+        "view": "lower-right",
+        "pose": "idle",
+        "anchor": [
+          560,
+          544
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "320 ground registration lower-left",
+      "passed": true,
+      "detail": {
+        "view": "lower-left",
+        "pose": "idle",
+        "anchor": [
+          208,
+          544
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "320 ground registration center",
+      "passed": true,
+      "detail": {
+        "view": "center",
+        "pose": "idle",
+        "anchor": [
+          384,
+          416
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "hop registration sample 0",
+      "passed": true,
+      "detail": {
+        "view": "hop",
+        "pose": "idle",
+        "anchor": [
+          208,
+          288
+        ],
+        "height": 0,
+        "width": 557
+      }
+    },
+    {
+      "name": "hop registration sample 0.25",
+      "passed": true,
+      "detail": {
+        "view": "hop",
+        "pose": "idle",
+        "anchor": [
+          296,
+          288
+        ],
+        "height": 45.25483399593904,
+        "width": 557
+      }
+    },
+    {
+      "name": "hop registration sample 0.5",
+      "passed": true,
+      "detail": {
+        "view": "hop",
+        "pose": "idle",
+        "anchor": [
+          384,
+          288
+        ],
+        "height": 64,
+        "width": 557
+      }
+    },
+    {
+      "name": "hop registration sample 0.75",
+      "passed": true,
+      "detail": {
+        "view": "hop",
+        "pose": "idle",
+        "anchor": [
+          472,
+          288
+        ],
+        "height": 45.254833995939045,
+        "width": 557
+      }
+    },
+    {
+      "name": "hop registration sample 1",
+      "passed": true,
+      "detail": {
+        "view": "hop",
+        "pose": "idle",
+        "anchor": [
+          560,
+          288
+        ],
+        "height": 7.83773951454306e-15,
+        "width": 557
+      }
+    },
+    {
+      "name": "390 same actual accepted arena size",
+      "passed": true,
+      "detail": {
+        "accepted": 342.8125,
+        "study": 342.796875,
+        "dpr": 2
+      }
+    },
+    {
+      "name": "390 no horizontal assessment overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell idle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell airborne",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell landing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell hit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell fatigued",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concept cell wounded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 same actual accepted arena size",
+      "passed": true,
+      "detail": {
+        "accepted": 640,
+        "study": 640,
+        "dpr": 1
+      }
+    },
+    {
+      "name": "768 no horizontal assessment overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 same actual accepted arena size",
+      "passed": true,
+      "detail": {
+        "accepted": 640,
+        "study": 640,
+        "dpr": 1
+      }
+    },
+    {
+      "name": "1440 no horizontal assessment overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no assessment JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external assessment runtime requests",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scales": [
+    {
+      "width": 320,
+      "height": 740,
+      "dpr": 2,
+      "canvas_css": 278.390625,
+      "accepted_canvas_css": 278.40625,
+      "guardian_hull_css": 33.71136474609375,
+      "painted_boss_width_css": 85.54480661881978,
+      "approx_face_landmark_width_css": 13.320125598086124,
+      "face_note": "approx source180px landmark, not a readability pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "canvas_css": 342.796875,
+      "accepted_canvas_css": 342.8125,
+      "guardian_hull_css": 41.51055908203125,
+      "painted_boss_width_css": 105.33577551834132,
+      "approx_face_landmark_width_css": 16.401764354066987,
+      "face_note": "approx source180px landmark, not a readability pass"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "dpr": 1,
+      "canvas_css": 640,
+      "accepted_canvas_css": 640,
+      "guardian_hull_css": 77.5,
+      "painted_boss_width_css": 196.66135034556086,
+      "approx_face_landmark_width_css": 30.62200956937799,
+      "face_note": "approx source180px landmark, not a readability pass"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1,
+      "canvas_css": 640,
+      "accepted_canvas_css": 640,
+      "guardian_hull_css": 77.5,
+      "painted_boss_width_css": 196.66135034556086,
+      "approx_face_landmark_width_css": 30.62200956937799,
+      "face_note": "approx source180px landmark, not a readability pass"
+    }
+  ],
+  "errors": [],
+  "scope": "isolated art/layout/registration and planning checks, not M2 gameplay or human acceptance",
+  "not_performed": [
+    "M2 combat/browser playthrough",
+    "physical phone",
+    "independent first-time-player",
+    "four-facing/side-back animation",
+    "product M2 bilingual/a11y/offline acceptance"
+  ]
+}

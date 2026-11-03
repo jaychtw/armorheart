@@ -10,9 +10,13 @@ Tank–truck pass-through is an explicitly accepted noncritical limitation for B
 
 Original Guardian and historical M1/R3 revisions remain recoverable through Git; accepted Guardian movement/firing/recoil and R3 maze/truck are not to be changed by Colossus planning. The project-pinned UGDS 1.0.0 and AICP 1.2.1 remain unchanged; applicable shared AI-native guidance may be consulted without silently changing pins.
 
-## Next authorized action
+## Colossus Offer delivered — current decision
 
-Prepare a bounded **Colossus visual-direction and technical feasibility Offer** per [Colossus assignment](docs/COLOSSUS_M2_OFFER_REQUEST.md) (see actual file `docs/COLOSSUS_M2_OFFER_REQUEST.md`). No boss implementation, merge into main, deploy, public publication or paid resources authorized. The user-supplied KONG-01–04 concept sheet is a creative reference in the conversation and must be preserved accurately in the offer; it has not been committed as a runtime asset.
+[Bounded M2 implementation Offer](docs/offers/COLOSSUS_M2_OFFER.md) and [isolated original-art/scale assessment](planning/colossus-m2/README.md) are ready for owner review. Direction preserves KONG-01 natural identity with KONG-07/08 elevated perspective/staging, simplified for Armorheart. Both inline reference sheets were visible; original JPEG bytes are not claimed as repository/runtime assets.
+
+Original transparent master, editable mixed SVG composition and six pose concepts are preserved. Actual320/390/768/1440 assessment captures match accepted R3 canvas sizes;29 isolated checks passed. Candidate is not creatively accepted, fully vector, a limb rig, registered atlas or four-view/jump-ready production art. The proposed five-stop arena/no-wall encounter and fixed-turret timing were assessed analytically; no M2 combat or Level2 game is implemented. Proposed contact/airborne/target boundaries and art gate require execution approval as set out in the Offer. Current runtime/assets/tests/ZIPs/GDD/standards remain unchanged from accepted R3; prior gameplay results are historical and were not rerun as M2 tests.
+
+Next safe action: owner reviews/authorizes or revises the Offer. Full implementation remains unapproved. Do not silently enlarge this isolated assessment into a boss mission. Planning branch `planning/colossus-m2-offer` contains the preserved sources/evidence and safe checkpoints; prior named geometry-draft stash remains untouched.
 
 ## Continued safety
 
