@@ -1,6 +1,12 @@
-# Armorheart — Guardian / Breakthrough R3
+# Armorheart — Guardian / Breakthrough / Colossus
 
-A bounded browser prototype with no external runtime dependencies. The creative director accepts the reviewed R3 gameplay/presentation except two visual defects; their corrections are delivered for **final Confirm & Close**. Accepted Guardian range remains the default scene. No deployment or production-art approval.
+A bounded browser prototype with no external runtime dependencies. Guardian and Breakthrough R3 are accepted; Colossus M2 is delivered for **creative-director Confirm & Close**. Guardian range remains the default scene. No public deployment or production-art approval.
+
+## Colossus M2 review build
+
+**[Download playable M2 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/colossus-m2/artifacts/Armorheart-Colossus-M2.zip)**. Choose **Colossus · Level 2**. Four-HP natural gorilla, genuine directional/registered poses, five-stop jumps, three-HP Guardian, grounded shots/contact and protection; no walls or timer. [Play guide](docs/PLAY_M2.md) · [QA and balance measurements](docs/QA_M2.md) · [live recordings and desktop/mobile evidence](evidence/m2/README.md) · [continuity](PROJECT_STATE.md).
+
+Known balance limitation: after positioning/aiming, held Fire wins in about7.4–7.6 seconds without damage or further movement. Approved timing/HP/sequence remain unchanged. Physical-phone and independent first-time-player tests were not performed. Earlier ZIPs and evidence are preserved below.
 
 ## R3 visual completion
 
@@ -24,7 +30,7 @@ The historical M1 build uses one crowd, two alternative lower gates and an offse
 
 **[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
-Download `preview/guardian.html`. This current single file embeds the R3 code, CSS, Guardian layers and transport artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
+Download `preview/guardian.html`. This current single file embeds all three scenes, CSS, Guardian layers, transport and Colossus artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
 
@@ -38,7 +44,7 @@ Enter the range, move with arrows or WASD, and hold Space to fire. On touch, hol
 
 ## Reproduce assets, checks and offline artifact
 
-Python 3 standard library and Node >=20 are sufficient; no `npm install` is needed.
+Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M2 QA](docs/QA_M2.md) for the full reproduction commands.
 
 ```sh
 python3 tools/export_guardian.py

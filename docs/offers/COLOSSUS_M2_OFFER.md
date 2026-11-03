@@ -1,5 +1,7 @@
 # Colossus M2 — bounded implementation Offer
 
+Historical Offer accepted by the owner; [execution authorization/refinements](../decisions/M2_AUTHORIZATION.md) and [delivered M2 QA](../QA_M2.md) govern the current milestone. Original proposal text below is preserved.
+
 2026-11-03, Asia/Taipei. **Offer for review; execution is not authorized.** [Assignment67bf862](../COLOSSUS_M2_OFFER_REQUEST.md) · [art/scale evidence](../../planning/colossus-m2/README.md) · [interactive isolated study](../../planning/colossus-m2/lab.html) · [exact proposed arena](../../planning/colossus-m2/arena.json) / [diagram](../../planning/colossus-m2/arena.svg).
 
 ## Commitment offered

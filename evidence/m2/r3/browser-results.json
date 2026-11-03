@@ -1,0 +1,1805 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "passed": 122,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "entry does not spend timer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual SVG body fits and fills declared envelope",
+      "passed": true,
+      "detail": {
+        "source": [
+          256,
+          112
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          256,
+          112
+        ],
+        "opaquePixels": 22587,
+        "worldScale": 0.5,
+        "body": [
+          128,
+          56
+        ],
+        "padding": 4,
+        "rotationCornerRadius": 75.15317691222374
+      }
+    },
+    {
+      "name": "Chromium production planner mask 0",
+      "passed": true,
+      "detail": {
+        "mask": 0,
+        "removed": [],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 1",
+      "passed": true,
+      "detail": {
+        "mask": 1,
+        "removed": [
+          "U0"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 2",
+      "passed": true,
+      "detail": {
+        "mask": 2,
+        "removed": [
+          "U1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 3",
+      "passed": true,
+      "detail": {
+        "mask": 3,
+        "removed": [
+          "U0",
+          "U1"
+        ],
+        "reachable": true,
+        "seconds": 22.083333333333325,
+        "distance": 976,
+        "turns": 5,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 4",
+      "passed": true,
+      "detail": {
+        "mask": 4,
+        "removed": [
+          "L0"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 5",
+      "passed": true,
+      "detail": {
+        "mask": 5,
+        "removed": [
+          "U0",
+          "L0"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 6",
+      "passed": true,
+      "detail": {
+        "mask": 6,
+        "removed": [
+          "U1",
+          "L0"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 7",
+      "passed": true,
+      "detail": {
+        "mask": 7,
+        "removed": [
+          "U0",
+          "U1",
+          "L0"
+        ],
+        "reachable": true,
+        "seconds": 22.083333333333325,
+        "distance": 976,
+        "turns": 5,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 8",
+      "passed": true,
+      "detail": {
+        "mask": 8,
+        "removed": [
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 9",
+      "passed": true,
+      "detail": {
+        "mask": 9,
+        "removed": [
+          "U0",
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 10",
+      "passed": true,
+      "detail": {
+        "mask": 10,
+        "removed": [
+          "U1",
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 11",
+      "passed": true,
+      "detail": {
+        "mask": 11,
+        "removed": [
+          "U0",
+          "U1",
+          "L1"
+        ],
+        "reachable": true,
+        "seconds": 22.083333333333325,
+        "distance": 976,
+        "turns": 5,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 12",
+      "passed": true,
+      "detail": {
+        "mask": 12,
+        "removed": [
+          "L0",
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 13",
+      "passed": true,
+      "detail": {
+        "mask": 13,
+        "removed": [
+          "U0",
+          "L0",
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 14",
+      "passed": true,
+      "detail": {
+        "mask": 14,
+        "removed": [
+          "U1",
+          "L0",
+          "L1"
+        ],
+        "reachable": false,
+        "seconds": null,
+        "distance": 0,
+        "turns": 0,
+        "clear": true
+      }
+    },
+    {
+      "name": "Chromium production planner mask 15",
+      "passed": true,
+      "detail": {
+        "mask": 15,
+        "removed": [
+          "U0",
+          "U1",
+          "L0",
+          "L1"
+        ],
+        "reachable": true,
+        "seconds": 14.716666666666674,
+        "distance": 656,
+        "turns": 3,
+        "clear": true
+      }
+    },
+    {
+      "name": "spawn fire hits steel without route or damage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes timer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume rebases real clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simulated hidden lifecycle pauses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exit confirmation pauses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cancel exit preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-bypass one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-bypass correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 2,
+        "destroyed": 2
+      }
+    },
+    {
+      "name": "keyboard-bypass localized departure cue",
+      "passed": true,
+      "detail": "Route open. The transport is evacuating."
+    },
+    {
+      "name": "keyboard-bypass shortest route matches approved cost",
+      "passed": true,
+      "detail": 22.083333333333325
+    },
+    {
+      "name": "keyboard-bypass live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes in-progress truck pivot and timer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume pivot has no catch-up jump",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-bypass success before deadline",
+      "passed": true,
+      "detail": 28.213333333332002
+    },
+    {
+      "name": "keyboard-bypass full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "keyboard-bypass all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 448,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 9.826000000000008
+          },
+          {
+            "pose": {
+              "x": 448,
+              "y": 400,
+              "heading": 0
+            },
+            "kind": "left",
+            "elapsed": 16.241999999999987
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 400,
+              "heading": 3
+            },
+            "kind": "right",
+            "elapsed": 19.84199999999959
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 26.241999999998885
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 27.9379999999987
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyboard-bypass clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-shortcut one lower cell only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-shortcut one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-shortcut correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 4,
+        "destroyed": 4
+      }
+    },
+    {
+      "name": "keyboard-shortcut localized departure cue",
+      "passed": true,
+      "detail": "路線已暢通，運輸車開始撤離。"
+    },
+    {
+      "name": "keyboard-shortcut shortest route matches approved cost",
+      "passed": true,
+      "detail": 14.716666666666674
+    },
+    {
+      "name": "keyboard-shortcut live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-shortcut success before deadline",
+      "passed": true,
+      "detail": 22.02266666666601
+    },
+    {
+      "name": "keyboard-shortcut full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "keyboard-shortcut all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 7.706000000000007
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 19.993999999999573
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 21.705999999999385
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyboard-shortcut clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uncapped real-time visible-frame timeout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timeout is terminal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timeout retry resets map and clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed exit returns range entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-bypass one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-bypass correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 2,
+        "destroyed": 2
+      }
+    },
+    {
+      "name": "touch-bypass localized departure cue",
+      "passed": true,
+      "detail": "Route open. The transport is evacuating."
+    },
+    {
+      "name": "touch-bypass shortest route matches approved cost",
+      "passed": true,
+      "detail": 22.083333333333325
+    },
+    {
+      "name": "touch-bypass live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-bypass success before deadline",
+      "passed": true,
+      "detail": 28.215333333332
+    },
+    {
+      "name": "touch-bypass full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "touch-bypass all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 448,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 9.828000000000008
+          },
+          {
+            "pose": {
+              "x": 448,
+              "y": 400,
+              "heading": 0
+            },
+            "kind": "left",
+            "elapsed": 16.227999999999987
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 400,
+              "heading": 3
+            },
+            "kind": "right",
+            "elapsed": 19.92399999999958
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 26.227999999998886
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 27.9239999999987
+          }
+        ]
+      }
+    },
+    {
+      "name": "touch-bypass clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-shortcut one lower cell only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-shortcut one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-shortcut correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 4,
+        "destroyed": 4
+      }
+    },
+    {
+      "name": "touch-shortcut localized departure cue",
+      "passed": true,
+      "detail": "路線已暢通，運輸車開始撤離。"
+    },
+    {
+      "name": "touch-shortcut shortest route matches approved cost",
+      "passed": true,
+      "detail": 14.716666666666674
+    },
+    {
+      "name": "touch-shortcut live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-shortcut success before deadline",
+      "passed": true,
+      "detail": 22.024666666666008
+    },
+    {
+      "name": "touch-shortcut full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "touch-shortcut all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 7.708000000000006
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 19.995999999999572
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 21.707999999999384
+          }
+        ]
+      }
+    },
+    {
+      "name": "touch-shortcut clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simultaneous touch moves and fires",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        162,
+        137,
+        94,
+        255
+      ]
+    },
+    {
+      "name": "320 en layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 en portrait Fire within viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        162,
+        137,
+        94,
+        255
+      ]
+    },
+    {
+      "name": "320 zh-TW layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 633.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 zh-TW portrait Fire within viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 633.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 en actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        154,
+        130,
+        89,
+        255
+      ]
+    },
+    {
+      "name": "390 en layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 705.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 en portrait Fire within viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 705.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        154,
+        130,
+        89,
+        255
+      ]
+    },
+    {
+      "name": "390 zh-TW layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 706.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 zh-TW portrait Fire within viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 706.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768 en actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "768 en layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 932.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "768 zh-TW actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "768 zh-TW layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 en actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "1440 en layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 808.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "1440 zh-TW layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "844 en actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "844 en layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 760.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "844 zh-TW actual cell rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "844 zh-TW layout targets reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "offline-bypass one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-bypass correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 2,
+        "destroyed": 2
+      }
+    },
+    {
+      "name": "offline-bypass localized departure cue",
+      "passed": true,
+      "detail": "Route open. The transport is evacuating."
+    },
+    {
+      "name": "offline-bypass shortest route matches approved cost",
+      "passed": true,
+      "detail": 22.083333333333325
+    },
+    {
+      "name": "offline-bypass live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-bypass success before deadline",
+      "passed": true,
+      "detail": 28.207333333332002
+    },
+    {
+      "name": "offline-bypass full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "offline-bypass all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 448,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 9.820000000000007
+          },
+          {
+            "pose": {
+              "x": 448,
+              "y": 400,
+              "heading": 0
+            },
+            "kind": "left",
+            "elapsed": 16.219999999999988
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 400,
+              "heading": 3
+            },
+            "kind": "right",
+            "elapsed": 19.93199999999958
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 26.219999999998887
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 27.9319999999987
+          }
+        ]
+      }
+    },
+    {
+      "name": "offline-bypass clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no subsequent HTTP False",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline-shortcut one lower cell only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-shortcut one upper cell does not release truck",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-shortcut correct cells and exact effective shots",
+      "passed": true,
+      "detail": {
+        "shots": 4,
+        "destroyed": 4
+      }
+    },
+    {
+      "name": "offline-shortcut localized departure cue",
+      "passed": true,
+      "detail": "Route open. The transport is evacuating."
+    },
+    {
+      "name": "offline-shortcut shortest route matches approved cost",
+      "passed": true,
+      "detail": 14.716666666666674
+    },
+    {
+      "name": "offline-shortcut live locale preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-shortcut success before deadline",
+      "passed": true,
+      "detail": 22.02666666666601
+    },
+    {
+      "name": "offline-shortcut full visible body north inside exit",
+      "passed": true,
+      "detail": {
+        "x": 352,
+        "y": 112,
+        "heading": 0,
+        "action": null
+      }
+    },
+    {
+      "name": "offline-shortcut all observed pivots have no visible wall overlap",
+      "passed": true,
+      "detail": {
+        "overlap": 0,
+        "turns": [
+          {
+            "pose": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 7.710000000000006
+          },
+          {
+            "pose": {
+              "x": 288,
+              "y": 112,
+              "heading": 0
+            },
+            "kind": "right",
+            "elapsed": 20.013999999999573
+          },
+          {
+            "pose": {
+              "x": 352,
+              "y": 112,
+              "heading": 1
+            },
+            "kind": "left",
+            "elapsed": 21.709999999999386
+          }
+        ]
+      }
+    },
+    {
+      "name": "offline-shortcut clean retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no subsequent HTTP True",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime network",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "keyboard-bypass",
+      "input": "keyboard",
+      "shortcut": false,
+      "offline": false,
+      "elapsed": 28.213333333332002,
+      "shots": 2,
+      "destroyed": 2,
+      "turns": [
+        {
+          "pose": {
+            "x": 448,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 9.826000000000008
+        },
+        {
+          "pose": {
+            "x": 448,
+            "y": 400,
+            "heading": 0
+          },
+          "kind": "left",
+          "elapsed": 16.241999999999987
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 400,
+            "heading": 3
+          },
+          "kind": "right",
+          "elapsed": 19.84199999999959
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 26.241999999998885
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 27.9379999999987
+        }
+      ]
+    },
+    {
+      "name": "keyboard-shortcut",
+      "input": "keyboard",
+      "shortcut": true,
+      "offline": false,
+      "elapsed": 22.02266666666601,
+      "shots": 4,
+      "destroyed": 4,
+      "turns": [
+        {
+          "pose": {
+            "x": 288,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 7.706000000000007
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 19.993999999999573
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 21.705999999999385
+        }
+      ]
+    },
+    {
+      "name": "touch-bypass",
+      "input": "CDP touch",
+      "shortcut": false,
+      "offline": false,
+      "elapsed": 28.215333333332,
+      "shots": 2,
+      "destroyed": 2,
+      "turns": [
+        {
+          "pose": {
+            "x": 448,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 9.828000000000008
+        },
+        {
+          "pose": {
+            "x": 448,
+            "y": 400,
+            "heading": 0
+          },
+          "kind": "left",
+          "elapsed": 16.227999999999987
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 400,
+            "heading": 3
+          },
+          "kind": "right",
+          "elapsed": 19.92399999999958
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 26.227999999998886
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 27.9239999999987
+        }
+      ]
+    },
+    {
+      "name": "touch-shortcut",
+      "input": "CDP touch",
+      "shortcut": true,
+      "offline": false,
+      "elapsed": 22.024666666666008,
+      "shots": 4,
+      "destroyed": 4,
+      "turns": [
+        {
+          "pose": {
+            "x": 288,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 7.708000000000006
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 19.995999999999572
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 21.707999999999384
+        }
+      ]
+    },
+    {
+      "name": "offline-bypass",
+      "input": "keyboard",
+      "shortcut": false,
+      "offline": true,
+      "elapsed": 28.207333333332002,
+      "shots": 2,
+      "destroyed": 2,
+      "turns": [
+        {
+          "pose": {
+            "x": 448,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 9.820000000000007
+        },
+        {
+          "pose": {
+            "x": 448,
+            "y": 400,
+            "heading": 0
+          },
+          "kind": "left",
+          "elapsed": 16.219999999999988
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 400,
+            "heading": 3
+          },
+          "kind": "right",
+          "elapsed": 19.93199999999958
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 26.219999999998887
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 27.9319999999987
+        }
+      ]
+    },
+    {
+      "name": "offline-shortcut",
+      "input": "keyboard",
+      "shortcut": true,
+      "offline": true,
+      "elapsed": 22.02666666666601,
+      "shots": 4,
+      "destroyed": 4,
+      "turns": [
+        {
+          "pose": {
+            "x": 288,
+            "y": 688,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 7.710000000000006
+        },
+        {
+          "pose": {
+            "x": 288,
+            "y": 112,
+            "heading": 0
+          },
+          "kind": "right",
+          "elapsed": 20.013999999999573
+        },
+        {
+          "pose": {
+            "x": 352,
+            "y": 112,
+            "heading": 1
+          },
+          "kind": "left",
+          "elapsed": 21.709999999999386
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "independent_human_playtest": "Not performed",
+  "physical_phone": "Not performed",
+  "other_browser_engines": "Not performed"
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "mode": "cycle",
+    "passed": true,
+    "frames": 975,
+    "real_seconds": 16.226414918899536,
+    "simulation_elapsed": 16.250000000000355,
+    "finishedAt": null,
+    "bossHP": 4,
+    "tankHP": 3,
+    "hits": [],
+    "tank": {
+      "x": 64,
+      "y": 704,
+      "facing": "up"
+    },
+    "method": "actual real-time compositor, no clock override/state mutation; CDP touch for safe lane"
+  },
+  {
+    "mode": "touch-safe",
+    "passed": true,
+    "frames": 443,
+    "real_seconds": 7.832974195480347,
+    "simulation_elapsed": 7.5999999999999766,
+    "finishedAt": 7.583996604166643,
+    "bossHP": 0,
+    "tankHP": 3,
+    "hits": [
+      {
+        "time": 4.149982999999989,
+        "hp": 3,
+        "stop": "UR",
+        "view": "south"
+      },
+      {
+        "time": 5.1499829999999855,
+        "hp": 2,
+        "stop": "UR",
+        "view": "south"
+      },
+      {
+        "time": 6.567670083333313,
+        "hp": 1,
+        "stop": "LR",
+        "view": "south"
+      },
+      {
+        "time": 7.583996604166643,
+        "hp": 0,
+        "stop": "LR",
+        "view": "west"
+      }
+    ],
+    "tank": {
+      "x": 565.8000000000021,
+      "y": 688.3999999999999,
+      "facing": "up"
+    },
+    "method": "actual real-time compositor, no clock override/state mutation; CDP touch for safe lane"
+  }
+]

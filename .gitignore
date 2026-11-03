@@ -26,3 +26,8 @@ evidence/m2/tmp/
 evidence/m2/guardian/tmp/
 evidence/m2/visual/tmp/
 !artifacts/Armorheart-Colossus-M2.zip
+
+# Fresh legacy regression reports retained; avoid duplicating prior screenshot galleries.
+evidence/m2/r3/*.png
+evidence/m2/guardian/*.png
+evidence/m2/visual/*.png
