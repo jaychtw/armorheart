@@ -1,4 +1,4 @@
-import {BREAKTHROUGH} from './maps/breakthrough.mjs';
+import {BREAKTHROUGH} from './map.mjs';
 const NAV_DIRECTIONS=[[0,-32],[-32,0],[32,0],[0,32]];
 const nodeKey=(x,y)=>`${x},${y}`;
 export function groupInsideExit(p,exit=BREAKTHROUGH.exit,r=BREAKTHROUGH.radius){

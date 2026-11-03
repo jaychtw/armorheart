@@ -15,3 +15,7 @@ R3 creative revision proposed on `plan/breakthrough-r3`: [granular maze / transp
 2026-11-03: bounded R3 geometry assessment verified on `plan/r3-geometry-verified`. [Canonical revised map/scope](docs/offers/BREAKTHROUGH_R3_VERIFIED_GEOMETRY.md) and [exact map/evidence](planning/r3-geometry/map.json): all 16 destruction states, 530,944 actual-engine sampled turns, continuous 192-facing-case coverage certificate bound 19 units; two-cell/five-pivot bypass versus four-cell/three-pivot shortcut. Current 384x768 corridor and frozen Guardian preserved. Accepted truck/granular directions retained; geometry ready for final R3 execution authorization, not implemented. M1/browser/human/production claims unchanged.
 
 2026-11-03: owner explicitly authorized bounded R3 implementation using verified map026fb7a. [Execution commitment](docs/decisions/R3_AUTHORIZATION.md). Active branch `dev/breakthrough-r3`; original Guardian frozen, source/art and new browser evidence pending. Stop at R3 Confirm & Close; no merge/deployment/publication.
+
+## R3 implementation checkpoint — 2026-11-03
+
+Approved exact map now wired into the mission with four individual one-hit brick cells, original 128×56 covered transport artwork, stable orientation-aware travel-time routing and clearance-checked pivots. Guardian engine unchanged. Current R3 unit suite: 34 passed; accepted R2 rule suite:24 passed; frozen M1 fixture:27 historical regression checks passed. Browser, actual-art footprint, packaging and creative review evidence still in progress. No claim of R3 creative acceptance.

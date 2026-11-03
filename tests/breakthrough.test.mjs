@@ -1,8 +1,9 @@
+// Historical M1 rules retained against its frozen scenario fixture; R3 has separate current-runtime tests.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createMission,refreshRoute,advanceMission} from '../src/breakthrough.mjs';
-import {buildNavigation,planRoute,crowdSegmentClear,groupInsideExit} from '../src/navigation.mjs';
-import {BREAKTHROUGH,CROWD_DOTS,missionWalls} from '../src/maps/breakthrough.mjs';
+import {createMission,refreshRoute,advanceMission} from './fixtures/m1/breakthrough.mjs';
+import {buildNavigation,planRoute,crowdSegmentClear,groupInsideExit} from './fixtures/m1/navigation.mjs';
+import {BREAKTHROUGH,CROWD_DOTS,missionWalls} from './fixtures/m1/map.mjs';
 import {step,canMove,VECTORS,hullBounds} from '../src/engine.mjs';
 const remove=(s,...ids)=>{s.walls=s.walls.filter(w=>!ids.includes(w.id));s.destroyed=3-s.walls.filter(w=>w.kind==='brick').length;return refreshRoute(s);};
 const pathLength=(p,path)=>path.reduce((sum,n)=>{const d=Math.hypot(n.x-p.x,n.y-p.y);p=n;return sum+d;},0);

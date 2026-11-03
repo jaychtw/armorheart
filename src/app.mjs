@@ -1,6 +1,6 @@
 import {createState,step,recoil,ANGLES,VECTORS,WORLD,normalizeSettings} from './engine.mjs';
-import {createMission,refreshRoute,advanceMission,missionSnapshot} from './breakthrough.mjs';
-import {BREAKTHROUGH,CROWD_DOTS} from './maps/breakthrough.mjs';
+import {createMission,refreshRoute,advanceMission,missionSnapshot,truckRenderHeading} from './breakthrough.mjs';
+import {BREAKTHROUGH} from './maps/breakthrough.mjs';
 import {messages} from './i18n.mjs';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 let storageFailed=false,settings;
@@ -12,6 +12,7 @@ let state=createState(),started=false,paused=false,exploded=false,size=64,accumu
 const held=new Map(),pointers=new Map();let order=0,fireKey=false;
 const arena=$('#arena'),ctx=arena.getContext('2d'),asset=$('#asset-view'),ax=asset.getContext('2d');
 const images=await Promise.all(['hull','barrel'].map(name=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=`assets/guardian/${name}.svg`;})));
+const truckImage=await new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src='assets/transport/transport.svg';});
 function save(){try{localStorage.setItem('armorheart-guardian-settings',JSON.stringify(settings));storageFailed=false;}catch{storageFailed=true;}$('#storage-warning').hidden=!storageFailed;$('#storage-warning').textContent=t('storage');}
 function t(key){return messages[settings.language][key]??key;}
 function announce(key){announcementKey=key;$('#announcement').textContent=t(key);}
@@ -133,7 +134,7 @@ function draw(){
    ctx.closePath();ctx.fill();
    ctx.fillStyle='#fffde9';ctx.beginPath();ctx.moveTo(0,-.8);ctx.lineTo(18,-2);ctx.lineTo(31,-6);ctx.lineTo(29,-1);ctx.lineTo(43,0);ctx.lineTo(29,3);ctx.lineTo(23,6);ctx.lineTo(17,2);ctx.lineTo(0,.8);ctx.closePath();ctx.fill();ctx.restore();
  }
- if(isMission())drawCrowd();
+ if(isMission())drawTransport();
  // Static inspection renderer uses the same two SVGs and pivot as gameplay.
  ax.clearRect(0,0,600,400);tank(ax,280,218,.92,'up',state.time-state.firedAt,exploded);
 }
@@ -145,18 +146,13 @@ function drawMissionGround(){
  ctx.strokeStyle='#f2ebbb';ctx.lineWidth=3;ctx.strokeRect(e.left+4,e.top+4,e.right-e.left-8,e.bottom-e.top-8);
  ctx.fillStyle='#fff5cc';ctx.font='bold 22px system-ui';ctx.textAlign='center';ctx.fillText(t('exitMark'),384,45);ctx.textAlign='start';
 }
-function drawCrowd(){
- const c=state.mission.crowd;ctx.save();ctx.translate(c.x,c.y);
- if(state.mission.phase==='waiting'){
-   ctx.font='bold 24px system-ui';ctx.lineWidth=3;ctx.strokeStyle='#172b22';ctx.strokeText(t('crowdMark'),-140,7);ctx.fillStyle='#fff1b5';ctx.fillText(t('crowdMark'),-140,7);
-   ctx.strokeStyle='#fff1b5';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(-46,0);ctx.lineTo(-17,0);ctx.stroke();
- }
- ctx.fillStyle='#172b22';ctx.beginPath();ctx.arc(0,0,15.5,0,Math.PI*2);ctx.fill();
- for(const [x,y] of CROWD_DOTS){ctx.fillStyle='#fff1b5';ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fill();}
- // A single, restrained ring on route opening; static in reduced motion.
- const age=state.mission.elapsed-state.mission.evacuatingAt;
- if(state.mission.evacuatingAt!==null&&age<2){ctx.strokeStyle='#fff8df';ctx.lineWidth=1;ctx.beginPath();ctx.arc(0,0,reduced()?15:14+Math.sin(age*Math.PI)*1,0,Math.PI*2);ctx.stroke();}
+function drawTransport(){
+ const m=state.mission,t=m.truck;ctx.save();ctx.translate(t.x,t.y);ctx.rotate((truckRenderHeading(t)-1)*Math.PI/2);
+ ctx.save();ctx.fillStyle='#13251b44';ctx.beginPath();ctx.ellipse(-1,4,64,27,0,0,Math.PI*2);ctx.fill();ctx.restore();
+ ctx.drawImage(truckImage,-64,-28,128,56);
+ if(m.evacuatingAt!==null&&m.elapsed-m.evacuatingAt<2){ctx.strokeStyle='#fff4c4';ctx.lineWidth=2;ctx.strokeRect(-67,-31,134,62);}
  ctx.restore();
+ if(m.phase==='waiting'){ctx.fillStyle='#fff2c4';ctx.strokeStyle='#21372a';ctx.lineWidth=3;ctx.font='bold 20px system-ui';ctx.textAlign='center';ctx.strokeText(t('transportMark'),t.x,t.y+48);ctx.fillText(t('transportMark'),t.x,t.y+48);ctx.textAlign='start';}
 }
 function finishMission(){clearInput();updateOverlay();$('#pause').disabled=true;announce(state.mission.phase==='success'?'missionSuccessText':'missionTimeoutText');$('#start').focus({preventScroll:true});}
 function updateStats(){if(isMission()){const m=state.mission;$('#mission-clock').textContent=String(Math.ceil(Math.max(0,90-m.elapsed)));const status=t(m.phase==='success'?'missionSuccess':m.phase==='timeout'?'missionTimeout':m.phase==='evacuating'?'evacuating':'waiting');if($('#mission-status').textContent!==status)$('#mission-status').textContent=status;$('#mission-ready').textContent=t(state.time+1e-8>=state.nextShot?'ready':'cooldown');$('#mission-hud').classList.toggle('route-open',m.phase==='evacuating');}$('#shot-count').textContent=state.shots;$('#wall-count').innerHTML=`${state.destroyed} <small>/ 6</small>`;const ready=state.time+1e-8>=state.nextShot;$('#reload-label').textContent=t(ready?'ready':'cooldown');$('#reload-fill').style.width=Math.min(1,Math.max(0,1-(state.nextShot-state.time)))*100+'%';$('#facing-label').textContent=t('facing')+' / '+t(state.tank.facing+'Name');}

@@ -1,12 +1,92 @@
-export const BREAKTHROUGH = Object.freeze({
-  bounds:Object.freeze({left:192,right:576,top:0,bottom:768}),
-  exit:Object.freeze({left:320,right:448,top:0,bottom:96}),
-  tank:Object.freeze({x:384,y:672,facing:'up'}),
-  crowd:Object.freeze({x:384,y:704}), deadline:90, speed:48, radius:16, spacing:32,
+// Exact approved geometry: 026fb7a / planning/r3-geometry/map.json.
+export const BREAKTHROUGH=Object.freeze({
+  "bounds": {
+    "left": 192,
+    "right": 576,
+    "top": 0,
+    "bottom": 768
+  },
+  "exit": {
+    "left": 320,
+    "right": 448,
+    "top": 0,
+    "bottom": 192
+  },
+  "tank": {
+    "x": 512,
+    "y": 704,
+    "facing": "up"
+  },
+  "truck": {
+    "x": 272,
+    "y": 688,
+    "heading": 1
+  },
+  "deadline": 90,
+  "speed": 48,
+  "body": [
+    128,
+    56
+  ],
+  "margin": 4,
+  "turnRadius": 76,
+  "turnSeconds": 0.35,
+  "spacing": 16
 });
-export function missionWalls(){return [
-  {id:100,x:192,y:128,kind:'steel'}, {id:0,x:320,y:128,kind:'brick'},
-  {id:101,x:448,y:128,kind:'steel'}, {id:1,x:192,y:384,kind:'brick'},
-  {id:102,x:320,y:384,kind:'steel'}, {id:2,x:448,y:384,kind:'brick'},
-].map(w=>({...w,width:128,height:128}));}
-export const CROWD_DOTS=Object.freeze([[-8,-8],[0,-11],[8,-8],[-11,0],[-4,-3],[4,-3],[11,0],[-8,8],[0,11],[8,8],[-4,4],[4,4]].map(p=>Object.freeze(p)));
+const CELLS=[
+  {
+    "id": "U0",
+    "x": 320,
+    "y": 128,
+    "kind": "brick"
+  },
+  {
+    "id": "U1",
+    "x": 384,
+    "y": 128,
+    "kind": "brick"
+  },
+  {
+    "id": "US0",
+    "x": 320,
+    "y": 192,
+    "kind": "steel"
+  },
+  {
+    "id": "US1",
+    "x": 384,
+    "y": 192,
+    "kind": "steel"
+  },
+  {
+    "id": "P",
+    "x": 480,
+    "y": 256,
+    "kind": "steel"
+  },
+  {
+    "id": "L0",
+    "x": 288,
+    "y": 480,
+    "kind": "brick"
+  },
+  {
+    "id": "LS0",
+    "x": 352,
+    "y": 480,
+    "kind": "steel"
+  },
+  {
+    "id": "L1",
+    "x": 288,
+    "y": 544,
+    "kind": "brick"
+  },
+  {
+    "id": "LS1",
+    "x": 352,
+    "y": 544,
+    "kind": "steel"
+  }
+];
+export function missionWalls(){return CELLS.map(w=>({...w,width:64,height:64}));}

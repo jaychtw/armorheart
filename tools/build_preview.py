@@ -10,7 +10,8 @@ def module(path):
     source=path.read_text()
     if path.name=='app.mjs':
         images={name:'data:image/svg+xml;base64,'+base64.b64encode((ROOT/f'assets/guardian/{name}.svg').read_bytes()).decode() for name in ['hull','barrel']}
-        source='const EMBEDDED_LAYERS='+json.dumps(images)+';\n'+source.replace('im.src=`assets/guardian/${name}.svg`','im.src=EMBEDDED_LAYERS[name]')
+        truck='data:image/svg+xml;base64,'+base64.b64encode((ROOT/'assets/transport/transport.svg').read_bytes()).decode()
+        source='const EMBEDDED_TRUCK='+json.dumps(truck)+';\nconst EMBEDDED_LAYERS='+json.dumps(images)+';\n'+source.replace('im.src=`assets/guardian/${name}.svg`','im.src=EMBEDDED_LAYERS[name]').replace("im.src='assets/transport/transport.svg'",'im.src=EMBEDDED_TRUCK')
     source=re.sub(r'from\s+([\'"])(\.[^\'\"]+)\1',lambda m:'from '+json.dumps(module(path.parent/m[2])),source)
     url='data:text/javascript;base64,'+base64.b64encode(source.encode()).decode();cache[path]=url;return url
 html=(ROOT/'index.html').read_text().replace('<link rel="stylesheet" href="style.css">','<style>'+(ROOT/'style.css').read_text()+'</style>')
