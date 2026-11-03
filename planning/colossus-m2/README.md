@@ -31,3 +31,5 @@ python3 planning/colossus-m2/art/build_composition.py /tmp/colossus-self-contain
 ```
 
 No npm/runtime dependency installation. Art generation is nondeterministic; original master/concept PNGs are preserved byte-for-byte so reconstruction does not require regenerating them. Existing session art-generation capability was available; no new paid service or account was added. The SVG is editable framing/paint-over composition with a raster underpainting, not falsely described as a fully separated rig. GDD/standards pins and prior playable builds remain untouched. Stop at Offer.
+
+Recovery check passed from clean tracked-source archive `a4e19fb6525c0e6bf2ad8c33550836037efa66b1`: original PNG hashes, byte-identical analytical report/diagram and embedded raster export verified. [Recovery report](evidence/recovery-results.json). This is not a network clone or a claim that generated art can be regenerated identically. Reproduce with `python3 planning/colossus-m2/verify_recovery.py`.

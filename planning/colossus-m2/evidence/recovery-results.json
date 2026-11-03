@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_commit": "a4e19fb6525c0e6bf2ad8c33550836037efa66b1",
+  "method": "clean local git archive, original PNG hashes, byte-identical planning report and diagram rebuild, SVG embedded raster byte comparison",
+  "independent_network_clone": false,
+  "art_regeneration_claimed": false,
+  "original_image_sha256": {
+    "colossus-concept.png": "2fdd6d1d37f7ebb2976dea7d6cb64ea9ff4333e4d57153a62e6522e25fc555ee",
+    "pose-concepts.png": "6d9a79b4316ce6ccdc672a1721fa237e9f60542c9ec314387c491029e655f73e"
+  },
+  "not_retested": "M2 combat/four-view animation/human/physical-phone behavior; none implemented or claimed"
+}

@@ -16,6 +16,8 @@ Original Guardian and historical M1/R3 revisions remain recoverable through Git;
 
 Original transparent master, editable mixed SVG composition and six pose concepts are preserved. Actual320/390/768/1440 assessment captures match accepted R3 canvas sizes;29 isolated checks passed. Candidate is not creatively accepted, fully vector, a limb rig, registered atlas or four-view/jump-ready production art. The proposed five-stop arena/no-wall encounter and fixed-turret timing were assessed analytically; no M2 combat or Level2 game is implemented. Proposed contact/airborne/target boundaries and art gate require execution approval as set out in the Offer. Current runtime/assets/tests/ZIPs/GDD/standards remain unchanged from accepted R3; prior gameplay results are historical and were not rerun as M2 tests.
 
+Balance finding: the proposed fixed loop/contact-only model allows a safe stationary firing lane after repositioning, with an analytical~7.8s informed win. The Offer exposes this tradeoff and does not add attacks/timers/HP to hide it. Clean tracked-source recovery of art bytes, analytical report/diagram and editable export passed.
+
 Next safe action: owner reviews/authorizes or revises the Offer. Full implementation remains unapproved. Do not silently enlarge this isolated assessment into a boss mission. Planning branch `planning/colossus-m2-offer` contains the preserved sources/evidence and safe checkpoints; prior named geometry-draft stash remains untouched.
 
 ## Continued safety
