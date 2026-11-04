@@ -1,5 +1,7 @@
 # Siege M4 — technical review
 
+**Subsequent status,2026-11-04:** the owner creatively accepted and closed M4 and all four missions. [Closure record](decisions/M4_CONFIRM_CLOSE.md). Results below remain the historical M4 delivery record; fresh integrated-game verification is in [v1 QA](QA_V1.md).
+
 2026-11-04 Asia/Taipei. **Playable bounded M4 delivered for creative-director Confirm & Close; final composed-build acceptance is pending.** [Owner authorization](decisions/M4_IMPLEMENTATION_AUTHORIZATION.md) at `ce298580273e34da872f1d99e5150edbcc109c12` accepts the [Offer](offers/SIEGE_M4_OFFER.md), Fortress direction and both aggressive/tactical strategies. [Play guide](PLAY_M4.md) · [actual screenshots and native-time recordings](../evidence/m4/README.md).
 
 ## Delivered scope and integrity

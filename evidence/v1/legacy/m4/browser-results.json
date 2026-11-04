@@ -1,0 +1,5440 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "passed": 200,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "entry waits for input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "precharge localized and locked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "charge actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "charge three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "charge rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.99999313354493,
+          239.9999942779541
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 288,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "charge rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "charge rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "charge drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes all state/charge/protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume no catchup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hidden lifecycle freezes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "five-shot fan actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "five-shot fan three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "five-shot fan rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.99999313354493,
+          239.9999942779541
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 288,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "five-shot fan rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "five-shot fan rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "five-shot fan drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact five-round launch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cadence remains3s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cancel restart retains encounter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live Chinese preserves full state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reduced motion toggle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sound toggle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9897673145209,
+          239.99999209946697
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9897673145209,
+          239.99999209946697
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "keyboard-aggressive expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ]
+    },
+    {
+      "name": "keyboard-aggressive expected timing",
+      "passed": true,
+      "detail": 10.452916666666738
+    },
+    {
+      "name": "keyboard-aggressive all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-aggressive fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9814459988762,
+          239.99998711136527
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5715691241681056,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98086963409907,
+          239.9999866590312
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.571593139375122,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 23.816666666666272,
+        "fortressHP": 0,
+        "tankHP": 2,
+        "immuneUntil": 7.050873129466136,
+        "damageAt": 4.050873129466136,
+        "fortressHitAt": 23.803749999999603,
+        "nextCharge": 26.4,
+        "nextVolley": 24,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5716014795998314,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 21,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 285.3972597557899,
+              "y": 239.85845223859187
+            },
+            "angle": 1.6794575426354892,
+            "target": {
+              "x": 259.1999999999989,
+              "y": 479.9999999999982
+            },
+            "directions": [
+              [
+                0.40313278951490983,
+                0.9151414939876388
+              ],
+              [
+                0.15254032520883148,
+                0.9882972473831868
+              ],
+              [
+                -0.10844751017542231,
+                0.9941021766079942
+              ],
+              [
+                -0.36204482695920537,
+                0.9321606853284894
+              ],
+              [
+                -0.5909693870930841,
+                0.8066939838122165
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 288.2203426641329,
+              "y": 239.9989885018174
+            },
+            "angle": 1.561615253474566,
+            "target": {
+              "x": 290.3999999999992,
+              "y": 477.39999999999816
+            },
+            "directions": [
+              [
+                0.5079298581493887,
+                0.8613984323182517
+              ],
+              [
+                0.2676762482244194,
+                0.963508913366399
+              ],
+              [
+                0.00918094433887132,
+                0.9999578542423908
+              ],
+              [
+                -0.24994002573114293,
+                0.9682613198602512
+              ],
+              [
+                -0.4920279960930018,
+                0.8705793766571231
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9814528648891,
+              "y": 239.999992833411
+            },
+            "angle": 1.5715691241681056,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 474.79999999999814
+            },
+            "directions": [
+              [
+                0.4993305886055013,
+                0.8664115438305768
+              ],
+              [
+                0.2580725029501448,
+                0.9661255525142928
+              ],
+              [
+                -0.0007727972962878211,
+                0.9999997013921248
+              ],
+              [
+                -0.25956543268408633,
+                0.9657255231977268
+              ],
+              [
+                -0.5006691127866236,
+                0.8656387465342891
+              ]
+            ]
+          },
+          {
+            "time": 12,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.98126464271263,
+              "y": 239.9999926872153
+            },
+            "angle": 1.5715769667611565,
+            "target": {
+              "x": 287.80000000001763,
+              "y": 472.1999999999981
+            },
+            "directions": [
+              [
+                0.4993237936769924,
+                0.8664154598505363
+              ],
+              [
+                0.25806492601266384,
+                0.9661275764421997
+              ],
+              [
+                -0.000780639886973092,
+                0.999999695300637
+              ],
+              [
+                -0.2595730064683812,
+                0.965723487501969
+              ],
+              [
+                -0.5006759016236446,
+                0.8656348199635632
+              ]
+            ]
+          },
+          {
+            "time": 15,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9810725610945,
+              "y": 239.99999253650003
+            },
+            "angle": 1.571584970164376,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 469.5999999999981
+            },
+            "directions": [
+              [
+                0.49931685938871956,
+                0.8664194561124454
+              ],
+              [
+                0.25805719369584307,
+                0.9661296418089169
+              ],
+              [
+                -0.0007886432877288649,
+                0.999999689020834
+              ],
+              [
+                -0.2595807355345367,
+                0.9657214100036039
+              ],
+              [
+                -0.5006828296321142,
+                0.8656308128247165
+              ]
+            ]
+          },
+          {
+            "time": 18,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9808765000982,
+              "y": 239.99999238107694
+            },
+            "angle": 1.571593139375122,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 466.99999999999807
+            },
+            "directions": [
+              [
+                0.49930978140892734,
+                0.8664235351081878
+              ],
+              [
+                0.2580493011705805,
+                0.9661317499002788
+              ],
+              [
+                -0.0007968124959078718,
+                0.9999996825448728
+              ],
+              [
+                -0.2595886247075951,
+                0.9657192894016456
+              ],
+              [
+                -0.5006899011359456,
+                0.8656267226122799
+              ]
+            ]
+          },
+          {
+            "time": 21,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9806763347694,
+              "y": 239.99999222074794
+            },
+            "angle": 1.5716014795998314,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 464.39999999999804
+            },
+            "directions": [
+              [
+                0.49930255522458517,
+                0.8664276994338305
+              ],
+              [
+                0.25804124340571255,
+                0.966133902055835
+              ],
+              [
+                -0.0008051527179419395,
+                0.9999996758644979
+              ],
+              [
+                -0.2595966790144465,
+                0.9657171243405962
+              ],
+              [
+                -0.5006971206399128,
+                0.8656225467158886
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 4.602916666666652,
+            "hp": 7
+          },
+          {
+            "time": 5.602916666666649,
+            "hp": 6
+          },
+          {
+            "time": 8.847500000000014,
+            "hp": 5
+          },
+          {
+            "time": 11.808750000000016,
+            "hp": 4
+          },
+          {
+            "time": 14.803333333333349,
+            "hp": 3
+          },
+          {
+            "time": 17.797916666666612,
+            "hp": 2
+          },
+          {
+            "time": 20.80916666666644,
+            "hp": 1
+          },
+          {
+            "time": 23.803749999999603,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 4.050873129466136,
+            "hp": 2
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 3.21666666666666,
+            "id": 0,
+            "side": "player"
+          },
+          {
+            "time": 7.666742532227763,
+            "id": 2,
+            "side": "enemy"
+          }
+        ],
+        "finishedAt": 23.803749999999603,
+        "outcome": "success",
+        "serial": 44
+      }
+    },
+    {
+      "name": "keyboard-tactical expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical expected timing",
+      "passed": true,
+      "detail": 23.803749999999603
+    },
+    {
+      "name": "keyboard-tactical all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tactical fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-defeat localized defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-defeat three effective hits cause defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-defeat immunity intervals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-defeat actual exit returns range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right roof gun selected in actual oblique approach",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-charge actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-charge three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-charge rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.99999313354493,
+          239.9999942779541
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 288,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-charge rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-charge rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          501.02985186711703,
+          227.5648044744479
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 0.5027842417098339,
+          "muzzle": {
+            "x": 501.02986381259984,
+            "y": 227.56480990001577
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-charge drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-volley actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-volley three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-gun-volley rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.99999313354493,
+          239.9999942779541
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 288,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-volley rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-volley rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          501.02985186711703,
+          227.5648044744479
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 0.5027842417098339,
+          "muzzle": {
+            "x": 501.02986381259984,
+            "y": 227.56480990001577
+          }
+        }
+      ]
+    },
+    {
+      "name": "right-gun-volley drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right roof gun launch emits five fixed rays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98978058652693,
+          240.00000315986466
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          384.000008541363,
+          240.00000533835188
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          480.0000106767037,
+          240.00000533835188
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98978058652693,
+          240.00000315986466
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          384.000008541363,
+          240.00000533835188
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          480.0000106767037,
+          240.00000533835188
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "touch-aggressive expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive expected timing",
+      "passed": true,
+      "detail": 10.452916666666738
+    },
+    {
+      "name": "touch-aggressive all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-aggressive fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98145927049876,
+          239.9999981717627
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5715691241681056,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          384.000008541363,
+          240.00000533835188
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          480.0000106767037,
+          240.00000533835188
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98088290569507,
+          239.99999771942865
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.571593139375122,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          384.000008541363,
+          240.00000533835188
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          480.0000106767037,
+          240.00000533835188
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 23.816666666666272,
+        "fortressHP": 0,
+        "tankHP": 2,
+        "immuneUntil": 7.050873129466136,
+        "damageAt": 4.050873129466136,
+        "fortressHitAt": 23.814999999999603,
+        "nextCharge": 26.4,
+        "nextVolley": 24,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5716014795998314,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 21,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 285.3972597557899,
+              "y": 239.85845223859187
+            },
+            "angle": 1.6794575426354892,
+            "target": {
+              "x": 259.1999999999989,
+              "y": 479.9999999999982
+            },
+            "directions": [
+              [
+                0.40313278951490983,
+                0.9151414939876388
+              ],
+              [
+                0.15254032520883148,
+                0.9882972473831868
+              ],
+              [
+                -0.10844751017542231,
+                0.9941021766079942
+              ],
+              [
+                -0.36204482695920537,
+                0.9321606853284894
+              ],
+              [
+                -0.5909693870930841,
+                0.8066939838122165
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 288.2203426641329,
+              "y": 239.9989885018174
+            },
+            "angle": 1.561615253474566,
+            "target": {
+              "x": 290.3999999999992,
+              "y": 477.39999999999816
+            },
+            "directions": [
+              [
+                0.5079298581493887,
+                0.8613984323182517
+              ],
+              [
+                0.2676762482244194,
+                0.963508913366399
+              ],
+              [
+                0.00918094433887132,
+                0.9999578542423908
+              ],
+              [
+                -0.24994002573114293,
+                0.9682613198602512
+              ],
+              [
+                -0.4920279960930018,
+                0.8705793766571231
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9814528648891,
+              "y": 239.999992833411
+            },
+            "angle": 1.5715691241681056,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 474.79999999999814
+            },
+            "directions": [
+              [
+                0.4993305886055013,
+                0.8664115438305768
+              ],
+              [
+                0.2580725029501448,
+                0.9661255525142928
+              ],
+              [
+                -0.0007727972962878211,
+                0.9999997013921248
+              ],
+              [
+                -0.25956543268408633,
+                0.9657255231977268
+              ],
+              [
+                -0.5006691127866236,
+                0.8656387465342891
+              ]
+            ]
+          },
+          {
+            "time": 12,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.98126464271263,
+              "y": 239.9999926872153
+            },
+            "angle": 1.5715769667611565,
+            "target": {
+              "x": 287.80000000001763,
+              "y": 472.1999999999981
+            },
+            "directions": [
+              [
+                0.4993237936769924,
+                0.8664154598505363
+              ],
+              [
+                0.25806492601266384,
+                0.9661275764421997
+              ],
+              [
+                -0.000780639886973092,
+                0.999999695300637
+              ],
+              [
+                -0.2595730064683812,
+                0.965723487501969
+              ],
+              [
+                -0.5006759016236446,
+                0.8656348199635632
+              ]
+            ]
+          },
+          {
+            "time": 15,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9810725610945,
+              "y": 239.99999253650003
+            },
+            "angle": 1.571584970164376,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 469.5999999999981
+            },
+            "directions": [
+              [
+                0.49931685938871956,
+                0.8664194561124454
+              ],
+              [
+                0.25805719369584307,
+                0.9661296418089169
+              ],
+              [
+                -0.0007886432877288649,
+                0.999999689020834
+              ],
+              [
+                -0.2595807355345367,
+                0.9657214100036039
+              ],
+              [
+                -0.5006828296321142,
+                0.8656308128247165
+              ]
+            ]
+          },
+          {
+            "time": 18,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9808765000982,
+              "y": 239.99999238107694
+            },
+            "angle": 1.571593139375122,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 466.99999999999807
+            },
+            "directions": [
+              [
+                0.49930978140892734,
+                0.8664235351081878
+              ],
+              [
+                0.2580493011705805,
+                0.9661317499002788
+              ],
+              [
+                -0.0007968124959078718,
+                0.9999996825448728
+              ],
+              [
+                -0.2595886247075951,
+                0.9657192894016456
+              ],
+              [
+                -0.5006899011359456,
+                0.8656267226122799
+              ]
+            ]
+          },
+          {
+            "time": 21,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9806763347694,
+              "y": 239.99999222074794
+            },
+            "angle": 1.5716014795998314,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 464.39999999999804
+            },
+            "directions": [
+              [
+                0.49930255522458517,
+                0.8664276994338305
+              ],
+              [
+                0.25804124340571255,
+                0.966133902055835
+              ],
+              [
+                -0.0008051527179419395,
+                0.9999996758644979
+              ],
+              [
+                -0.2595966790144465,
+                0.9657171243405962
+              ],
+              [
+                -0.5006971206399128,
+                0.8656225467158886
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 4.602916666666652,
+            "hp": 7
+          },
+          {
+            "time": 5.602916666666649,
+            "hp": 6
+          },
+          {
+            "time": 8.847500000000014,
+            "hp": 5
+          },
+          {
+            "time": 11.808750000000016,
+            "hp": 4
+          },
+          {
+            "time": 14.803333333333349,
+            "hp": 3
+          },
+          {
+            "time": 17.797916666666612,
+            "hp": 2
+          },
+          {
+            "time": 20.80916666666644,
+            "hp": 1
+          },
+          {
+            "time": 23.814999999999603,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 4.050873129466136,
+            "hp": 2
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 3.21666666666666,
+            "id": 0,
+            "side": "player"
+          },
+          {
+            "time": 7.666742532227763,
+            "id": 2,
+            "side": "enemy"
+          }
+        ],
+        "finishedAt": 23.814999999999603,
+        "outcome": "success",
+        "serial": 44
+      }
+    },
+    {
+      "name": "touch-tactical expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical expected timing",
+      "passed": true,
+      "detail": 23.814999999999603
+    },
+    {
+      "name": "touch-tactical all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tactical fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-defeat localized defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-defeat three effective hits cause defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-defeat immunity intervals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-defeat actual exit returns range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simultaneous two-finger move/fire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 entry fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            294.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 89,
+        "hud": 143,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 en portrait controls/HUD visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            294.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 89,
+        "hud": 143,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            294.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 224,
+        "hud": 278,
+        "fire": 739.546875
+      }
+    },
+    {
+      "name": "320 zh-TW portrait controls/HUD visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            294.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 224,
+        "hud": 278,
+        "fire": 739.546875
+      }
+    },
+    {
+      "name": "320 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 entry fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 en layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            358.8125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 129,
+        "hud": 183,
+        "fire": 708.953125
+      }
+    },
+    {
+      "name": "390 en portrait controls/HUD visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            358.8125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 129,
+        "hud": 183,
+        "fire": 708.953125
+      }
+    },
+    {
+      "name": "390 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            358.8125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 224,
+        "hud": 278,
+        "fire": 803.953125
+      }
+    },
+    {
+      "name": "390 zh-TW portrait controls/HUD visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            358.8125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 224,
+        "hud": 278,
+        "fire": 803.953125
+      }
+    },
+    {
+      "name": "390 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768 entry fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 en layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            123.828125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 52,
+        "hud": 106,
+        "fire": 933.140625
+      }
+    },
+    {
+      "name": "768 zh-TW layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "1440 entry fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 en layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            123.828125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 8,
+        "hud": 62,
+        "fire": 889.140625
+      }
+    },
+    {
+      "name": "1440 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "1440 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "844 entry fits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 en layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            123.828125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 8,
+        "hud": 62,
+        "fire": 889.140625
+      }
+    },
+    {
+      "name": "844 zh-TW layout/44px targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "offline-aggressive broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9897673145209,
+          239.99999209946697
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9897673145209,
+          239.99999209946697
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5712224026106147,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "offline-aggressive expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive expected timing",
+      "passed": true,
+      "detail": 10.452916666666738
+    },
+    {
+      "name": "offline-aggressive all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-aggressive fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML aggressive",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline-tactical broken visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical broken actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical broken three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical broken rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.9814459988762,
+          239.99998711136527
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.5715691241681056,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical broken rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical broken rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical broken drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical half visual threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical half actual body uses physical rectangle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical half three rendered gun layers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical half rendered muzzle 0",
+      "passed": true,
+      "detail": [
+        [
+          287.98086963409907,
+          239.9999866590312
+        ],
+        {
+          "i": 0,
+          "x": 288,
+          "y": 216,
+          "angle": 1.571593139375122,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical half rendered muzzle 1",
+      "passed": true,
+      "detail": [
+        [
+          383.99999084472654,
+          239.9999942779541
+        ],
+        {
+          "i": 1,
+          "x": 384,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 384,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical half rendered muzzle 2",
+      "passed": true,
+      "detail": [
+        [
+          479.9999885559082,
+          239.9999942779541
+        ],
+        {
+          "i": 2,
+          "x": 480,
+          "y": 216,
+          "angle": 1.5707963267948966,
+          "muzzle": {
+            "x": 480,
+            "y": 240
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical half drawn rounds match live collisions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical localized result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical actual eight-hit victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 26.8166666666661,
+        "fortressHP": 0,
+        "tankHP": 2,
+        "immuneUntil": 7.050873129466136,
+        "damageAt": 4.050873129466136,
+        "fortressHitAt": 26.803749999999432,
+        "nextCharge": 29.4,
+        "nextVolley": 27,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5716014795998314,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 24,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 285.3972597557899,
+              "y": 239.85845223859187
+            },
+            "angle": 1.6794575426354892,
+            "target": {
+              "x": 259.1999999999989,
+              "y": 479.9999999999982
+            },
+            "directions": [
+              [
+                0.40313278951490983,
+                0.9151414939876388
+              ],
+              [
+                0.15254032520883148,
+                0.9882972473831868
+              ],
+              [
+                -0.10844751017542231,
+                0.9941021766079942
+              ],
+              [
+                -0.36204482695920537,
+                0.9321606853284894
+              ],
+              [
+                -0.5909693870930841,
+                0.8066939838122165
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 288.2203426641329,
+              "y": 239.9989885018174
+            },
+            "angle": 1.561615253474566,
+            "target": {
+              "x": 290.3999999999992,
+              "y": 477.39999999999816
+            },
+            "directions": [
+              [
+                0.5079298581493887,
+                0.8613984323182517
+              ],
+              [
+                0.2676762482244194,
+                0.963508913366399
+              ],
+              [
+                0.00918094433887132,
+                0.9999578542423908
+              ],
+              [
+                -0.24994002573114293,
+                0.9682613198602512
+              ],
+              [
+                -0.4920279960930018,
+                0.8705793766571231
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9814528648891,
+              "y": 239.999992833411
+            },
+            "angle": 1.5715691241681056,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 474.79999999999814
+            },
+            "directions": [
+              [
+                0.4993305886055013,
+                0.8664115438305768
+              ],
+              [
+                0.2580725029501448,
+                0.9661255525142928
+              ],
+              [
+                -0.0007727972962878211,
+                0.9999997013921248
+              ],
+              [
+                -0.25956543268408633,
+                0.9657255231977268
+              ],
+              [
+                -0.5006691127866236,
+                0.8656387465342891
+              ]
+            ]
+          },
+          {
+            "time": 12,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.98126464271263,
+              "y": 239.9999926872153
+            },
+            "angle": 1.5715769667611565,
+            "target": {
+              "x": 287.80000000001763,
+              "y": 472.1999999999981
+            },
+            "directions": [
+              [
+                0.4993237936769924,
+                0.8664154598505363
+              ],
+              [
+                0.25806492601266384,
+                0.9661275764421997
+              ],
+              [
+                -0.000780639886973092,
+                0.999999695300637
+              ],
+              [
+                -0.2595730064683812,
+                0.965723487501969
+              ],
+              [
+                -0.5006759016236446,
+                0.8656348199635632
+              ]
+            ]
+          },
+          {
+            "time": 15,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9812646427144,
+              "y": 239.9999926872153
+            },
+            "angle": 1.5715769667610844,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 472.1999999999981
+            },
+            "directions": [
+              [
+                0.49932379367705476,
+                0.8664154598505004
+              ],
+              [
+                0.25806492601273356,
+                0.9661275764421811
+              ],
+              [
+                -0.0007806398869009276,
+                0.999999695300637
+              ],
+              [
+                -0.2595730064683115,
+                0.9657234875019878
+              ],
+              [
+                -0.500675901623582,
+                0.8656348199635995
+              ]
+            ]
+          },
+          {
+            "time": 18,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9810725610945,
+              "y": 239.99999253650003
+            },
+            "angle": 1.571584970164376,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 469.5999999999981
+            },
+            "directions": [
+              [
+                0.49931685938871956,
+                0.8664194561124454
+              ],
+              [
+                0.25805719369584307,
+                0.9661296418089169
+              ],
+              [
+                -0.0007886432877288649,
+                0.999999689020834
+              ],
+              [
+                -0.2595807355345367,
+                0.9657214100036039
+              ],
+              [
+                -0.5006828296321142,
+                0.8656308128247165
+              ]
+            ]
+          },
+          {
+            "time": 21,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9808765000982,
+              "y": 239.99999238107694
+            },
+            "angle": 1.571593139375122,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 466.99999999999807
+            },
+            "directions": [
+              [
+                0.49930978140892734,
+                0.8664235351081878
+              ],
+              [
+                0.2580493011705805,
+                0.9661317499002788
+              ],
+              [
+                -0.0007968124959078718,
+                0.9999996825448728
+              ],
+              [
+                -0.2595886247075951,
+                0.9657192894016456
+              ],
+              [
+                -0.5006899011359456,
+                0.8656267226122799
+              ]
+            ]
+          },
+          {
+            "time": 24,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9806763347694,
+              "y": 239.99999222074794
+            },
+            "angle": 1.5716014795998314,
+            "target": {
+              "x": 287.8000000000361,
+              "y": 464.39999999999804
+            },
+            "directions": [
+              [
+                0.49930255522458517,
+                0.8664276994338305
+              ],
+              [
+                0.25804124340571255,
+                0.966133902055835
+              ],
+              [
+                -0.0008051527179419395,
+                0.9999996758644979
+              ],
+              [
+                -0.2595966790144465,
+                0.9657171243405962
+              ],
+              [
+                -0.5006971206399128,
+                0.8656225467158886
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 4.602916666666652,
+            "hp": 7
+          },
+          {
+            "time": 5.602916666666649,
+            "hp": 6
+          },
+          {
+            "time": 8.847500000000014,
+            "hp": 5
+          },
+          {
+            "time": 11.808750000000016,
+            "hp": 4
+          },
+          {
+            "time": 17.803333333333278,
+            "hp": 3
+          },
+          {
+            "time": 20.814583333333108,
+            "hp": 2
+          },
+          {
+            "time": 23.80916666666627,
+            "hp": 1
+          },
+          {
+            "time": 26.803749999999432,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 4.050873129466136,
+            "hp": 2
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 3.21666666666666,
+            "id": 0,
+            "side": "player"
+          },
+          {
+            "time": 7.666742532227763,
+            "id": 2,
+            "side": "enemy"
+          }
+        ],
+        "finishedAt": 26.803749999999432,
+        "outcome": "success",
+        "serial": 50
+      }
+    },
+    {
+      "name": "offline-tactical expected health tradeoff",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical expected timing",
+      "passed": true,
+      "detail": 26.803749999999432
+    },
+    {
+      "name": "offline-tactical all steel remains",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tactical fresh retry cover and health",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML tactical",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline-defeat localized defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-defeat three effective hits cause defeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-defeat immunity intervals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-defeat actual exit returns range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML defeat",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "no page JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "keyboard-aggressive",
+      "style": "aggressive",
+      "input": "keyboard",
+      "finishedAt": 10.452916666666738,
+      "tankHP": 1,
+      "shotHits": [
+        {
+          "time": 3.4529166666666593,
+          "hp": 7
+        },
+        {
+          "time": 4.452916666666656,
+          "hp": 6
+        },
+        {
+          "time": 5.452916666666653,
+          "hp": 5
+        },
+        {
+          "time": 6.452916666666649,
+          "hp": 4
+        },
+        {
+          "time": 7.4529166666666455,
+          "hp": 3
+        },
+        {
+          "time": 8.452916666666665,
+          "hp": 2
+        },
+        {
+          "time": 9.452916666666715,
+          "hp": 1
+        },
+        {
+          "time": 10.452916666666738,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 0.6529166666666669,
+          "id": 2,
+          "side": "player"
+        },
+        {
+          "time": 2.0529166666666643,
+          "id": 0,
+          "side": "player"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tactical",
+      "style": "tactical",
+      "input": "keyboard",
+      "finishedAt": 23.803749999999603,
+      "tankHP": 2,
+      "shotHits": [
+        {
+          "time": 4.602916666666652,
+          "hp": 7
+        },
+        {
+          "time": 5.602916666666649,
+          "hp": 6
+        },
+        {
+          "time": 8.847500000000014,
+          "hp": 5
+        },
+        {
+          "time": 11.808750000000016,
+          "hp": 4
+        },
+        {
+          "time": 14.803333333333349,
+          "hp": 3
+        },
+        {
+          "time": 17.797916666666612,
+          "hp": 2
+        },
+        {
+          "time": 20.80916666666644,
+          "hp": 1
+        },
+        {
+          "time": 23.803749999999603,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 3.21666666666666,
+          "id": 0,
+          "side": "player"
+        },
+        {
+          "time": 7.666742532227763,
+          "id": 2,
+          "side": "enemy"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 285.3972597557899,
+            "y": 239.85845223859187
+          },
+          "angle": 1.6794575426354892,
+          "target": {
+            "x": 259.1999999999989,
+            "y": 479.9999999999982
+          },
+          "directions": [
+            [
+              0.40313278951490983,
+              0.9151414939876388
+            ],
+            [
+              0.15254032520883148,
+              0.9882972473831868
+            ],
+            [
+              -0.10844751017542231,
+              0.9941021766079942
+            ],
+            [
+              -0.36204482695920537,
+              0.9321606853284894
+            ],
+            [
+              -0.5909693870930841,
+              0.8066939838122165
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 288.2203426641329,
+            "y": 239.9989885018174
+          },
+          "angle": 1.561615253474566,
+          "target": {
+            "x": 290.3999999999992,
+            "y": 477.39999999999816
+          },
+          "directions": [
+            [
+              0.5079298581493887,
+              0.8613984323182517
+            ],
+            [
+              0.2676762482244194,
+              0.963508913366399
+            ],
+            [
+              0.00918094433887132,
+              0.9999578542423908
+            ],
+            [
+              -0.24994002573114293,
+              0.9682613198602512
+            ],
+            [
+              -0.4920279960930018,
+              0.8705793766571231
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          },
+          "angle": 1.5715691241681056,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 474.79999999999814
+          },
+          "directions": [
+            [
+              0.4993305886055013,
+              0.8664115438305768
+            ],
+            [
+              0.2580725029501448,
+              0.9661255525142928
+            ],
+            [
+              -0.0007727972962878211,
+              0.9999997013921248
+            ],
+            [
+              -0.25956543268408633,
+              0.9657255231977268
+            ],
+            [
+              -0.5006691127866236,
+              0.8656387465342891
+            ]
+          ]
+        },
+        {
+          "time": 12,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.98126464271263,
+            "y": 239.9999926872153
+          },
+          "angle": 1.5715769667611565,
+          "target": {
+            "x": 287.80000000001763,
+            "y": 472.1999999999981
+          },
+          "directions": [
+            [
+              0.4993237936769924,
+              0.8664154598505363
+            ],
+            [
+              0.25806492601266384,
+              0.9661275764421997
+            ],
+            [
+              -0.000780639886973092,
+              0.999999695300637
+            ],
+            [
+              -0.2595730064683812,
+              0.965723487501969
+            ],
+            [
+              -0.5006759016236446,
+              0.8656348199635632
+            ]
+          ]
+        },
+        {
+          "time": 15,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9810725610945,
+            "y": 239.99999253650003
+          },
+          "angle": 1.571584970164376,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 469.5999999999981
+          },
+          "directions": [
+            [
+              0.49931685938871956,
+              0.8664194561124454
+            ],
+            [
+              0.25805719369584307,
+              0.9661296418089169
+            ],
+            [
+              -0.0007886432877288649,
+              0.999999689020834
+            ],
+            [
+              -0.2595807355345367,
+              0.9657214100036039
+            ],
+            [
+              -0.5006828296321142,
+              0.8656308128247165
+            ]
+          ]
+        },
+        {
+          "time": 18,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          },
+          "angle": 1.571593139375122,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 466.99999999999807
+          },
+          "directions": [
+            [
+              0.49930978140892734,
+              0.8664235351081878
+            ],
+            [
+              0.2580493011705805,
+              0.9661317499002788
+            ],
+            [
+              -0.0007968124959078718,
+              0.9999996825448728
+            ],
+            [
+              -0.2595886247075951,
+              0.9657192894016456
+            ],
+            [
+              -0.5006899011359456,
+              0.8656267226122799
+            ]
+          ]
+        },
+        {
+          "time": 21,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 464.39999999999804
+          },
+          "directions": [
+            [
+              0.49930255522458517,
+              0.8664276994338305
+            ],
+            [
+              0.25804124340571255,
+              0.966133902055835
+            ],
+            [
+              -0.0008051527179419395,
+              0.9999996758644979
+            ],
+            [
+              -0.2595966790144465,
+              0.9657171243405962
+            ],
+            [
+              -0.5006971206399128,
+              0.8656225467158886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keyboard-defeat",
+      "style": "no-fire defeat",
+      "finishedAt": 17.308333552529167,
+      "tankHP": 0,
+      "tankHits": [
+        {
+          "time": 11.308333552529305,
+          "hp": 2
+        },
+        {
+          "time": 14.308333552529305,
+          "hp": 1
+        },
+        {
+          "time": 17.308333552529167,
+          "hp": 0
+        }
+      ]
+    },
+    {
+      "name": "touch-aggressive",
+      "style": "aggressive",
+      "input": "CDP touch",
+      "finishedAt": 10.452916666666738,
+      "tankHP": 1,
+      "shotHits": [
+        {
+          "time": 3.4529166666666593,
+          "hp": 7
+        },
+        {
+          "time": 4.452916666666656,
+          "hp": 6
+        },
+        {
+          "time": 5.452916666666653,
+          "hp": 5
+        },
+        {
+          "time": 6.452916666666649,
+          "hp": 4
+        },
+        {
+          "time": 7.4529166666666455,
+          "hp": 3
+        },
+        {
+          "time": 8.452916666666665,
+          "hp": 2
+        },
+        {
+          "time": 9.452916666666715,
+          "hp": 1
+        },
+        {
+          "time": 10.452916666666738,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 0.6529166666666669,
+          "id": 2,
+          "side": "player"
+        },
+        {
+          "time": 2.0529166666666643,
+          "id": 0,
+          "side": "player"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "touch-tactical",
+      "style": "tactical",
+      "input": "CDP touch",
+      "finishedAt": 23.814999999999603,
+      "tankHP": 2,
+      "shotHits": [
+        {
+          "time": 4.602916666666652,
+          "hp": 7
+        },
+        {
+          "time": 5.602916666666649,
+          "hp": 6
+        },
+        {
+          "time": 8.847500000000014,
+          "hp": 5
+        },
+        {
+          "time": 11.808750000000016,
+          "hp": 4
+        },
+        {
+          "time": 14.803333333333349,
+          "hp": 3
+        },
+        {
+          "time": 17.797916666666612,
+          "hp": 2
+        },
+        {
+          "time": 20.80916666666644,
+          "hp": 1
+        },
+        {
+          "time": 23.814999999999603,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 3.21666666666666,
+          "id": 0,
+          "side": "player"
+        },
+        {
+          "time": 7.666742532227763,
+          "id": 2,
+          "side": "enemy"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 285.3972597557899,
+            "y": 239.85845223859187
+          },
+          "angle": 1.6794575426354892,
+          "target": {
+            "x": 259.1999999999989,
+            "y": 479.9999999999982
+          },
+          "directions": [
+            [
+              0.40313278951490983,
+              0.9151414939876388
+            ],
+            [
+              0.15254032520883148,
+              0.9882972473831868
+            ],
+            [
+              -0.10844751017542231,
+              0.9941021766079942
+            ],
+            [
+              -0.36204482695920537,
+              0.9321606853284894
+            ],
+            [
+              -0.5909693870930841,
+              0.8066939838122165
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 288.2203426641329,
+            "y": 239.9989885018174
+          },
+          "angle": 1.561615253474566,
+          "target": {
+            "x": 290.3999999999992,
+            "y": 477.39999999999816
+          },
+          "directions": [
+            [
+              0.5079298581493887,
+              0.8613984323182517
+            ],
+            [
+              0.2676762482244194,
+              0.963508913366399
+            ],
+            [
+              0.00918094433887132,
+              0.9999578542423908
+            ],
+            [
+              -0.24994002573114293,
+              0.9682613198602512
+            ],
+            [
+              -0.4920279960930018,
+              0.8705793766571231
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          },
+          "angle": 1.5715691241681056,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 474.79999999999814
+          },
+          "directions": [
+            [
+              0.4993305886055013,
+              0.8664115438305768
+            ],
+            [
+              0.2580725029501448,
+              0.9661255525142928
+            ],
+            [
+              -0.0007727972962878211,
+              0.9999997013921248
+            ],
+            [
+              -0.25956543268408633,
+              0.9657255231977268
+            ],
+            [
+              -0.5006691127866236,
+              0.8656387465342891
+            ]
+          ]
+        },
+        {
+          "time": 12,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.98126464271263,
+            "y": 239.9999926872153
+          },
+          "angle": 1.5715769667611565,
+          "target": {
+            "x": 287.80000000001763,
+            "y": 472.1999999999981
+          },
+          "directions": [
+            [
+              0.4993237936769924,
+              0.8664154598505363
+            ],
+            [
+              0.25806492601266384,
+              0.9661275764421997
+            ],
+            [
+              -0.000780639886973092,
+              0.999999695300637
+            ],
+            [
+              -0.2595730064683812,
+              0.965723487501969
+            ],
+            [
+              -0.5006759016236446,
+              0.8656348199635632
+            ]
+          ]
+        },
+        {
+          "time": 15,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9810725610945,
+            "y": 239.99999253650003
+          },
+          "angle": 1.571584970164376,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 469.5999999999981
+          },
+          "directions": [
+            [
+              0.49931685938871956,
+              0.8664194561124454
+            ],
+            [
+              0.25805719369584307,
+              0.9661296418089169
+            ],
+            [
+              -0.0007886432877288649,
+              0.999999689020834
+            ],
+            [
+              -0.2595807355345367,
+              0.9657214100036039
+            ],
+            [
+              -0.5006828296321142,
+              0.8656308128247165
+            ]
+          ]
+        },
+        {
+          "time": 18,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          },
+          "angle": 1.571593139375122,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 466.99999999999807
+          },
+          "directions": [
+            [
+              0.49930978140892734,
+              0.8664235351081878
+            ],
+            [
+              0.2580493011705805,
+              0.9661317499002788
+            ],
+            [
+              -0.0007968124959078718,
+              0.9999996825448728
+            ],
+            [
+              -0.2595886247075951,
+              0.9657192894016456
+            ],
+            [
+              -0.5006899011359456,
+              0.8656267226122799
+            ]
+          ]
+        },
+        {
+          "time": 21,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 464.39999999999804
+          },
+          "directions": [
+            [
+              0.49930255522458517,
+              0.8664276994338305
+            ],
+            [
+              0.25804124340571255,
+              0.966133902055835
+            ],
+            [
+              -0.0008051527179419395,
+              0.9999996758644979
+            ],
+            [
+              -0.2595966790144465,
+              0.9657171243405962
+            ],
+            [
+              -0.5006971206399128,
+              0.8656225467158886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "touch-defeat",
+      "style": "no-fire defeat",
+      "finishedAt": 17.308333552529167,
+      "tankHP": 0,
+      "tankHits": [
+        {
+          "time": 11.308333552529305,
+          "hp": 2
+        },
+        {
+          "time": 14.308333552529305,
+          "hp": 1
+        },
+        {
+          "time": 17.308333552529167,
+          "hp": 0
+        }
+      ]
+    },
+    {
+      "name": "offline-aggressive",
+      "style": "aggressive",
+      "input": "keyboard",
+      "finishedAt": 10.452916666666738,
+      "tankHP": 1,
+      "shotHits": [
+        {
+          "time": 3.4529166666666593,
+          "hp": 7
+        },
+        {
+          "time": 4.452916666666656,
+          "hp": 6
+        },
+        {
+          "time": 5.452916666666653,
+          "hp": 5
+        },
+        {
+          "time": 6.452916666666649,
+          "hp": 4
+        },
+        {
+          "time": 7.4529166666666455,
+          "hp": 3
+        },
+        {
+          "time": 8.452916666666665,
+          "hp": 2
+        },
+        {
+          "time": 9.452916666666715,
+          "hp": 1
+        },
+        {
+          "time": 10.452916666666738,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 5.199444656191388,
+          "hp": 2
+        },
+        {
+          "time": 8.199444656191387,
+          "hp": 1
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 0.6529166666666669,
+          "id": 2,
+          "side": "player"
+        },
+        {
+          "time": 2.0529166666666643,
+          "id": 0,
+          "side": "player"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 685.4
+          },
+          "directions": [
+            [
+              0.4996309621456648,
+              0.8662383630764671
+            ],
+            [
+              0.25840746398753167,
+              0.9660360151441211
+            ],
+            [
+              -0.0004260758028264477,
+              0.9999999092297011
+            ],
+            [
+              -0.25923057923134546,
+              0.9658154620792634
+            ],
+            [
+              -0.5003689470840359,
+              0.8658122872736407
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "offline-tactical",
+      "style": "tactical",
+      "input": "keyboard",
+      "finishedAt": 26.803749999999432,
+      "tankHP": 2,
+      "shotHits": [
+        {
+          "time": 4.602916666666652,
+          "hp": 7
+        },
+        {
+          "time": 5.602916666666649,
+          "hp": 6
+        },
+        {
+          "time": 8.847500000000014,
+          "hp": 5
+        },
+        {
+          "time": 11.808750000000016,
+          "hp": 4
+        },
+        {
+          "time": 17.803333333333278,
+          "hp": 3
+        },
+        {
+          "time": 20.814583333333108,
+          "hp": 2
+        },
+        {
+          "time": 23.80916666666627,
+          "hp": 1
+        },
+        {
+          "time": 26.803749999999432,
+          "hp": 0
+        }
+      ],
+      "tankHits": [
+        {
+          "time": 4.050873129466136,
+          "hp": 2
+        }
+      ],
+      "coverHits": [
+        {
+          "time": 3.21666666666666,
+          "id": 0,
+          "side": "player"
+        },
+        {
+          "time": 7.666742532227763,
+          "id": 2,
+          "side": "enemy"
+        }
+      ],
+      "volleys": [
+        {
+          "time": 3,
+          "gun": 0,
+          "muzzle": {
+            "x": 285.3972597557899,
+            "y": 239.85845223859187
+          },
+          "angle": 1.6794575426354892,
+          "target": {
+            "x": 259.1999999999989,
+            "y": 479.9999999999982
+          },
+          "directions": [
+            [
+              0.40313278951490983,
+              0.9151414939876388
+            ],
+            [
+              0.15254032520883148,
+              0.9882972473831868
+            ],
+            [
+              -0.10844751017542231,
+              0.9941021766079942
+            ],
+            [
+              -0.36204482695920537,
+              0.9321606853284894
+            ],
+            [
+              -0.5909693870930841,
+              0.8066939838122165
+            ]
+          ]
+        },
+        {
+          "time": 6,
+          "gun": 0,
+          "muzzle": {
+            "x": 288.2203426641329,
+            "y": 239.9989885018174
+          },
+          "angle": 1.561615253474566,
+          "target": {
+            "x": 290.3999999999992,
+            "y": 477.39999999999816
+          },
+          "directions": [
+            [
+              0.5079298581493887,
+              0.8613984323182517
+            ],
+            [
+              0.2676762482244194,
+              0.963508913366399
+            ],
+            [
+              0.00918094433887132,
+              0.9999578542423908
+            ],
+            [
+              -0.24994002573114293,
+              0.9682613198602512
+            ],
+            [
+              -0.4920279960930018,
+              0.8705793766571231
+            ]
+          ]
+        },
+        {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9814528648891,
+            "y": 239.999992833411
+          },
+          "angle": 1.5715691241681056,
+          "target": {
+            "x": 287.79999999999916,
+            "y": 474.79999999999814
+          },
+          "directions": [
+            [
+              0.4993305886055013,
+              0.8664115438305768
+            ],
+            [
+              0.2580725029501448,
+              0.9661255525142928
+            ],
+            [
+              -0.0007727972962878211,
+              0.9999997013921248
+            ],
+            [
+              -0.25956543268408633,
+              0.9657255231977268
+            ],
+            [
+              -0.5006691127866236,
+              0.8656387465342891
+            ]
+          ]
+        },
+        {
+          "time": 12,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.98126464271263,
+            "y": 239.9999926872153
+          },
+          "angle": 1.5715769667611565,
+          "target": {
+            "x": 287.80000000001763,
+            "y": 472.1999999999981
+          },
+          "directions": [
+            [
+              0.4993237936769924,
+              0.8664154598505363
+            ],
+            [
+              0.25806492601266384,
+              0.9661275764421997
+            ],
+            [
+              -0.000780639886973092,
+              0.999999695300637
+            ],
+            [
+              -0.2595730064683812,
+              0.965723487501969
+            ],
+            [
+              -0.5006759016236446,
+              0.8656348199635632
+            ]
+          ]
+        },
+        {
+          "time": 15,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9812646427144,
+            "y": 239.9999926872153
+          },
+          "angle": 1.5715769667610844,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 472.1999999999981
+          },
+          "directions": [
+            [
+              0.49932379367705476,
+              0.8664154598505004
+            ],
+            [
+              0.25806492601273356,
+              0.9661275764421811
+            ],
+            [
+              -0.0007806398869009276,
+              0.999999695300637
+            ],
+            [
+              -0.2595730064683115,
+              0.9657234875019878
+            ],
+            [
+              -0.500675901623582,
+              0.8656348199635995
+            ]
+          ]
+        },
+        {
+          "time": 18,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9810725610945,
+            "y": 239.99999253650003
+          },
+          "angle": 1.571584970164376,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 469.5999999999981
+          },
+          "directions": [
+            [
+              0.49931685938871956,
+              0.8664194561124454
+            ],
+            [
+              0.25805719369584307,
+              0.9661296418089169
+            ],
+            [
+              -0.0007886432877288649,
+              0.999999689020834
+            ],
+            [
+              -0.2595807355345367,
+              0.9657214100036039
+            ],
+            [
+              -0.5006828296321142,
+              0.8656308128247165
+            ]
+          ]
+        },
+        {
+          "time": 21,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9808765000982,
+            "y": 239.99999238107694
+          },
+          "angle": 1.571593139375122,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 466.99999999999807
+          },
+          "directions": [
+            [
+              0.49930978140892734,
+              0.8664235351081878
+            ],
+            [
+              0.2580493011705805,
+              0.9661317499002788
+            ],
+            [
+              -0.0007968124959078718,
+              0.9999996825448728
+            ],
+            [
+              -0.2595886247075951,
+              0.9657192894016456
+            ],
+            [
+              -0.5006899011359456,
+              0.8656267226122799
+            ]
+          ]
+        },
+        {
+          "time": 24,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9806763347694,
+            "y": 239.99999222074794
+          },
+          "angle": 1.5716014795998314,
+          "target": {
+            "x": 287.8000000000361,
+            "y": 464.39999999999804
+          },
+          "directions": [
+            [
+              0.49930255522458517,
+              0.8664276994338305
+            ],
+            [
+              0.25804124340571255,
+              0.966133902055835
+            ],
+            [
+              -0.0008051527179419395,
+              0.9999996758644979
+            ],
+            [
+              -0.2595966790144465,
+              0.9657171243405962
+            ],
+            [
+              -0.5006971206399128,
+              0.8656225467158886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "offline-defeat",
+      "style": "no-fire defeat",
+      "finishedAt": 17.308333552529167,
+      "tankHP": 0,
+      "tankHits": [
+        {
+          "time": 11.308333552529305,
+          "hp": 2
+        },
+        {
+          "time": 14.308333552529305,
+          "hp": 1
+        },
+        {
+          "time": 17.308333552529167,
+          "hp": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch with controlled clock, forwarding Canvas measurements and read-only game snapshots; no gameplay fixtures",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed",
+  "other_browser_engines": "Not performed"
+}

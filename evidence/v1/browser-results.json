@@ -1,0 +1,39 @@
+{
+  "passed": 470,
+  "failed": 0,
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "phases": [
+    {
+      "phase": "access",
+      "passed": 35,
+      "failed": 0
+    },
+    {
+      "phase": "campaign",
+      "passed": 172,
+      "failed": 0
+    },
+    {
+      "phase": "cosmetics",
+      "passed": 141,
+      "failed": 0
+    },
+    {
+      "phase": "storage",
+      "passed": 62,
+      "failed": 0
+    },
+    {
+      "phase": "layout",
+      "passed": 60,
+      "failed": 0
+    }
+  ],
+  "reports": [
+    "access-browser.json",
+    "campaign-browser.json",
+    "cosmetics-browser.json",
+    "storage-browser.json",
+    "layout-browser.json"
+  ]
+}

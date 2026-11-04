@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "method": "Unmodified native RAF/compositor; genuine four-mission campaign with CDP touch; no virtual clock or save/gameplay fixtures; phone viewport emulation, not physical hardware or independent player",
+  "plays": [
+    {
+      "mission": "siege",
+      "tank": "guardian",
+      "time": 10.608750000000079,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "mission": "interception",
+      "tank": "bulwark",
+      "time": 12.775654673375819,
+      "hp": 3,
+      "completed": [
+        "siege",
+        "interception"
+      ]
+    },
+    {
+      "mission": "colossus",
+      "tank": "vanguard",
+      "time": 7.4723299374999765,
+      "hp": 3,
+      "completed": [
+        "siege",
+        "interception",
+        "colossus"
+      ]
+    },
+    {
+      "mission": "breakthrough",
+      "tank": "sentinel",
+      "time": 28.27583333333887,
+      "hp": null,
+      "completed": [
+        "siege",
+        "interception",
+        "colossus",
+        "breakthrough"
+      ]
+    }
+  ],
+  "frames": 1957,
+  "recording_seconds": 69.1756489276886,
+  "raf_samples": 4271,
+  "raf_median_ms": 16.69999999999709,
+  "raf_p95_ms": 16.70000000001164,
+  "errors": []
+}

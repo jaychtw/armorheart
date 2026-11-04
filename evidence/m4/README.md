@@ -1,5 +1,7 @@
 # Siege M4 — review evidence
 
+**Subsequently creatively accepted and closed**,2026-11-04: [record](../../docs/decisions/M4_CONFIRM_CLOSE.md). This gallery and its numbers remain historical M4 evidence; [v1 evidence](../v1/README.md) contains fresh integrated-game runs.
+
 Playable bounded M4 for **creative-director Confirm & Close**. [Play guide](../../docs/PLAY_M4.md) · [QA, measurements and reproduction](../../docs/QA_M4.md) · [owner execution authority](../../docs/decisions/M4_IMPLEMENTATION_AUTHORIZATION.md). Creative approval of the Offer/strategies does not constitute acceptance of this final composed build.
 
 - [Desktop charge](desktop-charge.png), [five actual rounds](desktop-five-shells.png), [oblique right gun charge](right-gun-charge.png), [right-gun volley](right-gun-volley.png). All three rendered gun layers/muzzles are compared with actual projectile geometry; no diagnostic aiming rays or bounding boxes are added to gameplay.

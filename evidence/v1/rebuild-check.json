@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "source_commit": "f1a0f2379ccddbae4a3f97dd2901743ccdadec38",
+  "method": "git archive into empty directory; rebuild from archived original paint/reference and accepted runtime assets; byte comparison against committed outputs",
+  "steps": [
+    [
+      "python3",
+      "tools/export_collection.py"
+    ],
+    [
+      "python3",
+      "tools/build_preview.py"
+    ]
+  ],
+  "byte_identical_sha256": {
+    "assets/tanks/manifest.json": "78e2c0bedbb91f74054af4124d618f96a97a079bb6f8893fefccf0d8af72cd91",
+    "preview/guardian.html": "62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2",
+    "assets/tanks/bulwark/source.svg": "33d237d4393b9b98b894f663128f0c4b5f58a4793fea773005fdd1f9371a7f5a",
+    "assets/tanks/bulwark/hull.png": "a9a1faff6d05ee3c2a0aeb0029592f4a2b2542ca2b42e627d9aacbdcb6f5d89f",
+    "assets/tanks/bulwark/barrel.png": "076d273eaa3126e2b51a3029b6d13335805de36b387b2da4bda19e02842112e4",
+    "assets/tanks/bulwark/hull.svg": "fcaad194eccb8442abd76a4d910f5603a0b84aa04e166228f52d5b0084c33390",
+    "assets/tanks/bulwark/barrel.svg": "bd8cff994e7175969f3e87a155facce11f82e371690dc2ac52ffc3c3e60ef911",
+    "assets/tanks/vanguard/source.svg": "b45504ec6ab4b84b82f44fc13bd110c405b5dfcf8758ab34052f131c8151a11e",
+    "assets/tanks/vanguard/hull.png": "a6c007b2b639ff228475e97d6fb204c3248a007eedb8efaf1d8bf7930e691d05",
+    "assets/tanks/vanguard/barrel.png": "4233f312b93b633637ee5ebea2808e49f88fe3c17f3cbe436f66ac4a5e908075",
+    "assets/tanks/vanguard/hull.svg": "9cf6f286413bc7485b22191dfe616464e35987632355662a1e941d6ad8517bd3",
+    "assets/tanks/vanguard/barrel.svg": "85069f34dff71fb17c6f51d32ab2204af2f295edacf8ab49991c1bae23d7f489",
+    "assets/tanks/sentinel/source.svg": "f1fc8b5fde71dbfe22bc404f04d8591373f8cd49b56674ecbd88d603e8d866e7",
+    "assets/tanks/sentinel/hull.png": "b9702bacaaa4cba64ca2674161daea612444d71193841c5a5b75c11ea8e25250",
+    "assets/tanks/sentinel/barrel.png": "2a0b9c731fd5d3bb631608289c25b5bcdd370c850e4703c5ad2e229d0fc870ec",
+    "assets/tanks/sentinel/hull.svg": "2e18abc5bbd5625bd1fbaec516ca4bde186a48a498e8677e3f723e19ca2e5421",
+    "assets/tanks/sentinel/barrel.svg": "c302cfc056c700e7abeffdd5a2ec0f810b715805d18574104830d818035c413d"
+  },
+  "toolchain": {
+    "chromium": "154.0.8037.57",
+    "playwright": "1.62.0",
+    "Pillow": "12.3.0"
+  },
+  "limitations": "Same installed environment/toolchain; ImageGen source generation is not deterministic and is not rerun. Exact archived original PNG is a reconstruction input."
+}

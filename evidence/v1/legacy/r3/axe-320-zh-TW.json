@@ -1,0 +1,10 @@
+{
+  "violations": [],
+  "passes": 20,
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious"
+    }
+  ]
+}

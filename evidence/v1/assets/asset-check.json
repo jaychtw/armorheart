@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "method": "Original SVG raster export, actual alpha envelope/corner checks; distinct silhouette masks and independent source geometry. Enlarged chart is inspection only; gameplay-scale evidence supplied separately.",
+  "method": "Mixed SVG/paint raster export, actual alpha envelope/corner checks; distinct silhouette masks and independent source geometry. Enlarged chart is inspection only; gameplay-scale evidence supplied separately.",
   "layers": [
     {
       "tank": "guardian",

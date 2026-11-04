@@ -1,0 +1,4201 @@
+[
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 0.016666666666666666,
+    "x": 384,
+    "y": 688,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 0.21666666666666665,
+    "x": 355.39999999999975,
+    "y": 688,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 0.41666666666666663,
+    "x": 324.1999999999995,
+    "y": 688,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 0.6166666666666669,
+    "x": 292.9999999999992,
+    "y": 688,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 0.8166666666666675,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 1.016666666666668,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 1.2166666666666672,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 1.4166666666666665,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 1.6166666666666658,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 1.816666666666665,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 2.0166666666666644,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 2.2166666666666637,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 2.416666666666663,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 2.6166666666666623,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 2.8166666666666615,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 3.016666666666661,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 3.21666666666666,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 3.4166666666666594,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 3.6166666666666587,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 3.816666666666658,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 4.016666666666658,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 4.216666666666657,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 4.416666666666656,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 4.616666666666656,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 4.816666666666655,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 5.016666666666654,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 5.2166666666666535,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 5.416666666666653,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 5.616666666666652,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 5.816666666666651,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 6.016666666666651,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 6.21666666666665,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 6.416666666666649,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 6.6166666666666485,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 6.816666666666648,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 7.016666666666647,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 7.216666666666646,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 7.416666666666646,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 7.616666666666645,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 7.816666666666644,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 8.016666666666644,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 8.216666666666654,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 8.416666666666664,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 8.616666666666674,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 8.816666666666684,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 9.016666666666667,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 9.216666666666677,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 9.416666666666687,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 9.616666666666697,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 9.816666666666707,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.016666666666717,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.216666666666727,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.416666666666737,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": false,
+    "progress": []
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "siege",
+    "tank": "guardian",
+    "time": 10.616666666666747,
+    "x": 282.5999999999991,
+    "y": 680.1999999999999,
+    "complete": true,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "guardian",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 0.05,
+    "x": 378.79999999999995,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 0.24999999999999997,
+    "x": 347.5999999999997,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 0.44999999999999996,
+    "x": 316.3999999999994,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 0.6500000000000004,
+    "x": 285.19999999999914,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 0.850000000000001,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 1.0500000000000012,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 1.2500000000000004,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 1.4499999999999997,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 1.649999999999999,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 1.8499999999999983,
+    "x": 277.39999999999907,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 2.0499999999999976,
+    "x": 287.79999999999916,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 2.249999999999997,
+    "x": 318.99999999999943,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 2.449999999999996,
+    "x": 350.1999999999997,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 2.6499999999999955,
+    "x": 381.4,
+    "y": 688,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 2.8499999999999948,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 3.049999999999994,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 3.2499999999999933,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 3.4499999999999926,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 3.649999999999992,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 3.849999999999991,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 4.049999999999991,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 4.24999999999999,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 4.4499999999999895,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 4.649999999999989,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 4.849999999999988,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 5.049999999999987,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 5.249999999999987,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 5.449999999999986,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 5.649999999999985,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 5.8499999999999845,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 6.049999999999984,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 6.249999999999983,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 6.449999999999982,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 6.649999999999982,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 6.849999999999981,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 7.04999999999998,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 7.24999999999998,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 7.449999999999979,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 7.649999999999978,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 7.849999999999977,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 8.04999999999998,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 8.24999999999999,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 8.45,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 8.65000000000001,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 8.85000000000002,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 9.050000000000002,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 9.250000000000012,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 9.450000000000022,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 9.650000000000032,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 9.850000000000042,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 10.050000000000052,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 10.250000000000062,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 10.450000000000072,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 10.650000000000082,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 10.850000000000092,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 11.050000000000102,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 11.250000000000112,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 11.450000000000122,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 11.650000000000132,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 11.850000000000142,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.050000000000002,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.250000000000012,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.450000000000022,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.650000000000032,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": false,
+    "progress": [
+      "siege"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "interception",
+    "tank": "bulwark",
+    "time": 12.783333333333372,
+    "x": 386.6,
+    "y": 682.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "bulwark",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0,
+    "x": 64,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0.16666666666666666,
+    "x": 89.99999999999994,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0.36666666666666664,
+    "x": 121.19999999999987,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0.5666666666666668,
+    "x": 152.3999999999998,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0.7666666666666674,
+    "x": 183.59999999999974,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 0.966666666666668,
+    "x": 214.79999999999967,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 1.1666666666666674,
+    "x": 245.9999999999996,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 1.3666666666666667,
+    "x": 277.19999999999976,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 1.566666666666666,
+    "x": 308.40000000000003,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 1.7666666666666653,
+    "x": 339.6000000000003,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 1.9666666666666646,
+    "x": 370.8000000000006,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 2.166666666666664,
+    "x": 402.00000000000085,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 2.366666666666663,
+    "x": 433.2000000000011,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 2.5666666666666624,
+    "x": 464.4000000000014,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 2.7666666666666617,
+    "x": 495.60000000000167,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 2.966666666666661,
+    "x": 526.8000000000019,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 3.1666666666666603,
+    "x": 558.0000000000022,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 3.366666666666659,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 3.5666666666666584,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 3.7666666666666577,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 3.966666666666657,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 4.166666666666656,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 4.366666666666656,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 4.566666666666655,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 4.766666666666654,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 4.9666666666666535,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 5.166666666666653,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 5.366666666666652,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 5.566666666666651,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 5.766666666666651,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 5.96666666666665,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 6.166666666666649,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 6.3666666666666485,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 6.566666666666647,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 6.766666666666646,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 6.9666666666666455,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.166666666666645,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.366666666666644,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "colossus",
+    "tank": "vanguard",
+    "time": 7.48333333333331,
+    "x": 563.2000000000021,
+    "y": 698.8,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "vanguard",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 0.00930000000596192,
+    "x": 512,
+    "y": 704,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 0.20940000000596046,
+    "x": 512,
+    "y": 672.7999999999997,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 0.40930000000596206,
+    "x": 512,
+    "y": 641.5999999999995,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 0.6094000000059605,
+    "x": 512,
+    "y": 610.3999999999992,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 0.8093000000059617,
+    "x": 512,
+    "y": 579.1999999999989,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 1.00940000000596,
+    "x": 512,
+    "y": 547.9999999999986,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 1.2093000000059617,
+    "x": 512,
+    "y": 516.7999999999984,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 1.409300000005962,
+    "x": 512,
+    "y": 485.5999999999981,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 1.609300000005962,
+    "x": 512,
+    "y": 454.3999999999978,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 1.8093000000059623,
+    "x": 512,
+    "y": 423.19999999999754,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 2.009300000005962,
+    "x": 509.4,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 2.2093000000059613,
+    "x": 478.1999999999997,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 2.4093000000059606,
+    "x": 446.99999999999943,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 2.6092000000059614,
+    "x": 415.79999999999916,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 2.80930000000596,
+    "x": 384.5999999999989,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 3.009200000005961,
+    "x": 353.3999999999986,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 3.20920000000596,
+    "x": 322.19999999999834,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 3.4092000000059595,
+    "x": 290.99999999999807,
+    "y": 397.1999999999973,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 3.6092000000059588,
+    "x": 283.199999999998,
+    "y": 376.39999999999714,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 3.809200000005958,
+    "x": 283.199999999998,
+    "y": 345.19999999999686,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 4.009200000005958,
+    "x": 283.199999999998,
+    "y": 313.9999999999966,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 4.209200000005961,
+    "x": 283.199999999998,
+    "y": 282.7999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 4.409200000005963,
+    "x": 283.199999999998,
+    "y": 251.5999999999961,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 4.6092000000059645,
+    "x": 283.199999999998,
+    "y": 220.39999999999617,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 4.809200000005967,
+    "x": 283.199999999998,
+    "y": 189.19999999999624,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 5.009100000005963,
+    "x": 283.199999999998,
+    "y": 157.9999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 5.209200000005972,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 5.409100000005969,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 5.609200000005975,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 5.809200000005977,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 6.009100000005974,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 6.209100000005975,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 6.409100000005978,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 6.609100000005981,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 6.809100000005982,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 7.009000000005986,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 7.209100000005986,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 7.409100000005989,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 7.609100000005991,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 7.809100000005994,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 8.009000000005997,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 8.209000000005993,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 8.409000000005989,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 8.609000000005985,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 8.80900000000598,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 9.009000000005978,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 9.209000000005974,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 9.408900000005975,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 9.608900000005974,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 9.80890000000597,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 10.009000000005964,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 10.209000000005963,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 10.40900000000596,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 10.609000000005956,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 10.808900000005954,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 11.008900000005951,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 11.208900000005947,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 11.408900000005943,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 11.608900000005939,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 11.808800000005936,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 12.008800000005936,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 12.208900000005931,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 12.408900000005927,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 12.608800000005925,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 12.808800000005922,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 13.00880000000592,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 13.208800000005915,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 13.408900000005909,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 13.608800000005907,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 13.808800000005903,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 14.0088000000059,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 14.208800000005898,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 14.408800000005893,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 14.608800000005889,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 14.808800000005887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 15.008800000005882,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 15.208800000005878,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 15.408700000005876,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 15.608700000005872,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 15.808800000005865,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 16.008700000005867,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 16.20880000000586,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 16.40870000000585,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 16.60870000000584,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 16.80870000000583,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 17.00870000000582,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 17.20870000000581,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 17.40860000000579,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 17.608700000005786,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 17.808700000005775,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 18.008700000005764,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 18.208700000005752,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 18.408600000005734,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 18.60860000000573,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 18.80860000000572,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 19.00860000000571,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 19.208600000005703,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 19.408600000005702,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 19.608600000005698,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 19.808600000005686,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 20.008600000005686,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 20.208500000005678,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 20.408600000005677,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 20.60850000000567,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 20.80860000000566,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 21.00860000000566,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 21.20850000000566,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 21.40850000000565,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 21.608500000005638,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 21.808500000005626,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 22.008500000005615,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 22.208500000005603,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 22.408400000005592,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 22.60850000000558,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 22.80850000000557,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 23.00840000000556,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 23.208500000005554,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 23.408400000005543,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 23.60840000000554,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 23.80840000000554,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 24.008400000005544,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 24.20830000000554,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 24.40840000000555,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 24.608400000005552,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 24.808400000005552,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 25.00840000000555,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 25.208300000005547,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 25.40840000000555,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 25.608300000005542,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 25.808400000005545,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 26.008300000005534,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 26.208300000005522,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 26.408300000005518,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 26.60830000000551,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 26.808300000005513,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 27.008300000005516,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 27.208200000005526,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 27.40820000000553,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 27.608300000005524,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 27.808200000005538,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.008200000005544,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.208300000005536,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.27583333333887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.27583333333887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.27583333333887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.27583333333887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "breakthrough",
+    "tank": "sentinel",
+    "time": 28.27583333333887,
+    "x": 274.5,
+    "y": 155.3999999999963,
+    "complete": true,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  },
+  {
+    "scene": "range",
+    "tank": "sentinel",
+    "time": null,
+    "x": 352,
+    "y": 608,
+    "complete": false,
+    "progress": [
+      "siege",
+      "interception",
+      "colossus",
+      "breakthrough"
+    ]
+  }
+]

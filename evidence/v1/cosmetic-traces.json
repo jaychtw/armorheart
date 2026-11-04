@@ -1,0 +1,45 @@
+{
+  "method": "Actual unchanged game input; earned-progress fixture only for access; no pose or rule fixtures",
+  "traces": [
+    {
+      "tank": "guardian",
+      "pose": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      },
+      "shots": 0,
+      "time": 2.799999999999995
+    },
+    {
+      "tank": "bulwark",
+      "pose": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      },
+      "shots": 0,
+      "time": 2.799999999999995
+    },
+    {
+      "tank": "vanguard",
+      "pose": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      },
+      "shots": 0,
+      "time": 2.8166666666666615
+    },
+    {
+      "tank": "sentinel",
+      "pose": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      },
+      "shots": 0,
+      "time": 2.8166666666666615
+    }
+  ]
+}

@@ -4,6 +4,7 @@ Optional AXE_PATH points to axe.min.js installed as a dev-only auditing tool.
 from playwright.sync_api import sync_playwright
 from pathlib import Path
 import json,os,time
+from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/os.environ.get('EVIDENCE_DIR','evidence/r2');OUT.mkdir(parents=True,exist_ok=True)
 URL=os.environ.get('POC_URL','http://127.0.0.1:8080')
 results=[];errors=[];requests=[]
@@ -94,7 +95,10 @@ with sync_playwright() as p:
     corrupt=browser.new_context();corrupt.add_init_script("localStorage.setItem('armorheart-guardian-settings','{broken')")
     pg=corrupt.new_page();ready(pg);start(pg);check('corrupt storage falls back without preventing play',snap(pg)['settings']['language']=='en' and snap(pg)['started']);corrupt.close()
     check('no JavaScript runtime errors',not errors,errors)
-    check('no external runtime network requests',not [u for u in requests if not u.startswith(URL) and not u.startswith('data:')])
+    # Diagnostic query parameters are not a resource URL prefix. Compare origins.
+    origin=urlsplit(URL)
+    external=[u for u in requests if not u.startswith('data:') and (urlsplit(u).scheme,urlsplit(u).netloc)!=(origin.scheme,origin.netloc)]
+    check('no external runtime network requests',not external,external)
     browser.close()
 (OUT/'browser-results.json').write_text(json.dumps({'date':os.environ.get('EVIDENCE_DATE','2026-11-03 Asia/Taipei'),'browser':'Chromium 154','tests':results,'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results),'runtimeErrors':errors,'axe':bool(os.environ.get('AXE_PATH'))},indent=2,ensure_ascii=False))
 print(json.dumps({'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results)},indent=2))

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/armorheart/tools/browser_evidence.py", line 97, in <module>
+    check('no external runtime network requests',not [u for u in requests if not u.startswith(URL) and not u.startswith('data:')])
+  File "/workspace/armorheart/tools/browser_evidence.py", line 12, in check
+    if not condition:raise AssertionError(name+': '+str(detail))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: no external runtime network requests: None

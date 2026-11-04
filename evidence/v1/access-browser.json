@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "phase": "access",
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "passed": 35,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "manual numeric contrast main text",
+      "passed": true,
+      "detail": 10.895975813056653
+    },
+    {
+      "name": "manual numeric contrast card text",
+      "passed": true,
+      "detail": 11.793880883337497
+    },
+    {
+      "name": "manual numeric contrast locked label",
+      "passed": true,
+      "detail": 5.4430440144037275
+    },
+    {
+      "name": "manual numeric contrast collection note",
+      "passed": true,
+      "detail": 6.333769426934867
+    },
+    {
+      "name": "manual numeric contrast commendation",
+      "passed": true,
+      "detail": 6.636797583775942
+    },
+    {
+      "name": "manual numeric contrast reward on worst-case light underlay",
+      "passed": true,
+      "detail": 7.8334742567596765
+    },
+    {
+      "name": "keyboard earned selection guardian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px guardian actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px guardian shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px guardian same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard earned selection bulwark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px bulwark actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px bulwark shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px bulwark same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard earned selection vanguard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px vanguard actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px vanguard shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px vanguard same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard earned selection sentinel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px sentinel actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px sentinel shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320px sentinel same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard sound toggle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard motion setting overrides OS",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reduced motion restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-final-commendation actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "keyboard-final-commendation actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-final-commendation shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-final-commendation same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Next is canonical without reward",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected Sentinel defeat is labeled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "failure has no reward/Next",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Missions returns selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "access no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "access no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "keyboard-final-commendation",
+      "mission": "colossus",
+      "tank": "sentinel",
+      "input": "keyboard",
+      "time": 7.400221104166644,
+      "hp": 3,
+      "completed": [
+        "siege",
+        "interception",
+        "breakthrough",
+        "colossus"
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch and controlled clock; main campaigns earn unlocks without fixtures; explicitly labeled storage fixtures isolate save/equivalence cases",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed"
+}

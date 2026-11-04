@@ -1,14 +1,22 @@
-# Armorheart — Guardian / Breakthrough / Colossus / Interception / Siege
+# Armorheart — v1.0 release candidate
 
-A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is creatively accepted and closed** ([acceptance record](docs/decisions/M3_CONFIRM_CLOSE.md)). Siege M4 is delivered for Confirm & Close. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
+Four accepted tank missions, one cosmetic collection. Choose any mission, unlock Bulwark/Vanguard/Sentinel after the first three distinct victories, and earn the campaign commendation after all four. Tanks share identical accepted Guardian mechanics. Local progress, English/繁體中文, keyboard/touch, mute, reduced motion and the original training range are included. No external runtime dependencies.
 
-## Siege M4 review build
+## Complete-game RC1
+
+**[Download the unified playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/v1-finalization/artifacts/Armorheart-v1.0-RC.zip)**. Extract and open `Armorheart-v1.0-RC/index.html`, or serve the extracted folder locally. [Play guide](docs/PLAY_V1.md) · [QA](docs/QA_V1.md) · [actual screenshots and normal-speed touch campaign](evidence/v1/README.md) · [ZIP hash/manifest](evidence/v1/package-check.json) · [current state](PROJECT_STATE.md).
+
+**183 rules and 1,285 browser assertions passed on final runs.** Four genuinely earned campaigns include keyboard, touch, offline and a 69-second normal-RAF touch recording. All 24 victory orders, exactly-once rewards, storage failures, all four cosmetic facings/recoil and prior mission regressions are covered. Initial timing/harness discrepancies are retained in QA; these are automated input runs, not independent first-time-player or physical-phone tests. All accepted gameplay/art/maps and eight earlier ZIPs are preserved.
+
+The four individual missions are creatively accepted; this **integrated candidate and new collection await final Confirm & Close**. No merge, deployment or publication. [Proposed release/Pages handoff](docs/V1_RELEASE_HANDOFF.md) · [separate future Possibility handoff](docs/POSSIBILITY_HANDOFF.md). Existing rights, hardware/browser and canvas-accessibility limitations remain disclosed.
+
+## Accepted Siege M4 — historical delivery
 
 **[Download playable M4 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/siege-m4/artifacts/Armorheart-Siege-M4.zip)**. Extract and choose **Siege · Level4**. Eight-HP stationary Fortress, readable five-shot fans, four one-hit cover cells and permanent steel shelters. Both approved tactics are playable: fast HP-trading or tactical attack/retreat. The ZIP includes all four missions and the original Guardian range.
 
 [Play guide](docs/PLAY_M4.md) · [QA and actual combat measurements](docs/QA_M4.md) · [desktop/mobile renders and native recordings](evidence/m4/README.md) · [reconstruction](evidence/m4/rebuild-check.json) · [ZIP integrity](evidence/m4/package-check.json).169 rules and815 browser assertions passed, including fresh earlier-stage checks. Native keyboard aggressive clear10.48s/one HP remaining; native touch tactical clear24.04s/two HP remaining. No independent first-time-player or physical-phone test was performed.
 
-[Execution authority](docs/decisions/M4_IMPLEMENTATION_AUTHORIZATION.md) accepts the [Offer](docs/offers/SIEGE_M4_OFFER.md), Fortress direction and both strategies. **Final M4 composed-build acceptance is pending Confirm & Close.** No merge, deployment or publication. Earlier artifacts are preserved below.
+[Execution authority](docs/decisions/M4_IMPLEMENTATION_AUTHORIZATION.md) accepts the [Offer](docs/offers/SIEGE_M4_OFFER.md), Fortress direction and both strategies. **M4 was subsequently accepted and closed** ([record](docs/decisions/M4_CONFIRM_CLOSE.md)). No merge, deployment or publication. Earlier artifacts are preserved below.
 
 ## Interception M3 review build
 
@@ -50,11 +58,11 @@ Open the exact approved S-bend maze one64-unit cell per shot. A single original 
 
 The historical M1 build uses one crowd, two alternative lower gates and an offset upper exit gate; no enemies, 90-second deadline. M1 is delivered for creative-director review, not accepted production or a public deployment. Independent first-time-player and physical-phone tests were not performed.
 
-## Play locally
+## Local source preview and historical Guardian download
 
 **[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
-Download `preview/guardian.html`. This current single file embeds all five scenes, CSS, Guardian layers, transport, Colossus, accepted battleship and refined Fortress artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
+Download `preview/guardian.html`. This current single file embeds all five scenes, CSS, four tank cosmetics, progress/results, transport, Colossus, accepted battleship and refined Fortress artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
 
@@ -68,7 +76,7 @@ Enter the range, move with arrows or WASD, and hold Space to fire. On touch, hol
 
 ## Reproduce assets, checks and offline artifact
 
-Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M4 QA](docs/QA_M4.md) for current reconstruction, browser checks and packaging commands; [M2 QA](docs/QA_M2.md) retains its earlier asset workflow.
+Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [v1 QA](docs/QA_V1.md) for current reconstruction, browser checks and packaging commands; [M2 QA](docs/QA_M2.md) retains its earlier asset workflow.
 
 ```sh
 python3 tools/export_guardian.py
@@ -82,7 +90,7 @@ Edit `assets/guardian/guardian-source.svg`: its named `hull` and `barrel` groups
 Browser verification (development tools only): install Python Playwright 1.62.0 and provide Chromium. Optionally install axe-core 4.10.3 in a temporary directory using npm with `--ignore-scripts`; set `AXE_PATH` to its `axe.min.js`. Start the source server, then:
 
 ```sh
-AXE_PATH=/tmp/armorheart-audit/node_modules/axe-core/axe.min.js python3 tools/browser_evidence.py
+POC_URL="http://127.0.0.1:8080/?inspect" AXE_PATH=/tmp/armorheart-audit/node_modules/axe-core/axe.min.js python3 tools/browser_evidence.py
 ```
 
 Use `POC_URL` and `CHROMIUM` environment variables to override the test URL/browser executable. These test utilities are not runtime dependencies. See [current R3 QA evidence](docs/QA_R3.md), [asset construction/provenance](assets/guardian/PROVENANCE.md), [commitment](docs/POC_COMMITMENT.md), and [current state](PROJECT_STATE.md). The exact pinned standards/GDD are in `docs/`.

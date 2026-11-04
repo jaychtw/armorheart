@@ -54,3 +54,8 @@ evidence/m3/**/tmp/
 evidence/m4/tmp/
 evidence/m4/**/tmp/
 evidence/m4/legacy/**/*.png
+
+!artifacts/Armorheart-v1.0-RC.zip
+evidence/v1/tmp/
+evidence/v1/**/tmp/
+evidence/v1/legacy/**/*.png

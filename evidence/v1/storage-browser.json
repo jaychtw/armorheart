@@ -1,0 +1,1133 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "phase": "storage",
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "passed": 62,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "0 completion-count state validates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "0 unlocked button count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "0 commendation threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "0 completion state survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1 completion-count state validates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1 unlocked button count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1 commendation threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1 completion state survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2 completion-count state validates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2 unlocked button count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2 commendation threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2 completion state survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "3 completion-count state validates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "3 unlocked button count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "3 commendation threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "3 completion state survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4 completion-count state validates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4 unlocked button count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4 commendation threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4 completion state survives reload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied no unearned unlock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied-actual-win actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "denied-actual-win actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied-actual-win shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied-actual-win same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied session win retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied earned selection works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied session disclosure visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "denied reload degrades safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota no unearned unlock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota-actual-win actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "quota-actual-win actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota-actual-win shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota-actual-win same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota session win retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota earned selection works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota session disclosure visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quota reload degrades safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt no unearned unlock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt-actual-win actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "corrupt-actual-win actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt-actual-win shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt-actual-win same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt session win retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt earned selection works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt save recovers after actual victory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt reload degrades safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future no unearned unlock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future-actual-win actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "future-actual-win actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future-actual-win shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future-actual-win same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future session win retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future earned selection works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future save preserved after actual win",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future reload degrades safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "v0 persisted migration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual defeat grants no campaign progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "defeat offers Retry/Missions without Next",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Retry is level-only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "storage no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "denied-actual-win",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "name": "quota-actual-win",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "name": "corrupt-actual-win",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "name": "future-actual-win",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch and controlled clock; main campaigns earn unlocks without fixtures; explicitly labeled storage fixtures isolate save/equivalence cases",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed"
+}
