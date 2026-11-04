@@ -24,10 +24,11 @@ const EPS=1e-8;
 const wallWidth=w=>w.width??CELL,wallHeight=w=>w.height??CELL;
 const worldBounds=s=>s.bounds??{left:0,right:WORLD,top:0,bottom:WORLD};
 const activeBounds=s=>s.movementBounds??worldBounds(s);
+const movementObstacles=s=>s.solids?[...s.walls,...s.solids]:s.walls;
 export function canMove(s,x,y,facing=s.tank.facing) {
   const b=hullBounds(x,y,facing),bounds=activeBounds(s);
   return b.left>=bounds.left-EPS&&b.top>=bounds.top-EPS&&b.right<=bounds.right+EPS&&b.bottom<=bounds.bottom+EPS&&
-    !s.walls.some(w=>b.right>w.x+EPS&&b.left<w.x+wallWidth(w)-EPS&&b.bottom>w.y+EPS&&b.top<w.y+wallHeight(w)-EPS);
+    !movementObstacles(s).some(w=>b.right>w.x+EPS&&b.left<w.x+wallWidth(w)-EPS&&b.bottom>w.y+EPS&&b.top<w.y+wallHeight(w)-EPS);
 }
 function turn(s,facing) {
   if(s.tank.facing===facing)return;
@@ -38,7 +39,7 @@ function turn(s,facing) {
   // center on obstacle/world faces instead of drawing an expanded hull in a wall.
   const bounds=activeBounds(s);
   const xs=[x,bounds.left-b.left,bounds.right-b.right],ys=[y,bounds.top-b.top,bounds.bottom-b.bottom];
-  for(const w of s.walls){xs.push(w.x-b.right,w.x+wallWidth(w)-b.left);ys.push(w.y-b.bottom,w.y+wallHeight(w)-b.top);}
+  for(const w of movementObstacles(s)){xs.push(w.x-b.right,w.x+wallWidth(w)-b.left);ys.push(w.y-b.bottom,w.y+wallHeight(w)-b.top);}
   let best=null;
   for(const xx of xs)for(const yy of ys){const d=(xx-x)**2+(yy-y)**2;
     if((!best||d<best.d-EPS)&&canMove(s,xx,yy))best={x:xx,y:yy,d};}
@@ -50,7 +51,7 @@ function moveTank(s,dx,dy,distance) {
   const bounds=activeBounds(s);let allowed=distance;
   if(dx)allowed=Math.min(allowed,dx>0?bounds.right-b.right:b.left-bounds.left);
   else allowed=Math.min(allowed,dy>0?bounds.bottom-b.bottom:b.top-bounds.top);
-  for(const w of s.walls){
+  for(const w of movementObstacles(s)){
     if(dx&&b.bottom>w.y+EPS&&b.top<w.y+wallHeight(w)-EPS){
       if(dx>0&&w.x>=b.right-EPS)allowed=Math.min(allowed,w.x-b.right);
       if(dx<0&&w.x+wallWidth(w)<=b.left+EPS)allowed=Math.min(allowed,b.left-w.x-wallWidth(w));
@@ -103,12 +104,13 @@ export function step(s,input,dt,combat=null) {
   }
   if(input.fire&&s.time+1e-8>=s.nextShot) {
     const [dx,dy]=VECTORS[s.tank.facing];s.nextShot=s.time+1;s.firedAt=s.time;s.shots++;
-    const muzzle=68;const hit=sweep(s,s.tank.x,s.tank.y,dx*muzzle,dy*muzzle,combat,true);
+    const muzzle=68;const hit=combat?.projectiles?null:sweep(s,s.tank.x,s.tank.y,dx*muzzle,dy*muzzle,combat,true);
     s.events.push({type:'fire',x:s.tank.x+dx*muzzle,y:s.tank.y+dy*muzzle,facing:s.tank.facing});
-    if(hit)impact(s,hit,s.tank.x+dx*muzzle*hit.t,s.tank.y+dy*muzzle*hit.t,combat,true);
+    if(combat?.projectiles)combat.projectiles({x:s.tank.x,y:s.tank.y,dx,dy,muzzle});
+    else if(hit)impact(s,hit,s.tank.x+dx*muzzle*hit.t,s.tank.y+dy*muzzle*hit.t,combat,true);
     else s.shells.push({x:s.tank.x+dx*muzzle,y:s.tank.y+dy*muzzle,dx,dy});
   }
-  s.shells=s.shells.filter(b=>{
+  if(!combat?.projectiles)s.shells=s.shells.filter(b=>{
     const dx=b.dx*480*dt,dy=b.dy*480*dt,hit=sweep(s,b.x,b.y,dx,dy,combat);
     if(hit){impact(s,hit,b.x+dx*hit.t,b.y+dy*hit.t,combat);return false;}
     b.x+=dx;b.y+=dy;return b.x>=0&&b.x<=WORLD&&b.y>=0&&b.y<=WORLD;

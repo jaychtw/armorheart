@@ -1,8 +1,8 @@
 # Armorheart project state
 
-2026-11-04 Asia/Taipei. **M3 creatively accepted and closed; Siege M4 Offer creatively approved and bounded full gameplay implementation authorized. M4 gameplay not yet implemented at this checkpoint.** Current branch `planning/siege-m4-feasibility`, based on owner assignment `d66f832dab21737e54e857b98599e4e83f85b1cf`. Verified closure checkpoint `2343510379854cd7e277fa325245ed18547d75b8` and proposed study/source checkpoint `137cb17befa7adeeef89ddfce01e878b44c77b3d`; resume by fetching and verifying the planning branch tip before editing.
+2026-11-04 Asia/Taipei. **M3 creatively accepted and closed; Siege M4 Offer creatively approved and bounded full gameplay implementation authorized. M4 gameplay not yet implemented at this checkpoint.** Current branch `dev/siege-m4`, based on owner assignment `d66f832dab21737e54e857b98599e4e83f85b1cf`. Verified closure checkpoint `2343510379854cd7e277fa325245ed18547d75b8` and proposed study/source checkpoint `137cb17befa7adeeef89ddfce01e878b44c77b3d`; resume by fetching and verifying the planning branch tip before editing.
 
-## Active Offer
+## Active authorized implementation
 
 [Siege M4 Offer](docs/offers/SIEGE_M4_OFFER.md) is the authoritative proposed commitment. [Exact map, editable sample and isolated evidence](planning/siege-m4/README.md). One static8-HP fortress,3-HP Guardian, five-round aimed/non-homing fan on initial3-second cadence, four one-hit flank cells and two permanent central shelters. No timer, roster/unlocks, progression or new mission beyond the offered Siege.
 

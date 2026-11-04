@@ -49,3 +49,8 @@ evidence/m3/visual/*.png
 !artifacts/Armorheart-Interception-M3.zip
 
 evidence/m3/**/tmp/
+
+!artifacts/Armorheart-Siege-M4.zip
+evidence/m4/tmp/
+evidence/m4/**/tmp/
+evidence/m4/legacy/**/*.png
