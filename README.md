@@ -1,6 +1,6 @@
 # Armorheart — Guardian / Breakthrough / Colossus / Interception
 
-A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is delivered for Confirm & Close**. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
+A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is creatively accepted and closed** ([acceptance record](docs/decisions/M3_CONFIRM_CLOSE.md)). Siege M4 is in feasibility/Offer only. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
 
 ## Interception M3 review build
 
@@ -10,7 +10,7 @@ A bounded browser prototype with no external runtime dependencies. Guardian, Bre
 
 **148 rule tests and 615 browser assertions passed**, including fresh Guardian/R3/M2 preservation. Actual keyboard/touch wins take about12.7 seconds; a native-time touch recording wins in12.86 seconds without damage. The informed two-station strategy still needs little response after setup; approved combat defaults are unchanged. Independent first-time-player and physical-phone tests were not performed. Original reference ZIP/manifest archival remains pending because no file was exposed; the expected hash is recorded without claiming receipt.
 
-[Owner implementation authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) supersedes the earlier planning-only restrictions. [Original bounded Offer](docs/offers/INTERCEPTION_M3_OFFER.md), [accepted editable art](planning/interception-m3/art/README.md) and historical planning evidence remain available. The ZIP contains all four scenes, offline assets and provenance. Final M3 creative acceptance is pending.
+[Owner implementation authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) supersedes the earlier planning-only restrictions. [Original bounded Offer](docs/offers/INTERCEPTION_M3_OFFER.md), [accepted editable art](planning/interception-m3/art/README.md) and historical planning evidence remain available. The ZIP contains all four scenes, offline assets and provenance. M3 creative acceptance is complete; this does not authorize merge or deployment.
 
 ## Colossus M2 accepted presentation
 

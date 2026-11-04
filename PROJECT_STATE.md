@@ -1,6 +1,6 @@
 # Armorheart project state
 
-2026-11-04 Asia/Taipei. **Interception M3 creatively accepted by owner; Siege M4 feasibility Offer authorized (no implementation).** Dedicated branch `dev/interception-m3`, derived from [owner execution authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) at `e58f4d0790540363c9f815c58ed7c9aa0c12a645`. Gameplay checkpoint `357f57df41fb1ba9e121b98e97155107d5181503` and verified preview/QA source checkpoint `832056783e2cc786630bf14e735b96ad3263c48a` are pushed. Accepted ship art `29c5e871f6c7b92599880b60a3666943fa452a74` is unchanged; its nonblocking imperfections do not reopen identity.
+2026-11-04 Asia/Taipei. **Interception M3 creatively accepted by owner; Siege M4 feasibility Offer authorized (no implementation).** M3 closure: [Confirm & Close](docs/decisions/M3_CONFIRM_CLOSE.md). Current planning branch `planning/siege-m4-feasibility`, derived from owner assignment `d66f832dab21737e54e857b98599e4e83f85b1cf`; accepted implementation branch `dev/interception-m3` derives from [owner execution authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) at `e58f4d0790540363c9f815c58ed7c9aa0c12a645`. Gameplay checkpoint `357f57df41fb1ba9e121b98e97155107d5181503` and verified preview/QA source checkpoint `832056783e2cc786630bf14e735b96ad3263c48a` are pushed. Accepted ship art `29c5e871f6c7b92599880b60a3666943fa452a74` is unchanged; its nonblocking imperfections do not reopen identity.
 
 ## Delivery and implemented boundary
 
