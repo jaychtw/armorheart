@@ -1,0 +1,113 @@
+{
+  "status": "Original mixed raster/vector cosmetic collection for integrated v1 creative review",
+  "source": "source/production-paint.png",
+  "source_sha256": "811f12c6bacc0c91c3bf226114ac21bc204bc0837ef9c93d617481d10c5baaee",
+  "prompt": "source/production-prompt.txt",
+  "reference": "source/construction-reference.png",
+  "reference_sha256": "ec27c7a8518213de3abbe6800b504c6e272392fb626be1bc11a0d57ba1c67fbc",
+  "generation": "Host-native ImageGen, original three-tank paint pass of the authored construction; no external provider account/job or additional paid service",
+  "physics": {
+    "hullMaster": [
+      12,
+      70,
+      198,
+      185
+    ],
+    "pivot": [
+      107,
+      128
+    ],
+    "muzzle": [
+      243,
+      126
+    ],
+    "scale": 0.5,
+    "recoil": "unchanged accepted master12-pixel retraction"
+  },
+  "tanks": {
+    "bulwark": {
+      "original_cell": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "original_hull": [
+        61,
+        207,
+        591,
+        530
+      ],
+      "original_muzzle": [
+        707,
+        365.0
+      ],
+      "body_transform": "0.35094339622641507 0 0 0.3560371517027864 -9.40754716981132 -3.699690402476776",
+      "barrel_transform": "0.3879310344827586 0 0 0.3560371517027864 -31.26724137931035 -3.953560371517028",
+      "files": {
+        "barrel.png": "076d273eaa3126e2b51a3029b6d13335805de36b387b2da4bda19e02842112e4",
+        "barrel.svg": "bd8cff994e7175969f3e87a155facce11f82e371690dc2ac52ffc3c3e60ef911",
+        "hull.png": "a9a1faff6d05ee3c2a0aeb0029592f4a2b2542ca2b42e627d9aacbdcb6f5d89f",
+        "hull.svg": "fcaad194eccb8442abd76a4d910f5603a0b84aa04e166228f52d5b0084c33390",
+        "source.svg": "33d237d4393b9b98b894f663128f0c4b5f58a4793fea773005fdd1f9371a7f5a"
+      },
+      "design": "stepped heavy shoulders/slab casemate"
+    },
+    "vanguard": {
+      "original_cell": [
+        724,
+        0,
+        1448,
+        724
+      ],
+      "original_hull": [
+        767,
+        206,
+        1281,
+        529
+      ],
+      "original_muzzle": [
+        1398,
+        368.0
+      ],
+      "body_transform": "0.36186770428015563 0 0 0.3560371517027864 -265.55252918287937 -3.343653250773997",
+      "barrel_transform": "0.38461538461538464 0 0 0.3560371517027864 -294.69230769230774 -5.021671826625379",
+      "files": {
+        "barrel.png": "4233f312b93b633637ee5ebea2808e49f88fe3c17f3cbe436f66ac4a5e908075",
+        "barrel.svg": "85069f34dff71fb17c6f51d32ab2204af2f295edacf8ab49991c1bae23d7f489",
+        "hull.png": "a6c007b2b639ff228475e97d6fb204c3248a007eedb8efaf1d8bf7930e691d05",
+        "hull.svg": "9cf6f286413bc7485b22191dfe616464e35987632355662a1e941d6ad8517bd3",
+        "source.svg": "b45504ec6ab4b84b82f44fc13bd110c405b5dfcf8758ab34052f131c8151a11e"
+      },
+      "design": "tapered prow/arrowhead turret"
+    },
+    "sentinel": {
+      "original_cell": [
+        1448,
+        0,
+        2172,
+        724
+      ],
+      "original_hull": [
+        1478,
+        208,
+        2012,
+        530
+      ],
+      "original_muzzle": [
+        2125,
+        367.0
+      ],
+      "body_transform": "0.34831460674157305 0 0 0.35714285714285715 -502.808988764045 -4.285714285714292",
+      "barrel_transform": "0.39823008849557523 0 0 0.35714285714285715 -603.2389380530974 -5.071428571428584",
+      "files": {
+        "barrel.png": "2a0b9c731fd5d3bb631608289c25b5bcdd370c850e4703c5ad2e229d0fc870ec",
+        "barrel.svg": "c302cfc056c700e7abeffdd5a2ec0f810b715805d18574104830d818035c413d",
+        "hull.png": "b9702bacaaa4cba64ca2674161daea612444d71193841c5a5b75c11ea8e25250",
+        "hull.svg": "2e18abc5bbd5625bd1fbaec516ca4bde186a48a498e8677e3f723e19ca2e5421",
+        "source.svg": "f1fc8b5fde71dbfe22bc404f04d8591373f8cd49b56674ecbd88d603e8d866e7"
+      },
+      "design": "track pods/round sensor turret"
+    }
+  }
+}

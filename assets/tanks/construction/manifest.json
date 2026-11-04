@@ -1,0 +1,35 @@
+{
+  "status": "Original game-ready cosmetic candidates for integrated v1 creative review",
+  "source": "Original authored vector geometry/materials; no alternate prototype bytes available in checkout",
+  "toolchain": "Python stdlib original SVG construction; native Canvas rendering/validation",
+  "physics": "All tanks use unmodified Guardian engine; hull master12,70,198,185; pivot107,128; muzzle243,126; scale0.5; identical recoil/cadence",
+  "tanks": {
+    "bulwark": {
+      "files": {
+        "barrel.svg": "b0d5acbccf94899554b8a3279bf0f530973f70f51ec554b2de524e7aa7c29454",
+        "hull.svg": "a97e608998a35827a13b164feb6576391a887da790838820bbad6d5469fc1123",
+        "source.svg": "60a97a64bed698e24bee48aca45f480fd7735aea0461eedbd3a15d51e8c6bd0b"
+      },
+      "palette": "#777b54",
+      "design": "stepped armored shoulders and broad slab casemate"
+    },
+    "vanguard": {
+      "files": {
+        "barrel.svg": "596e7f422e70030bdd8d534074f3839bbb41e0487519ee8d32cb3a7620ce339c",
+        "hull.svg": "cb0d1b86662afb820e25ce36a256d4ee37f4c025863207a406f0b3b5b089868f",
+        "source.svg": "e07a550f2ac25fe1d6cbecbb8f03f91472320a47d4953913c1f29c5c22a8435a"
+      },
+      "palette": "#b1a27a",
+      "design": "tapered prow and low angular arrowhead turret"
+    },
+    "sentinel": {
+      "files": {
+        "barrel.svg": "805276b1e608a0f87a09417f0cf13f8fa674fc3d3008b78925c210b5b16101d2",
+        "hull.svg": "10082a83cb29504967ab913117d7048bfa3297cef001869fa7ade4d2a60c7f67",
+        "source.svg": "a7d7836318c54129921e58440ea544e6396be065c35aa5790af42ea7229c2bef"
+      },
+      "palette": "#70817b",
+      "design": "separated track pods and round sensor turret"
+    }
+  }
+}
