@@ -1,6 +1,6 @@
 # Armorheart project state
 
-2026-11-04 Asia/Taipei. **Interception M3 is delivered for creative-director Confirm & Close. Stop here; final M3 creative acceptance is pending.** Dedicated branch `dev/interception-m3`, derived from [owner execution authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) at `e58f4d0790540363c9f815c58ed7c9aa0c12a645`. Gameplay checkpoint `357f57df41fb1ba9e121b98e97155107d5181503` and verified preview/QA source checkpoint `832056783e2cc786630bf14e735b96ad3263c48a` are pushed. Accepted ship art `29c5e871f6c7b92599880b60a3666943fa452a74` is unchanged; its nonblocking imperfections do not reopen identity.
+2026-11-04 Asia/Taipei. **Interception M3 creatively accepted by owner; Siege M4 feasibility Offer authorized (no implementation).** Dedicated branch `dev/interception-m3`, derived from [owner execution authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) at `e58f4d0790540363c9f815c58ed7c9aa0c12a645`. Gameplay checkpoint `357f57df41fb1ba9e121b98e97155107d5181503` and verified preview/QA source checkpoint `832056783e2cc786630bf14e735b96ad3263c48a` are pushed. Accepted ship art `29c5e871f6c7b92599880b60a3666943fa452a74` is unchanged; its nonblocking imperfections do not reopen identity.
 
 ## Delivery and implemented boundary
 
@@ -18,7 +18,7 @@ Accepted artwork exports unchanged to an efficient 664×260 PNG (0.659MiB decode
 
 The informed two-station victory still needs little response after setup. No claim of forced sustained dodging or proven enjoyable balance. The production-adapter search found zero wins in1,568 sampled stationary approaches, with at most five hits; this is not exhaustive or human testing. Do not add attacks, HP, randomness or new systems to conceal the accepted balance risk.
 
-Physical-phone, independent first-time-player, other-engine and human assistive-technology tests were **not performed**. Six M3 axe audits reported zero violations but contrast/canvas review remains incomplete. Direct `file://` opening is unverified because managed Chromium blocks it; local HTTP with every later request blocked passed. Production licensing remains unresolved. Technical passes are not M3 creative acceptance.
+Physical-phone, independent first-time-player, other-engine and human assistive-technology tests were **not performed**. Six M3 axe audits reported zero violations but contrast/canvas review remains incomplete. Direct `file://` opening is unverified because managed Chromium blocks it; local HTTP with every later request blocked passed. Production licensing remains unresolved. Technical passes do not substitute for human acceptance; the owner subsequently reviewed M3, reported no obvious defects and approved proceeding on 2026-11-04.
 
 ## Reference handoff and accepted history
 
@@ -26,4 +26,4 @@ The promised `Armorheart_Interception_Original_Reference.zip` and manifest are *
 
 M2 is creatively accepted and corrected at `94493a6380f5fd34a6f56e059728c7b6ec69e21e`; R3 accepted runtime is `1d6abaa4f8f98bb0034641bde855ac4b16786bed`. R3 tank/truck pass-through and M2 safe lane remain accepted limitations, not new mandatory systems. Old geometry-draft stash remains untouched.
 
-UGDS1.0.0 `d5c6696efdd6efc028118600466db44aecae0c9b` / AICP1.2.1 `b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b` remain pinned. Shared AICP1.5 guidance reviewed without repinning. Budget$0; development checkpoints only. No force-push, merge, deployment/publication, paid resources or unrelated expansion. `main` remains `a70a447512b7956128dd386ef6c447fbdc801c3f`. Await creative-director Confirm & Close; no next mission is authorized.
+UGDS1.0.0 `d5c6696efdd6efc028118600466db44aecae0c9b` / AICP1.2.1 `b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b` remain pinned. Shared AICP1.5 guidance reviewed without repinning. Budget$0; development checkpoints only. No force-push, merge, deployment/publication, paid resources or unrelated expansion. `main` remains `a70a447512b7956128dd386ef6c447fbdc801c3f`. Owner's M3 creative acceptance and authorization for Stage 4 **planning only** are captured in [Siege M4 Offer Request](docs/SIEGE_M4_OFFER_REQUEST.md). Codex should record a concise M3 closure, prepare the Fortress Offer, and stop before M4 implementation. No merge/deployment authorization.
