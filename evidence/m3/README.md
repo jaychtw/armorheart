@@ -1,5 +1,7 @@
 # Interception M3 review evidence
 
+Subsequently creatively accepted with no further corrections: [M3 Confirm & Close](../../docs/decisions/M3_CONFIRM_CLOSE.md). The original delivery evidence and its limitations below are preserved.
+
 Bounded playable implementation for **Confirm & Close**. Ship artwork is already creatively accepted; these technical results do not establish final M3 gameplay/balance acceptance. [Play guide](../../docs/PLAY_M3.md) · [QA/timing/limitations](../../docs/QA_M3.md) · [execution authority](../../docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md).
 
 1. [Desktop charge](desktop-charge.png), [left broadside](left-volley.png), [north broadside](top-volley.png), [right broadside](right-volley.png), [last broadside](last-volley.png). Three actual gun-mouth rounds; no diagnostic aim rays or bounding boxes in gameplay.

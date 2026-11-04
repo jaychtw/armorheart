@@ -1,0 +1,2649 @@
+{
+  "input_sha256": {
+    "map": "da0dcf2deb87ec387d4f1c973dcfa74348b28fcde88579385eac2001f5a16571",
+    "engine": "49e3d0fad80028411a8084b3e9ba73609e2b0cb54e59e70d04c303344a4b9b94",
+    "contactMath": "f7e7f14a3efb8d8927cc837d599e07926913f29561583d9e067362b3c1978679"
+  },
+  "date": "2026-11-04 Asia/Taipei",
+  "planningOnly": true,
+  "defaults": {
+    "periodSeconds": 3,
+    "firstLaunchSeconds": 3,
+    "prechargeSeconds": 0.6,
+    "shellSpeed": 180,
+    "shellRadius": 4,
+    "offsetDegrees": [
+      -30,
+      -15,
+      0,
+      15,
+      30
+    ],
+    "aim": "nearest of three fixed gun pivots by tank x at precharge start; lower index breaks ties; track and aim at tank center at launch; mouth is 24 units along that bearing; every round ballistic thereafter",
+    "overlap": "retain 3-second cadence; do not wait for previous rounds",
+    "simultaneousCoverRule": "all exact-time impacts resolve against the same pre-impact wall snapshot; consume every contacting round, then remove brick once"
+  },
+  "routeChecks": [
+    {
+      "mask": 0,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 0,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 0,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 0,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 1,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 1,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 1,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 1,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 2,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 2,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 2,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 2,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 3,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 3,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 3,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 3,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 4,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 4,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 4,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 4,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 5,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 5,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 5,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 5,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 6,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 6,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 6,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 6,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 7,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 7,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 7,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 7,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 8,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 8,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 8,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 8,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 9,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 9,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 9,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 9,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 10,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 10,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 10,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 10,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 11,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 11,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 11,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 11,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 12,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 12,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 12,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 12,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 13,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 13,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 13,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 13,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 14,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 14,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 14,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 14,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 15,
+      "name": "leftBypass",
+      "travelSeconds": 4.410256410256423,
+      "correction": 0,
+      "endpoint": {
+        "x": 288.00000000000074,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 15,
+      "name": "rightBypass",
+      "travelSeconds": 4.410256410256405,
+      "correction": 0,
+      "endpoint": {
+        "x": 480.000000000002,
+        "y": 288.0000000000031
+      }
+    },
+    {
+      "mask": 15,
+      "name": "leftShelter",
+      "travelSeconds": 3.794871794871807,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.00000000000193,
+        "y": 480.00000000000585
+      }
+    },
+    {
+      "mask": 15,
+      "name": "rightShelter",
+      "travelSeconds": 3.7948717948717894,
+      "correction": 0,
+      "endpoint": {
+        "x": 384.0000000000008,
+        "y": 480.00000000000585
+      }
+    }
+  ],
+  "destructionExamples": [
+    {
+      "mask": 0,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 0,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 1,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 1,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 2,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 2,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 3,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 3,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 4,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 4,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 5,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 5,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 6,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 6,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 7,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 7,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 8,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 8,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 9,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 9,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 10,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 10,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 11,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 11,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 12,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 12,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 13,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 13,
+      "side": "right",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 14,
+      "side": "left",
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 14,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 15,
+      "side": "left",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    },
+    {
+      "mask": 15,
+      "side": "right",
+      "eighthTargetHit": 20.8070512820513,
+      "thirdEffectiveContact": null,
+      "contacts": 1,
+      "clear": true,
+      "peak": 7
+    }
+  ],
+  "isolatedExamples": {
+    "spawnHeld": {
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [],
+      "remainingBricks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 5,
+      "launches": [
+        {
+          "at": 3,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 6,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 9,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 12,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 15,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 18,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 21,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 24,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 27,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        },
+        {
+          "at": 30,
+          "port": 1,
+          "origin": [
+            384,
+            240
+          ],
+          "target": [
+            384,
+            688
+          ],
+          "anglesDegrees": [
+            60.00000000000001,
+            75.00000000000001,
+            90,
+            104.99999999999999,
+            120.00000000000001
+          ]
+        }
+      ],
+      "method": "predetermined motion + analytical rays/event ordering; contact opportunities with3s filtering, not a playable mission or actual-input test"
+    },
+    "leftDodge": {
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 1,
+      "potentialEffectiveContacts": [
+        4.0650170309921805
+      ],
+      "bossHitTimes": [
+        4.57115384615387,
+        5.57115384615387,
+        8.8070512820513,
+        11.8070512820513,
+        14.8070512820513,
+        17.8070512820513,
+        20.8070512820513,
+        23.8070512820513
+      ],
+      "coverHits": [
+        {
+          "at": 3.1794871794871917,
+          "id": 0,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 7.666666666666667,
+          "id": 2,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        3
+      ],
+      "peakEnemyRounds": 7,
+      "launches": [
+        {
+          "at": 3,
+          "port": 0,
+          "origin": [
+            285.468742511677,
+            239.86614203275866
+          ],
+          "target": [
+            259.99999999999864,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            66.05419189411501,
+            81.05419189411501,
+            96.05419189411501,
+            111.054191894115,
+            126.054191894115
+          ]
+        },
+        {
+          "at": 6,
+          "port": 0,
+          "origin": [
+            288.00000000000006,
+            240
+          ],
+          "target": [
+            288.00000000000074,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999986,
+            74.99999999999986,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 9,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 12,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 15,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 18,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 21,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 24,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 27,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        },
+        {
+          "at": 30,
+          "port": 0,
+          "origin": [
+            287.99999999999994,
+            240
+          ],
+          "target": [
+            287.9999999999992,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            60.000000000000185,
+            75.00000000000018,
+            90.00000000000018,
+            105.00000000000017,
+            120.00000000000017
+          ]
+        }
+      ],
+      "method": "predetermined motion + analytical rays/event ordering; contact opportunities with3s filtering, not a playable mission or actual-input test"
+    },
+    "rightDodge": {
+      "eighthTargetHit": 23.8070512820513,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 1,
+      "potentialEffectiveContacts": [
+        4.0650170309921805
+      ],
+      "bossHitTimes": [
+        4.5711538461538535,
+        5.5711538461538535,
+        8.8070512820513,
+        11.8070512820513,
+        14.8070512820513,
+        17.8070512820513,
+        20.8070512820513,
+        23.8070512820513
+      ],
+      "coverHits": [
+        {
+          "at": 3.1794871794871744,
+          "id": 1,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 7.666666666666667,
+          "id": 3,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2
+      ],
+      "peakEnemyRounds": 7,
+      "launches": [
+        {
+          "at": 3,
+          "port": 2,
+          "origin": [
+            482.53125748832286,
+            239.86614203275866
+          ],
+          "target": [
+            508.0000000000006,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            53.94580810588516,
+            68.94580810588516,
+            83.94580810588516,
+            98.94580810588518,
+            113.94580810588516
+          ]
+        },
+        {
+          "at": 6,
+          "port": 2,
+          "origin": [
+            480.00000000000017,
+            240
+          ],
+          "target": [
+            480.000000000002,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999958,
+            74.99999999999957,
+            89.99999999999957,
+            104.99999999999957,
+            119.99999999999956
+          ]
+        },
+        {
+          "at": 9,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 12,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 15,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 18,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 21,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 24,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 27,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        },
+        {
+          "at": 30,
+          "port": 2,
+          "origin": [
+            480.00000000000006,
+            240
+          ],
+          "target": [
+            480.0000000000008,
+            480.00000000000585
+          ],
+          "anglesDegrees": [
+            59.99999999999983,
+            74.99999999999983,
+            89.99999999999984,
+            104.99999999999984,
+            119.99999999999986
+          ]
+        }
+      ],
+      "method": "predetermined motion + analytical rays/event ordering; contact opportunities with3s filtering, not a playable mission or actual-input test"
+    }
+  },
+  "stationarySamples": [
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 0,
+      "eighthTargetHit": 10.440384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        3.440384615384615,
+        4.440384615384615,
+        5.440384615384615,
+        6.440384615384615,
+        7.440384615384615,
+        8.440384615384614,
+        9.440384615384614,
+        10.440384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 0.6403846153846154,
+          "id": 2,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 2.0403846153846157,
+          "id": 0,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 0.75,
+      "eighthTargetHit": 11.190384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.190384615384615,
+        5.190384615384615,
+        6.190384615384615,
+        7.190384615384615,
+        8.190384615384614,
+        9.190384615384614,
+        10.190384615384614,
+        11.190384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 1.3903846153846153,
+          "id": 2,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 2.7903846153846157,
+          "id": 0,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 1.5,
+      "eighthTargetHit": 11.940384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 3,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.940384615384615,
+        5.940384615384615,
+        6.940384615384615,
+        7.940384615384615,
+        8.940384615384614,
+        9.940384615384614,
+        10.940384615384614,
+        11.940384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 2.1403846153846153,
+          "id": 2,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 3.5403846153846157,
+          "id": 0,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 2.25,
+      "eighthTargetHit": 11.690384615384614,
+      "thirdEffectiveContact": 14.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.690384615384615,
+        5.690384615384615,
+        6.690384615384615,
+        7.690384615384615,
+        8.690384615384614,
+        9.690384615384614,
+        10.690384615384614,
+        11.690384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 2.8903846153846153,
+          "id": 2,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 3.6,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 0,
+      "eighthTargetHit": 11.57115384615387,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.0650170309921805,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        4.57115384615387,
+        5.57115384615387,
+        6.57115384615387,
+        7.57115384615387,
+        8.57115384615387,
+        9.57115384615387,
+        10.57115384615387,
+        11.57115384615387
+      ],
+      "coverHits": [
+        {
+          "at": 3.1794871794871917,
+          "id": 0,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 0.75,
+      "eighthTargetHit": 11.32115384615387,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        4.32115384615387,
+        5.32115384615387,
+        6.32115384615387,
+        7.32115384615387,
+        8.32115384615387,
+        9.32115384615387,
+        10.32115384615387,
+        11.32115384615387
+      ],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 1.5,
+      "eighthTargetHit": 12.07115384615387,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        5.07115384615387,
+        6.07115384615387,
+        7.07115384615387,
+        8.07115384615387,
+        9.07115384615387,
+        10.07115384615387,
+        11.07115384615387,
+        12.07115384615387
+      ],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 2.25,
+      "eighthTargetHit": 12.82115384615387,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        5.82115384615387,
+        6.82115384615387,
+        7.82115384615387,
+        8.82115384615387,
+        9.82115384615387,
+        10.82115384615387,
+        11.82115384615387,
+        12.82115384615387
+      ],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 384,
+      "y": 688,
+      "delay": 0,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [],
+      "remainingBricks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 5
+    },
+    {
+      "x": 384,
+      "y": 688,
+      "delay": 0.75,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [],
+      "remainingBricks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 5
+    },
+    {
+      "x": 384,
+      "y": 688,
+      "delay": 1.5,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [],
+      "remainingBricks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 5
+    },
+    {
+      "x": 384,
+      "y": 688,
+      "delay": 2.25,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [],
+      "remainingBricks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 5
+    },
+    {
+      "x": 384,
+      "y": 480,
+      "delay": 0,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 6
+    },
+    {
+      "x": 384,
+      "y": 480,
+      "delay": 0.75,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 6
+    },
+    {
+      "x": 384,
+      "y": 480,
+      "delay": 1.5,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 6
+    },
+    {
+      "x": 384,
+      "y": 480,
+      "delay": 2.25,
+      "eighthTargetHit": null,
+      "thirdEffectiveContact": null,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 0,
+      "potentialEffectiveContacts": [],
+      "bossHitTimes": [],
+      "coverHits": [
+        {
+          "at": 3.6041130447131167,
+          "id": 0,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        1,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 6
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 0,
+      "eighthTargetHit": 10.440384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        3.440384615384615,
+        4.440384615384615,
+        5.440384615384615,
+        6.440384615384615,
+        7.440384615384615,
+        8.440384615384614,
+        9.440384615384614,
+        10.440384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 0.6403846153846154,
+          "id": 3,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 2.0403846153846157,
+          "id": 1,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 0.75,
+      "eighthTargetHit": 11.190384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.190384615384615,
+        5.190384615384615,
+        6.190384615384615,
+        7.190384615384615,
+        8.190384615384614,
+        9.190384615384614,
+        10.190384615384614,
+        11.190384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 1.3903846153846153,
+          "id": 3,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 2.7903846153846157,
+          "id": 1,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 1.5,
+      "eighthTargetHit": 11.940384615384614,
+      "thirdEffectiveContact": 11.213888888888889,
+      "clearBeforeThirdContact": false,
+      "effectiveContactsBeforeEighth": 3,
+      "potentialEffectiveContacts": [
+        5.213888888888889,
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.940384615384615,
+        5.940384615384615,
+        6.940384615384615,
+        7.940384615384615,
+        8.940384615384614,
+        9.940384615384614,
+        10.940384615384614,
+        11.940384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 2.1403846153846153,
+          "id": 3,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 3.5403846153846157,
+          "id": 1,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 2.25,
+      "eighthTargetHit": 11.690384615384614,
+      "thirdEffectiveContact": 14.213888888888889,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        8.213888888888889,
+        11.213888888888889,
+        14.213888888888889,
+        17.21388888888889,
+        20.21388888888889,
+        23.21388888888889,
+        26.21388888888889,
+        29.21388888888889
+      ],
+      "bossHitTimes": [
+        4.690384615384615,
+        5.690384615384615,
+        6.690384615384615,
+        7.690384615384615,
+        8.690384615384614,
+        9.690384615384614,
+        10.690384615384614,
+        11.690384615384614
+      ],
+      "coverHits": [
+        {
+          "at": 2.8903846153846153,
+          "id": 3,
+          "kind": "brick",
+          "side": "player"
+        },
+        {
+          "at": 3.6,
+          "id": 1,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 0,
+      "eighthTargetHit": 11.571153846153853,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.0650170309921805,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        4.5711538461538535,
+        5.5711538461538535,
+        6.5711538461538535,
+        7.5711538461538535,
+        8.571153846153853,
+        9.571153846153853,
+        10.571153846153853,
+        11.571153846153853
+      ],
+      "coverHits": [
+        {
+          "at": 3.1794871794871744,
+          "id": 1,
+          "kind": "brick",
+          "side": "player"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 0.75,
+      "eighthTargetHit": 11.321153846153853,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        4.3211538461538535,
+        5.3211538461538535,
+        6.3211538461538535,
+        7.3211538461538535,
+        8.321153846153853,
+        9.321153846153853,
+        10.321153846153853,
+        11.321153846153853
+      ],
+      "coverHits": [
+        {
+          "at": 3.604113044713116,
+          "id": 1,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 1.5,
+      "eighthTargetHit": 12.071153846153853,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        5.0711538461538535,
+        6.0711538461538535,
+        7.0711538461538535,
+        8.071153846153853,
+        9.071153846153853,
+        10.071153846153853,
+        11.071153846153853,
+        12.071153846153853
+      ],
+      "coverHits": [
+        {
+          "at": 3.604113044713116,
+          "id": 1,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 2.25,
+      "eighthTargetHit": 12.821153846153853,
+      "thirdEffectiveContact": 13.058333333333366,
+      "clearBeforeThirdContact": true,
+      "effectiveContactsBeforeEighth": 2,
+      "potentialEffectiveContacts": [
+        4.072118388246831,
+        10.058333333333366,
+        13.058333333333366,
+        16.058333333333366,
+        19.058333333333366,
+        22.058333333333366,
+        25.058333333333366,
+        28.058333333333366
+      ],
+      "bossHitTimes": [
+        5.8211538461538535,
+        6.8211538461538535,
+        7.8211538461538535,
+        8.821153846153853,
+        9.821153846153853,
+        10.821153846153853,
+        11.821153846153853,
+        12.821153846153853
+      ],
+      "coverHits": [
+        {
+          "at": 3.604113044713116,
+          "id": 1,
+          "kind": "brick",
+          "side": "enemy"
+        }
+      ],
+      "remainingBricks": [
+        0,
+        2,
+        3
+      ],
+      "peakEnemyRounds": 7
+    }
+  ],
+  "stationaryWins": [
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 0,
+      "eighthTargetHit": 10.440384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 0.75,
+      "eighthTargetHit": 11.190384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 688,
+      "delay": 2.25,
+      "eighthTargetHit": 11.690384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 0,
+      "eighthTargetHit": 11.57115384615387,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 0.75,
+      "eighthTargetHit": 11.32115384615387,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 1.5,
+      "eighthTargetHit": 12.07115384615387,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 288,
+      "y": 480,
+      "delay": 2.25,
+      "eighthTargetHit": 12.82115384615387,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 0,
+      "eighthTargetHit": 10.440384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 0.75,
+      "eighthTargetHit": 11.190384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 688,
+      "delay": 2.25,
+      "eighthTargetHit": 11.690384615384614,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 0,
+      "eighthTargetHit": 11.571153846153853,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 0.75,
+      "eighthTargetHit": 11.321153846153853,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 1.5,
+      "eighthTargetHit": 12.071153846153853,
+      "effectiveContactsBeforeEighth": 2
+    },
+    {
+      "x": 480,
+      "y": 480,
+      "delay": 2.25,
+      "eighthTargetHit": 12.821153846153853,
+      "effectiveContactsBeforeEighth": 2
+    }
+  ],
+  "limitations": [
+    "No Stage4 runtime, HP/outcome system, browser input, human playtest or difficulty acceptance",
+    "Finite stationary sample, not exhaustive timing/position search",
+    "Predetermined paths; loss-of-control and unmodeled input latency require future actual-input tests",
+    "Production collision scheduler must preserve full chronological ordering including newly fired overlapping volleys"
+  ]
+}

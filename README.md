@@ -2,6 +2,10 @@
 
 A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is creatively accepted and closed** ([acceptance record](docs/decisions/M3_CONFIRM_CLOSE.md)). Siege M4 is in feasibility/Offer only. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
 
+## Siege M4 — proposed Offer only
+
+[Bounded Fortress Offer](docs/offers/SIEGE_M4_OFFER.md) · [exact arena diagram](planning/siege-m4/evidence/map.svg) · [editable three-state study and phone scale proof](planning/siege-m4/README.md). Five-projectile fans, one-hit cover and reliable steel shelters are feasible in isolated studies. A10.44-second trade-HP strategy remains a material balance choice; the Offer does not claim compulsory sustained dodging. **No Stage4 gameplay is integrated or authorized.**
+
 ## Interception M3 review build
 
 **[Download playable M3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/interception-m3/artifacts/Armorheart-Interception-M3.zip)**. Extract and choose **Interception · Level 3**. Defend the peninsula against the accepted battleship: continuous clockwise turns, fixed starboard three-shell volleys, six ship HP, three tank HP and visible damage stages. Win before the surviving ship exits. No separate countdown or new mechanics.
