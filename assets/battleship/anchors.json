@@ -1,0 +1,36 @@
+{
+  "source": "planning/interception-m3/art/battleship-editable.svg",
+  "accepted_art_commit": "29c5e871f6c7b92599880b60a3666943fa452a74",
+  "source_sha256": "3eda4858e442181cf9125af205068e583390f7582e4a4bb4d35915e4e5cd71dd",
+  "png_sha256": "d235b9a77e5c303b78d9ee5431944200f78d168937e5bca4c30be4400804d0ca",
+  "pixels": [
+    664,
+    260
+  ],
+  "world_frame": [
+    -166,
+    -54,
+    332,
+    130
+  ],
+  "body": [
+    320,
+    88
+  ],
+  "muzzles": [
+    [
+      -88,
+      66
+    ],
+    [
+      0,
+      66
+    ],
+    [
+      88,
+      66
+    ]
+  ],
+  "method": "Chromium154 Canvas raster export of unchanged accepted SVG; no artistic correction",
+  "decoded_bytes": 690560
+}

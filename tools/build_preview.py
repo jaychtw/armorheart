@@ -12,7 +12,8 @@ def module(path):
         images={name:'data:image/svg+xml;base64,'+base64.b64encode((ROOT/f'assets/guardian/{name}.svg').read_bytes()).decode() for name in ['hull','barrel']}
         truck='data:image/svg+xml;base64,'+base64.b64encode((ROOT/'assets/transport/transport.svg').read_bytes()).decode()
         colossus={p.stem:'data:image/png;base64,'+base64.b64encode(p.read_bytes()).decode() for p in sorted((ROOT/'assets/colossus/frames').glob('*.png'))}
-        source='const EMBEDDED_COLOSSUS='+json.dumps(colossus)+';\nconst EMBEDDED_TRUCK='+json.dumps(truck)+';\nconst EMBEDDED_LAYERS='+json.dumps(images)+';\n'+source.replace('im.src=`assets/guardian/${name}.svg`','im.src=EMBEDDED_LAYERS[name]').replace("im.src='assets/transport/transport.svg'",'im.src=EMBEDDED_TRUCK').replace('im.src=`assets/colossus/frames/${name}.png`','im.src=EMBEDDED_COLOSSUS[name]')
+        battleship='data:image/png;base64,'+base64.b64encode((ROOT/'assets/battleship/battleship.png').read_bytes()).decode()
+        source='const EMBEDDED_BATTLESHIP='+json.dumps(battleship)+';\nconst EMBEDDED_COLOSSUS='+json.dumps(colossus)+';\nconst EMBEDDED_TRUCK='+json.dumps(truck)+';\nconst EMBEDDED_LAYERS='+json.dumps(images)+';\n'+source.replace('im.src=`assets/guardian/${name}.svg`','im.src=EMBEDDED_LAYERS[name]').replace("im.src='assets/transport/transport.svg'",'im.src=EMBEDDED_TRUCK').replace('im.src=`assets/colossus/frames/${name}.png`','im.src=EMBEDDED_COLOSSUS[name]').replace("im.src='assets/battleship/battleship.png'",'im.src=EMBEDDED_BATTLESHIP')
     source=re.sub(r'from\s+([\'"])(\.[^\'\"]+)\1',lambda m:'from '+json.dumps(module(path.parent/m[2])),source)
     url='data:text/javascript;base64,'+base64.b64encode(source.encode()).decode();cache[path]=url;return url
 html=(ROOT/'index.html').read_text().replace('<link rel="stylesheet" href="style.css">','<style>'+(ROOT/'style.css').read_text()+'</style>')

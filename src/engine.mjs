@@ -22,7 +22,8 @@ export function createState() {
 }
 const EPS=1e-8;
 const wallWidth=w=>w.width??CELL,wallHeight=w=>w.height??CELL;
-const activeBounds=s=>s.bounds??{left:0,right:WORLD,top:0,bottom:WORLD};
+const worldBounds=s=>s.bounds??{left:0,right:WORLD,top:0,bottom:WORLD};
+const activeBounds=s=>s.movementBounds??worldBounds(s);
 export function canMove(s,x,y,facing=s.tank.facing) {
   const b=hullBounds(x,y,facing),bounds=activeBounds(s);
   return b.left>=bounds.left-EPS&&b.top>=bounds.top-EPS&&b.right<=bounds.right+EPS&&b.bottom<=bounds.bottom+EPS&&
@@ -72,7 +73,7 @@ export function intersect(x,y,dx,dy,w) {
 }
 function sweep(s,x,y,dx,dy,combat=null,instant=false) {
   let hit=null;
-  const bounds=activeBounds(s);
+  const bounds=worldBounds(s);
   const boundaries=s.bounds?[{id:-4,x:bounds.left-1,y:bounds.top,width:1,height:bounds.bottom-bounds.top,kind:'steel'},
     {id:-3,x:bounds.right,y:bounds.top,width:1,height:bounds.bottom-bounds.top,kind:'steel'},
     {id:-2,x:bounds.left,y:bounds.top-1,width:bounds.right-bounds.left,height:1,kind:'steel'},

@@ -12,5 +12,8 @@
   "creator": null,
   "license": null,
   "owner_archive_permission": true,
-  "scope": "Reference/inspiration for one original editable M3 visual assessment; no runtime copying or inferred Stage3 execution authority"
+  "scope": "Reference/inspiration for one original editable M3 visual assessment; no runtime copying or inferred Stage3 execution authority",
+  "expected_original_sha256": "68e90b405d9c35eeada65da05f27a15b3a90bfe4f0eb586ae444c09ceff25e9f",
+  "expected_archive": "Armorheart_Interception_Original_Reference.zip",
+  "expected_hash_source": "Owner authorization e58f4d0790540363c9f815c58ed7c9aa0c12a645; not independently verified without bytes"
 }
