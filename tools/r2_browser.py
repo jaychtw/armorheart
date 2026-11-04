@@ -68,5 +68,5 @@ with sync_playwright() as p:
    check(f'theme {width} {language} reduced motion',snap(pg)['reduced'])
   c.close()
  b.close()
-(OUT/'r2-browser-results.json').write_text(json.dumps(dict(date='2026-11-03 Asia/Taipei',fixture_method='HTTP initial-state substitution only; real keyboard input and unchanged production rendering/physics',passed=sum(r['passed'] for r in results),failed=sum(not r['passed'] for r in results),tests=results),indent=2))
+(OUT/'r2-browser-results.json').write_text(json.dumps(dict(date=os.environ.get('EVIDENCE_DATE','2026-11-03 Asia/Taipei'),fixture_method='HTTP initial-state substitution only; real keyboard input and unchanged production rendering/physics',passed=sum(r['passed'] for r in results),failed=sum(not r['passed'] for r in results),tests=results),indent=2))
 print('R2 browser checks:',len(results),'passed')

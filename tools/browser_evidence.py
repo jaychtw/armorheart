@@ -96,5 +96,5 @@ with sync_playwright() as p:
     check('no JavaScript runtime errors',not errors,errors)
     check('no external runtime network requests',not [u for u in requests if not u.startswith(URL) and not u.startswith('data:')])
     browser.close()
-(OUT/'browser-results.json').write_text(json.dumps({'date':'2026-11-03 Asia/Taipei','browser':'Chromium 154','tests':results,'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results),'runtimeErrors':errors,'axe':bool(os.environ.get('AXE_PATH'))},indent=2,ensure_ascii=False))
+(OUT/'browser-results.json').write_text(json.dumps({'date':os.environ.get('EVIDENCE_DATE','2026-11-03 Asia/Taipei'),'browser':'Chromium 154','tests':results,'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results),'runtimeErrors':errors,'axe':bool(os.environ.get('AXE_PATH'))},indent=2,ensure_ascii=False))
 print(json.dumps({'passed':sum(x['pass'] for x in results),'failed':sum(not x['pass'] for x in results)},indent=2))

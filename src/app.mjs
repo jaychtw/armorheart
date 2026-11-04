@@ -66,7 +66,7 @@ $('#level-exit').onclick=()=>{if(started&&!state.complete)confirmAction('exit');
 function clearInput(){held.clear();pointers.clear();fireKey=false;$$('.active').forEach(e=>e.classList.remove('active'));}
 function reset(){announcementKey=null;$('#announcement').textContent='';state=freshScene();last=performance.now();accumulator=0;started=true;paused=false;particles=[];clearInput();$('#pause').disabled=false;updateOverlay();updateStats();arena.focus({preventScroll:true});}
 function setPaused(value){if(isBreakthrough()){const now=performance.now();if(value&&started&&!paused&&!state.complete){advanceMission(state,Math.max(0,(now-last)/1000));if(state.complete)finishMission();}last=now;}else if(isCombat())last=performance.now();paused=value;clearInput();$('#pause').textContent=t(paused?'resume':'pause');updateOverlay();}
-$('#start').onclick=()=>{if(state.complete)reset();else{started=true;setPaused(false);$('#pause').disabled=false;arena.focus({preventScroll:true});(isCombat()?$('#boss-hud'):arena).scrollIntoView({block:'start',behavior:'instant'});}};
+$('#start').onclick=()=>{if(state.complete)reset();else{started=true;setPaused(false);$('#pause').disabled=false;arena.focus({preventScroll:true});(isInterception()?$('.panel-header'):isCombat()?$('#boss-hud'):arena).scrollIntoView({block:'start',behavior:'instant'});}};
 $('#pause').onclick=()=>{setPaused(!paused);if(!paused)arena.focus({preventScroll:true});};
 $('#restart').onclick=()=>{clearInput();if(started&&!state.complete)confirmAction('reset');else reset();};
 $('#cancel-reset').onclick=()=>{$('#reset-dialog').close();setPaused(dialogWasPaused);arena.focus({preventScroll:true});};

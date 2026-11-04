@@ -47,3 +47,5 @@ evidence/m3/guardian/*.png
 evidence/m3/m2/*.png
 evidence/m3/visual/*.png
 !artifacts/Armorheart-Interception-M3.zip
+
+evidence/m3/**/tmp/
