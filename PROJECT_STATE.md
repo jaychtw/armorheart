@@ -1,6 +1,6 @@
 # Armorheart project state
 
-2026-11-04 Asia/Taipei. **M3 creatively accepted and closed; Siege M4 feasibility/implementation Offer ready for owner review. M4 gameplay is not authorized or implemented.** Current branch `planning/siege-m4-feasibility`, based on owner assignment `d66f832dab21737e54e857b98599e4e83f85b1cf`. Verified closure checkpoint `2343510379854cd7e277fa325245ed18547d75b8`; resume by fetching and verifying the planning branch tip before editing.
+2026-11-04 Asia/Taipei. **M3 creatively accepted and closed; Siege M4 feasibility/implementation Offer ready for owner review. M4 gameplay is not authorized or implemented.** Current branch `planning/siege-m4-feasibility`, based on owner assignment `d66f832dab21737e54e857b98599e4e83f85b1cf`. Verified closure checkpoint `2343510379854cd7e277fa325245ed18547d75b8` and proposed study/source checkpoint `137cb17befa7adeeef89ddfce01e878b44c77b3d`; resume by fetching and verifying the planning branch tip before editing.
 
 ## Active Offer
 
@@ -8,7 +8,7 @@
 
 New planning evidence: continuous turn correction≤19 over all16 cover states;64 unchanged-engine physical routes with zero correction;32 predetermined attack/shelter timelines reach eight target hits in20.8–23.8s with at most one effective contact. Sixteen actual static-study renders compare all three preliminary damage states with accepted Guardian at measured game arena widths320/390/768/1440, English and zh-TW. **These are isolated planning/visual results, not M4 actual-input wins, runtime QA or production-art acceptance.**
 
-Material issue for owner review:14/24 sampled stationary-after-approach cases still clear, fastest10.44s while spending two HP. The Offer recommends retaining initial rules and assessing the tactical cover/health tradeoff in a bounded build; it does not claim sustained dodging is mandatory. The flatter vector fortress sample proposes identity/geometry and does not establish Guardian-level painted finish. Owner approval of the Offer, its visual direction and balance tradeoff plus explicit execution authorization is the next gate. Do not begin M4 gameplay automatically.
+Material issue for owner review:14/24 sampled stationary-after-approach cases still clear, fastest10.44s while spending two HP. The Offer recommends retaining initial rules and assessing the tactical cover/health tradeoff in a bounded build; it does not claim sustained dodging is mandatory. The flatter vector fortress sample proposes identity/geometry and does not establish Guardian-level painted finish. [Clean source reconstruction](planning/siege-m4/evidence/rebuild-check.json) reproduced four generated planning outputs byte for byte. Owner approval of the Offer, its visual direction and balance tradeoff plus explicit execution authorization is the next gate. Do not begin M4 gameplay automatically.
 
 ## Accepted baselines and evidence
 
