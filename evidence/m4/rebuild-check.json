@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "source_commit": "baf61ba9be766d39b03486694d73654685371d1b",
+  "method": "git archive into temporary empty directory; regenerate and compare committed output bytes",
+  "steps": [
+    [
+      "python3",
+      "tools/export_m4_map.py"
+    ],
+    [
+      "python3",
+      "tools/export_fortress.py"
+    ],
+    [
+      "python3",
+      "tools/build_preview.py"
+    ]
+  ],
+  "byte_identical_sha256": {
+    "src/maps/siege.mjs": "67acc60b5b758ca432b539c0e7e2160ce04fd2ed8092d1222a3f4d3cf215156f",
+    "assets/fortress/fortress-source.svg": "04491fbfe48eef77a28edfe7d7f517b2d882de1a02a9249fb41d4b930c1b180e",
+    "assets/fortress/intact.png": "7e4f659a0eb1440d9fd5c6c2150e645c0693665117c2af97f6842e386b444745",
+    "assets/fortress/broken.png": "f3606daf190bcfb5d8b1571493ba82ece1f8f80c1c1ffb4544b952c6f0361285",
+    "assets/fortress/half.png": "f608d6b5292ff587857feee2693890696fc798c84f2288d3ff4ac5bddba5c670",
+    "assets/fortress/barrel.svg": "b97695aa56d0d46952f6e58c441663c23fd5d2f54d122b0f30b61649b5ed1b0d",
+    "assets/fortress/gun-cap.svg": "2032e3ea43ddbcdb9f4a27f1972d72df672b04b692b8eb4641d28bee1061f241",
+    "assets/fortress/anchors.json": "b9e41b936b1930dfe2d298b74d873d62cc941da81e6877b4d2e658f807879c34",
+    "preview/guardian.html": "0646b75d4ea1a0d1f907595cf0c4689a6405ba546b7c0402ac6b840d06fc3323"
+  },
+  "toolchain": {
+    "chromium": "154.0.8037.57",
+    "playwright": "1.62.0"
+  },
+  "limitations": "Same installed toolchain/environment; not independent hardware or human artistic acceptance"
+}

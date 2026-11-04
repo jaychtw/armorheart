@@ -1,10 +1,14 @@
-# Armorheart — Guardian / Breakthrough / Colossus / Interception
+# Armorheart — Guardian / Breakthrough / Colossus / Interception / Siege
 
-A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is creatively accepted and closed** ([acceptance record](docs/decisions/M3_CONFIRM_CLOSE.md)). Siege M4 is in feasibility/Offer only. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
+A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is creatively accepted and closed** ([acceptance record](docs/decisions/M3_CONFIRM_CLOSE.md)). Siege M4 is delivered for Confirm & Close. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
 
-## Siege M4 — proposed Offer only
+## Siege M4 review build
 
-[Bounded Fortress Offer](docs/offers/SIEGE_M4_OFFER.md) · [exact arena diagram](planning/siege-m4/evidence/map.svg) · [editable three-state study and phone scale proof](planning/siege-m4/README.md). Five-projectile fans, one-hit cover and reliable steel shelters are feasible in isolated studies. A10.44-second trade-HP strategy remains a material balance choice; the Offer does not claim compulsory sustained dodging. **No Stage4 gameplay is integrated or authorized.**
+**[Download playable M4 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/siege-m4/artifacts/Armorheart-Siege-M4.zip)**. Extract and choose **Siege · Level4**. Eight-HP stationary Fortress, readable five-shot fans, four one-hit cover cells and permanent steel shelters. Both approved tactics are playable: fast HP-trading or tactical attack/retreat. The ZIP includes all four missions and the original Guardian range.
+
+[Play guide](docs/PLAY_M4.md) · [QA and actual combat measurements](docs/QA_M4.md) · [desktop/mobile renders and native recordings](evidence/m4/README.md) · [reconstruction](evidence/m4/rebuild-check.json) · [ZIP integrity](evidence/m4/package-check.json).169 rules and815 browser assertions passed, including fresh earlier-stage checks. Native keyboard aggressive clear10.48s/one HP remaining; native touch tactical clear24.04s/two HP remaining. No independent first-time-player or physical-phone test was performed.
+
+[Execution authority](docs/decisions/M4_IMPLEMENTATION_AUTHORIZATION.md) accepts the [Offer](docs/offers/SIEGE_M4_OFFER.md), Fortress direction and both strategies. **Final M4 composed-build acceptance is pending Confirm & Close.** No merge, deployment or publication. Earlier artifacts are preserved below.
 
 ## Interception M3 review build
 
@@ -50,7 +54,7 @@ The historical M1 build uses one crowd, two alternative lower gates and an offse
 
 **[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
-Download `preview/guardian.html`. This current single file embeds all four scenes, CSS, Guardian layers, transport, Colossus and accepted battleship artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
+Download `preview/guardian.html`. This current single file embeds all five scenes, CSS, Guardian layers, transport, Colossus, accepted battleship and refined Fortress artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
 
@@ -64,7 +68,7 @@ Enter the range, move with arrows or WASD, and hold Space to fire. On touch, hol
 
 ## Reproduce assets, checks and offline artifact
 
-Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M3 QA](docs/QA_M3.md) for current reconstruction, browser checks and packaging commands; [M2 QA](docs/QA_M2.md) retains its earlier asset workflow.
+Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M4 QA](docs/QA_M4.md) for current reconstruction, browser checks and packaging commands; [M2 QA](docs/QA_M2.md) retains its earlier asset workflow.
 
 ```sh
 python3 tools/export_guardian.py

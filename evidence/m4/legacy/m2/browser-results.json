@@ -1,0 +1,1754 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "passed": 83,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "entry spends no simulation time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full real-input idle cycle covers all five landings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "waiting through a cycle does not win or time out",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes HP, phases, motion and immunity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume has no catch-up",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simulated hidden lifecycle pauses M2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exit asks and pauses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cancel preserves current M2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed retry resets encounter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live Traditional Chinese preserves state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "M2 mute control toggles existing setting",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "M2 reduced-motion control active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-held-safe actual victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "keyboard-held-safe four effective hits and no damage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-held-safe no movement/response after aiming",
+      "passed": true,
+      "detail": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      }
+    },
+    {
+      "name": "keyboard-held-safe no arbitrary deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-held-safe terminal state frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-held-safe replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-contact-loss fire works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-contact-loss movement works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-contact-loss real contact failure/retry path",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.816666666666878,
+        "phase": "grounded",
+        "phaseTime": 0.016666666666666666,
+        "stop": 4,
+        "arrivalView": "north",
+        "landings": 4,
+        "bossHP": 3,
+        "tankHP": 0,
+        "immuneUntil": 15.80000000000021,
+        "damageAt": 12.80000000000021,
+        "bossHitAt": 6.416666666666647,
+        "outcome": "defeat",
+        "finishedAt": 12.80000000000021,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          },
+          {
+            "event": "takeoff",
+            "time": 8.399999999999995,
+            "stop": "LR"
+          },
+          {
+            "event": "landing",
+            "time": 9.600000000000053,
+            "stop": "LL"
+          },
+          {
+            "event": "takeoff",
+            "time": 11.600000000000152,
+            "stop": "LL"
+          },
+          {
+            "event": "landing",
+            "time": 12.80000000000021,
+            "stop": "C"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 6.416666666666647,
+            "hp": 3,
+            "stop": "LR",
+            "view": "south"
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 6.399999999999981,
+            "hp": 2,
+            "stop": "LR"
+          },
+          {
+            "time": 9.600000000000053,
+            "hp": 1,
+            "stop": "LL"
+          },
+          {
+            "time": 12.80000000000021,
+            "hp": 0,
+            "stop": "C"
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyboard-contact-loss all damage intervals honor3s immunity",
+      "passed": true,
+      "detail": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ]
+    },
+    {
+      "name": "keyboard-contact-loss failure retry fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exit returns accepted Guardian range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "R3 selection retains original maze/clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-held-safe actual victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "touch-held-safe four effective hits and no damage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-held-safe no movement/response after aiming",
+      "passed": true,
+      "detail": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      }
+    },
+    {
+      "name": "touch-held-safe no arbitrary deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-held-safe terminal state frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-held-safe replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-contact-loss fire works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-contact-loss movement works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-contact-loss real contact failure/retry path",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.816666666666878,
+        "phase": "grounded",
+        "phaseTime": 0.016666666666666666,
+        "stop": 4,
+        "arrivalView": "north",
+        "landings": 4,
+        "bossHP": 3,
+        "tankHP": 0,
+        "immuneUntil": 15.80000000000021,
+        "damageAt": 12.80000000000021,
+        "bossHitAt": 6.416666666666647,
+        "outcome": "defeat",
+        "finishedAt": 12.80000000000021,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          },
+          {
+            "event": "takeoff",
+            "time": 8.399999999999995,
+            "stop": "LR"
+          },
+          {
+            "event": "landing",
+            "time": 9.600000000000053,
+            "stop": "LL"
+          },
+          {
+            "event": "takeoff",
+            "time": 11.600000000000152,
+            "stop": "LL"
+          },
+          {
+            "event": "landing",
+            "time": 12.80000000000021,
+            "stop": "C"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 6.416666666666647,
+            "hp": 3,
+            "stop": "LR",
+            "view": "south"
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 6.399999999999981,
+            "hp": 2,
+            "stop": "LR"
+          },
+          {
+            "time": 9.600000000000053,
+            "hp": 1,
+            "stop": "LL"
+          },
+          {
+            "time": 12.80000000000021,
+            "hp": 0,
+            "stop": "C"
+          }
+        ]
+      }
+    },
+    {
+      "name": "touch-contact-loss all damage intervals honor3s immunity",
+      "passed": true,
+      "detail": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ]
+    },
+    {
+      "name": "touch-contact-loss failure retry fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual simultaneous direction and Fire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-scheduled-safe actual victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.68333333333331,
+        "phase": "grounded",
+        "phaseTime": 1.2833333333333337,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.66688777083331,
+        "outcome": "success",
+        "finishedAt": 7.66688777083331,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 4.0437585208333235,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 5.03831633333332,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.70498299999998,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.66688777083331,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "keyboard-scheduled-safe four effective hits and no damage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-scheduled-safe no movement/response after aiming",
+      "passed": true,
+      "detail": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      }
+    },
+    {
+      "name": "keyboard-scheduled-safe no arbitrary deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-scheduled-safe terminal state frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-scheduled-safe replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 entry action within arena",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.546875,
+        "hud": 143
+      }
+    },
+    {
+      "name": "320 en HUD and Fire visible together",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.546875,
+        "hud": 143
+      }
+    },
+    {
+      "name": "320 en axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 739.546875,
+        "hud": 278
+      }
+    },
+    {
+      "name": "320 zh-TW HUD and Fire visible together",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 739.546875,
+        "hud": 278
+      }
+    },
+    {
+      "name": "320 zh-TW axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 entry action within arena",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 en targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 708.953125,
+        "hud": 183
+      }
+    },
+    {
+      "name": "390 en HUD and Fire visible together",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 708.953125,
+        "hud": 183
+      }
+    },
+    {
+      "name": "390 en axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 803.953125,
+        "hud": 278
+      }
+    },
+    {
+      "name": "390 zh-TW HUD and Fire visible together",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 803.953125,
+        "hud": 278
+      }
+    },
+    {
+      "name": "390 zh-TW axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768 entry action within arena",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 en targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 933.140625,
+        "hud": 106
+      }
+    },
+    {
+      "name": "768 zh-TW targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1058.140625,
+        "hud": 231
+      }
+    },
+    {
+      "name": "1440 entry action within arena",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 en targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 827.140625,
+        "hud": 0
+      }
+    },
+    {
+      "name": "1440 en axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1058.140625,
+        "hud": 231
+      }
+    },
+    {
+      "name": "1440 zh-TW axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "844 entry action within arena",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 en targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 827.140625,
+        "hud": 0
+      }
+    },
+    {
+      "name": "844 zh-TW targets/layout/reduced-motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1058.140625,
+        "hud": 231
+      }
+    },
+    {
+      "name": "offline-held-safe actual victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "offline-held-safe four effective hits and no damage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-held-safe no movement/response after aiming",
+      "passed": true,
+      "detail": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      }
+    },
+    {
+      "name": "offline-held-safe no arbitrary deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-held-safe terminal state frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-held-safe replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline bundle only initial HTML False",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline-contact-loss fire works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-contact-loss movement works during protection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-contact-loss real contact failure/retry path",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.816666666666878,
+        "phase": "grounded",
+        "phaseTime": 0.016666666666666666,
+        "stop": 4,
+        "arrivalView": "north",
+        "landings": 4,
+        "bossHP": 3,
+        "tankHP": 0,
+        "immuneUntil": 15.80000000000021,
+        "damageAt": 12.80000000000021,
+        "bossHitAt": 6.416666666666647,
+        "outcome": "defeat",
+        "finishedAt": 12.80000000000021,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          },
+          {
+            "event": "takeoff",
+            "time": 8.399999999999995,
+            "stop": "LR"
+          },
+          {
+            "event": "landing",
+            "time": 9.600000000000053,
+            "stop": "LL"
+          },
+          {
+            "event": "takeoff",
+            "time": 11.600000000000152,
+            "stop": "LL"
+          },
+          {
+            "event": "landing",
+            "time": 12.80000000000021,
+            "stop": "C"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 6.416666666666647,
+            "hp": 3,
+            "stop": "LR",
+            "view": "south"
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 6.399999999999981,
+            "hp": 2,
+            "stop": "LR"
+          },
+          {
+            "time": 9.600000000000053,
+            "hp": 1,
+            "stop": "LL"
+          },
+          {
+            "time": 12.80000000000021,
+            "hp": 0,
+            "stop": "C"
+          }
+        ]
+      }
+    },
+    {
+      "name": "offline-contact-loss all damage intervals honor3s immunity",
+      "passed": true,
+      "detail": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ]
+    },
+    {
+      "name": "offline-contact-loss failure retry fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline bundle only initial HTML True",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "no M2 JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "keyboard-held-safe",
+      "input": "keyboard",
+      "scheduled": false,
+      "finishedAt": 7.400221104166644,
+      "shots": 5,
+      "position": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      },
+      "hits": [
+        {
+          "time": 3.977091854166657,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.971649666666654,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.399999999999981,
+          "hp": 1,
+          "stop": "LR",
+          "view": "south"
+        },
+        {
+          "time": 7.400221104166644,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "tankHP": 3,
+      "response_after_aim": "none; held Fire or four scheduled pulses",
+      "stages": [
+        {
+          "hp": 3,
+          "time": 3.9833333333333236
+        },
+        {
+          "hp": 2,
+          "time": 4.98333333333332
+        },
+        {
+          "hp": 1,
+          "time": 6.416666666666647
+        },
+        {
+          "hp": 0,
+          "time": 7.416666666666644
+        }
+      ]
+    },
+    {
+      "name": "keyboard-contact-loss",
+      "input": "keyboard",
+      "finishedAt": 12.80000000000021,
+      "outcome": "defeat",
+      "tankHits": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ],
+      "bossHP": 3
+    },
+    {
+      "name": "touch-held-safe",
+      "input": "CDP touch",
+      "scheduled": false,
+      "finishedAt": 7.400221104166644,
+      "shots": 5,
+      "position": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      },
+      "hits": [
+        {
+          "time": 3.977091854166657,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.971649666666654,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.399999999999981,
+          "hp": 1,
+          "stop": "LR",
+          "view": "south"
+        },
+        {
+          "time": 7.400221104166644,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "tankHP": 3,
+      "response_after_aim": "none; held Fire or four scheduled pulses",
+      "stages": [
+        {
+          "hp": 3,
+          "time": 3.9833333333333236
+        },
+        {
+          "hp": 2,
+          "time": 4.98333333333332
+        },
+        {
+          "hp": 1,
+          "time": 6.416666666666647
+        },
+        {
+          "hp": 0,
+          "time": 7.416666666666644
+        }
+      ]
+    },
+    {
+      "name": "touch-contact-loss",
+      "input": "CDP touch",
+      "finishedAt": 12.80000000000021,
+      "outcome": "defeat",
+      "tankHits": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ],
+      "bossHP": 3
+    },
+    {
+      "name": "keyboard-scheduled-safe",
+      "input": "keyboard",
+      "scheduled": true,
+      "finishedAt": 7.66688777083331,
+      "shots": 4,
+      "position": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      },
+      "hits": [
+        {
+          "time": 4.0437585208333235,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 5.03831633333332,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.70498299999998,
+          "hp": 1,
+          "stop": "LR",
+          "view": "south"
+        },
+        {
+          "time": 7.66688777083331,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "tankHP": 3,
+      "response_after_aim": "none; held Fire or four scheduled pulses",
+      "stages": []
+    },
+    {
+      "name": "offline-held-safe",
+      "input": "keyboard",
+      "scheduled": false,
+      "finishedAt": 7.400221104166644,
+      "shots": 5,
+      "position": {
+        "x": 560.6000000000022,
+        "y": 698.8000000000001,
+        "facing": "up"
+      },
+      "hits": [
+        {
+          "time": 3.977091854166657,
+          "hp": 3,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 4.971649666666654,
+          "hp": 2,
+          "stop": "UR",
+          "view": "south"
+        },
+        {
+          "time": 6.399999999999981,
+          "hp": 1,
+          "stop": "LR",
+          "view": "south"
+        },
+        {
+          "time": 7.400221104166644,
+          "hp": 0,
+          "stop": "LR",
+          "view": "west"
+        }
+      ],
+      "tankHP": 3,
+      "response_after_aim": "none; held Fire or four scheduled pulses",
+      "stages": [
+        {
+          "hp": 3,
+          "time": 3.9833333333333236
+        },
+        {
+          "hp": 2,
+          "time": 4.98333333333332
+        },
+        {
+          "hp": 1,
+          "time": 6.416666666666647
+        },
+        {
+          "hp": 0,
+          "time": 7.416666666666644
+        }
+      ]
+    },
+    {
+      "name": "offline-contact-loss",
+      "input": "keyboard",
+      "finishedAt": 12.80000000000021,
+      "outcome": "defeat",
+      "tankHits": [
+        {
+          "time": 6.399999999999981,
+          "hp": 2,
+          "stop": "LR"
+        },
+        {
+          "time": 9.600000000000053,
+          "hp": 1,
+          "stop": "LL"
+        },
+        {
+          "time": 12.80000000000021,
+          "hp": 0,
+          "stop": "C"
+        }
+      ],
+      "bossHP": 3
+    }
+  ],
+  "errors": [],
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed",
+  "other_browser_engines": "Not performed"
+}

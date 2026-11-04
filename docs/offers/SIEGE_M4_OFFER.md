@@ -1,5 +1,7 @@
 # Siege M4 — bounded feasibility and implementation Offer
 
+Subsequent status: the owner accepted this Offer, Fortress direction and **both** strategies under [M4 execution authorization](../decisions/M4_IMPLEMENTATION_AUTHORIZATION.md). The bounded build is now delivered for [QA / Confirm & Close](../QA_M4.md). The original planning record below is historical and does not reopen its settled creative questions.
+
 2026-11-04 Asia/Taipei. **Proposed; gameplay execution is not authorized.** [Owner assignment](../SIEGE_M4_OFFER_REQUEST.md) at `d66f832dab21737e54e857b98599e4e83f85b1cf`. [M3 accepted and closed](../decisions/M3_CONFIRM_CLOSE.md) at playable `108515a2f63c4818567d46de6bbcc0aa0611af07`; Guardian/R3/M2/M3 are frozen. This Offer proposes one fortress encounter, not campaign completion, unlocks or release.
 
 **Recommendation:** two permanent central shelters, four expendable flank cells, an aimed five-round fan and a repeatable shoot/retreat rhythm. Preserve 8 fortress HP, 3 tank HP, 3-second volleys/immunity and no timer. Geometry and isolated motion support a cover-based encounter; they also expose a faster damage-trade strategy. The material creative decision is stated below rather than hidden by extra mechanics.

@@ -1,5 +1,7 @@
 # Siege M4 — isolated planning study
 
+Subsequent status: owner-approved planning baseline under [execution authority](../../docs/decisions/M4_IMPLEMENTATION_AUTHORIZATION.md); the refined playable build is delivered for [M4 QA / Confirm & Close](../../docs/QA_M4.md). The original study and its planning metadata/evidence below remain unchanged historical inputs, not runtime verification or a renewed approval requirement.
+
 2026-11-04 Asia/Taipei. **Proposed, not gameplay implementation or creative acceptance.** [Authoritative Offer](../../docs/offers/SIEGE_M4_OFFER.md) · [owner assignment](../../docs/SIEGE_M4_OFFER_REQUEST.md) · [M3 closure](../../docs/decisions/M3_CONFIRM_CLOSE.md).
 
 - [Exact map/initial parameters](map.json), [coordinate diagram](evidence/map.svg).
