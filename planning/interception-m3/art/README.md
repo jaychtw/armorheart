@@ -1,5 +1,7 @@
 # Original battleship art study A
 
+Current status: this art identity is **creatively accepted**, and its unchanged editable source is integrated into the bounded [M3 review build](../../../docs/QA_M3.md) under [owner authorization](../../../docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md). The following describes the historical art-assessment scope; it does not require another identity approval. Original-reference byte archival remains pending independently.
+
 2026-11-04 Asia/Taipei. One bounded visual-identity assessment, pending creative review. [Accepted working design and authorization](../../../docs/decisions/M3_VISUAL_ASSESSMENT.md). No Stage3 game integration, damage-state set or new mechanics.
 
 [Original editable SVG](battleship-editable.svg) · [isolated normal-scale comparison viewer](review.html) · [registration/source hashes](sample.json) · [reference receipt/provenance](references/README.md).

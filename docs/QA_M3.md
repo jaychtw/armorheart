@@ -2,6 +2,10 @@
 
 2026-11-04 Asia/Taipei. Bounded implementation under [owner authorization](decisions/M3_IMPLEMENTATION_AUTHORIZATION.md), using the accepted [Offer](offers/INTERCEPTION_M3_OFFER.md) and ship artwork at `29c5e871f6c7b92599880b60a3666943fa452a74`. **Technical verification is complete; final M3 creative acceptance remains pending Confirm & Close.** [Play guide](PLAY_M3.md) · [screenshots and native-time recordings](../evidence/m3/README.md).
 
+## Delivered artifact
+
+The review ZIP is6,228,696 bytes. Tested preview/source checkpoint: [`832056783e2cc786630bf14e735b96ad3263c48a`](https://github.com/jaychtw/armorheart/commit/832056783e2cc786630bf14e735b96ad3263c48a). A clean archive of that commit reproduced the map module, route module, runtime ship PNG, anchors and embedded HTML byte for byte. Two deterministic packaging runs matched ZIP SHA-256 `ddec4aa4b279bf7f806f280891d1febe2c12b5c3dadbcd86a6dcc4a3d7554e60`; CRC, payload hashes and identity with the browser-tested HTML were verified. Subsequent delivery changes contain documentation/reports and the ZIP only.
+
 ## Implemented and preserved
 
 The exact accepted peninsula, clockwise continuous U-route, 320×88 hull, radius144 turns, 72-unit/s ship, six ship HP, three tank HP, three-second protection, 0.6-second charge and three-shell volleys are integrated. Eligible launches occur at 3/12/18/21 seconds; 6/9/15/24 opportunities hold because of turn/alignment restrictions. Surviving-ship exit is at 26.283185 seconds. No quantitative defaults were retuned and no attacks or mechanics were added.

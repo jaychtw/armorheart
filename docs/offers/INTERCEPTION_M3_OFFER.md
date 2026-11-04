@@ -1,5 +1,7 @@
 # Interception M3 — bounded implementation Offer
 
+Current status: the [owner execution authorization](../decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) supersedes the historical planning-only restrictions below. The bounded build is delivered for [M3 QA / Confirm & Close](../QA_M3.md); approved quantitative defaults are unchanged.
+
 Update2026-11-04: owner accepted the working geography/route/starboard/fire-window design and initial defaults. [Bounded visual-identity assessment](../decisions/M3_VISUAL_ASSESSMENT.md) is authorized; full Stage3 implementation is still unauthorized. Original Offer text below remains the proposal record.
 
 2026-11-04, Asia/Taipei. **Offer for owner review; Stage 3 execution is not authorized.** [Assignment](../INTERCEPTION_M3_HANDOFF.md) · [exact map/defaults](../../planning/interception-m3/map.json) · [diagram](../../planning/interception-m3/evidence/map.png) · [continuous-turn recording](../../planning/interception-m3/evidence/route-live.webm) · [study/evidence index](../../planning/interception-m3/README.md).

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "source_commit": "832056783e2cc786630bf14e735b96ad3263c48a",
+  "method": "git archive into temporary empty directory; regenerate and compare committed output bytes",
+  "steps": [
+    [
+      "python3",
+      "tools/export_m3_map.py"
+    ],
+    [
+      "python3",
+      "tools/export_battleship.py"
+    ],
+    [
+      "python3",
+      "tools/build_preview.py"
+    ]
+  ],
+  "byte_identical_sha256": {
+    "src/maps/interception.mjs": "7d67ffbd90d0c19e25de0e95d3e06a53f12de45d90e143de4aba1e3839c399a8",
+    "src/ship-route.mjs": "4629dc57a214b9a4b32e7af141718e47761f0c0611761fa248643574bcd08582",
+    "assets/battleship/battleship.png": "d235b9a77e5c303b78d9ee5431944200f78d168937e5bca4c30be4400804d0ca",
+    "assets/battleship/anchors.json": "1c0341d6c3ed73a17871f36749acd75ff21c318575ff981ce8475b74133c2fed",
+    "preview/guardian.html": "e5f559a57fdf3dd896a1d279b1b9ef2faed91be78b328cfa42baf456f5dbcd4a"
+  },
+  "toolchain": {
+    "chromium": "154.0.8037.57",
+    "playwright": "1.62.0"
+  },
+  "limitations": "Same installed toolchain/environment; not independent hardware or an independent artistic reconstruction"
+}

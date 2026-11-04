@@ -1,16 +1,22 @@
-# Armorheart — Guardian / Breakthrough / Colossus
+# Armorheart — Guardian / Breakthrough / Colossus / Interception
 
-A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3 and Colossus M2 are creatively accepted; the final M2 presentation correction is complete. Guardian range remains the default scene. No public deployment or production-art approval.
+A bounded browser prototype with no external runtime dependencies. Guardian, Breakthrough R3, Colossus M2 and the Interception ship artwork are creatively accepted. The playable **Interception M3 build is delivered for Confirm & Close**. Guardian range remains the default scene; all earlier builds are preserved. No public deployment.
 
-## Interception M3 — Offer only
+## Interception M3 review build
 
-[Bounded implementation Offer](docs/offers/INTERCEPTION_M3_OFFER.md) · [peninsula diagram](planning/interception-m3/evidence/map.png) · [continuous-turn recording and assessment](planning/interception-m3/README.md). Working clockwise route/starboard fire windows are accepted. [Original editable ship art study and normal-scale turn evidence](planning/interception-m3/art/README.md) are ready for creative review. The inline owner reference was inspected; original-file archival remains pending because its bytes are not exposed. **Stage3 gameplay is not implemented or authorized.**
+**[Download playable M3 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/interception-m3/artifacts/Armorheart-Interception-M3.zip)**. Extract and choose **Interception · Level 3**. Defend the peninsula against the accepted battleship: continuous clockwise turns, fixed starboard three-shell volleys, six ship HP, three tank HP and visible damage stages. Win before the surviving ship exits. No separate countdown or new mechanics.
+
+[Play guide](docs/PLAY_M3.md) · [QA and combat measurements](docs/QA_M3.md) · [actual desktop/mobile renders and live recordings](evidence/m3/README.md) · [ZIP verification](evidence/m3/package-check.json) · [clean reconstruction](evidence/m3/rebuild-check.json) · [continuity](PROJECT_STATE.md).
+
+**148 rule tests and 615 browser assertions passed**, including fresh Guardian/R3/M2 preservation. Actual keyboard/touch wins take about12.7 seconds; a native-time touch recording wins in12.86 seconds without damage. The informed two-station strategy still needs little response after setup; approved combat defaults are unchanged. Independent first-time-player and physical-phone tests were not performed. Original reference ZIP/manifest archival remains pending because no file was exposed; the expected hash is recorded without claiming receipt.
+
+[Owner implementation authorization](docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) supersedes the earlier planning-only restrictions. [Original bounded Offer](docs/offers/INTERCEPTION_M3_OFFER.md), [accepted editable art](planning/interception-m3/art/README.md) and historical planning evidence remain available. The ZIP contains all four scenes, offline assets and provenance. Final M3 creative acceptance is pending.
 
 ## Colossus M2 accepted presentation
 
 **[Download corrected M2 ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/fix/m2-presentation-m3-offer/artifacts/Armorheart-Colossus-M2-Final.zip)**. M2 is creatively accepted; this authorized correction removes the battlefield Next label and separate landing ellipse while keeping its natural shadow and all gameplay/art. [Play guide](docs/PLAY_M2_FINAL.md) · [before/after and fresh regression evidence](evidence/m2-final/README.md) · [acceptance record](docs/decisions/M2_FINAL_PRESENTATION.md).
 
-The known safe-lane win is an accepted M2 balance limitation. Stage3 Interception remains planning/Offer only. Earlier M2 build/evidence follow for history.
+The known safe-lane win is an accepted M2 balance limitation. The earlier M2 build/evidence follow for history; current Interception delivery is above.
 
 ## Colossus M2 review build
 
@@ -40,7 +46,7 @@ The historical M1 build uses one crowd, two alternative lower gates and an offse
 
 **[Download the playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/guardian-review-r2/artifacts/Armorheart-Guardian-POC.zip)**, extract it, and follow the included README. See [play instructions](docs/PLAY_PREVIEW.md). This is the R2 Guardian POC preview for owner review, not a public deployment.
 
-Download `preview/guardian.html`. This current single file embeds all three scenes, CSS, Guardian layers, transport and Colossus artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
+Download `preview/guardian.html`. This current single file embeds all four scenes, CSS, Guardian layers, transport, Colossus and accepted battleship artwork. Serve it locally using the command below, then open `/preview/guardian.html`. Its gameplay was verified with every request except the initial local document blocked. Direct double-click opening is expected in ordinary browsers but was **not verified** here: managed Chromium prohibits `file://` navigation. Browser storage may be unavailable for local files; settings then remain session-only.
 
 For source development, from the repository root:
 
@@ -54,7 +60,7 @@ Enter the range, move with arrows or WASD, and hold Space to fire. On touch, hol
 
 ## Reproduce assets, checks and offline artifact
 
-Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M2 QA](docs/QA_M2.md) for the full reproduction commands.
+Python 3 standard library and Node >=20 run/build the game; no runtime `npm install` is needed. Regenerating Colossus PNG assets additionally uses Pillow12.3.0. See [M3 QA](docs/QA_M3.md) for current reconstruction, browser checks and packaging commands; [M2 QA](docs/QA_M2.md) retains its earlier asset workflow.
 
 ```sh
 python3 tools/export_guardian.py
