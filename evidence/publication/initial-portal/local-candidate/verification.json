@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "local": true,
+  "checkedAt": "2026-11-05T01:48:14.488695+00:00",
+  "base": "http://127.0.0.1:4182",
+  "source_commit": "67a4613093715f904ff4c3e952f007b5bc8ac63b",
+  "identity": {
+    "name": "Possibility",
+    "version": "1.0.0-platform-rc.1",
+    "sourceCommit": "67a4613093715f904ff4c3e952f007b5bc8ac63b",
+    "sourceDirty": false,
+    "designVersion": "1.0",
+    "designAuthority": "Platform v1.0 textual amendment",
+    "homepageCollection": "games",
+    "routes": [
+      "/",
+      "/apps/",
+      "/games/armorheart/",
+      "/apps/storm-chaser/",
+      "/games/shadow-becomes-me/",
+      "/games/squirrel-control/",
+      "/games/republic-of-chickens/",
+      "/games/wonderlands/",
+      "/games/the-last-lantern/",
+      "/games/snacks-match-raohe/",
+      "/games/shape-match/",
+      "/games/junctioneer/",
+      "/games/my-queens/",
+      "/games/tidelight/",
+      "/games/jasmine-odyssey/",
+      "/games/formosa-quest/",
+      "/games/jeremy-odyssey/",
+      "/games/nom-nom-boom/",
+      "/games/launch-sequence/",
+      "/games/animal-match/",
+      "/games/kaiju-tournament/",
+      "/games/kaiju-demolition/",
+      "/games/riot-defender/",
+      "/games/typhoon-defender/",
+      "/games/pedestrian-living-hell/",
+      "/games/the-other-ninty-percent/",
+      "/games/the-impossible-room/"
+    ],
+    "compatibility": [
+      "/games/"
+    ]
+  },
+  "views": [
+    {
+      "width": 320,
+      "theme": "light",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 280,
+        "height": 157
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 280,
+        "height": 157
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 349,
+        "height": 196
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 349,
+        "height": 196
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 347,
+        "height": 195
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 347,
+        "height": 195
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 379,
+        "height": 213
+      },
+      "no_overflow": true
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "newest": "armorheart",
+      "bilingual_fact_sheet": true,
+      "english_card": true,
+      "image": {
+        "url": "http://127.0.0.1:4182/assets/screenshots/games/armorheart.480.de5387381912.webp",
+        "width": 379,
+        "height": 213
+      },
+      "no_overflow": true
+    }
+  ],
+  "plays": [
+    {
+      "origin": "Games card",
+      "url": "https://jaychtw.github.io/armorheart/",
+      "actual_victory": "colossus",
+      "progress": [
+        "colossus"
+      ]
+    },
+    {
+      "origin": "fact-sheet Play",
+      "url": "https://jaychtw.github.io/armorheart/",
+      "actual_victory": "colossus",
+      "progress": [
+        "colossus"
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual Chromium gallery, bilingual fact sheet and followed Play destinations with real keyboard M2 victories; normal TLS/no ignored certificate errors. Managed viewport emulation, not independent human/physical-device testing."
+}

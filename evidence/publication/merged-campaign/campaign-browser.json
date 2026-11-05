@@ -1,0 +1,2585 @@
+{
+  "date": "2026-11-05 Asia/Taipei",
+  "phase": "campaign",
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "passed": 172,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "keyboard fresh collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard selects earned tank guardian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard applies selection on new mission siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-siege actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "keyboard-siege actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-siege shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-siege same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard exactly one distinct grant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reward is visible siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard canonical Next siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard re-rendering result does not regrant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Replay does not clear campaign",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-repeat-siege actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "keyboard-repeat-siege actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-repeat-siege shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-repeat-siege same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual repeated win grants nothing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard last-stage Missions returns selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard selects earned tank bulwark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard applies selection on new mission interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-interception actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.700000000000035,
+        "shipHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "shipHitAt": 12.692609866858502,
+        "finishedAt": 12.692609866858502,
+        "outcome": "success",
+        "nextOpportunity": 15,
+        "enemyShells": [],
+        "opportunities": [
+          {
+            "time": 3,
+            "leg": "left",
+            "fired": true,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 576
+              },
+              {
+                "x": 178,
+                "y": 488
+              },
+              {
+                "x": 178,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "time": 6,
+            "leg": "left",
+            "fired": false,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 360
+              },
+              {
+                "x": 178,
+                "y": 272
+              },
+              {
+                "x": 178,
+                "y": 184
+              }
+            ]
+          },
+          {
+            "time": 9,
+            "leg": "leftTurn",
+            "fired": false,
+            "direction": {
+              "x": 0.3932186797763575,
+              "y": 0.9194449792537552
+            },
+            "muzzles": [
+              {
+                "x": 144.41778480311362,
+                "y": 186.88653543852655
+              },
+              {
+                "x": 225.3289429774441,
+                "y": 152.2832916182071
+              },
+              {
+                "x": 306.2401011517746,
+                "y": 117.68004779788762
+              }
+            ]
+          },
+          {
+            "time": 12,
+            "leg": "top",
+            "fired": true,
+            "direction": {
+              "x": -0.0,
+              "y": 1
+            },
+            "muzzles": [
+              {
+                "x": 325.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 413.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 501.80532894153487,
+                "y": 146
+              }
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 0.7900882552613703,
+            "hp": 5,
+            "position": {
+              "x": 112,
+              "y": 647.1136456211814,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 152.75763747454175,
+            "y": 688
+          },
+          {
+            "time": 1.7839782756279667,
+            "hp": 4,
+            "position": {
+              "x": 112,
+              "y": 575.5535641547864,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 155.69042769857433,
+            "y": 688
+          },
+          {
+            "time": 9.736171889332427,
+            "hp": 3,
+            "position": {
+              "x": 250.8108287286035,
+              "y": 80.09352863225325,
+              "heading": -0.036043715462016124,
+              "leg": "leftTurn"
+            },
+            "x": 384,
+            "y": 101.43749312046516
+          },
+          {
+            "time": 10.704829826125208,
+            "hp": 2,
+            "position": {
+              "x": 320.5530764225498,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 116.48168345994057
+          },
+          {
+            "time": 11.698719846491855,
+            "hp": 1,
+            "position": {
+              "x": 392.1131578889484,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 119.4144736839733
+          },
+          {
+            "time": 12.692609866858502,
+            "hp": 0,
+            "position": {
+              "x": 463.67323935534705,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 122.34726390800603
+          }
+        ],
+        "tankHits": [],
+        "lastVolleyAt": 12
+      }
+    },
+    {
+      "name": "keyboard-interception actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-interception shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-interception same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard exactly one distinct grant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reward is visible interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard canonical Next interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard re-rendering result does not regrant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Next navigates only interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard selects earned tank vanguard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard applies selection on new mission colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-colossus actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "keyboard-colossus actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-colossus shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-colossus same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard exactly one distinct grant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reward is visible colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard canonical Next colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard re-rendering result does not regrant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Next navigates only colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard selects earned tank sentinel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard applies selection on new mission breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-breakthrough actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 28.212333333332,
+        "phase": "success",
+        "revision": 2,
+        "replans": 3,
+        "pendingReplan": false,
+        "plan": [],
+        "evacuatingAt": 6.129000000000005,
+        "truck": {
+          "x": 352,
+          "y": 112,
+          "heading": 0,
+          "action": null
+        },
+        "predictedRouteSeconds": 22.083333333333325,
+        "routeDistance": 976,
+        "routeTurns": 5
+      }
+    },
+    {
+      "name": "keyboard-breakthrough actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-breakthrough shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-breakthrough same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard exactly one distinct grant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reward is visible breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard canonical Next breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard re-rendering result does not regrant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard fourth distinct clear earns commendation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Next navigates only breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard all four persistent marks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard commendation visible on selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard four selectable cosmetics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reload retains history/selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard reload retains commendation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch fresh collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch selects earned tank guardian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch applies selection on new mission breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-breakthrough actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 28.213333333332002,
+        "phase": "success",
+        "revision": 2,
+        "replans": 3,
+        "pendingReplan": false,
+        "plan": [],
+        "evacuatingAt": 6.130000000000005,
+        "truck": {
+          "x": 352,
+          "y": 112,
+          "heading": 0,
+          "action": null
+        },
+        "predictedRouteSeconds": 22.083333333333325,
+        "routeDistance": 976,
+        "routeTurns": 5
+      }
+    },
+    {
+      "name": "touch-breakthrough actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-breakthrough shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-breakthrough same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch exactly one distinct grant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reward is visible breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch canonical Next breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch re-rendering result does not regrant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch Next navigates only breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch selects earned tank bulwark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch applies selection on new mission colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-colossus actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "touch-colossus actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-colossus shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-colossus same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch exactly one distinct grant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reward is visible colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch canonical Next colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch re-rendering result does not regrant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch Next navigates only colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch selects earned tank vanguard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch applies selection on new mission interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-interception actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.700000000000035,
+        "shipHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "shipHitAt": 12.692609866858502,
+        "finishedAt": 12.692609866858502,
+        "outcome": "success",
+        "nextOpportunity": 15,
+        "enemyShells": [],
+        "opportunities": [
+          {
+            "time": 3,
+            "leg": "left",
+            "fired": true,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 576
+              },
+              {
+                "x": 178,
+                "y": 488
+              },
+              {
+                "x": 178,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "time": 6,
+            "leg": "left",
+            "fired": false,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 360
+              },
+              {
+                "x": 178,
+                "y": 272
+              },
+              {
+                "x": 178,
+                "y": 184
+              }
+            ]
+          },
+          {
+            "time": 9,
+            "leg": "leftTurn",
+            "fired": false,
+            "direction": {
+              "x": 0.3932186797763575,
+              "y": 0.9194449792537552
+            },
+            "muzzles": [
+              {
+                "x": 144.41778480311362,
+                "y": 186.88653543852655
+              },
+              {
+                "x": 225.3289429774441,
+                "y": 152.2832916182071
+              },
+              {
+                "x": 306.2401011517746,
+                "y": 117.68004779788762
+              }
+            ]
+          },
+          {
+            "time": 12,
+            "leg": "top",
+            "fired": true,
+            "direction": {
+              "x": -0.0,
+              "y": 1
+            },
+            "muzzles": [
+              {
+                "x": 325.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 413.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 501.80532894153487,
+                "y": 146
+              }
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 0.7900882552613703,
+            "hp": 5,
+            "position": {
+              "x": 112,
+              "y": 647.1136456211814,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 152.75763747454175,
+            "y": 688
+          },
+          {
+            "time": 1.7839782756279667,
+            "hp": 4,
+            "position": {
+              "x": 112,
+              "y": 575.5535641547864,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 155.69042769857433,
+            "y": 688
+          },
+          {
+            "time": 9.736171889332427,
+            "hp": 3,
+            "position": {
+              "x": 250.8108287286035,
+              "y": 80.09352863225325,
+              "heading": -0.036043715462016124,
+              "leg": "leftTurn"
+            },
+            "x": 384,
+            "y": 101.43749312046516
+          },
+          {
+            "time": 10.704829826125208,
+            "hp": 2,
+            "position": {
+              "x": 320.5530764225498,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 116.48168345994057
+          },
+          {
+            "time": 11.698719846491855,
+            "hp": 1,
+            "position": {
+              "x": 392.1131578889484,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 119.4144736839733
+          },
+          {
+            "time": 12.692609866858502,
+            "hp": 0,
+            "position": {
+              "x": 463.67323935534705,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 122.34726390800603
+          }
+        ],
+        "tankHits": [],
+        "lastVolleyAt": 12
+      }
+    },
+    {
+      "name": "touch-interception actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-interception shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-interception same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch exactly one distinct grant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reward is visible interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch canonical Next interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch re-rendering result does not regrant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch Next navigates only interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch selects earned tank sentinel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch applies selection on new mission siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-siege actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "touch-siege actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-siege shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-siege same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch exactly one distinct grant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reward is visible siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch canonical Next siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch re-rendering result does not regrant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch fourth distinct clear earns commendation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch last-stage Missions returns selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch all four persistent marks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch commendation visible on selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch four selectable cosmetics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reload retains history/selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch reload retains commendation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline fresh collection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline selects earned tank guardian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline applies selection on new mission colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-colossus actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "offline-colossus actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-colossus shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-colossus same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline exactly one distinct grant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline reward is visible colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline canonical Next colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline re-rendering result does not regrant colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline Next navigates only colossus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline selects earned tank bulwark",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline applies selection on new mission siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-siege actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 10.46666666666674,
+        "fortressHP": 0,
+        "tankHP": 1,
+        "immuneUntil": 11.199444656191387,
+        "damageAt": 8.199444656191387,
+        "fortressHitAt": 10.452916666666738,
+        "nextCharge": 11.4,
+        "nextVolley": 12,
+        "chargedGun": null,
+        "gunAngles": [
+          1.5712224026106147,
+          1.5707963267948966,
+          1.5707963267948966
+        ],
+        "enemyShells": [],
+        "lastVolley": {
+          "time": 9,
+          "gun": 0,
+          "muzzle": {
+            "x": 287.9897741807322,
+            "y": 239.99999782151284
+          },
+          "angle": 1.5712224026106147
+        },
+        "volleys": [
+          {
+            "time": 3,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 6,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          },
+          {
+            "time": 9,
+            "gun": 0,
+            "muzzle": {
+              "x": 287.9897741807322,
+              "y": 239.99999782151284
+            },
+            "angle": 1.5712224026106147,
+            "target": {
+              "x": 287.79999999999916,
+              "y": 685.4
+            },
+            "directions": [
+              [
+                0.4996309621456648,
+                0.8662383630764671
+              ],
+              [
+                0.25840746398753167,
+                0.9660360151441211
+              ],
+              [
+                -0.0004260758028264477,
+                0.9999999092297011
+              ],
+              [
+                -0.25923057923134546,
+                0.9658154620792634
+              ],
+              [
+                -0.5003689470840359,
+                0.8658122872736407
+              ]
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.4529166666666593,
+            "hp": 7
+          },
+          {
+            "time": 4.452916666666656,
+            "hp": 6
+          },
+          {
+            "time": 5.452916666666653,
+            "hp": 5
+          },
+          {
+            "time": 6.452916666666649,
+            "hp": 4
+          },
+          {
+            "time": 7.4529166666666455,
+            "hp": 3
+          },
+          {
+            "time": 8.452916666666665,
+            "hp": 2
+          },
+          {
+            "time": 9.452916666666715,
+            "hp": 1
+          },
+          {
+            "time": 10.452916666666738,
+            "hp": 0
+          }
+        ],
+        "tankHits": [
+          {
+            "time": 5.199444656191388,
+            "hp": 2
+          },
+          {
+            "time": 8.199444656191387,
+            "hp": 1
+          }
+        ],
+        "coverHits": [
+          {
+            "time": 0.6529166666666669,
+            "id": 2,
+            "side": "player"
+          },
+          {
+            "time": 2.0529166666666643,
+            "id": 0,
+            "side": "player"
+          }
+        ],
+        "finishedAt": 10.452916666666738,
+        "outcome": "success",
+        "serial": 25
+      }
+    },
+    {
+      "name": "offline-siege actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-siege shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-siege same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline exactly one distinct grant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline reward is visible siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline canonical Next siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline re-rendering result does not regrant siege",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline last-stage Missions returns selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline selects earned tank vanguard",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline applies selection on new mission breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-breakthrough actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 28.214333333332,
+        "phase": "success",
+        "revision": 2,
+        "replans": 3,
+        "pendingReplan": false,
+        "plan": [],
+        "evacuatingAt": 6.131000000000005,
+        "truck": {
+          "x": 352,
+          "y": 112,
+          "heading": 0,
+          "action": null
+        },
+        "predictedRouteSeconds": 22.083333333333325,
+        "routeDistance": 976,
+        "routeTurns": 5
+      }
+    },
+    {
+      "name": "offline-breakthrough actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-breakthrough shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-breakthrough same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline exactly one distinct grant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline reward is visible breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline canonical Next breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline re-rendering result does not regrant breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline Next navigates only breakthrough",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline selects earned tank sentinel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline applies selection on new mission interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-interception actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 12.700000000000035,
+        "shipHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "shipHitAt": 12.692609866858502,
+        "finishedAt": 12.692609866858502,
+        "outcome": "success",
+        "nextOpportunity": 15,
+        "enemyShells": [],
+        "opportunities": [
+          {
+            "time": 3,
+            "leg": "left",
+            "fired": true,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 576
+              },
+              {
+                "x": 178,
+                "y": 488
+              },
+              {
+                "x": 178,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "time": 6,
+            "leg": "left",
+            "fired": false,
+            "direction": {
+              "x": 1,
+              "y": 6.123233995736766e-17
+            },
+            "muzzles": [
+              {
+                "x": 178,
+                "y": 360
+              },
+              {
+                "x": 178,
+                "y": 272
+              },
+              {
+                "x": 178,
+                "y": 184
+              }
+            ]
+          },
+          {
+            "time": 9,
+            "leg": "leftTurn",
+            "fired": false,
+            "direction": {
+              "x": 0.3932186797763575,
+              "y": 0.9194449792537552
+            },
+            "muzzles": [
+              {
+                "x": 144.41778480311362,
+                "y": 186.88653543852655
+              },
+              {
+                "x": 225.3289429774441,
+                "y": 152.2832916182071
+              },
+              {
+                "x": 306.2401011517746,
+                "y": 117.68004779788762
+              }
+            ]
+          },
+          {
+            "time": 12,
+            "leg": "top",
+            "fired": true,
+            "direction": {
+              "x": -0.0,
+              "y": 1
+            },
+            "muzzles": [
+              {
+                "x": 325.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 413.80532894153487,
+                "y": 146
+              },
+              {
+                "x": 501.80532894153487,
+                "y": 146
+              }
+            ]
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 0.7900882552613703,
+            "hp": 5,
+            "position": {
+              "x": 112,
+              "y": 647.1136456211814,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 152.75763747454175,
+            "y": 688
+          },
+          {
+            "time": 1.7839782756279667,
+            "hp": 4,
+            "position": {
+              "x": 112,
+              "y": 575.5535641547864,
+              "heading": -1.5707963267948966,
+              "leg": "left"
+            },
+            "x": 155.69042769857433,
+            "y": 688
+          },
+          {
+            "time": 9.736171889332427,
+            "hp": 3,
+            "position": {
+              "x": 250.8108287286035,
+              "y": 80.09352863225325,
+              "heading": -0.036043715462016124,
+              "leg": "leftTurn"
+            },
+            "x": 384,
+            "y": 101.43749312046516
+          },
+          {
+            "time": 10.704829826125208,
+            "hp": 2,
+            "position": {
+              "x": 320.5530764225498,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 116.48168345994057
+          },
+          {
+            "time": 11.698719846491855,
+            "hp": 1,
+            "position": {
+              "x": 392.1131578889484,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 119.4144736839733
+          },
+          {
+            "time": 12.692609866858502,
+            "hp": 0,
+            "position": {
+              "x": 463.67323935534705,
+              "y": 80,
+              "heading": 0,
+              "leg": "top"
+            },
+            "x": 384,
+            "y": 122.34726390800603
+          }
+        ],
+        "tankHits": [],
+        "lastVolleyAt": 12
+      }
+    },
+    {
+      "name": "offline-interception actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-interception shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-interception same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline exactly one distinct grant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline no fifth tank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline reward is visible interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline canonical Next interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline re-rendering result does not regrant interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline fourth distinct clear earns commendation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline Next navigates only interception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline all four persistent marks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline commendation visible on selector",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline four selectable cosmetics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline full campaign uses initial HTML only",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "campaign no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "campaign no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "keyboard-siege",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "name": "keyboard-repeat-siege",
+      "mission": "siege",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "siege"
+      ]
+    },
+    {
+      "name": "keyboard-interception",
+      "mission": "interception",
+      "tank": "bulwark",
+      "input": "keyboard",
+      "time": 12.692609866858502,
+      "hp": 3,
+      "completed": [
+        "siege",
+        "interception"
+      ]
+    },
+    {
+      "name": "keyboard-colossus",
+      "mission": "colossus",
+      "tank": "vanguard",
+      "input": "keyboard",
+      "time": 7.400221104166644,
+      "hp": 3,
+      "completed": [
+        "siege",
+        "interception",
+        "colossus"
+      ]
+    },
+    {
+      "name": "keyboard-breakthrough",
+      "mission": "breakthrough",
+      "tank": "sentinel",
+      "input": "keyboard",
+      "time": 28.212333333332,
+      "hp": null,
+      "completed": [
+        "siege",
+        "interception",
+        "colossus",
+        "breakthrough"
+      ]
+    },
+    {
+      "name": "touch-breakthrough",
+      "mission": "breakthrough",
+      "tank": "guardian",
+      "input": "CDP touch",
+      "time": 28.213333333332002,
+      "hp": null,
+      "completed": [
+        "breakthrough"
+      ]
+    },
+    {
+      "name": "touch-colossus",
+      "mission": "colossus",
+      "tank": "bulwark",
+      "input": "CDP touch",
+      "time": 7.400221104166644,
+      "hp": 3,
+      "completed": [
+        "breakthrough",
+        "colossus"
+      ]
+    },
+    {
+      "name": "touch-interception",
+      "mission": "interception",
+      "tank": "vanguard",
+      "input": "CDP touch",
+      "time": 12.692609866858502,
+      "hp": 3,
+      "completed": [
+        "breakthrough",
+        "colossus",
+        "interception"
+      ]
+    },
+    {
+      "name": "touch-siege",
+      "mission": "siege",
+      "tank": "sentinel",
+      "input": "CDP touch",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "breakthrough",
+        "colossus",
+        "interception",
+        "siege"
+      ]
+    },
+    {
+      "name": "offline-colossus",
+      "mission": "colossus",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 7.400221104166644,
+      "hp": 3,
+      "completed": [
+        "colossus"
+      ]
+    },
+    {
+      "name": "offline-siege",
+      "mission": "siege",
+      "tank": "bulwark",
+      "input": "keyboard",
+      "time": 10.452916666666738,
+      "hp": 1,
+      "completed": [
+        "colossus",
+        "siege"
+      ]
+    },
+    {
+      "name": "offline-breakthrough",
+      "mission": "breakthrough",
+      "tank": "vanguard",
+      "input": "keyboard",
+      "time": 28.214333333332,
+      "hp": null,
+      "completed": [
+        "colossus",
+        "siege",
+        "breakthrough"
+      ]
+    },
+    {
+      "name": "offline-interception",
+      "mission": "interception",
+      "tank": "sentinel",
+      "input": "keyboard",
+      "time": 12.692609866858502,
+      "hp": 3,
+      "completed": [
+        "colossus",
+        "siege",
+        "breakthrough",
+        "interception"
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch and controlled clock; main campaigns earn unlocks without fixtures; explicitly labeled storage fixtures isolate save/equivalence cases",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed"
+}

@@ -1,5 +1,7 @@
 # Armorheart v1.0 RC1 — visual and verification evidence
 
+**Subsequent status, November5,2026:** owner accepted RC1 and separately authorized both publications; game and Possibility are now deployed and verified. [Final receipt/rollback](../../docs/V1_PUBLICATION_RECEIPT.md). The following remains the historical planning/RC verification record.
+
 2026-11-04. Actual integrated build frames and reproducible reports for **final Confirm & Close**. Four individual missions accepted; integrated game/new collection awaiting creative review. [Play](../../docs/PLAY_V1.md) · [QA/methods/limitations](../../docs/QA_V1.md) · [state](../../PROJECT_STATE.md).
 
 ## Review first

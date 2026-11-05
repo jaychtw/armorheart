@@ -1,0 +1,17 @@
+{
+  "method": "Native public game with actual movement/fire; central16:9 Canvas browser capture, no game fixtures, generation or image repaint. Full original Canvas capture also preserved.",
+  "source": "824618bed223c147a34562ff415e86a922594f7b",
+  "tank": {
+    "x": 386.4000000000007,
+    "y": 529.7999999999986,
+    "facing": "up"
+  },
+  "elapsed": 13.283333333333568,
+  "tankHP": 3,
+  "clip": {
+    "x": 400,
+    "y": 148.140625,
+    "width": 640,
+    "height": 640
+  }
+}

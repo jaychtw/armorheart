@@ -1,5 +1,7 @@
 # Armorheart v1.0 RC1 — integrated verification
 
+**Subsequent status, November5,2026:** owner accepted RC1 and separately authorized both publications; game and Possibility are now deployed and verified. [Final receipt/rollback](V1_PUBLICATION_RECEIPT.md). The following remains the historical planning/RC verification record.
+
 2026-11-04 Asia/Taipei. [Owner finalization authority](V1_FINALIZATION_HANDOFF.md) `eb01bdb18ab1ccc5232009ccb244e1f8ca79c219`. **Four accepted missions preserved; integrated RC and new cosmetic collection delivered for final Confirm & Close, not yet creatively accepted or publicly released.** Dedicated branch `dev/v1-finalization`; runtime/preview source checkpoint [`f1a0f2379ccddbae4a3f97dd2901743ccdadec38`](https://github.com/jaychtw/armorheart/commit/f1a0f2379ccddbae4a3f97dd2901743ccdadec38). Later delivery commits add evidence/docs/package only; they do not change this runtime.
 
 ## What changed

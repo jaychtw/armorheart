@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "url": "https://jaychtw.github.io/armorheart/",
+  "checkedAt": "2026-11-05T01:42:01.861641+00:00",
+  "tls": "Normal system CA verification; browser HTTPS errors not ignored",
+  "build_info": {
+    "project": "Armorheart",
+    "version": "1.0.0",
+    "source_commit": "824618bed223c147a34562ff415e86a922594f7b",
+    "reviewed_candidate": "42e98a6233faf4e126d54e05dac5806c44469489",
+    "runtime_source_commit": "f1a0f2379ccddbae4a3f97dd2901743ccdadec38",
+    "publication_authority": "3b8d7fe4d6a46f451d2c4fdb6e808f4bba900d72",
+    "index_sha256": "62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2",
+    "review_zip_sha256": "6afd0bb8771494e96d9625e23f74e76e13c486061d8ace702849c5d7ad4ec466",
+    "runtime_note": "Exact creatively accepted RC1 payload; in-game candidate labeling retained to avoid changing reviewed executable"
+  },
+  "html_sha256": "62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2",
+  "headers": {
+    "server": "envoy",
+    "content-type": "text/html; charset=utf-8",
+    "last-modified": "Thu, 05 Nov 2026 01:40:40 GMT",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31556952",
+    "etag": "\"6aebde98-a73605\"",
+    "expires": "Thu, 05 Nov 2026 01:51:18 GMT",
+    "cache-control": "max-age=600",
+    "x-proxy-cache": "MISS",
+    "x-github-request-id": "BC26:2A63CE:B4B0B:CCBCB:6AEBDEBD",
+    "x-github-edge-region": "westus3",
+    "accept-ranges": "bytes",
+    "age": "0",
+    "date": "Thu, 05 Nov 2026 01:41:18 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-lax-kwhp1940086-LAX",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1793842878.963154,VS0,VE484",
+    "vary": "Accept-Encoding",
+    "x-fastly-request-id": "30420a05d6ce6bca6e82101124282b392f70ee42",
+    "content-length": "10958341",
+    "x-envoy-upstream-service-time": "1053",
+    "connection": "close"
+  },
+  "plays": [
+    {
+      "viewport": "1440 desktop",
+      "input": "keyboard",
+      "mission": "colossus",
+      "outcome": "success",
+      "finishedAt": 7.572304437499977,
+      "tankHP": 3,
+      "earned_progress": {
+        "version": 1,
+        "completed": [
+          "colossus"
+        ],
+        "selected": "bulwark"
+      },
+      "reload_selection": "bulwark",
+      "language": "zh-TW",
+      "http_requests": [
+        "https://jaychtw.github.io/armorheart/",
+        "https://jaychtw.github.io/armorheart/"
+      ]
+    },
+    {
+      "viewport": "390 phone emulation",
+      "input": "CDP touch",
+      "mission": "siege",
+      "outcome": "success",
+      "finishedAt": 10.853333333333426,
+      "tankHP": 1,
+      "earned_progress": {
+        "version": 1,
+        "completed": [
+          "siege"
+        ],
+        "selected": "bulwark"
+      },
+      "reload_selection": "bulwark",
+      "language": "zh-TW",
+      "http_requests": [
+        "https://jaychtw.github.io/armorheart/",
+        "https://jaychtw.github.io/armorheart/"
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": "Managed Chromium and emulated touch only; not physical-phone, independent first-time-player, other-engine or assistive-technology tests"
+}
