@@ -1,0 +1,127 @@
+{
+  "public": false,
+  "views": [
+    {
+      "width": 320,
+      "theme": "light",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "first": "armorheart",
+      "bilingualCopy": true,
+      "art": {
+        "src": "http://127.0.0.1:4178/assets/covers/games/shadow-becomes-me.480.4d5eeceaea04.webp",
+        "loaded": true,
+        "fit": "cover"
+      },
+      "overflow": false
+    }
+  ],
+  "portalToActualGameLocales": [],
+  "note": "Portal chrome remains English; catalog summaries are English; Traditional Chinese remains on the fact sheet. Actual game has two live-switchable language modes."
+}

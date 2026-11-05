@@ -1,0 +1,99 @@
+
+> possibility@1.0.0-platform-rc.1 release:check
+> npm run check && npm run verify:links && node scripts/package.ts
+
+
+> possibility@1.0.0-platform-rc.1 check
+> npm run typecheck && npm run lint && npm test && npm run test:browser
+
+
+> possibility@1.0.0-platform-rc.1 typecheck
+> tsc --noEmit
+
+
+> possibility@1.0.0-platform-rc.1 lint
+> eslint src/client tests/*.cjs scripts/*.cjs && npm run format:check
+
+
+> possibility@1.0.0-platform-rc.1 format:check
+> prettier --check --ignore-unknown src scripts tests/*.ts tests/*.cjs content .github/workflows/*.yml package.json tsconfig.json eslint.config.js
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> possibility@1.0.0-platform-rc.1 test
+> node --test tests/*.test.ts
+
+✔ published projects retain verified current URLs and respect editable editorial order (7.526702ms)
+✔ unsafe URLs are rejected, including credential and encoded-control injection (0.253951ms)
+✔ duplicates, missing metadata, reserved tags and typo fields fail clearly (6.829907ms)
+✔ published links require matching dated evidence; acceptance and visibility remain distinct (1.170408ms)
+✔ invalid dates, statuses, language duplicates and implicit commit versions fail (3.044091ms)
+✔ traversal/missing screenshot assets fail; null selects an honest placeholder (2.381486ms)
+✔ draft/approved/archived projects stay out of galleries (0.753211ms)
+✔ gallery escapes metadata, includes complete cards, and hides empty navigation (1.049837ms)
+✔ identity settings reject email injection, subpath origins and unknown homepage (0.252078ms)
+✔ Games default to newest known publication, null dates retain editorial order, and Apps never reorder (0.757057ms)
+✔ new optional copy and override fields validate, escape, and keep filter labels in editorial order (2.699273ms)
+✔ Markdown supports authoring and rejects malformed/ambiguous metadata (12.933872ms)
+✔ raw HTML, unsafe URLs, external images and YAML aliases cannot inject active content (3.689561ms)
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Invalid cover for republic-of-chickens; using screenshot.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+Built 8 canonical routes; 2 projects; 2 articles. No public deployment.
+✔ publication, cover replacement, Apps and homepage changes work through content only (3249.66557ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3394.554525
+
+> possibility@1.0.0-platform-rc.1 test:browser
+> npm run build && node tests/browser.cjs && node tests/apps-browser.cjs && node tests/shadow-browser.cjs
+
+
+> possibility@1.0.0-platform-rc.1 build
+> node scripts/build.ts
+
+Built 27 canonical routes; 25 projects; 0 articles. No public deployment.
+{"layouts":10,"filterCases":76,"axeScans":13,"behavior":13,"fixtures":5,"passed":true}
+{"public":false,"appsViews":10,"axeViolations":0,"passed":true}
+10 Shadow entry views passed
+
+> possibility@1.0.0-platform-rc.1 verify:links
+> python3 scripts/verify-links.py
+
+Storm Chaser 200 2 runtime assets passed
+Cute Animal Match 200 2 runtime assets passed
+Armorheart 200 0 runtime assets passed
+Formosa Quest 200 2 runtime assets passed
+Jasmine’s Odyssey 200 2 runtime assets passed
+Jeremy’s Odyssey 200 2 runtime assets passed
+Junctioneer 200 2 runtime assets passed
+Kaiju Demolition 200 2 runtime assets passed
+World Kaiju Tournament 200 2 runtime assets passed
+Launch Sequence 200 2 runtime assets passed
+My Queens 200 2 runtime assets passed
+Nom Nom BOOM! 200 2 runtime assets passed
+Pedestrian’s Living Hell 200 2 runtime assets passed
+Republic of Chickens 200 2 runtime assets passed
+Riot Defender 200 2 runtime assets passed
+Shadow Becomes Me 200 2 runtime assets passed
+Shape Match 200 2 runtime assets passed
+Snacks Match – Raohe 200 2 runtime assets passed
+Squirrel Control 200 2 runtime assets passed
+The Impossible Room 200 2 runtime assets passed
+The Last Lantern 200 2 runtime assets passed
+The Other 90% 200 2 runtime assets passed
+Tidelight 200 2 runtime assets passed
+Typhoon Defender 200 2 runtime assets passed
+Wonderlands 200 2 runtime assets passed
+Review release prepared: .artifacts/release/possibility-1.0.0-platform-rc.1-67a461309371.zip; source 67a4613093715f904ff4c3e952f007b5bc8ac63b. No deployment performed.

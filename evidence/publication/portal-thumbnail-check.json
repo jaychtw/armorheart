@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Decoded RGBA pixel equality between genuine browser PNG and lossless portal WebP; no repaint or resampling",
+  "source_sha256": "366306bf0d090c11cc5aa52d94a06c5d668e9642e533df4f84b8da47c375bc8c",
+  "import_sha256": "e13d5f8fbf4b5a1a8685869a207d66fff28d26362fea27dc4f166d584da6c8e9",
+  "metadata": {
+    "format": "webp",
+    "mediaType": "image/webp",
+    "width": 640,
+    "height": 360,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "isProgressive": false,
+    "isPalette": false,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 640,
+      "height": 360
+    }
+  }
+}

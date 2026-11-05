@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.request import urlopen
 from playwright.sync_api import sync_playwright
 import os,json,hashlib,subprocess,datetime
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/publication/live-game';OUT.mkdir(parents=True,exist_ok=True);URL='https://jaychtw.github.io/armorheart/';expected=subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT).decode().strip();checks=[];errors=[]
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'evidence/publication/live-game';OUT.mkdir(parents=True,exist_ok=True);URL='https://jaychtw.github.io/armorheart/';expected=os.environ.get('ARMORHEART_RELEASE_COMMIT','824618bed223c147a34562ff415e86a922594f7b');checks=[];errors=[]
 with urlopen(URL+'build-info.json',timeout=30) as r:info=json.load(r);assert r.status==200
 with urlopen(URL,timeout=30) as r:html=r.read();headers=dict(r.headers);assert r.status==200 and r.url==URL
 assert info['source_commit']==expected and info['index_sha256']==hashlib.sha256(html).hexdigest()=='62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2'

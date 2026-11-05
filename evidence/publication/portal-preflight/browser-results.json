@@ -1,0 +1,926 @@
+{
+  "scope": "Local Chromium, emulated viewport/touch; production and explicitly isolated publishing fixtures. No public deployment or physical-device certification.",
+  "layouts": [
+    {
+      "width": 320,
+      "appearance": "dark",
+      "columns": 1,
+      "overflow": false,
+      "firstY": 422,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 320,
+      "appearance": "light",
+      "columns": 1,
+      "overflow": false,
+      "firstY": 422,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "columns": 1,
+      "overflow": false,
+      "firstY": 338,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "columns": 1,
+      "overflow": false,
+      "firstY": 338,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 768,
+      "appearance": "dark",
+      "columns": 2,
+      "overflow": false,
+      "firstY": 276,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 768,
+      "appearance": "light",
+      "columns": 2,
+      "overflow": false,
+      "firstY": 276,
+      "ratios": [
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777,
+        1.7777777777777777
+      ]
+    },
+    {
+      "width": 1024,
+      "appearance": "dark",
+      "columns": 3,
+      "overflow": false,
+      "firstY": 248,
+      "ratios": [
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909
+      ]
+    },
+    {
+      "width": 1024,
+      "appearance": "light",
+      "columns": 3,
+      "overflow": false,
+      "firstY": 248,
+      "ratios": [
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909,
+        1.7779145752438679,
+        1.7779145752438679,
+        1.777840909090909
+      ]
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "columns": 3,
+      "overflow": false,
+      "firstY": 248,
+      "ratios": [
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253
+      ]
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "columns": 3,
+      "overflow": false,
+      "firstY": 248,
+      "ratios": [
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253,
+        1.777859291321253,
+        1.7778022300469483,
+        1.777859291321253
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Action",
+      "count": 5
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Experimental",
+      "count": 9
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Horizontal Scroller",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Puzzle",
+      "count": 8
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Kawaii",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Narrative",
+      "count": 4
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Sandbox",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "RPG",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Matching",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Strategy",
+      "count": 4
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Logic",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Maze",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Exploration",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Time Attack",
+      "count": 2
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Platformer",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Vertical Scroller",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Combat",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Tournament",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "dark",
+      "tag": "Arcade",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Action",
+      "count": 5
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Experimental",
+      "count": 9
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Horizontal Scroller",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Puzzle",
+      "count": 8
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Kawaii",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Narrative",
+      "count": 4
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Sandbox",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "RPG",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Matching",
+      "count": 3
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Strategy",
+      "count": 4
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Logic",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Maze",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Exploration",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Time Attack",
+      "count": 2
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Platformer",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Vertical Scroller",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Combat",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Tournament",
+      "count": 1
+    },
+    {
+      "width": 390,
+      "appearance": "light",
+      "tag": "Arcade",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Action",
+      "count": 5
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Experimental",
+      "count": 9
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Horizontal Scroller",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Puzzle",
+      "count": 8
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Kawaii",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Narrative",
+      "count": 4
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Sandbox",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "RPG",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Matching",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Strategy",
+      "count": 4
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Logic",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Maze",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Exploration",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Time Attack",
+      "count": 2
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Platformer",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Vertical Scroller",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Combat",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Tournament",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "dark",
+      "tag": "Arcade",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Action",
+      "count": 5
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Experimental",
+      "count": 9
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Horizontal Scroller",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Puzzle",
+      "count": 8
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Kawaii",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Narrative",
+      "count": 4
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Sandbox",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "RPG",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Matching",
+      "count": 3
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Strategy",
+      "count": 4
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Logic",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Maze",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Exploration",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Time Attack",
+      "count": 2
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Platformer",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Vertical Scroller",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Combat",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Tournament",
+      "count": 1
+    },
+    {
+      "width": 1440,
+      "appearance": "light",
+      "tag": "Arcade",
+      "count": 1
+    }
+  ],
+  "accessibility": [
+    {
+      "label": "gallery-390-dark",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "gallery-390-light",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "gallery-1440-dark",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "gallery-1440-light",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fact-sheet-republic-of-chickens",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fact-sheet-wonderlands",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fact-sheet-squirrel-control",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fact-sheet-the-last-lantern",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fixture-/apps/",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fixture-/blog/",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fixture-/what-now/",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fixture-/blog/publishing-fixture/",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "fixture-/what-now/publishing-fixture/",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "contrast": [
+    {
+      "appearance": "dark",
+      "phaseMs": 0,
+      "minimum": 7.706644730183235
+    },
+    {
+      "appearance": "dark",
+      "phaseMs": 30,
+      "minimum": 7.706644730183235
+    },
+    {
+      "appearance": "dark",
+      "phaseMs": 70,
+      "minimum": 7.706644730183235
+    },
+    {
+      "appearance": "dark",
+      "phaseMs": 130,
+      "minimum": 7.706644730183235
+    },
+    {
+      "appearance": "light",
+      "phaseMs": 0,
+      "minimum": 5.422093807375919
+    },
+    {
+      "appearance": "light",
+      "phaseMs": 30,
+      "minimum": 5.422093807375919
+    },
+    {
+      "appearance": "light",
+      "phaseMs": 70,
+      "minimum": 5.422093807375919
+    },
+    {
+      "appearance": "light",
+      "phaseMs": 130,
+      "minimum": 5.422093807375919
+    }
+  ],
+  "behavior": [
+    "Keyboard skip, visible focus and Space filtering",
+    "Every card navigates from its description; one keyboard stop per card, visible focus, Enter and cover click work (isolated destination responses)",
+    "Four historical fact-sheet URLs preserved",
+    "Reduced-motion transitions suppressed",
+    "200% text reflow in both themes",
+    "Forced-colors controls remain available",
+    "Emulated touch filtering and theme switch",
+    "Emulated touch opens the card from below its cover",
+    "No-JavaScript full catalog and functional links",
+    "Blocked storage leaves theme switch usable",
+    "Failed preview chain retains placeholder and clickable card",
+    "Runtime custom-cover failure restores authentic screenshot and its alt text",
+    "Runtime cover and screenshot failure retains a neutral placeholder and clickable card"
+  ],
+  "fixtures": [
+    "/apps/",
+    "/blog/",
+    "/what-now/",
+    "/blog/publishing-fixture/",
+    "/what-now/publishing-fixture/"
+  ],
+  "browser": "154.0.8037.57",
+  "passed": true
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "tested_source": "67a4613093715f904ff4c3e952f007b5bc8ac63b",
+  "cases": [
+    {
+      "case": "external",
+      "external": 1,
+      "embedded": 0,
+      "passed": true
+    },
+    {
+      "case": "embedded",
+      "external": 0,
+      "embedded": 1,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "external": 0,
+      "embedded": 0,
+      "passed": true
+    },
+    {
+      "case": "json-only",
+      "external": 0,
+      "embedded": 0,
+      "passed": true
+    },
+    {
+      "case": "static",
+      "external": 0,
+      "embedded": 0,
+      "passed": true
+    }
+  ]
+}

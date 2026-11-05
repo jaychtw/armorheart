@@ -1,0 +1,540 @@
+{
+  "checkedAt": "2026-11-05T01:47:27.815276+00:00",
+  "method": "Python urllib HTTPS with default system CA/TLS verification; not a live-browser gameplay run.",
+  "projects": [
+    {
+      "id": "storm-chaser",
+      "url": "https://jaychtw.github.io/storm-chaser/",
+      "status": 200,
+      "htmlSha256": "6cdb7d3bc9e1af8bd527926cb8354554f826597f8f18a3746a00d32e0b90cff2",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/storm-chaser/assets/index-B5O3dqBd.css",
+          "status": 200,
+          "bytes": 92065,
+          "sha256": "66685d9cca6e4b614ceb53cbf1e9718a4082646603572f90c9153d65d4c2318b"
+        },
+        {
+          "url": "https://jaychtw.github.io/storm-chaser/assets/index-CmBSFg_2.js",
+          "status": 200,
+          "bytes": 1126241,
+          "sha256": "4068012a784dbd8709fba7df1e62b217979736323f94cd944be20d5d089e360f"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "animal-match",
+      "url": "https://jaychtw.github.io/animal-match/",
+      "status": 200,
+      "htmlSha256": "2272c1a3691d12bd3f3aa24ea8b74901a634bc33798c08e800c8fc9086cac8de",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/animal-match/assets/index-C5L3eQA3.css",
+          "status": 200,
+          "bytes": 23989,
+          "sha256": "ef8949df34fcacc9cdd43b4ccdd53fe13cbba254ae0f81cdd30875b2cd9d2b7f"
+        },
+        {
+          "url": "https://jaychtw.github.io/animal-match/assets/index-HIlmWt2F.js",
+          "status": 200,
+          "bytes": 76670,
+          "sha256": "bfc370b34cc39250cd43a5f7ddb8299b87bb60d6272e0429c358cd48150ecc22"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "armorheart",
+      "url": "https://jaychtw.github.io/armorheart/",
+      "status": 200,
+      "htmlSha256": "62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2",
+      "assets": [],
+      "inlineScripts": [
+        {
+          "bytes": 10932494,
+          "sha256": "a15fc48b8f2b4c71cca0fb523aa3caa799d08c348b4302aaff4ece81c6cff070"
+        }
+      ]
+    },
+    {
+      "id": "formosa-quest",
+      "url": "https://jaychtw.github.io/formosa-quest/",
+      "status": 200,
+      "htmlSha256": "a1622f040320aed8e0b3bc958ec11bd7f29a33cf4b0d916a6b2c9a3beb3e1604",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/formosa-quest/assets/index-BNy4hekf.css",
+          "status": 200,
+          "bytes": 791,
+          "sha256": "12a28a81a407b586d9938894c2a56d02b66c5e894ceeaa421d883f748ad9a5b5"
+        },
+        {
+          "url": "https://jaychtw.github.io/formosa-quest/assets/index-Btuw9yhV.js",
+          "status": 200,
+          "bytes": 1227501,
+          "sha256": "3942e4c9f3ff27967aeeb92505b33b913e25d6ec9bd99e4947019a771f72cdaf"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "jasmine-odyssey",
+      "url": "https://jaychtw.github.io/jasmine-odyssey/",
+      "status": 200,
+      "htmlSha256": "f34413e7093ba1a33c8de0d56b5ff521c9cf473e50248d031d589400b3d15edb",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/jasmine-odyssey/assets/index--fYuOelN.css",
+          "status": 200,
+          "bytes": 38513,
+          "sha256": "625f054ea739e7ca4968c319599e9c2afdaf6a2f57c314959f89f6147af96f88"
+        },
+        {
+          "url": "https://jaychtw.github.io/jasmine-odyssey/assets/index-CjOwGrAq.js",
+          "status": 200,
+          "bytes": 55777,
+          "sha256": "eee34c39da9e05ab0803f0dcd71132480363a68c7885528318cc8c40f5f95ce5"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "jeremy-odyssey",
+      "url": "https://jaychtw.github.io/jeremy-odyssey/",
+      "status": 200,
+      "htmlSha256": "8af5cef4e771b067163ecd77c7987ec5ebd5cc51b7fac95facb6ae43bf625db9",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/jeremy-odyssey/assets/index-BlPoT44h.css",
+          "status": 200,
+          "bytes": 132964,
+          "sha256": "3db1262e0dd2ec4e669c089a1383b7116659e5b476bc0a1cc40c35fedd4d080d"
+        },
+        {
+          "url": "https://jaychtw.github.io/jeremy-odyssey/assets/index-Cd6A3J2E.js",
+          "status": 200,
+          "bytes": 1246459,
+          "sha256": "9290f2d576be39f4d63554b135f551a97c64789a49e39e3f69a614fdfe1af8fe"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "junctioneer",
+      "url": "https://jaychtw.github.io/junctioneer/",
+      "status": 200,
+      "htmlSha256": "389a4fdba5fc8aa244c7f7b8bdf91144e199f936d140323e66def53b0807132c",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/junctioneer/assets/index-C2twwOhq.css",
+          "status": 200,
+          "bytes": 21439,
+          "sha256": "f9c2dd6f5cc3d5e7cc27de7a322a1f57e51b995bc800d61bd1982af16b20b0ef"
+        },
+        {
+          "url": "https://jaychtw.github.io/junctioneer/assets/index-CWDoCSEu.js",
+          "status": 200,
+          "bytes": 630481,
+          "sha256": "2a6efbfd349731d61e15a09ce5776938772c5d05265a223fa9678e0774f578f3"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "kaiju-demolition",
+      "url": "https://jaychtw.github.io/kaiju-demolition/",
+      "status": 200,
+      "htmlSha256": "dace894cb37a30d2404bde02a366c6df8edf7a25f15b3d2b79235a9b19f3e7d7",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/kaiju-demolition/assets/index-BuroNnLH.css",
+          "status": 200,
+          "bytes": 16422,
+          "sha256": "6a124791d704650cbd14ce618b90a06d8bfd5fe99301ae2d4ea9b1f18f804730"
+        },
+        {
+          "url": "https://jaychtw.github.io/kaiju-demolition/assets/index-DcpTTv3E.js",
+          "status": 200,
+          "bytes": 32254,
+          "sha256": "70fe7f0b9472fb0d9bf25c77b90069df6716fbf6b31c07c4a3f533ea190219e6"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "kaiju-tournament",
+      "url": "https://jaychtw.github.io/kaiju-tournament/",
+      "status": 200,
+      "htmlSha256": "3ac5336d8c9905c61420ecb3b8abcfb9149987407f43ea82b827f8d5e6d7e6c1",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/kaiju-tournament/assets/index-Bd21Oasi.js",
+          "status": 200,
+          "bytes": 46745,
+          "sha256": "abf3c11217d3f721dba4ae36523657038cda439db0bf3acbb16ae11d4d4f83fc"
+        },
+        {
+          "url": "https://jaychtw.github.io/kaiju-tournament/assets/index-DMp88Lmx.css",
+          "status": 200,
+          "bytes": 27804,
+          "sha256": "2650d303b8c6d005c480231cf552738f322273d1e78cccc60fd5737b1da0e3ae"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "launch-sequence",
+      "url": "https://jaychtw.github.io/launch-sequence/",
+      "status": 200,
+      "htmlSha256": "49ca1900777d68fa3306460d8afa9a07fed303f200c937697dc6c0759c92c5fa",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/launch-sequence/assets/index-Cxm9PejX.js",
+          "status": 200,
+          "bytes": 42563,
+          "sha256": "c96b4e9a28aa4951c0dfd57063af360e99f0048d0d051377aa4e30721a426f33"
+        },
+        {
+          "url": "https://jaychtw.github.io/launch-sequence/assets/index-hv7wq1Ee.css",
+          "status": 200,
+          "bytes": 27564,
+          "sha256": "2ec4e2e66a93e7096b351272859dd2a3ba52704fb97d892a5855f59eb5d03c47"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "my-queens",
+      "url": "https://jaychtw.github.io/my-queens/",
+      "status": 200,
+      "htmlSha256": "56e6cbdc3b3034abbf140eb64a902f4107c0ae26dd673eec97231bd1caf184a9",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/my-queens/assets/index-CVf7rLbi.js",
+          "status": 200,
+          "bytes": 43641,
+          "sha256": "d575a3f173053e16b95b830893f436288063d2c572df40ce514ec90ffc0d309d"
+        },
+        {
+          "url": "https://jaychtw.github.io/my-queens/assets/index-Cb2KWeEI.css",
+          "status": 200,
+          "bytes": 16805,
+          "sha256": "37f6e0326e794636547517e06c5ae979124f08b2eeb713e2c0f774a72a499f62"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "nom-nom-boom",
+      "url": "https://jaychtw.github.io/nom_nom_boom/",
+      "status": 200,
+      "htmlSha256": "c4db14e3f82e84b28c1ca51235caf436831ed23146a62649874d5450442a35c9",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/nom_nom_boom/src/app.js",
+          "status": 200,
+          "bytes": 19011,
+          "sha256": "7be93a4863d59a95a5e94b3170b0f35ed67f6e18fb78c01f9d627118fdb461b7"
+        },
+        {
+          "url": "https://jaychtw.github.io/nom_nom_boom/style.css",
+          "status": 200,
+          "bytes": 22570,
+          "sha256": "3f47209b289dad8abb21f5e8274360eca8f52f8bb6f5bc0a12d8186ec74afa96"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "pedestrian-living-hell",
+      "url": "https://jaychtw.github.io/pedestrian-living-hell/",
+      "status": 200,
+      "htmlSha256": "fa18fd93c11e9f91b2b4fc27ce0ed3b5712a21e3dc2f94f9db6aad6d54933054",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/pedestrian-living-hell/src/main.js?v=1.0.0",
+          "status": 200,
+          "bytes": 5112,
+          "sha256": "99d50d60c47d09dfd544e31bebbd44a7018883d326f3d93719a7bf1cb417531c"
+        },
+        {
+          "url": "https://jaychtw.github.io/pedestrian-living-hell/src/style.css?v=1.0.0",
+          "status": 200,
+          "bytes": 7229,
+          "sha256": "152c545da4719cfc11750a881e9582f1a8065bae54c280e24c1fab7ac42603c8"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "republic-of-chickens",
+      "url": "https://jaychtw.github.io/reppublic-of-chickens/",
+      "status": 200,
+      "htmlSha256": "a3e48c238bfff65602cc4665048d8dc7818f9234178edab1d2a2fe1cf1df1669",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/reppublic-of-chickens/assets/index-BqxP_84i.css",
+          "status": 200,
+          "bytes": 157528,
+          "sha256": "ec2938f12cd797f3203e5048d4926e18cbaa0a318e55f5f9137eadf0719700c4"
+        },
+        {
+          "url": "https://jaychtw.github.io/reppublic-of-chickens/assets/index-Bz9Y8Vwu.js",
+          "status": 200,
+          "bytes": 257898,
+          "sha256": "3e4fe13dd0a922b73525165f3a77979e9a92d67a8430c3f767a46a40f210961c"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "riot-defender",
+      "url": "https://jaychtw.github.io/riot-defender/",
+      "status": 200,
+      "htmlSha256": "bec4aa6e58dd31c593fe4f06e470908a56ccc8babf7c82a04f2798107873690e",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/riot-defender/assets/index-BJg98HLV.css",
+          "status": 200,
+          "bytes": 23576,
+          "sha256": "1c426680af22bbb3d405ee96a9ad3006919e4b80f32cb9a49942f6443f0c9d31"
+        },
+        {
+          "url": "https://jaychtw.github.io/riot-defender/assets/index-C92qeFD_.js",
+          "status": 200,
+          "bytes": 70251,
+          "sha256": "df3348e1f48b20379d57418e369ff186c870d1af949225999d972dee11699374"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "shadow-becomes-me",
+      "url": "https://jaychtw.github.io/shadow-becomes-me/",
+      "status": 200,
+      "htmlSha256": "7a757d1ef10e9d8466b20b0add57ed2fc117d1f8d5e9bee43e67630d090f76ce",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/shadow-becomes-me/assets/r3-5c7c6e926759/src/main.js",
+          "status": 200,
+          "bytes": 8075,
+          "sha256": "30742152103edfdfa7c012236ff48f927524974724765cf3ec79556200905db5"
+        },
+        {
+          "url": "https://jaychtw.github.io/shadow-becomes-me/assets/r3-5c7c6e926759/style.css",
+          "status": 200,
+          "bytes": 5481,
+          "sha256": "ab5de375011775c0f1e59fc88915c80ce57d97bfb16c4af23e7ffd5865325d7e"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "shape-match",
+      "url": "https://jaychtw.github.io/shape-match/",
+      "status": 200,
+      "htmlSha256": "29926f565e7b194cbf420c6a86aab0818d11589e7f6e81d0ee3d327a439645b1",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/shape-match/assets/index-B79_HEQI.js",
+          "status": 200,
+          "bytes": 73345,
+          "sha256": "c22dd223afe835b35638141e91fe2e51dda69abdcf0efb603b5a355a8ceea961"
+        },
+        {
+          "url": "https://jaychtw.github.io/shape-match/assets/index-Dt2Lyno7.css",
+          "status": 200,
+          "bytes": 20877,
+          "sha256": "c8c7c95f4a7b1d3853506c06e408bf6fe20e4c429afeaeb133a1c57335779f5e"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "snacks-match-raohe",
+      "url": "https://jaychtw.github.io/snacks-match-raohe/",
+      "status": 200,
+      "htmlSha256": "abf3e2d612ff5f55c8e40ffd9276341c51cdccd4e7c8999723a50c70f3c0868b",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/snacks-match-raohe/assets/index-BznZrNrd.css",
+          "status": 200,
+          "bytes": 19934,
+          "sha256": "e17bb61633154e0a9392f7c46c3947a4c4473f31e1dd5acefd5f619b7dae38c7"
+        },
+        {
+          "url": "https://jaychtw.github.io/snacks-match-raohe/assets/index-C7nikXUL.js",
+          "status": 200,
+          "bytes": 75110,
+          "sha256": "09904a8641728581df4c70f6d1007310149272b65320a9bc46d2f3e71b3f2067"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "squirrel-control",
+      "url": "https://jaychtw.github.io/squirrel-control/",
+      "status": 200,
+      "htmlSha256": "a60fec14d1d6ec143eda3e090db6d6494f2bc6c6175a7aeaa7ef9aa5c6ce38cf",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/squirrel-control/assets/index-BqoC0M3G.js",
+          "status": 200,
+          "bytes": 58739,
+          "sha256": "55403aec683d0bc3e56d8eb356594039e4f242b10f6baff726e492c0b9121871"
+        },
+        {
+          "url": "https://jaychtw.github.io/squirrel-control/assets/index-C1sReZpG.css",
+          "status": 200,
+          "bytes": 29603,
+          "sha256": "f6eef53e45045935b3e0e613c6fb1493567f5b29483ae3632360c5f9a9479d05"
+        }
+      ],
+      "inlineScripts": [],
+      "releaseManifest": {
+        "releaseCommit": "b7ca1dffd55eff650979d5ed828f78b37f4dfd31",
+        "gameSourceCommit": "4c1f7886148626b2c9ff3f59d5fa0bdddee4b3de",
+        "version": "1.0.0-rc.1",
+        "javascript": {
+          "path": "assets/index-BqoC0M3G.js",
+          "sha256": "55403aec683d0bc3e56d8eb356594039e4f242b10f6baff726e492c0b9121871"
+        }
+      },
+      "releaseManifestHashMatched": true
+    },
+    {
+      "id": "the-impossible-room",
+      "url": "https://jaychtw.github.io/the-impossible-room/",
+      "status": 200,
+      "htmlSha256": "3ec4ba7c27cae4139d2be9234317b74b52940f22d5a65173c9efda9d679bb0b7",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/the-impossible-room/assets/index-CR1tJbxc.js",
+          "status": 200,
+          "bytes": 52928,
+          "sha256": "ffc599ae7d154049e4c4f02f3549f5e317a18687faa40c074721e5f4d88379e2"
+        },
+        {
+          "url": "https://jaychtw.github.io/the-impossible-room/assets/index-D1SFpSkT.css",
+          "status": 200,
+          "bytes": 29111,
+          "sha256": "558a4c78074fc808d3817ac80cc8e06f453b3ca08730351041a617fc34b662be"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "the-last-lantern",
+      "url": "https://jaychtw.github.io/the-last-lantern/",
+      "status": 200,
+      "htmlSha256": "634a9a51794eb2be070023866d6758acef1138eef9ef3def921b1a9e78c2b012",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/the-last-lantern/assets/index-CkKa9k9b.js",
+          "status": 200,
+          "bytes": 93938,
+          "sha256": "9077ecae54e76bd224bbcbb565310211a76311c77e8db1c3298813173bc9782c"
+        },
+        {
+          "url": "https://jaychtw.github.io/the-last-lantern/assets/index-R7wCqtNX.css",
+          "status": 200,
+          "bytes": 34282,
+          "sha256": "c1ac719e6cf5b0da6357a26ee90aa62198bd81b27bd5d59d841aa1efe5eb5b96"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "the-other-ninty-percent",
+      "url": "https://jaychtw.github.io/the-other-ninty-percent/",
+      "status": 200,
+      "htmlSha256": "2679e88b8f94c3b10ec2eb41b6b8d65d98cd54b3346b34f00b2dcac3832c93e7",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/the-other-ninty-percent/src/app.js",
+          "status": 200,
+          "bytes": 12425,
+          "sha256": "62514c61d86b1222543922478997b17f87a968a73058bdc1c1113cbd819e96cf"
+        },
+        {
+          "url": "https://jaychtw.github.io/the-other-ninty-percent/src/styles.css",
+          "status": 200,
+          "bytes": 21881,
+          "sha256": "49dffd020cda57271c206ee1eb9cdd36065cc56bedc5bdc53f5a523efa3ad9f5"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "tidelight",
+      "url": "https://jaychtw.github.io/tidelight/",
+      "status": 200,
+      "htmlSha256": "7a8e4e661b47e4d8eb124531c0415ab10d17a5a4dc1722eb3eef118e9e9e9656",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/tidelight/assets/index-BT9hIy4l.js",
+          "status": 200,
+          "bytes": 20848,
+          "sha256": "f61c9f395a0059bb589cd01b1b573e668fb0a5ecb9f5c16d3f8e1443b27c455a"
+        },
+        {
+          "url": "https://jaychtw.github.io/tidelight/assets/index-Id0goefg.css",
+          "status": 200,
+          "bytes": 7257,
+          "sha256": "2ac407d6cc3a3c57e7a15c682e57fdd613731cb0c4a09ecdd1bee27958e1bb5a"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "typhoon-defender",
+      "url": "https://jaychtw.github.io/typhoon-defender/",
+      "status": 200,
+      "htmlSha256": "c99bda35aad4936735583ce041d7d606f8ac97711df12aa822a292b696630779",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/typhoon-defender/assets/index-B096GvIK.js",
+          "status": 200,
+          "bytes": 50906,
+          "sha256": "955dc78f6d5a1c0389559e5b3bf7a159c04c4e6840c23dbc9c7a6ddf8da7f95d"
+        },
+        {
+          "url": "https://jaychtw.github.io/typhoon-defender/assets/index-Dmkco2Ew.css",
+          "status": 200,
+          "bytes": 36705,
+          "sha256": "f82239290bdd3b0974411ea2bdc831e9cdaab837c2cb791712d50f4e0a6adc8e"
+        }
+      ],
+      "inlineScripts": []
+    },
+    {
+      "id": "wonderlands",
+      "url": "https://jaychtw.github.io/wonderlands/",
+      "status": 200,
+      "htmlSha256": "a109e6826a8bae6799d1edee37b619fdb97c2f5dc8fa7d70cd48d97aac9cf780",
+      "assets": [
+        {
+          "url": "https://jaychtw.github.io/wonderlands/src/app.js",
+          "status": 200,
+          "bytes": 23737,
+          "sha256": "558e9ee7d1666e095cf721c2fabd0fe1ba48f6d8d70cd5c4c5ab3690a7369709"
+        },
+        {
+          "url": "https://jaychtw.github.io/wonderlands/style.css",
+          "status": 200,
+          "bytes": 21104,
+          "sha256": "775825fe4c44a689f019f03f699ff54c23698d634c8a0b4dc26afee419010591"
+        }
+      ],
+      "inlineScripts": []
+    }
+  ],
+  "existingRoot": {
+    "url": "https://jaychtw.github.io/",
+    "status": 200,
+    "sha256": "c7494c898c6b50f64d954c95328c9dbbfc221dbbf75ef6d201f06aca7e9023ec",
+    "placeholderPresent": false,
+    "scope": "Current public root, read only; this verifier does not deploy or modify it."
+  }
+}

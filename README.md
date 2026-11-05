@@ -1,14 +1,16 @@
-# Armorheart — v1.0 release candidate
+# Armorheart — v1.0
 
-Four accepted tank missions, one cosmetic collection. Choose any mission, unlock Bulwark/Vanguard/Sentinel after the first three distinct victories, and earn the campaign commendation after all four. Tanks share identical accepted Guardian mechanics. Local progress, English/繁體中文, keyboard/touch, mute, reduced motion and the original training range are included. No external runtime dependencies.
+**[Play Armorheart](https://jaychtw.github.io/armorheart/)** — four accepted tank missions, one cosmetic collection. Choose any mission, unlock Bulwark/Vanguard/Sentinel after the first three distinct victories, and earn the campaign commendation after all four. All tanks share Guardian's accepted mechanics. Browser-local progress, English/繁體中文, keyboard/touch, mute, reduced motion and training range are included. No external runtime dependencies.
 
-## Complete-game RC1
+## Published release
 
-**[Download the unified playable ZIP](https://github.com/jaychtw/armorheart/raw/refs/heads/dev/v1-finalization/artifacts/Armorheart-v1.0-RC.zip)**. Extract and open `Armorheart-v1.0-RC/index.html`, or serve the extracted folder locally. [Play guide](docs/PLAY_V1.md) · [QA](docs/QA_V1.md) · [actual screenshots and normal-speed touch campaign](evidence/v1/README.md) · [ZIP hash/manifest](evidence/v1/package-check.json) · [current state](PROJECT_STATE.md).
+The owner creatively accepted RC1 and separately authorized public release. [Publication receipt and exact identities](docs/V1_PUBLICATION_RECEIPT.md) · [public build identity](https://jaychtw.github.io/armorheart/build-info.json) · [provenance/policy assessment](docs/V1_RELEASE_PREFLIGHT.md) · [current state](PROJECT_STATE.md). The published executable remains byte-identical to the accepted candidate, including its reviewed RC labeling; public release metadata identifies version1.0.0. No gameplay, balance or asset changes.
 
-**183 rules and 1,285 browser assertions passed on final runs.** Four genuinely earned campaigns include keyboard, touch, offline and a 69-second normal-RAF touch recording. All 24 victory orders, exactly-once rewards, storage failures, all four cosmetic facings/recoil and prior mission regressions are covered. Initial timing/harness discrepancies are retained in QA; these are automated input runs, not independent first-time-player or physical-phone tests. All accepted gameplay/art/maps and eight earlier ZIPs are preserved.
+**[Download the accepted offline ZIP](https://raw.githubusercontent.com/jaychtw/armorheart/42e98a6233faf4e126d54e05dac5806c44469489/artifacts/Armorheart-v1.0-RC.zip)**. Extract and open `Armorheart-v1.0-RC/index.html`, or serve the extracted folder locally. [Play guide](docs/PLAY_V1.md) · [full RC QA](docs/QA_V1.md) · [screenshots/normal-speed campaign](evidence/v1/README.md) · [live release verification](evidence/publication/README.md).
 
-The four individual missions are creatively accepted; this **integrated candidate and new collection await final Confirm & Close**. No merge, deployment or publication. [Proposed release/Pages handoff](docs/V1_RELEASE_HANDOFF.md) · [separate future Possibility handoff](docs/POSSIBILITY_HANDOFF.md). Existing rights, hardware/browser and canvas-accessibility limitations remain disclosed.
+All183 rules and1,285 browser assertions passed during RC finalization. The exact promotion reran183 rules,172 real-input campaign checks,34,080 matching baseline states and static/offline checks; independent public keyboard/touch wins, unlocks, bilingual switching and reload persistence also passed. These are automated runs, not independent first-time-player or physical-phone/other-engine tests. Initial RC timing/harness discrepancies and remaining canvas/local-save/provenance qualifications remain disclosed. All accepted gameplay/art/maps and eight previous ZIPs are preserved.
+
+Publication is controlled by a manual-only exact-SHA GitHub Pages workflow. Automatic publishing is disabled. No paid resources, new missions or unique cosmetic abilities. Separate Possibility publication status and rollback references are in the receipt; a source commit alone is not proof of public deployment.
 
 ## Accepted Siege M4 — historical delivery
 

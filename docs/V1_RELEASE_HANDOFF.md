@@ -1,5 +1,7 @@
 # Armorheart v1.0 — proposed release and deployment handoff
 
+**Subsequent status, November5,2026:** owner accepted RC1 and separately authorized both publications; game and Possibility are now deployed and verified. [Final receipt/rollback](V1_PUBLICATION_RECEIPT.md). The following remains the historical planning/RC verification record.
+
 2026-11-04. **Preparation only.** Four missions are creatively accepted; the integrated v1.0 RC1, new cosmetic collection and composed presentation await final Confirm & Close. No merge, tag, GitHub release, Pages publication, workflow activation or Possibility change was performed or authorized in this task.
 
 ## Review identity and deliverable

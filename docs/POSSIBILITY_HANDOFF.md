@@ -1,5 +1,7 @@
 # Future Possibility Games entry — Armorheart
 
+**Subsequent status, November5,2026:** owner accepted RC1 and separately authorized both publications; game and Possibility are now deployed and verified. [Final receipt/rollback](V1_PUBLICATION_RECEIPT.md). The following remains the historical planning/RC verification record.
+
 **Prepared only; not published and no cross-repository write.** Independent Armorheart deployment is also not started/not authorized. Final candidate acceptance alone is not release authority.
 
 ## Current conventions inspected read-only
