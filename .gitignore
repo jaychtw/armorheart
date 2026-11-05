@@ -62,3 +62,4 @@ evidence/v1/legacy/**/*.png
 
 .release-site/
 evidence/publication/tmp/
+evidence/publication/merged-campaign/*.png
