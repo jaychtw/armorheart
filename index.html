@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light"><meta name="description" content="Armorheart — four freely selectable missions and a cosmetic tank collection.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%232c3c32' d='M4 3h24v18L16 30 4 21z'/%3E%3Cpath fill='%23dfbe7d' d='M14 8h4v15h-4zM10 12h12v7H10z'/%3E%3C/svg%3E">
+<title>Armorheart · v1.0 Release Candidate</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead"><a class="brand" href="#main" aria-label="Armorheart"><span class="shield" aria-hidden="true">A</span><span>ARMORHEART<small data-i18n="v1Subtitle"></small></span></a><span class="prototype" data-i18n="v1Version"></span><button id="language" class="text-button" data-i18n="language"></button></header>
+<main id="main">
+<nav id="scenario-chooser" tabindex="-1" class="scenario-chooser" data-label="scenarios"><button id="choose-range" aria-pressed="true" data-i18n="v1RangeChoice"></button><button id="choose-mission" aria-pressed="false" data-i18n="missionChoice"></button><button id="choose-colossus" aria-pressed="false" data-i18n="bossChoice"></button><button id="choose-ship" aria-pressed="false" data-i18n="shipChoice"></button><button id="choose-siege" aria-pressed="false" data-i18n="fortressChoice"></button></nav>
+<section class="intro"><div><p class="eyebrow" data-i18n="v1HomeEyebrow"></p><h1 data-i18n="v1HomeTitle"></h1><p data-i18n="v1HomeIntro"></p></div><div class="study-number" aria-hidden="true">04<span data-i18n="v1MissionPlural"></span></div></section>
+<section id="collection" aria-labelledby="collection-title"><div class="collection-heading"><h2 id="collection-title" data-i18n="v1Collection"></h2><p id="campaign-count"></p><span id="campaign-commendation" data-i18n="v1Commendation" hidden></span></div><p class="collection-note" data-i18n="v1CosmeticNote"></p><p class="collection-note" data-i18n="v1LocalData"></p><div class="tank-grid"><button id="tank-guardian" type="button" aria-pressed="false"><canvas width="256" height="256" aria-hidden="true"></canvas><span class="tank-name"></span><span class="tank-note"></span></button><button id="tank-bulwark" type="button" aria-pressed="false"><canvas width="256" height="256" aria-hidden="true"></canvas><span class="tank-name"></span><span class="tank-note"></span></button><button id="tank-vanguard" type="button" aria-pressed="false"><canvas width="256" height="256" aria-hidden="true"></canvas><span class="tank-name"></span><span class="tank-note"></span></button><button id="tank-sentinel" type="button" aria-pressed="false"><canvas width="256" height="256" aria-hidden="true"></canvas><span class="tank-name"></span><span class="tank-note"></span></button></div></section><p id="progress-warning" class="storage-note" role="status" hidden></p>
+<div class="workbench">
+<section class="range-panel" aria-labelledby="range-title">
+<div class="panel-header"><div><h2 id="range-title" data-i18n="range"></h2><p data-i18n="rangeSub"></p></div><span class="boss-settings" hidden><button id="boss-sound" type="button"></button><button id="boss-motion" type="button"></button></span><button id="pause" class="icon-button" data-i18n="pause" disabled></button></div>
+<div id="mission-hud" class="mission-hud" hidden><div><span data-i18n="timeLeft"></span><strong id="mission-clock">90</strong></div><div><strong id="mission-status"></strong><span id="mission-ready"></span></div></div>
+<div id="boss-hud" class="boss-hud" hidden><div><span data-i18n="tankHealth"></span> <strong id="tank-health">3 / 3</strong></div><div><span id="target-health-label" data-i18n="bossHealth"></span> <strong id="boss-health">4 / 4</strong></div><p id="boss-phase"></p><span id="boss-immunity"></span></div>
+<div class="arena-wrap"><canvas id="arena" width="768" height="768" tabindex="0" role="application" aria-describedby="controls-help objective"></canvas>
+<div id="overlay" class="overlay"><div class="overlay-inner"><span class="overlay-mark" aria-hidden="true">⌖</span><h2 id="overlay-title">GUARDIAN</h2><p id="overlay-text" data-i18n="objective"></p><p id="result-reward" role="status" hidden></p><div class="overlay-actions"><button id="start" class="primary" data-i18n="start"></button><button id="result-next" data-i18n="v1Next" hidden></button><button id="result-select" data-i18n="v1Missions" hidden></button></div></div></div></div>
+<div class="range-stats"><div><span data-i18n="walls"></span><strong id="wall-count">0 <small>/ 6</small></strong></div><div><span data-i18n="shots"></span><strong id="shot-count">0</strong></div><div class="reload"><span id="reload-label" data-i18n="ready"></span><div class="reload-track"><div id="reload-fill"></div></div><span id="facing-label"></span></div></div>
+<div class="touch-controls"><div class="dpad" role="group" aria-label="Direction"><button data-dir="up" class="up" data-label="up">↑</button><button data-dir="left" class="left" data-label="left">←</button><span aria-hidden="true">✦</span><button data-dir="right" class="right" data-label="right">→</button><button data-dir="down" class="down" data-label="down">↓</button></div><div class="touch-note"><span data-i18n="objective" id="objective"></span></div><button id="fire" class="fire" data-i18n="fire"></button></div>
+<div class="range-footer"><button id="level-exit" class="text-button" data-i18n="levelExit" hidden></button><p id="controls-help" data-i18n="help"></p><button id="restart" class="text-button" data-i18n="reset"></button></div>
+</section>
+<aside class="inspector" aria-labelledby="inspector-title">
+<p class="eyebrow" data-i18n="inspector"></p><h2 id="inspector-title" data-i18n="v1Collection"></h2><p class="muted" data-i18n="v1AssetText"></p>
+<div class="asset-stage"><span class="crosshair one" aria-hidden="true">+</span><canvas id="asset-view" width="600" height="400" role="img" aria-label="Guardian layered asset"></canvas><span class="crosshair two" aria-hidden="true">+</span><span class="asset-id">T—01 / A—1</span></div>
+<div class="segmented"><button id="assembled" aria-pressed="true" data-i18n="assembled"></button><button id="layers" aria-pressed="false" data-i18n="layers"></button></div>
+<p id="asset-note" class="fine" data-i18n="art"></p>
+<div class="inspector-rule"></div><h3 data-i18n="scale"></h3><div class="sizes" role="group" aria-label="Display size"><button data-size="48">48<span>px</span></button><button data-size="64" aria-pressed="true">64<span>px</span></button><button data-size="96">96<span>px</span></button><button data-size="128">128<span>px</span></button></div>
+<div id="facings" class="facings" role="img" data-label="comparison"></div><p class="fine" data-i18n="scaleNote"></p>
+<div class="legend"><span><i class="brick-key"></i><span data-i18n="legendBrick"></span></span><span><i class="steel-key"></i><span data-i18n="legendSteel"></span></span></div>
+<div class="preferences"><button id="sound" class="text-button"></button><label><input id="motion" type="checkbox"><span data-i18n="motion"></span></label></div><p id="storage-warning" class="fine" role="status" hidden></p>
+</aside>
+</div>
+<footer class="site-footer"><span>ARMORHEART / v1.0 RC</span><p data-i18n="footer"></p><span>2026 · RC</span></footer>
+</main>
+<dialog id="reset-dialog"><p data-i18n="restartConfirm"></p><div><button id="cancel-reset" data-i18n="cancel"></button><button id="confirm-reset" class="primary" data-i18n="confirm"></button></div></dialog>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<script type="module" src="src/app.mjs"></script>
+</body></html>

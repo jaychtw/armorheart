@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "source_commit": "ed72b24f479b483581b1da0fc4a72a755d613f19",
+  "method": "clean tracked-source git archive, extract to temporary directory, rebuild using Python standard library, compare byte-for-byte",
+  "independent_network_clone": false,
+  "bytes": 372065,
+  "sha256": "ce973ae8d3cfd6879591191758f3851006ff7ec865c847bf590034f9c404e80a"
+}

@@ -1,0 +1,60 @@
+name: Publish approved Armorheart release
+on:
+  workflow_dispatch:
+    inputs:
+      release_commit:
+        description: Exact approved full source SHA on main
+        required: true
+        type: string
+      authorization:
+        description: After explicit owner authorization type PUBLISH ARMORHEART
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: armorheart-pages
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      RELEASE_COMMIT: ${{ inputs.release_commit }}
+      AUTHORIZATION: ${{ inputs.authorization }}
+    steps:
+      - name: Require authorized manual input
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$AUTHORIZATION" == 'PUBLISH ARMORHEART' ]]
+          [[ "$RELEASE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ inputs.release_commit }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Require approved source on main and test core rules
+        run: |
+          git merge-base --is-ancestor "$RELEASE_COMMIT" origin/main
+          npm test
+      - name: Stage accepted runtime and exact identity only
+        run: python3 tools/build_v1_release.py
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: .release-site
+  publish:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: deployment

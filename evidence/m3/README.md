@@ -1,0 +1,19 @@
+# Interception M3 review evidence
+
+Subsequently creatively accepted with no further corrections: [M3 Confirm & Close](../../docs/decisions/M3_CONFIRM_CLOSE.md). The original delivery evidence and its limitations below are preserved.
+
+Bounded playable implementation for **Confirm & Close**. Ship artwork is already creatively accepted; these technical results do not establish final M3 gameplay/balance acceptance. [Play guide](../../docs/PLAY_M3.md) · [QA/timing/limitations](../../docs/QA_M3.md) · [execution authority](../../docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md).
+
+1. [Desktop charge](desktop-charge.png), [left broadside](left-volley.png), [north broadside](top-volley.png), [right broadside](right-volley.png), [last broadside](last-volley.png). Three actual gun-mouth rounds; no diagnostic aim rays or bounding boxes in gameplay.
+2. [Left curved turn](left-turn.png), [right curved turn](right-turn.png), [live full route/all volleys](route-live.webm). Native real-time recording, not generated animation or clock-controlled screenshots. [Timing/frame report](recording-check.json), [full-route trace](route-live-trace.json).
+3. [Actual emulated-touch victory recording](touch-win-live.webm), [touch trace](touch-win-live-trace.json), [Smoking](touch-informed-smoking.png), [On fire](touch-informed-on-fire.png), [victory](touch-informed-victory.png). Three tankHP retained; about12.86s in the live recording. The final result screen is not proof of physical-phone or independent-player testing.
+4. [Tank failure](touch-tank-loss-defeat.png), [surviving-ship exit loss](desktop-ship-escaped.png), [mobile exit loss](touch-ship-escaped.png). Both losing conditions, fresh retry and level exit were exercised with actual controls.
+5. [320px English](viewport-320x740-en.png), [320px zh-TW](viewport-320x740-zh-TW.png), [390px zh-TW](viewport-390x844-zh-TW.png), [tablet](viewport-768x1024-en.png), [short landscape](viewport-844x390-en.png). Starting M3 keeps Pause/settings/HUD/Fire reachable together on narrow portrait; short landscape scrolls.
+
+Reports: [M3 browser checks](browser-results.json), [148 rules](unit-tests.txt), [accepted source/assets and21,080 differential states](preservation.json), [fresh accepted clearance](geometry-check.json), [actual runtime PNG/muzzles](asset-export-check.json), [production-adapter camp search](balance-check.json), [clean reconstruction](rebuild-check.json), [ZIP integrity](package-check.json).
+
+Fresh preserved suites: [M2](m2/browser-results.json), [R3](r3/browser-results.json), [Guardian R2](guardian/r2-browser-results.json), [original range](guardian/browser-results.json), [visual corrections](visual/visual-results.json). Repeated legacy PNG galleries and raw recording JPEGs are excluded from Git. Existing historical galleries remain unchanged. Some old visual positive controls intentionally reproduce the former defect to validate the detection check.
+
+M3 browser checks use actual keyboard/CDP touch with a controlled clock and read-only simulation snapshots; Canvas instrumentation forwards normal calls and checks rendered transform/round positions. Legacy focused R2/recoil checks additionally use labeled initial-state fixtures; they are not all natural starting-position playthroughs. The two live M3 recordings use unmodified native RAF and actual input, with no game-state fixture or virtual clock.
+
+Six M3 axe4.10.3 audits report zero violations but retain incomplete canvas/color-contrast review. No physical-phone, independent first-time-player, other-engine or human assistive-technology test was performed. Headless viewport/touch emulation is not hardware certification. Original battleship-reference ZIP/manifest was not exposed in the session; expected source hash is recorded without claiming receipt. No merge, deployment/publication or production licensing clearance.

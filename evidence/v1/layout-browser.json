@@ -1,0 +1,1259 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "phase": "layout",
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "passed": 60,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "320 en menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            294.40625,
+            44
+          ],
+          [
+            131.203125,
+            154
+          ],
+          [
+            131.203125,
+            154
+          ],
+          [
+            131.203125,
+            152
+          ],
+          [
+            131.203125,
+            152
+          ]
+        ]
+      }
+    },
+    {
+      "name": "320 en count0 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            294.40625,
+            44
+          ],
+          [
+            131.203125,
+            141
+          ],
+          [
+            131.203125,
+            141
+          ],
+          [
+            131.203125,
+            139
+          ],
+          [
+            131.203125,
+            139
+          ]
+        ]
+      }
+    },
+    {
+      "name": "320 zh-TW count0 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 play Pause/Fire fit portrait",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "head": 89,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            294.40625,
+            44
+          ],
+          [
+            131.203125,
+            138
+          ],
+          [
+            131.203125,
+            138
+          ],
+          [
+            131.203125,
+            154
+          ],
+          [
+            131.203125,
+            154
+          ]
+        ]
+      }
+    },
+    {
+      "name": "320 en count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            145.203125,
+            44
+          ],
+          [
+            294.40625,
+            44
+          ],
+          [
+            131.203125,
+            139
+          ],
+          [
+            131.203125,
+            139
+          ],
+          [
+            131.203125,
+            141
+          ],
+          [
+            131.203125,
+            141
+          ]
+        ]
+      }
+    },
+    {
+      "name": "320 zh-TW count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 play Pause/Fire fit portrait",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "head": 89,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 en menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            358.8125,
+            44
+          ],
+          [
+            163.40625,
+            140
+          ],
+          [
+            163.40625,
+            140
+          ],
+          [
+            163.40625,
+            138
+          ],
+          [
+            163.40625,
+            138
+          ]
+        ]
+      }
+    },
+    {
+      "name": "390 zh-TW menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            358.8125,
+            44
+          ],
+          [
+            163.40625,
+            141
+          ],
+          [
+            163.40625,
+            141
+          ],
+          [
+            163.40625,
+            139
+          ],
+          [
+            163.40625,
+            139
+          ]
+        ]
+      }
+    },
+    {
+      "name": "390 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 play Pause/Fire fit portrait",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "head": 146,
+        "fire": 725.953125
+      }
+    },
+    {
+      "name": "390 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 en menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            358.8125,
+            44
+          ],
+          [
+            163.40625,
+            138
+          ],
+          [
+            163.40625,
+            138
+          ],
+          [
+            163.40625,
+            140
+          ],
+          [
+            163.40625,
+            140
+          ]
+        ]
+      }
+    },
+    {
+      "name": "390 en count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            177.40625,
+            44
+          ],
+          [
+            358.8125,
+            44
+          ],
+          [
+            163.40625,
+            139
+          ],
+          [
+            163.40625,
+            139
+          ],
+          [
+            163.40625,
+            141
+          ],
+          [
+            163.40625,
+            141
+          ]
+        ]
+      }
+    },
+    {
+      "name": "390 zh-TW count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 play Pause/Fire fit portrait",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "head": 146,
+        "fire": 725.953125
+      }
+    },
+    {
+      "name": "390 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 en menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            180.265625,
+            44
+          ],
+          [
+            145.359375,
+            44
+          ],
+          [
+            170.453125,
+            44
+          ],
+          [
+            123.828125,
+            44
+          ],
+          [
+            159.640625,
+            174
+          ],
+          [
+            159.640625,
+            174
+          ],
+          [
+            159.640625,
+            174
+          ],
+          [
+            159.640625,
+            174
+          ]
+        ]
+      }
+    },
+    {
+      "name": "768 zh-TW menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "768 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 en menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            194.546875,
+            44
+          ],
+          [
+            159.640625,
+            44
+          ],
+          [
+            184.734375,
+            44
+          ],
+          [
+            138.109375,
+            44
+          ],
+          [
+            159.640625,
+            162
+          ],
+          [
+            159.640625,
+            162
+          ],
+          [
+            159.640625,
+            162
+          ],
+          [
+            159.640625,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "name": "768 zh-TW menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ],
+          [
+            159.640625,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "768 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 en menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            180.265625,
+            44
+          ],
+          [
+            145.359375,
+            44
+          ],
+          [
+            170.453125,
+            44
+          ],
+          [
+            123.828125,
+            44
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "name": "1440 zh-TW menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "1440 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 en menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            194.546875,
+            44
+          ],
+          [
+            159.640625,
+            44
+          ],
+          [
+            184.734375,
+            44
+          ],
+          [
+            138.109375,
+            44
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ],
+          [
+            267,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "name": "1440 en count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ],
+          [
+            267,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "1440 zh-TW count4 axe zero violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 en menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            180.265625,
+            44
+          ],
+          [
+            145.359375,
+            44
+          ],
+          [
+            170.453125,
+            44
+          ],
+          [
+            123.828125,
+            44
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "name": "844 zh-TW menu0 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            109.46875,
+            44
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "844 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 en menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            128.953125,
+            44
+          ],
+          [
+            194.546875,
+            44
+          ],
+          [
+            159.640625,
+            44
+          ],
+          [
+            184.734375,
+            44
+          ],
+          [
+            138.109375,
+            44
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ],
+          [
+            177.125,
+            162
+          ]
+        ]
+      }
+    },
+    {
+      "name": "844 zh-TW menu4 responsive/targets",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            73.015625,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            122.25,
+            44
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ],
+          [
+            177.125,
+            163
+          ]
+        ]
+      }
+    },
+    {
+      "name": "844 play layout no overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 reduced motion applies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small-first-unlock actual mission victory",
+      "passed": true,
+      "detail": {
+        "elapsed": 7.416666666666644,
+        "phase": "grounded",
+        "phaseTime": 1.016666666666668,
+        "stop": 2,
+        "arrivalView": "south",
+        "landings": 2,
+        "bossHP": 0,
+        "tankHP": 3,
+        "immuneUntil": 0,
+        "damageAt": -100,
+        "bossHitAt": 7.400221104166644,
+        "outcome": "success",
+        "finishedAt": 7.400221104166644,
+        "history": [
+          {
+            "event": "takeoff",
+            "time": 1.9999999999999978,
+            "stop": "UL"
+          },
+          {
+            "event": "landing",
+            "time": 3.199999999999993,
+            "stop": "UR"
+          },
+          {
+            "event": "takeoff",
+            "time": 5.199999999999986,
+            "stop": "UR"
+          },
+          {
+            "event": "landing",
+            "time": 6.399999999999981,
+            "stop": "LR"
+          }
+        ],
+        "shotHits": [
+          {
+            "time": 3.977091854166657,
+            "hp": 3,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 4.971649666666654,
+            "hp": 2,
+            "stop": "UR",
+            "view": "south"
+          },
+          {
+            "time": 6.399999999999981,
+            "hp": 1,
+            "stop": "LR",
+            "view": "south"
+          },
+          {
+            "time": 7.400221104166644,
+            "hp": 0,
+            "stop": "LR",
+            "view": "west"
+          }
+        ],
+        "tankHits": []
+      }
+    },
+    {
+      "name": "small-first-unlock actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small-first-unlock shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small-first-unlock same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "en smallest result actions fit/44px",
+      "passed": true,
+      "detail": [
+        {
+          "x": 20.796875,
+          "y": 202.140625,
+          "width": 278.40625,
+          "height": 278.40625
+        },
+        [
+          {
+            "x": 54.515625,
+            "y": 381.375,
+            "width": 78.359375,
+            "height": 44
+          },
+          {
+            "x": 138.875,
+            "y": 381.375,
+            "width": 48.765625,
+            "height": 44
+          },
+          {
+            "x": 193.640625,
+            "y": 381.375,
+            "width": 71.84375,
+            "height": 44
+          }
+        ]
+      ]
+    },
+    {
+      "name": "zh-TW smallest result actions fit/44px",
+      "passed": true,
+      "detail": [
+        {
+          "x": 20.796875,
+          "y": 337.140625,
+          "width": 278.40625,
+          "height": 278.40625
+        },
+        [
+          {
+            "x": 60.96875,
+            "y": 512.1875,
+            "width": 62.015625,
+            "height": 44
+          },
+          {
+            "x": 128.984375,
+            "y": 512.1875,
+            "width": 56.015625,
+            "height": 44
+          },
+          {
+            "x": 191,
+            "y": 512.1875,
+            "width": 68.015625,
+            "height": 44
+          }
+        ]
+      ]
+    },
+    {
+      "name": "layout no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "layout no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "small-first-unlock",
+      "mission": "colossus",
+      "tank": "guardian",
+      "input": "keyboard",
+      "time": 7.400221104166644,
+      "hp": 3,
+      "completed": [
+        "colossus"
+      ]
+    }
+  ],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch and controlled clock; main campaigns earn unlocks without fixtures; explicitly labeled storage fixtures isolate save/equivalence cases",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed"
+}

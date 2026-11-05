@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "bytes": 6228696,
+  "zip_sha256": "ddec4aa4b279bf7f806f280891d1febe2c12b5c3dadbcd86a6dcc4a3d7554e60",
+  "preview_source_commit": "832056783e2cc786630bf14e735b96ad3263c48a",
+  "payload_sha256": {
+    "guardian.html": "e5f559a57fdf3dd896a1d279b1b9ef2faed91be78b328cfa42baf456f5dbcd4a",
+    "README.md": "e326ca5cdc0940cc1450741f5d111b18ec2703c4f5b461b63130b604056aa963",
+    "GUARDIAN_PROVENANCE.md": "588baf161a20fb57bb09d4fbaaeaed5c3b039cd47172517aee7e6911d835f7a1",
+    "TRANSPORT_PROVENANCE.md": "2366b450a75fe70eeb1e5885008248fb38c9298e6b8148c1b4c2f73d2dd95cce",
+    "COLOSSUS_PROVENANCE.md": "a092da1283311036f92eb496bc1886a3bc56e6d4b65ca215ef8788ff88e45cd9",
+    "BATTLESHIP_PROVENANCE.md": "ddff0e29aa66fdbc1c4ba87bf571bbc52a7440a6e342f3e314402e6701ce5ef7"
+  },
+  "payload_checksums_and_crc_verified": true,
+  "repeat_build_byte_identical": true
+}

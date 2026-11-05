@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "accepted_m3_commit": "108515a2f63c4818567d46de6bbcc0aa0611af07",
+  "checked_paths": [
+    "src",
+    "assets",
+    "preview",
+    "artifacts",
+    "tests",
+    "tools",
+    "package.json",
+    "index.html",
+    "style.css",
+    "docs/ARMORHEART_GDD_v1.0.md",
+    "docs/standards"
+  ],
+  "byte_changes_to_runtime_assets_earlier_artifacts_or_tests": 0,
+  "unchanged_m3_zip_sha256": "ddec4aa4b279bf7f806f280891d1febe2c12b5c3dadbcd86a6dcc4a3d7554e60",
+  "pinned_standards_remotely_byte_verified": {
+    "UGDS": "d5c6696efdd6efc028118600466db44aecae0c9b",
+    "AICP": "b8b9de0d4faaf666fb53cec83ff8516bccf5bd5b"
+  },
+  "supplemental_shared_AICP": "1.5.0 at a0f91837f170da97b98afe979afb473f169edf58; read, not repinned",
+  "prior_rule_and_browser_reports": "Historical 148/615, not rerun for documentation/planning-only task",
+  "new_evidence": "Isolated motion/clearance/ray timelines and static study renders only",
+  "github_preflight": {
+    "workflows": 0,
+    "rulesets": 0,
+    "pages_source": "main:/ workflow build",
+    "main": "a70a447512b7956128dd386ef6c447fbdc801c3f",
+    "webhooks_and_secret_metadata": "Previously403/unverified; no configuration or credential changes"
+  },
+  "map_sha256": "da0dcf2deb87ec387d4f1c973dcfa74348b28fcde88579385eac2001f5a16571"
+}

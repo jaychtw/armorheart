@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "browser": "Chromium 154",
+  "tests": [
+    {
+      "name": "initial scene has six bricks, six permanent walls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "immediate shot and one-shot brick destruction",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "live zh-TW switch preserves state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "actual keyboard complete six-block playthrough",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "replay restores all walls and starting shot count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes simulation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "editable layers inspection toggles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four native CSS-size comparisons 48px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four native CSS-size comparisons 64px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four native CSS-size comparisons 96px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four native CSS-size comparisons 128px",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "settings controls keyboard accessible",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "language preference persists after reload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "desktop automated accessibility audit",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "simultaneous direction plus held fire with two touch pointers",
+      "pass": true,
+      "detail": {
+        "x": 547.0000000000017,
+        "shots": 2
+      }
+    },
+    {
+      "name": "touch release stops firing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mobile live localization",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mobile automated accessibility audit",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "layout targets and reduced motion 320x740 DPR1",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "arena": 278.40625,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "layout targets and reduced motion 390x844 DPR2",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "arena": 342.8125,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "layout targets and reduced motion 768x1024 DPR1",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "arena": 388.5625,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "layout targets and reduced motion 844x390 DPR1",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "arena": 458.5,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "layout targets and reduced motion 1440x900 DPR2",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "arena": 640,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "blocked storage falls back without preventing play",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "corrupt storage falls back without preventing play",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime network requests",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 27,
+  "failed": 0,
+  "runtimeErrors": [],
+  "axe": true
+}

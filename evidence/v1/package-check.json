@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "bytes": 7573900,
+  "zip_sha256": "6afd0bb8771494e96d9625e23f74e76e13c486061d8ace702849c5d7ad4ec466",
+  "preview_source_commit": "f1a0f2379ccddbae4a3f97dd2901743ccdadec38",
+  "payload_sha256": {
+    "index.html": "62f18789f7ac32b807f1ca5dff41f1b90d42997dc7bdaa356a3b80146bc42bb2",
+    "README.md": "4bea3f18cbfe278347b7a4cba5497ad39ea4eb1ea4e6e35052b80801e73364f4",
+    "GUARDIAN_PROVENANCE.md": "588baf161a20fb57bb09d4fbaaeaed5c3b039cd47172517aee7e6911d835f7a1",
+    "TRANSPORT_PROVENANCE.md": "2366b450a75fe70eeb1e5885008248fb38c9298e6b8148c1b4c2f73d2dd95cce",
+    "COLOSSUS_PROVENANCE.md": "a092da1283311036f92eb496bc1886a3bc56e6d4b65ca215ef8788ff88e45cd9",
+    "BATTLESHIP_PROVENANCE.md": "ddff0e29aa66fdbc1c4ba87bf571bbc52a7440a6e342f3e314402e6701ce5ef7",
+    "FORTRESS_PROVENANCE.md": "3985985f3a96f0a8f2077dcd1d6691f510cd5ca5180cdff21f3f39203b7f0fb1",
+    "COLLECTION_PROVENANCE.md": "1f99b94721452456dab9519f26358f5e4f5007d521fb1f844b72a70505c86c74"
+  },
+  "crc_and_payload_verified": true,
+  "repeated_zip_identical": true
+}

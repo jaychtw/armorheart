@@ -1,0 +1,775 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "phase": "cosmetics",
+  "product_sha256": "26ce4c5c5a548f8abf9d414dae355b33472918b25a65384faeb270f152066313",
+  "passed": 141,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "guardian selected fixture applies visually",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowUp recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowRight recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowDown recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian ArrowLeft recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian blocked turn remains immediate",
+      "passed": true,
+      "detail": [
+        {
+          "x": 237.5,
+          "y": 412.5,
+          "facing": "left"
+        },
+        {
+          "x": 237.5,
+          "y": 407.29999999999995,
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "name": "guardian blocked turn actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian blocked turn shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guardian blocked turn same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark selected fixture applies visually",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowUp recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowRight recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowDown recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark ArrowLeft recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark blocked turn remains immediate",
+      "passed": true,
+      "detail": [
+        {
+          "x": 237.5,
+          "y": 412.5,
+          "facing": "left"
+        },
+        {
+          "x": 237.5,
+          "y": 407.29999999999995,
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "name": "bulwark blocked turn actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark blocked turn shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark blocked turn same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard selected fixture applies visually",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowUp recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowRight recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowDown recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard ArrowLeft recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard blocked turn remains immediate",
+      "passed": true,
+      "detail": [
+        {
+          "x": 237.5,
+          "y": 412.5,
+          "facing": "left"
+        },
+        {
+          "x": 237.5,
+          "y": 407.29999999999995,
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "name": "vanguard blocked turn actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard blocked turn shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vanguard blocked turn same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel selected fixture applies visually",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowUp recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowRight recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowDown recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft rest actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft rest shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft rest same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft recoil actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft recoil shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft recoil same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel ArrowLeft recoil actually active",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel blocked turn remains immediate",
+      "passed": true,
+      "detail": [
+        {
+          "x": 237.5,
+          "y": 412.5,
+          "facing": "left"
+        },
+        {
+          "x": 237.5,
+          "y": 407.29999999999995,
+          "facing": "left"
+        }
+      ]
+    },
+    {
+      "name": "sentinel blocked turn actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel blocked turn shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sentinel blocked turn same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bulwark actual blocked physical pose matches Guardian",
+      "passed": true,
+      "detail": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      }
+    },
+    {
+      "name": "vanguard actual blocked physical pose matches Guardian",
+      "passed": true,
+      "detail": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      }
+    },
+    {
+      "name": "sentinel actual blocked physical pose matches Guardian",
+      "passed": true,
+      "detail": {
+        "x": 237.5,
+        "y": 407.29999999999995,
+        "facing": "left"
+      }
+    },
+    {
+      "name": "alternate skin simultaneous two-finger move/fire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sentinel two-finger actual registered tank pair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sentinel two-finger shared barrel recoil/occlusion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sentinel two-finger same tank pivot/scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cosmetics no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "cosmetics no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [],
+  "errors": [],
+  "method": "Actual keyboard/CDP touch and controlled clock; main campaigns earn unlocks without fixtures; explicitly labeled storage fixtures isolate save/equivalence cases",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed"
+}

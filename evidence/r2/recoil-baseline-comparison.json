@@ -1,0 +1,11 @@
+{
+  "baseline": "cfb1bd3b7529286ef10083e57df478b1c77898b6",
+  "recoil_function_byte_identical": true,
+  "assets": {
+    "guardian-source.svg": true,
+    "hull.svg": true,
+    "barrel.svg": true,
+    "anchors.json": true
+  },
+  "tank_draw_function_byte_identical": true
+}

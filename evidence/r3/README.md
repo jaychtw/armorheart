@@ -1,0 +1,15 @@
+# R3 review evidence
+
+New R3 runs,2026-11-03 Asia/Taipei. [QA/methods/limitations](../../docs/QA_R3.md) · [play guide](../../docs/PLAY_R3.md). Technical results do not constitute creative acceptance.
+
+- [122 R3 browser checks and six actual-input completions](browser-results.json): keyboard bypass/shortcut, emulated-touch bypass/shortcut and bundled offline bypass/shortcut. Playthroughs use keyboard/CDP input and read-only snapshots; no state fixtures.
+- [Original truck, four headings](transport-four-facings.png) (explicit artwork/envelope inspection plate), [alpha footprint](art-footprint.json), [all16 current Chromium routes](browser-all16.json).
+- Keyboard: [bypass departure](keyboard-bypass-departure.png), [mid-pivot](keyboard-bypass-pivot.png), [success](keyboard-bypass-success.png); [shortcut single cell](keyboard-shortcut-one-cell.png), [upper partial](keyboard-shortcut-upper-partial.png), [departure](keyboard-shortcut-departure.png), [success](keyboard-shortcut-success.png).
+- Emulated390/DPR2 touch: [bypass departure](touch-bypass-departure.png), [mid-pivot](touch-bypass-pivot.png), [success](touch-bypass-success.png); [shortcut one cell](touch-shortcut-one-cell.png), [mid-pivot](touch-shortcut-pivot.png), [success](touch-shortcut-success.png). Each route includes other-language departure captures.
+- [320px EN](viewport-320x740-en.png), [320px Traditional Chinese](viewport-320x740-zh-TW.png), [390px](viewport-390x844-zh-TW.png), [tablet](viewport-768x1024-en.png), [desktop](viewport-1440x900-en.png), [short landscape](viewport-844x390-zh-TW.png); corresponding other-language PNGs in this folder. Full-page screenshots can exceed viewport height; portrait Fire bounds are measured in the JSON, not inferred from screenshot height.
+- [Timeout](desktop-timeout.png), entry screenshots, six `axe-*.json` reports:0 violations, contrast incomplete; not full accessibility conformance.
+- [101 rule results](unit-tests.txt):24 current Guardian,50 current R3,27 explicitly frozen M1 historical fixture. [Guardian/map baseline hashes](baseline-comparison.json). [Fresh geometry reports](geometry/): engine, continuous certificate and independent truck solver, all16 states.
+- Fresh [Guardian R2 regression](r2-regression/):27+81 browser checks; [all-direction collision example](r2-regression/collision-390-steel-up.png), flash/theme/screenshots, [recoil recording](r2-regression/guardian-recoil.webm),150-sample trace, original64-state map clearance, offline-range report. R2 fixture images use HTTP initial-state substitution only; full playthroughs do not.
+- `package-check.json` checks ZIP CRC/hashes and committed preview source. `rebuild-check.json` checks reconstruction from a clean tracked-source Git archive; not an independent network clone. Both passed during final packaging; `tools/check_r3_rebuild.py` reproduces the latter.
+
+Independent first-time-player, physical-phone, other browser engines and direct file:// opening were not tested. No public deployment/publication. Original M1 and earlier evidence folders remain historical and unchanged.

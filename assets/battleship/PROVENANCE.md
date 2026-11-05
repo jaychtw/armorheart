@@ -1,0 +1,9 @@
+# Battleship M3 runtime artwork
+
+Owner creatively accepted the original mixed raster/vector study at29c5e871f6c7b92599880b60a3666943fa452a74, including nonblocking compact proportions and simplified single bores. [Execution authority](../../docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md). Canonical editable [SVG](../../planning/interception-m3/art/battleship-editable.svg) and two unmodified original painted [masters](../../planning/interception-m3/art/source/) remain preserved; no identity revision or new art gate is imposed.
+
+`battleship.png` is a deterministic Chromium Canvas raster export of that exact SVG at664×260 (2px/world unit). No repaint, masking change, turret relocation or color correction. Body320×88, frame[-166,-54,332,130], primary mouths[-88,66]/[0,66]/[88,66]. `anchors.json` records source/output SHA-256. Decoded runtime PNG is0.659MiB; full masters are editable source, not preloaded gameplay textures. Regenerate with `python3 tools/export_battleship.py` (Playwright/Chromium development tools, no external request).
+
+Intact6–5 reuses the accepted texture; Smoking4–3 and On fire2–1 add original bounded Canvas smoke/fire at ship-local funnel/bridge anchors. Reduced motion gives static nonessential smoke/fire and a steady protection cue. The whole ship/fixed battery assembly follows continuous accepted heading. Three visible mouths each produce one shell; no hidden extra barrels/attacks. No poster pixels, flags or named historical-ship reconstruction enter runtime.
+
+Original owner reference archival is pending file delivery; the authorization supplies expected PNG SHA-25668e90b405d9c35eeada65da05f27a15b3a90bfe4f0eb586ae444c09ceff25e9f. This is an expected value, not a verified archive. Original authorship/license are unknown; no blanket production redistribution license or deployment permission is inferred. [Reference status](../../planning/interception-m3/art/references/README.md).

@@ -1,0 +1,601 @@
+{
+  "passed": true,
+  "method": "Actual Chromium static-study rendering, CSS arena width measured from accepted M3 page at each viewport; unchanged Guardian .5 world scale; no M4 game/input verification",
+  "renders": [
+    {
+      "file": "study-320-en-intact.png",
+      "viewport": [
+        320,
+        740
+      ],
+      "accepted_game_arena_css": 278.40625,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 278.40625
+      }
+    },
+    {
+      "file": "study-320-en-broken.png",
+      "viewport": [
+        320,
+        740
+      ],
+      "accepted_game_arena_css": 278.40625,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "broken",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 278.40625
+      }
+    },
+    {
+      "file": "study-320-en-half.png",
+      "viewport": [
+        320,
+        740
+      ],
+      "accepted_game_arena_css": 278.40625,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "half",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 278.40625
+      }
+    },
+    {
+      "file": "study-320-zh-TW-intact.png",
+      "viewport": [
+        320,
+        740
+      ],
+      "accepted_game_arena_css": 278.40625,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 278.40625
+      }
+    },
+    {
+      "file": "study-390-en-intact.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "accepted_game_arena_css": 342.8125,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 342.8125
+      }
+    },
+    {
+      "file": "study-390-en-broken.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "accepted_game_arena_css": 342.8125,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "broken",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 342.8125
+      }
+    },
+    {
+      "file": "study-390-en-half.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "accepted_game_arena_css": 342.8125,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "half",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 342.8125
+      }
+    },
+    {
+      "file": "study-390-zh-TW-intact.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "accepted_game_arena_css": 342.8125,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 342.8125
+      }
+    },
+    {
+      "file": "study-768-en-intact.png",
+      "viewport": [
+        768,
+        1024
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-768-en-broken.png",
+      "viewport": [
+        768,
+        1024
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "broken",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-768-en-half.png",
+      "viewport": [
+        768,
+        1024
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "half",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-768-zh-TW-intact.png",
+      "viewport": [
+        768,
+        1024
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-1440-en-intact.png",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-1440-en-broken.png",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "broken",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-1440-en-half.png",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "half",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    },
+    {
+      "file": "study-1440-zh-TW-intact.png",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "accepted_game_arena_css": 640,
+      "study": {
+        "renderedRounds": 5,
+        "assetRegistration": {
+          "solidFoundationCorners": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "muzzleAlpha": [
+            255,
+            255,
+            255
+          ]
+        },
+        "ready": true,
+        "stage": "intact",
+        "fan": true,
+        "removed": false,
+        "world": 768,
+        "guardianScale": 0.5,
+        "fortress": [
+          256,
+          64,
+          256,
+          160
+        ],
+        "canvasCSS": 640
+      }
+    }
+  ],
+  "errors": [],
+  "editable_svg_sha256": "60a27971f73eac26fea8a9e7f36098f9c84cb9769b6b3b38e642d9490459d39c",
+  "production_visual_acceptance": "Not performed; proposed direction only"
+}

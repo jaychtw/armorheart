@@ -1,0 +1,19 @@
+{
+  "status": "visually_received_binary_archival_pending",
+  "date": "2026-11-04 Asia/Taipei",
+  "source": "Owner inline image in this Armorheart conversation",
+  "title": "WORLD WAR II BATTLESHIPS BY COUNTRY \u2014 SIZE COMPARISON",
+  "displayed_dimensions": [
+    495,
+    619
+  ],
+  "original_file": null,
+  "original_sha256": null,
+  "creator": null,
+  "license": null,
+  "owner_archive_permission": true,
+  "scope": "Reference/inspiration for one original editable M3 visual assessment; no runtime copying or inferred Stage3 execution authority",
+  "expected_original_sha256": "68e90b405d9c35eeada65da05f27a15b3a90bfe4f0eb586ae444c09ceff25e9f",
+  "expected_archive": "Armorheart_Interception_Original_Reference.zip",
+  "expected_hash_source": "Owner authorization e58f4d0790540363c9f815c58ed7c9aa0c12a645; not independently verified without bytes"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "sha256": {
+    "assets/guardian/hull.svg": "659ec5516f0f2a6bdf8b8a1bc44407ae720756a73d47d4a615c57254a80d5304",
+    "assets/guardian/barrel.svg": "8d86bc0a74d3ec8e780e114bd955cdc243c9d164c865b05a3a738b08e94a62bf",
+    "preview/guardian.html": "d15068b9f5b122c4c61ee0b7ba5c708cdd025655e15835ef300d0e9a948f07c8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "actual real-time Chromium compositor; keyboard facing and fire; centered clear pose-only initial fixture;200px crop enlarged3x for inspection",
+  "order": [
+    "up",
+    "right",
+    "down",
+    "left"
+  ],
+  "frames": 263,
+  "trace_samples": 262,
+  "seconds": 4.368818998336792,
+  "peak": 11.392504930966489,
+  "hull_fixed_during_each_recoil": true
+}

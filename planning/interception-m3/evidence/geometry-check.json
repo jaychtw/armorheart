@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "method": "0.25-unit route samples, every hull edge against exact land rectangle, C1 join checks; exact extreme-vertex Guardian turns in an obstacle-free rectangle",
+  "routeLength": 1892.3893421169303,
+  "duration": 26.283185307179586,
+  "routeSamples": 7570,
+  "minimumSampledHullLandClearance": 68,
+  "continuousClearanceLowerBound": 67.47222222222223,
+  "continuousBoundMethod": "sample gap0.25; rigid hull point displacement per arc-length <=1+maxVertexRadius160/turnRadius144",
+  "paintMarginWorld": {
+    "x": 29.28438400701679,
+    "y": -2.7156652119807596,
+    "right": 39.06683289344778,
+    "bottom": -319.86065788306996
+  },
+  "clippingAccepted": true,
+  "cornerTopMargin": -2.7156652119807596,
+  "joins": [
+    {
+      "distance": 480,
+      "positionGap": 0.0000019999999949504854,
+      "headingGapRadians": 6.944444574941144e-9
+    },
+    {
+      "distance": 706.1946710584651,
+      "positionGap": 0.000001999999966528776,
+      "headingGapRadians": 6.9444441308519345e-9
+    },
+    {
+      "distance": 962.1946710584651,
+      "positionGap": 0.0000019999998812636477,
+      "headingGapRadians": 6.9444441308519345e-9
+    },
+    {
+      "distance": 1188.3893421169303,
+      "positionGap": 0.0000020000002507458703,
+      "headingGapRadians": 6.944445019030354e-9
+    }
+  ],
+  "times": [
+    {
+      "leg": "left",
+      "start": 0,
+      "end": 6.666666666666667
+    },
+    {
+      "leg": "leftTurn",
+      "start": 6.666666666666667,
+      "end": 9.808259320256461
+    },
+    {
+      "leg": "top",
+      "start": 9.808259320256461,
+      "end": 13.363814875812016
+    },
+    {
+      "leg": "rightTurn",
+      "start": 13.363814875812016,
+      "end": 16.505407529401808
+    },
+    {
+      "leg": "right",
+      "start": 16.505407529401808,
+      "end": 26.283185307179586
+    }
+  ],
+  "tankTurnExtremeCases": 64,
+  "maxGuardianCorrection": 19,
+  "turnSafeCore": {
+    "left": 271.5,
+    "right": 496.5,
+    "top": 287.5,
+    "bottom": 720.5
+  },
+  "cornerRadius": 144,
+  "cornerSeconds": 3.141592653589793,
+  "angularSpeedRadiansPerSecond": 0.5,
+  "artworkStatus": "technical vector footprint only; missing owner reference and final art validation remain open"
+}

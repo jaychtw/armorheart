@@ -1,0 +1,97 @@
+{
+  "status": "isolated model, conservative swept axis-aligned hull envelope plus4-unit radius; no actual-input or human timing validation",
+  "prechargeSeconds": 0.6,
+  "volleyTimes": [
+    3,
+    12,
+    18,
+    21
+  ],
+  "startingSamples": 212,
+  "scenarios": 848,
+  "stationaryThreats": 394,
+  "noConstantEscapeSamples": [
+    {
+      "time": 12,
+      "tank": {
+        "x": 496,
+        "y": 288,
+        "facing": "up"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 496,
+        "y": 288,
+        "facing": "right"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 496,
+        "y": 288,
+        "facing": "down"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 496,
+        "y": 288,
+        "facing": "left"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 515.5,
+        "y": 285.5,
+        "facing": "up"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 498.5,
+        "y": 269,
+        "facing": "right"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 515,
+        "y": 287.5,
+        "facing": "down"
+      }
+    },
+    {
+      "time": 12,
+      "tank": {
+        "x": 496.5,
+        "y": 268.5,
+        "facing": "left"
+      }
+    },
+    {
+      "time": 18,
+      "tank": {
+        "x": 498.5,
+        "y": 269,
+        "facing": "right"
+      }
+    },
+    {
+      "time": 18,
+      "tank": {
+        "x": 496.5,
+        "y": 268.5,
+        "facing": "left"
+      }
+    }
+  ],
+  "noEscapeSamples": [],
+  "meaning": "Bounded search tries constant cardinal evasion, then move-stop-face responses. A nonempty noEscapeSamples list is an unresolved model warning, not proof of unavoidable damage. Empty list supports only sampled starts/one volley/0.6s warning and evaluated responses, not overlapping volleys, late reactions or all continuous positions"
+}

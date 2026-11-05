@@ -1,0 +1,14 @@
+# Architecture assessment — reviewed accepted R3 source
+
+Existing native Canvas2D/ES modules need no framework/runtime install. `src/app.mjs` already owns input, settings, paused/hidden lifecycle, responsive canvas, bilingual strings and scene confirmation. `src/engine.mjs` owns accepted Guardian hull/contact/turning, speed156, muzzle68, shells480/s, cooldown1s and recoil. `src/breakthrough.mjs`/transport/map are independent R3 state. Original range completion is currently a hardcoded six-brick check, and `isMission()` currently means Breakthrough specifically. These are integration points, not a generic boss framework.
+
+Missing: HP/damage/invulnerability, boss states/poses/ground anchor, boss-aware first-hit collision, jump telegraph and landing/contact resolution, health/results strings. `sweep()`/`impact()` are private and wall-only. The muzzle-to-tip initial segment and subsequent moving shell segments both go through them. Detecting boss hits only from post-step surviving shells would miss muzzle hits, get wall-vs-boss ordering wrong, and can tunnel; do not implement that shortcut.
+
+Proposed smallest adaptation, pending execution approval:
+
+- One `src/colossus.mjs` boss mission adapter and one static arena/data file; no generalized campaign/unlocks or independent enemy engine. Same tank/input/render paths; M2-only health HUD and localization. Explicit scene selection separates range, R3 deadline objective and M2 health objective; do not apply R3's90-second clock to M2.
+- Optional target-provider/impact callback at the existing two projectile sweep call sites, default absent. Static wall behavior and non-piercing earliest hit remain unchanged. Grounded boss has authored projected-body target geometry; walls (if later authorized) and boss participate in one deterministic earliest-hit query. Do not copy/rewrite movement/recoil. The six-brick range win guard must be range-only, not accidentally applied to Colossus.
+- M2 HP/contact state is scene-local. Use the same fixed simulation steps as Guardian for jumps, immunity and collisions; pause stops all. Unlike R3's real-active deadline, M2 has no deadline and must not advance its boss across an unseen long frame while the tank is capped. Shared simulation time slows together under overload; visibility pauses. Assess sustained performance later.
+- Future art uses separate ground/contact anchor, projected body and sprite-height offset. Do not rotate an upright gorilla sprite using the tank's `ANGLES`; side/back facings need real authored views. Isolated front-quarter art proof is insufficient for that gate.
+
+Frozen R3/Guardian files are not changed by this assessment. Later engine extension would require preservation tests (including initial-muzzle, nearest hit, immunity, range completion and R3) rather than a promise that engine source can stay byte-identical while gaining new targets.

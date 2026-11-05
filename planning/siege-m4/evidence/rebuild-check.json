@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "source_commit": "137cb17befa7adeeef89ddfce01e878b44c77b3d",
+  "method": "Clean git archive of committed planning directory and read-only src dependencies; regenerate four planning outputs and compare bytes",
+  "steps": [
+    [
+      "python3",
+      "planning/siege-m4/art/build_study.py"
+    ],
+    [
+      "python3",
+      "planning/siege-m4/draw_map.py"
+    ],
+    [
+      "python3",
+      "planning/siege-m4/certify_clearance.py"
+    ],
+    [
+      "node",
+      "planning/siege-m4/assess.mjs"
+    ]
+  ],
+  "byte_identical_sha256": {
+    "planning/siege-m4/art/fortress-study.svg": "60a27971f73eac26fea8a9e7f36098f9c84cb9769b6b3b38e642d9490459d39c",
+    "planning/siege-m4/evidence/map.svg": "6ee33b1a401e05bbab467d7965eb4cf7bb2fbff2e44940d94b0b7bbc2c805fbf",
+    "planning/siege-m4/evidence/clearance-certificate.json": "5cd802051edae93b57f93b05ed7d8e80690cf7067698f489e8b9a16296017ac0",
+    "planning/siege-m4/evidence/feasibility.json": "fadaed1170848ff1c3b983374c4d4bd5a287dad9571aff8a7a844d4fd60927a3"
+  },
+  "limitations": "Same environment; no new browser renders or actual M4 gameplay verification. This is planning-source reconstruction, not a Stage4 game build."
+}

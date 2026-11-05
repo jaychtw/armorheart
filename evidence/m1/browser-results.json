@@ -1,0 +1,759 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "passed": 65,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "entry does not spend timer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stationary spawn fire does not solve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause stops mission time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume rebases clock without catch-up",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simulated hidden-tab lifecycle pauses clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "level exit pauses for confirmation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cancel exit preserves mission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left one lower gate does not release crowd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left route opening announces evacuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left alternate gate remains optional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left language switch preserves deadline and route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left actual full mission success",
+      "passed": true,
+      "detail": {
+        "elapsed": 22.729333333332765,
+        "shots": 4
+      }
+    },
+    {
+      "name": "keyboard-left all crowd envelope inside exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-left replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "long visible frame timeout uses real active time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timeout is terminal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timeout retry resets clock and map",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed level exit returns to range entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right one lower gate does not release crowd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right route opening announces evacuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right alternate gate remains optional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right language switch preserves deadline and route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right actual full mission success",
+      "passed": true,
+      "detail": {
+        "elapsed": 21.365333333332917,
+        "shots": 6
+      }
+    },
+    {
+      "name": "touch-right all crowd envelope inside exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-right replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "320 en layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 en arena and Fire usable in portrait viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 604.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "320 zh-TW layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 633.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 zh-TW arena and Fire usable in portrait viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 633.796875,
+        "arena": 278.40625
+      }
+    },
+    {
+      "name": "320 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 en actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "390 en layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 705.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 en arena and Fire usable in portrait viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 705.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "390 zh-TW layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 706.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 zh-TW arena and Fire usable in portrait viewport",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "fire": 706.203125,
+        "arena": 342.8125
+      }
+    },
+    {
+      "name": "390 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768 en actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "768 en layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 932.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "768 zh-TW actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "768 zh-TW layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 en actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "1440 en layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 808.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 en axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "1440 zh-TW layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "1440 zh-TW axe no violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "844 en actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "844 en layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 760.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "844 zh-TW actual mission brick rendered after scene switch",
+      "passed": true,
+      "detail": [
+        173,
+        146,
+        100,
+        255
+      ]
+    },
+    {
+      "name": "844 zh-TW layout/targets/reduced motion",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "fire": 1056.59375,
+        "arena": 640
+      }
+    },
+    {
+      "name": "offline-right one lower gate does not release crowd",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-right route opening announces evacuation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-right alternate gate remains optional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-right language switch preserves deadline and route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-right actual full mission success",
+      "passed": true,
+      "detail": {
+        "elapsed": 20.77033333333298,
+        "shots": 2
+      }
+    },
+    {
+      "name": "offline-right all crowd envelope inside exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-right replay clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bundled mission no additional network",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime requests",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "independent_human_playtest": "Not performed; pending human review"
+}

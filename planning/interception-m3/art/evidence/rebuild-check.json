@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_commit": "49e100f07ba4dd304f17a7d6c6eb52b09df2b518",
+  "method": "clean git archive; deterministic SVG assembly from preserved selected PNG masters; exact two-output byte comparison; same installed Pillow, not new AI artwork generation",
+  "outputs_sha256": {
+    "planning/interception-m3/art/battleship-editable.svg": "3eda4858e442181cf9125af205068e583390f7582e4a4bb4d35915e4e5cd71dd",
+    "planning/interception-m3/art/sample.json": "a2eb0c09abd69215204a0ecdf6788fcf3556c03bbfe1c92a54a59cc72749ad61"
+  },
+  "gameplay_and_working_geometry_unchanged_from": "000dc55129f5250a5618112083c2741137ba8ddf"
+}

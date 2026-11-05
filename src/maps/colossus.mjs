@@ -1,0 +1,1 @@
+export const COLOSSUS=Object.freeze({bounds:{left:0,top:0,right:768,bottom:768},tank:{x:64,y:704,facing:'up'},stops:[{id:'UL',x:208,y:288},{id:'UR',x:560,y:288},{id:'LR',x:560,y:544},{id:'LL',x:208,y:544},{id:'C',x:384,y:416}],groundSeconds:2,jumpSeconds:1.2,height:64,contact:[112,64],bossHP:4,tankHP:3,immunity:3});

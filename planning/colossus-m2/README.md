@@ -1,0 +1,35 @@
+# Colossus M2 — isolated Offer assessment
+
+Scope: [committed assignment67bf862](../../docs/COLOSSUS_M2_OFFER_REQUEST.md), assessment/original prototype-art feasibility and implementation Offer only. Accepted R3 runtime is `1d6abaa4f8f98bb0034641bde855ac4b16786bed`; acceptance is already recorded by `67410a2`/PROJECT_STATE, not newly inferred here. No runtime/level implementation, merge, deploy, publishing or spending. Work is on the existing dedicated `planning/colossus-m2-offer` branch from67bf862; existing draft stash preserved.
+
+Owner addendum: **KONG-01 natural identity + KONG-07/08 elevated three-quarter perspective**, simplified to Armorheart. Face/chest/shoulders/arms and grounded feet/knuckles must read at actual size. No snow identity, glow/mutation, heavy armor or weapon. Both inline reference sheets were visible and visually inspected in this session. Original JPEG bytes/Mac paths are not workspace files; no reference-byte hash or repository attachment is claimed. No reference pixels will be cropped into a sprite. KONG-07/08 contribute camera/staging only, not stone growths, vines, armor or club. KONG-04 supplies at most restrained heroic anatomy, not equipment.
+
+Prototype plan: one original front-quarter raster master in an editable mixed SVG composition, and six original pose/state concepts, rendered beside the unchanged Guardian at real canvas scale. One-view proof is **not** four-facing readiness or creative acceptance. Isolated art/timing diagrams and calculations stay here and are never imported by the game. Side/back/turn continuity and gameplay become explicit future art/implementation gates.
+
+Preflight: clean checkout; exact assignment fetched directly because fetch refspec was main-only. Remote R3/main matched accepted checkpoints; planning branch67bf862 matched supplied assignment. Actions workflows0/rulesets0; Pages still workflow/main. No settings/credentials changed; prior webhook/secret metadata403 remains unverified. Budget$0, existing provided session/local tools only; no new account, paid external API, asset purchase or service setup. GDD/UGDS1.0.0/AICP1.2.1 pins retained. Latest shared README/AICP1.5 reviewed at `a0f91837f170da97b98afe979afb473f169edf58` as supplemental guidance, without repinning; proportional Offer, faithful references, recovery checkpoints and explicit execution boundary apply. No portfolio/publication work.
+
+Method finding: a fully vector sketch was too frontal/icon-like and was rejected as a visual match. Its source/builder is retained in `art/rejected-vector/` only; it is not the proposed runtime art. The revised original raster candidate is rendered directly at scale. Pose concepts are transparent but unregistered and are not a finished atlas, separated limb rig or proof of four-facing continuity.
+
+Status: Offer delivered for review. [Canonical implementation Offer](../../docs/offers/COLOSSUS_M2_OFFER.md), [true CSS-size review](evidence/actual-css-scale-review.png), [original master](art/colossus-concept.png), [six pose concepts](art/pose-concepts.png), [arena diagram](arena.svg), [assessment calculations](evidence/assessment.json), [29 capture checks](evidence/capture-results.json). No implementation is authorized by this folder.
+
+## Evidence scope and reproduction
+
+`lab.html` is an isolated art page using the same768-world canvas and accepted Guardian assets/transform. It is not a playable M2 scene and is not linked from the game. It previews original art at measured accepted R3 dimensions, all five proposed ground anchors, a master-only height/ground-shadow registration slider, and explicitly unregistered pose concepts. It contains no boss HP/damage/AI or mission controls.
+
+Browser captures:320/390/DPR2,768/1440/DPR1;29 scoped art/layout/registration checks,0 failures. True-size review compensates phone PNGs' DPR2 so they are not mistaken for twice their CSS size. Raw PNGs, source-alpha/bounds inspection and exact unchanged-runtime checks are in evidence. Current five stop/master previews and605 pose-bound samples do not prove final four-view animation, physical body/contact proxies, M2 damage/HP, human visual acceptance, a first-time-player/physical-phone test, M2 bilingual/a11y or offline combat. These are future Offer gates, not fabricated passes.
+
+The current candidate reads much closer to the requested dimensional miniature than the rejected vector draft. Pose-concept crops make guarded Wounded/tucked jump forms visible at scale, but hit-reaction camera and scale/anchor continuity need refinement. Do not rotate a front gorilla sprite into false side/back views. Current contour/ground anchor dimensions are provisional and bind only the stated proposal and master.
+
+From repository root, with Node/Python and existing local Chromium/Playwright/Pillow available, start `python3 -m http.server 8080 --bind 127.0.0.1`, then:
+
+```sh
+node planning/colossus-m2/assess.mjs
+python3 planning/colossus-m2/make_diagram.py
+python3 planning/colossus-m2/capture.py
+python3 planning/colossus-m2/make_scale_review.py
+python3 planning/colossus-m2/art/build_composition.py /tmp/colossus-self-contained.svg
+```
+
+No npm/runtime dependency installation. Art generation is nondeterministic; original master/concept PNGs are preserved byte-for-byte so reconstruction does not require regenerating them. Existing session art-generation capability was available; no new paid service or account was added. The SVG is editable framing/paint-over composition with a raster underpainting, not falsely described as a fully separated rig. GDD/standards pins and prior playable builds remain untouched. Stop at Offer.
+
+Recovery check passed from clean tracked-source archive `a4e19fb6525c0e6bf2ad8c33550836037efa66b1`: original PNG hashes, byte-identical analytical report/diagram and embedded raster export verified. [Recovery report](evidence/recovery-results.json). This is not a network clone or a claim that generated art can be regenerated identically. Reproduce with `python3 planning/colossus-m2/verify_recovery.py`.

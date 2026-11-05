@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "method": "WCAG sRGB numeric checks of declared UI palette pairs, not full canvas/nonvisual certification; screenshots also inspected by assistant",
+  "pairs": [
+    {
+      "name": "main text",
+      "foreground": [
+        38,
+        56,
+        47
+      ],
+      "background": [
+        242,
+        240,
+        232
+      ],
+      "ratio": 10.895975813056653
+    },
+    {
+      "name": "card text",
+      "foreground": [
+        38,
+        56,
+        47
+      ],
+      "background": [
+        250,
+        249,
+        244
+      ],
+      "ratio": 11.793880883337497
+    },
+    {
+      "name": "locked label",
+      "foreground": [
+        77,
+        94,
+        76
+      ],
+      "background": [
+        226,
+        229,
+        217
+      ],
+      "ratio": 5.4430440144037275
+    },
+    {
+      "name": "collection note",
+      "foreground": [
+        75,
+        89,
+        74
+      ],
+      "background": [
+        236,
+        238,
+        227
+      ],
+      "ratio": 6.333769426934867
+    },
+    {
+      "name": "commendation",
+      "foreground": [
+        99,
+        69,
+        22
+      ],
+      "background": [
+        239,
+        223,
+        180
+      ],
+      "ratio": 6.636797583775942
+    },
+    {
+      "name": "reward on worst-case light underlay",
+      "foreground": [
+        255,
+        237,
+        188
+      ],
+      "background": [
+        57,
+        77,
+        64
+      ],
+      "ratio": 7.8334742567596765
+    }
+  ],
+  "remaining": "Canvas contrast and human assistive-technology testing remain incomplete"
+}

@@ -1,0 +1,128 @@
+{
+  "baseline": "7d9720d8cee846735d5f1bb2dfc231b66eb4af7c",
+  "frozen_files": [
+    {
+      "path": "src/engine.mjs",
+      "identical": true,
+      "sha256": "70da6c1c67604d120f0237595e27ebd4a8248d233624909c9a2cb25cde785499"
+    },
+    {
+      "path": "src/breakthrough.mjs",
+      "identical": true,
+      "sha256": "56be61821aaab65edf2dc2d8c6e0c85a1f973a594d77cfbe117e2448bbdc6e7b"
+    },
+    {
+      "path": "src/transport.mjs",
+      "identical": true,
+      "sha256": "9c66524f0e350cfac047a54bc0210e1757946b7bccc79f5eaae23023d40f83bb"
+    },
+    {
+      "path": "src/maps/breakthrough.mjs",
+      "identical": true,
+      "sha256": "fc3ba3b4b443ba2e000fa2e6b57612bbd933aca76f9c23072fdbc4afd8afeeb5"
+    },
+    {
+      "path": "src/i18n.mjs",
+      "identical": true,
+      "sha256": "1999ee940aae9f783f78d9779a3ec4d29cb6f803cbe11c2a02e40a6d34c85f78"
+    },
+    {
+      "path": "index.html",
+      "identical": true,
+      "sha256": "53cdb1070190a186975c21aed6e4fc7dae4e3981b0ab024815b3854354866047"
+    },
+    {
+      "path": "style.css",
+      "identical": true,
+      "sha256": "fecb746bed1279146ec784e679292a8fda3feab854d54300af7efd65ec92e236"
+    },
+    {
+      "path": "planning/r3-geometry/map.json",
+      "identical": true,
+      "sha256": "eaf26607ef26331fba5e22147e45b828adf50ae6f00c6c410811fcd1957586d6"
+    },
+    {
+      "path": "docs/ARMORHEART_GDD_v1.0.md",
+      "identical": true,
+      "sha256": "ec962170e521a71993529b5c186be71396b6729492333446c139d4674570ca40"
+    },
+    {
+      "path": "docs/standards/UGDS.md",
+      "identical": true,
+      "sha256": "0dcbc47f98436284f595badddd084a016ebefe67f2de9a78c9290f81cef5b2d5"
+    },
+    {
+      "path": "docs/standards/AICP.md",
+      "identical": true,
+      "sha256": "073bd08425973dbd43bb65c1b3cf79d500ef6a832c609e032851be14200422ca"
+    },
+    {
+      "path": "artifacts/Armorheart-Guardian-POC.zip",
+      "identical": true,
+      "sha256": "45779656e5fdd50dce17bb5b8202fd86b050db560793802b555c9440fe6b2ba6"
+    },
+    {
+      "path": "artifacts/Armorheart-Breakthrough-M1.zip",
+      "identical": true,
+      "sha256": "d60c69af1a990e4bebed1fa8abf7102a1d2a17c3a6c4d71d22e148d1b005335c"
+    },
+    {
+      "path": "artifacts/Armorheart-Breakthrough-R3.zip",
+      "identical": true,
+      "sha256": "f4e1e5a4f0867e02a8fcd09f40255eda402f67ab737c5c40117772f93762a908"
+    },
+    {
+      "path": "assets/guardian/ORIGINAL_README.md",
+      "identical": true,
+      "sha256": "383b9f305aeeb11a1f98f3bd99aded91832d9df2fbef5f59de284e5701d68224"
+    },
+    {
+      "path": "assets/guardian/PROVENANCE.md",
+      "identical": true,
+      "sha256": "588baf161a20fb57bb09d4fbaaeaed5c3b039cd47172517aee7e6911d835f7a1"
+    },
+    {
+      "path": "assets/guardian/anchors.json",
+      "identical": true,
+      "sha256": "d04791a4e2656ac8515f3b3680f5fb32e68a63493c53bee9c2fc678b0a292fd4"
+    },
+    {
+      "path": "assets/guardian/barrel.svg",
+      "identical": true,
+      "sha256": "8d86bc0a74d3ec8e780e114bd955cdc243c9d164c865b05a3a738b08e94a62bf"
+    },
+    {
+      "path": "assets/guardian/guardian-source.svg",
+      "identical": true,
+      "sha256": "6f872a505d8f453e01e13a76442415d272973e1d8d66e61caf49aaa5e4f167ba"
+    },
+    {
+      "path": "assets/guardian/hull.svg",
+      "identical": true,
+      "sha256": "659ec5516f0f2a6bdf8b8a1bc44407ae720756a73d47d4a615c57254a80d5304"
+    },
+    {
+      "path": "assets/guardian/original-master.png",
+      "identical": true,
+      "sha256": "46f96b4afd18469a294ac4581fef96f4e46b04f4b0c9804b685691cd88c25f42"
+    },
+    {
+      "path": "assets/transport/PROVENANCE.md",
+      "identical": true,
+      "sha256": "2366b450a75fe70eeb1e5885008248fb38c9298e6b8148c1b4c2f73d2dd95cce"
+    },
+    {
+      "path": "assets/transport/anchors.json",
+      "identical": true,
+      "sha256": "90590a34d4e88f54c26d895d904169a42b1bd943e4512c508c2be495a3eb8cf2"
+    },
+    {
+      "path": "assets/transport/transport.svg",
+      "identical": true,
+      "sha256": "7af8f6823f7bc6dbdb49ff913efc1ccabb9362b7e8f5435d86a20939623fb240"
+    }
+  ],
+  "app_exactly_authorized_composition_and_outline_changes": true,
+  "recoil_muzzle_input_ui_and_gameplay_unchanged": true,
+  "accepted_limitation": "Tank and transport remain nonblocking; optional future consideration, not a required task"
+}

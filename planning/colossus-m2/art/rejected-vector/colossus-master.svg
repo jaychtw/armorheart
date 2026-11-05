@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>Colossus — original front-quarter gorilla art study</title>
+<desc>Editable original vector prototype, not accepted production art. Ground anchor256,442. Natural gorilla identity; elevated front-quarter camera. No reference pixels.</desc>
+<defs>
+ <linearGradient id="fur" x1=".15" y1="0" x2=".8" y2="1"><stop stop-color="#827a5d"/><stop offset=".35" stop-color="#5e5d49"/><stop offset="1" stop-color="#303a31"/></linearGradient>
+ <linearGradient id="nearFur" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#777258"/><stop offset=".5" stop-color="#4e5443"/><stop offset="1" stop-color="#2d372e"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#908870"/><stop offset=".4" stop-color="#6e715b"/><stop offset="1" stop-color="#3b4b3d"/></linearGradient>
+ <linearGradient id="chestSkin" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#797c62"/><stop offset=".55" stop-color="#535f4d"/><stop offset="1" stop-color="#36473b"/></linearGradient>
+ <linearGradient id="crown" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#958467"/><stop offset=".5" stop-color="#615e49"/><stop offset="1" stop-color="#303d32"/></linearGradient>
+</defs>
+<g stroke="#24372d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+ <g id="far-leg">
+  <path d="M282 309 Q329 292 347 331 L353 381 L346 418 Q370 430 361 449 Q350 462 309 459 L284 448 Q277 432 288 417 L281 381 L266 348Z" fill="url(#fur)"/>
+  <path d="M308 414 Q325 402 346 419 L346 433 L360 439 Q354 451 326 450 L294 444 L292 432Z" fill="url(#skin)"/>
+  <path d="M317 435 L316 449 M331 436 L331 450 M344 438 L347 449" fill="none" stroke="#455546" stroke-width="3"/>
+  <path d="M305 341 Q326 330 334 347 L336 383" fill="none" stroke="#7a7b5d" stroke-width="7"/>
+ </g>
+ <g id="near-leg">
+  <path d="M183 305 Q223 303 242 332 L235 375 L216 416 Q240 432 230 450 Q215 465 173 465 L150 453 Q147 437 166 421 L172 382 L161 348Z" fill="url(#nearFur)"/>
+  <path d="M172 416 Q195 407 216 420 L211 435 L229 443 Q217 455 191 455 L156 450 L156 439Z" fill="url(#skin)"/>
+  <path d="M175 438 L172 452 M190 440 L189 455 M205 442 L207 452" fill="none" stroke="#435344" stroke-width="3"/>
+  <path d="M189 341 Q210 329 219 347 L209 383" fill="none" stroke="#858265" stroke-width="7"/>
+ </g>
+ <g id="far-arm">
+  <path d="M333 151 Q380 137 405 173 L420 195 L416 210 Q443 241 448 275 L443 291 L457 316 L454 333 L467 363 L457 384 L466 406 Q455 424 424 421 L398 402 L399 376 L385 343 L379 310 L361 284 L344 253 L319 222Z" fill="url(#fur)"/>
+  <path d="M368 166 Q391 170 401 196 L397 222 L411 249 L413 273 L398 289 L382 268 L369 238 L353 213Z" fill="#76755b" stroke="none"/>
+  <path d="M410 369 Q432 354 452 371 L463 391 L460 410 Q447 421 423 413 L405 405 L400 388Z" fill="url(#skin)"/>
+  <path d="M420 383 L424 411 M433 380 L437 414 M446 382 L450 411" fill="none" stroke="#344c3c" stroke-width="3"/>
+  <path d="M419 378 L425 374 M434 375 L440 375 M449 379 L453 383" fill="none" stroke="#b0a286" stroke-width="4"/>
+  <path d="M417 295 L433 307 M419 321 L439 334 M432 346 L446 354" stroke="#879077" stroke-width="3" opacity=".5"/>
+ </g>
+ <g id="torso">
+  <path d="M167 147 Q199 116 246 119 Q301 118 342 150 L365 182 L350 238 L341 297 L325 332 L315 346 L295 354 L278 344 L260 356 L235 350 L217 359 L193 344 L173 321 L163 279 L148 233 L143 188Z" fill="url(#fur)"/>
+  <path d="M171 158 Q210 132 246 139 L264 166 Q298 145 333 158 L348 190 L327 212 L290 219 L258 201 L232 219 L189 209 L158 185Z" fill="#898164" stroke="none"/>
+  <path d="M200 191 Q225 170 258 190 Q291 173 319 193 L326 220 L313 253 L314 282 Q296 323 262 335 Q222 324 204 286 L200 253 L184 226Z" fill="url(#chestSkin)"/>
+  <path d="M196 209 Q226 196 254 209 M264 208 Q289 198 315 212" fill="none" stroke="#a3a184" stroke-width="7"/>
+  <path d="M257 211 L259 257 M219 250 Q239 261 252 256 M269 256 Q288 262 303 252 M230 281 Q257 299 289 281" fill="none" stroke="#334c3d" stroke-width="4"/>
+  <path d="M216 230 Q232 233 245 228 M273 228 Q287 232 303 227" fill="none" stroke="#405745" stroke-width="3"/>
+  <path d="M219 309 L234 326 L250 320 M273 321 L286 330 L302 311" fill="none" stroke="#8b8c6e" stroke-width="3" opacity=".5"/>
+ </g>
+ <g id="near-arm">
+  <path d="M168 154 Q126 140 103 166 L91 185 L96 203 Q73 225 68 252 L70 272 L57 295 L62 316 L44 345 L46 365 L34 388 L43 412 Q57 432 88 431 L111 415 L115 387 L132 354 L135 323 L149 299 L161 269 L180 237 L190 198Z" fill="url(#nearFur)"/>
+  <path d="M125 164 Q146 158 164 176 L176 198 L162 221 L141 236 L125 269 L102 277 L88 265 L92 235 L111 210 L105 190Z" fill="#868164" stroke="none"/>
+  <path d="M68 328 L88 306 L101 313 L91 352 L82 371 L59 366Z" fill="#69735b" stroke="none"/>
+  <path d="M53 370 Q74 357 93 368 L109 386 L105 410 Q95 428 69 423 L45 416 L37 398Z" fill="url(#skin)"/>
+  <path d="M52 385 L53 416 M65 381 L68 422 M80 382 L85 422 M94 389 L98 413" fill="none" stroke="#334d3e" stroke-width="3"/>
+  <path d="M50 380 L56 376 M65 376 L71 375 M81 378 L88 381" fill="none" stroke="#b9a98b" stroke-width="5"/>
+  <path d="M79 287 L97 291 M69 310 L83 318 M100 247 L118 244" fill="none" stroke="#9b997a" stroke-width="3" opacity=".65"/>
+ </g>
+ <g id="head">
+  <path d="M183 132 Q173 119 181 103 L196 103 L203 76 L221 65 L235 46 L246 57 L263 43 L274 58 L289 51 L303 70 L320 80 L330 103 L339 116 L327 136 L327 165 Q319 194 295 209 L268 219 L239 214 L216 198 L199 179 L190 159Z" fill="url(#crown)"/>
+  <path d="M183 111 Q167 108 169 128 Q171 147 190 146 L198 131Z" fill="#606b54"/>
+  <path d="M329 111 Q345 108 346 125 Q345 142 330 142 L322 129Z" fill="#59664f"/>
+  <path d="M208 108 Q230 89 253 101 Q270 89 293 104 L312 116 L317 145 L307 166 L300 189 L280 204 L257 207 L237 198 L220 182 L215 159 L201 139Z" fill="url(#skin)"/>
+  <path d="M220 112 Q234 105 251 116 L257 132 L241 143 L220 135 L214 125Z M265 116 Q282 105 299 118 L304 132 L285 143 L264 135Z" fill="#273d31" stroke="none"/>
+  <g id="brows" fill="#383e32" stroke-width="3"><path d="M214 113 Q233 104 253 119 L252 126 Q232 118 218 123Z"/><path d="M265 119 Q284 105 302 117 L301 125 Q283 118 267 126Z"/></g>
+  <path d="M225 128 L239 128 M279 128 L292 126" stroke="#d9c9a0" stroke-width="4"/>
+  <path d="M233 127 L234 131 M285 126 L286 130" stroke="#1b3028" stroke-width="5"/>
+  <path d="M249 133 Q260 124 273 133 L283 153 L279 166 L253 169 L239 157Z" fill="#92927b"/>
+  <path d="M244 151 Q253 142 262 151 Q269 142 279 152 L276 164 L251 165Z" fill="#304b3b" stroke-width="2"/>
+  <path d="M249 153 L256 153 M267 153 L274 152" stroke="#182f27" stroke-width="5"/>
+  <path d="M232 167 Q255 156 282 164 L298 175 L296 187 Q284 205 264 205 Q245 201 234 188Z" fill="#92917a"/>
+  <path d="M239 179 Q265 184 290 176 L286 189 Q265 199 244 190Z" fill="#253c30" stroke-width="3"/>
+  <path d="M246 181 L249 187 L255 185 L260 190 L266 187 L273 189 L281 183 L283 179" fill="#d3c7a7" stroke="#58664f" stroke-width="1.5"/>
+  <path d="M243 199 Q267 212 288 197" fill="none" stroke="#b1ab8b" stroke-width="3"/>
+  <path d="M208 84 L213 103 M223 70 L229 92 M245 63 L249 89 M270 65 L270 89 M291 73 L286 94" fill="none" stroke="#b3a17d" stroke-width="4" opacity=".65"/>
+  <path d="M198 159 L204 177 L213 181 M312 177 L320 158 M225 200 L233 205 M301 191 L307 182" fill="none" stroke="#958f70" stroke-width="3"/>
+ </g>
+ <g id="stage-marks" opacity="0" fill="none" stroke="#b6ad8e" stroke-width="4"><path d="M171 201 L182 214 M165 211 L177 222 M323 252 L312 267 M329 260 L319 276"/></g>
+</g>
+</svg>

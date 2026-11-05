@@ -1,0 +1,13 @@
+# Armorheart cosmetic collection — original alternate designs
+
+Owner authority: `docs/V1_FINALIZATION_HANDOFF.md` at `eb01bdb18ab1ccc5232009ccb244e1f8ca79c219` authorizes coherent original cosmetic tanks and ordinary composition/export work. Only Guardian source bytes were available in the checkout; the historical prototype-pack reference is not treated as recovered production art.
+
+Three independent original constructions are preserved under `construction/` and reproduced by `tools/build_collection_construction.py`. Bulwark has stepped heavy shoulders/slab casemate, Vanguard a tapered prow/arrowhead turret, Sentinel track pods/round sensor turret. They are distinct geometry, not recolored Guardian copies.
+
+`source/production-paint.png` is the unchanged host-native ImageGen paint pass of those constructions, with Guardian used only as a material/style reference in the archived `source/construction-reference.png`. The exact request is in `source/production-prompt.txt`; its output was originally delivered as `exec-484ec0b5-18c8-4d1a-91f0-8df0fff12392.png`. No Guardian pixels were cropped into the alternate sprites. No external provider account, paid job, credential, stock art, national insignia or new third-party license was used. This is original project-directed generation; no broader ownership/redistribution assurance over the existing Guardian reference is inferred.
+
+`tools/export_collection.py` non-destructively registers the archived paint via editable SVG transforms/masks and exports transparent256px runtime layers. Original PNG bytes remain unchanged. Each tank has a mixed raster/vector `source.svg` plus separate hull/barrel PNG and SVG exports. The source and transforms are preserved in `manifest.json`; generation itself is not claimed reproducible from the prompt alone. The local export is reproducible from archived bytes using Chromium154.
+
+All skins share the accepted Guardian master envelope `(12,70)–(198,185)`, pivot `(107,128)`, axis126, muzzle `(243,126)`, display scale0.5 and unchanged barrel-retraction transform. Cosmetic selection never enters rule adapters or changes collision, speed, damage, HP, protection or cadence. The renderer uses barrel-below-hull occlusion. Final actual-scale visual acceptance remains part of integrated v1 Confirm & Close.
+
+The optional `game-dev` CLI is not installed. No canonical CLI/package, GLB or provider-job receipt is claimed; existing local SVG/Canvas checks and actual-game rendering validate these project-local2D assets. Guardian source is byte-preserved with its existing underlying provenance/licensing caveat. No repository-wide license is added or implied.

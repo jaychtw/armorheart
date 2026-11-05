@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "method": "Mixed SVG/paint raster export, actual alpha envelope/corner checks; distinct silhouette masks and independent source geometry. Enlarged chart is inspection only; gameplay-scale evidence supplied separately.",
+  "layers": [
+    {
+      "tank": "guardian",
+      "hull_alpha_bounds": [
+        12,
+        70,
+        240,
+        185
+      ],
+      "transparent_frame_corners": true,
+      "source_sha256": {
+        "hull": "659ec5516f0f2a6bdf8b8a1bc44407ae720756a73d47d4a615c57254a80d5304",
+        "barrel": "8d86bc0a74d3ec8e780e114bd955cdc243c9d164c865b05a3a738b08e94a62bf"
+      }
+    },
+    {
+      "tank": "bulwark",
+      "hull_alpha_bounds": [
+        12,
+        70,
+        198,
+        185
+      ],
+      "transparent_frame_corners": true,
+      "source_sha256": {
+        "hull": "fcaad194eccb8442abd76a4d910f5603a0b84aa04e166228f52d5b0084c33390",
+        "barrel": "bd8cff994e7175969f3e87a155facce11f82e371690dc2ac52ffc3c3e60ef911"
+      }
+    },
+    {
+      "tank": "vanguard",
+      "hull_alpha_bounds": [
+        12,
+        70,
+        198,
+        185
+      ],
+      "transparent_frame_corners": true,
+      "source_sha256": {
+        "hull": "9cf6f286413bc7485b22191dfe616464e35987632355662a1e941d6ad8517bd3",
+        "barrel": "85069f34dff71fb17c6f51d32ab2204af2f295edacf8ab49991c1bae23d7f489"
+      }
+    },
+    {
+      "tank": "sentinel",
+      "hull_alpha_bounds": [
+        12,
+        70,
+        198,
+        185
+      ],
+      "transparent_frame_corners": true,
+      "source_sha256": {
+        "hull": "2e18abc5bbd5625bd1fbaec516ca4bde186a48a498e8677e3f723e19ca2e5421",
+        "barrel": "c302cfc056c700e7abeffdd5a2ec0f810b715805d18574104830d818035c413d"
+      }
+    }
+  ],
+  "silhouette_pairs": [
+    {
+      "a": "guardian",
+      "b": "bulwark",
+      "silhouette_iou": 0.910623865481991
+    },
+    {
+      "a": "guardian",
+      "b": "vanguard",
+      "silhouette_iou": 0.902236513726243
+    },
+    {
+      "a": "guardian",
+      "b": "sentinel",
+      "silhouette_iou": 0.8665226781857451
+    },
+    {
+      "a": "bulwark",
+      "b": "vanguard",
+      "silhouette_iou": 0.9634909931605818
+    },
+    {
+      "a": "bulwark",
+      "b": "sentinel",
+      "silhouette_iou": 0.9443229849876111
+    },
+    {
+      "a": "vanguard",
+      "b": "sentinel",
+      "silhouette_iou": 0.9202982761960101
+    }
+  ],
+  "game_dev_cli": "not installed; no paid jobs, GLB/package or provider receipts claimed"
+}

@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "approved_study_unchanged": true,
+  "decoded_body_bytes": 1966080,
+  "body_states": [
+    {
+      "stage": "intact",
+      "pixels": [
+        512,
+        320
+      ],
+      "all_physical_body_pixels_opaque": true,
+      "bytes": 242014
+    },
+    {
+      "stage": "broken",
+      "pixels": [
+        512,
+        320
+      ],
+      "all_physical_body_pixels_opaque": true,
+      "bytes": 243869
+    },
+    {
+      "stage": "half",
+      "pixels": [
+        512,
+        320
+      ],
+      "all_physical_body_pixels_opaque": true,
+      "bytes": 240474
+    }
+  ],
+  "registration": {
+    "accepted_offer": "a44485475d573d65228d70e377e2561fed9f0e47",
+    "authorization": "ce298580273e34da872f1d99e5150edbcc109c12",
+    "approved_study_sha256": "60a27971f73eac26fea8a9e7f36098f9c84cb9769b6b3b38e642d9490459d39c",
+    "source_sha256": "04491fbfe48eef77a28edfe7d7f517b2d882de1a02a9249fb41d4b930c1b180e",
+    "body_world": [
+      256,
+      64,
+      256,
+      160
+    ],
+    "body_pixels": [
+      512,
+      320
+    ],
+    "gun_pivots": [
+      [
+        288,
+        216
+      ],
+      [
+        384,
+        216
+      ],
+      [
+        480,
+        216
+      ]
+    ],
+    "barrel_frame": [
+      -8,
+      -8,
+      16,
+      40
+    ],
+    "barrel_axis": "local+Y",
+    "muzzle_from_pivot": 24,
+    "cap_frame": [
+      -12,
+      -12,
+      24,
+      24
+    ],
+    "method": "Original editable approved study with deterministic vector stone wear/light refinement; separate rotating barrel and overlying gun cap; Chromium154 raster export",
+    "sha256": {
+      "intact.png": "7e4f659a0eb1440d9fd5c6c2150e645c0693665117c2af97f6842e386b444745",
+      "broken.png": "f3606daf190bcfb5d8b1571493ba82ece1f8f80c1c1ffb4544b952c6f0361285",
+      "half.png": "f608d6b5292ff587857feee2693890696fc798c84f2288d3ff4ac5bddba5c670",
+      "barrel.svg": "b97695aa56d0d46952f6e58c441663c23fd5d2f54d122b0f30b61649b5ed1b0d",
+      "gun-cap.svg": "2032e3ea43ddbcdb9f4a27f1972d72df672b04b692b8eb4641d28bee1061f241"
+    }
+  },
+  "note": "Pixel/registration consistency, not creative acceptance. Actual barrel draw transforms/muzzles are checked separately in browser-results.json."
+}

@@ -1,0 +1,98 @@
+{
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparent_fraction": 0.40957484693319496,
+  "bounds_alpha8": [
+    50,
+    11,
+    1206,
+    1244
+  ],
+  "bounds_alpha200": [
+    52,
+    12,
+    1204,
+    1243
+  ],
+  "sha256": "2fdd6d1d37f7ebb2976dea7d6cb64ea9ff4333e4d57153a62e6522e25fc555ee",
+  "pose_concepts": {
+    "size": [
+      1536,
+      1024
+    ],
+    "transparent_gutter_samples": [
+      0,
+      0,
+      0
+    ],
+    "cells": [
+      {
+        "name": "idle",
+        "alpha8_bounds": [
+          39,
+          23,
+          483,
+          495
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      },
+      {
+        "name": "airborne",
+        "alpha8_bounds": [
+          25,
+          14,
+          487,
+          379
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      },
+      {
+        "name": "landing",
+        "alpha8_bounds": [
+          10,
+          103,
+          483,
+          471
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      },
+      {
+        "name": "hit",
+        "alpha8_bounds": [
+          54,
+          14,
+          479,
+          496
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      },
+      {
+        "name": "fatigued",
+        "alpha8_bounds": [
+          30,
+          33,
+          470,
+          493
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      },
+      {
+        "name": "wounded",
+        "alpha8_bounds": [
+          47,
+          25,
+          461,
+          498
+        ],
+        "status": "unregistered concept, not a finished sprite"
+      }
+    ]
+  }
+}

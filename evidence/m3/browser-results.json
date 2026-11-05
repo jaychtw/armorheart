@@ -1,0 +1,1694 @@
+{
+  "date": "2026-11-04 Asia/Taipei",
+  "passed": 104,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "entry spends no simulation time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "localized charge status is visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes ship,charge,shells,health and immunity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resume no catchup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "simulated hidden lifecycle pauses M3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "left-volley ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "left-volley hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "left-turn ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "left-turn hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top-charge ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top-charge hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top-volley ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "top-volley hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-turn ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-turn hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-charge ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-charge hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-volley ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "right-volley hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "last-charge ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "last-charge hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "last-volley ship raster transform matches exact route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "last-volley hostile shells actually rendered at collision positions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "surviving ship causes exit loss",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact physical exit time",
+      "passed": true,
+      "detail": 26.283185307179586
+    },
+    {
+      "name": "all four eligible three-shell volleys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all held opportunities skip without deferred burst",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escape retry resets route and all projectiles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart confirmation pauses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cancel retains encounter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed restart fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live zh-TW retains whole state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mission sound control toggles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reduced motion setting works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-informed two initial side hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-informed visible on-fire state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-informed wins with six effective hull hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-informed all three tankHP retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "keyboard-informed near modeled12.72s",
+      "passed": true,
+      "detail": 12.676486309492581
+    },
+    {
+      "name": "keyboard-informed no movement after second aim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tank-loss can move/fire while protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tank-loss actual three-hit tank defeat",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ]
+    },
+    {
+      "name": "keyboard-tank-loss damage intervals respect3s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tank-loss fresh retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard-tank-loss exit to range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "accepted M2 remains selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "accepted R3 remains selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-informed two initial side hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-informed visible on-fire state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-informed wins with six effective hull hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-informed all three tankHP retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "touch-informed near modeled12.72s",
+      "passed": true,
+      "detail": 12.676486309492581
+    },
+    {
+      "name": "touch-informed no movement after second aim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tank-loss can move/fire while protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tank-loss actual three-hit tank defeat",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ]
+    },
+    {
+      "name": "touch-tank-loss damage intervals respect3s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tank-loss fresh retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch-tank-loss exit to range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual simultaneous two-finger move/fire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual mobile ship-exit loss",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch exit-loss retry fresh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "touch confirmed level exit to range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 entry start fits canvas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320 en usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 89,
+        "settings": 89,
+        "hud": 143,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 en HUD/Pause/settings/Fire remain visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 89,
+        "settings": 89,
+        "hud": 143,
+        "fire": 604.546875
+      }
+    },
+    {
+      "name": "320 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320 zh-TW usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 176,
+        "settings": 176,
+        "hud": 230,
+        "fire": 691.546875
+      }
+    },
+    {
+      "name": "320 zh-TW HUD/Pause/settings/Fire remain visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            145.203125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 176,
+        "settings": 176,
+        "hud": 230,
+        "fire": 691.546875
+      }
+    },
+    {
+      "name": "320 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 entry start fits canvas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390 en usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 129,
+        "settings": 129,
+        "hud": 183,
+        "fire": 708.953125
+      }
+    },
+    {
+      "name": "390 en HUD/Pause/settings/Fire remain visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 129,
+        "settings": 129,
+        "hud": 183,
+        "fire": 708.953125
+      }
+    },
+    {
+      "name": "390 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390 zh-TW usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 168,
+        "settings": 168,
+        "hud": 222,
+        "fire": 747.953125
+      }
+    },
+    {
+      "name": "390 zh-TW HUD/Pause/settings/Fire remain visible",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            177.40625,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            94,
+            94
+          ]
+        ],
+        "pause": 168,
+        "settings": 168,
+        "hud": 222,
+        "fire": 747.953125
+      }
+    },
+    {
+      "name": "390 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768 entry start fits canvas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768 en usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            170.453125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 52,
+        "settings": 52,
+        "hud": 106,
+        "fire": 933.140625
+      }
+    },
+    {
+      "name": "768 zh-TW usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "settings": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "1440 entry start fits canvas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440 en usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            170.453125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 8,
+        "settings": 8,
+        "hud": 62,
+        "fire": 889.140625
+      }
+    },
+    {
+      "name": "1440 en axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440 zh-TW usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "settings": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "1440 zh-TW axe zero reported violations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "844 entry start fits canvas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "844 en usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            170.453125,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 8,
+        "settings": 8,
+        "hud": 62,
+        "fire": 889.140625
+      }
+    },
+    {
+      "name": "844 zh-TW usable targets/layout",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "targets": [
+          [
+            109.46875,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            88,
+            88
+          ]
+        ],
+        "pause": 177,
+        "settings": 177,
+        "hud": 231,
+        "fire": 1058.140625
+      }
+    },
+    {
+      "name": "offline-informed two initial side hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-informed visible on-fire state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-informed wins with six effective hull hits",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-informed all three tankHP retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "offline-informed near modeled12.72s",
+      "passed": true,
+      "detail": 12.692609866858502
+    },
+    {
+      "name": "offline-informed no movement after second aim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML win",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline actual ship exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML escape",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "offline-tank-loss can move/fire while protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tank-loss actual three-hit tank defeat",
+      "passed": true,
+      "detail": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ]
+    },
+    {
+      "name": "offline-tank-loss damage intervals respect3s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tank-loss fresh retry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline-tank-loss exit to range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "offline only initial HTML defeat",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:8080/preview/guardian.html"
+      ]
+    },
+    {
+      "name": "no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no external runtime HTTP",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "playthroughs": [
+    {
+      "name": "no-fire-full-route",
+      "outcome": "escaped",
+      "finishedAt": 26.283185307179586,
+      "tankHP": 2,
+      "opportunities": [
+        {
+          "time": 3,
+          "leg": "left",
+          "fired": true,
+          "direction": {
+            "x": 1,
+            "y": 6.123233995736766e-17
+          },
+          "muzzles": [
+            {
+              "x": 178,
+              "y": 576
+            },
+            {
+              "x": 178,
+              "y": 488
+            },
+            {
+              "x": 178,
+              "y": 400
+            }
+          ]
+        },
+        {
+          "time": 6,
+          "leg": "left",
+          "fired": false,
+          "direction": {
+            "x": 1,
+            "y": 6.123233995736766e-17
+          },
+          "muzzles": [
+            {
+              "x": 178,
+              "y": 360
+            },
+            {
+              "x": 178,
+              "y": 272
+            },
+            {
+              "x": 178,
+              "y": 184
+            }
+          ]
+        },
+        {
+          "time": 9,
+          "leg": "leftTurn",
+          "fired": false,
+          "direction": {
+            "x": 0.3932186797763575,
+            "y": 0.9194449792537552
+          },
+          "muzzles": [
+            {
+              "x": 144.41778480311362,
+              "y": 186.88653543852655
+            },
+            {
+              "x": 225.3289429774441,
+              "y": 152.2832916182071
+            },
+            {
+              "x": 306.2401011517746,
+              "y": 117.68004779788762
+            }
+          ]
+        },
+        {
+          "time": 12,
+          "leg": "top",
+          "fired": true,
+          "direction": {
+            "x": -0.0,
+            "y": 1
+          },
+          "muzzles": [
+            {
+              "x": 325.80532894153487,
+              "y": 146
+            },
+            {
+              "x": 413.80532894153487,
+              "y": 146
+            },
+            {
+              "x": 501.80532894153487,
+              "y": 146
+            }
+          ]
+        },
+        {
+          "time": 15,
+          "leg": "rightTurn",
+          "fired": false,
+          "direction": {
+            "x": -0.729843205854308,
+            "y": 0.6836145806434399
+          },
+          "muzzles": [
+            {
+              "x": 508.7696869600133,
+              "y": 106.45186059463256
+            },
+            {
+              "x": 568.927770056636,
+              "y": 170.67806270981166
+            },
+            {
+              "x": 629.0858531532587,
+              "y": 234.90426482499078
+            }
+          ]
+        },
+        {
+          "time": 18,
+          "leg": "right",
+          "fired": true,
+          "direction": {
+            "x": -1,
+            "y": 6.123233995736766e-17
+          },
+          "muzzles": [
+            {
+              "x": 590,
+              "y": 243.61065788306973
+            },
+            {
+              "x": 590,
+              "y": 331.61065788306973
+            },
+            {
+              "x": 590,
+              "y": 419.61065788306973
+            }
+          ]
+        },
+        {
+          "time": 21,
+          "leg": "right",
+          "fired": true,
+          "direction": {
+            "x": -1,
+            "y": 6.123233995736766e-17
+          },
+          "muzzles": [
+            {
+              "x": 590,
+              "y": 459.61065788306973
+            },
+            {
+              "x": 590,
+              "y": 547.6106578830697
+            },
+            {
+              "x": 590,
+              "y": 635.6106578830697
+            }
+          ]
+        },
+        {
+          "time": 24,
+          "leg": "right",
+          "fired": false,
+          "direction": {
+            "x": -1,
+            "y": 6.123233995736766e-17
+          },
+          "muzzles": [
+            {
+              "x": 590,
+              "y": 675.6106578830697
+            },
+            {
+              "x": 590,
+              "y": 763.6106578830697
+            },
+            {
+              "x": 590,
+              "y": 851.6106578830697
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "keyboard-informed",
+      "input": "keyboard",
+      "outcome": "success",
+      "finishedAt": 12.676486309492581,
+      "shots": 13,
+      "tankHP": 3,
+      "hits": [
+        {
+          "time": 0.778906992532246,
+          "hp": 5,
+          "position": {
+            "x": 112,
+            "y": 647.9186965376783,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 152.72464358452137,
+          "y": 688
+        },
+        {
+          "time": 1.7727970128988426,
+          "hp": 4,
+          "position": {
+            "x": 112,
+            "y": 576.3586150712833,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 155.65743380855395,
+          "y": 688
+        },
+        {
+          "time": 9.73172327751189,
+          "hp": 3,
+          "position": {
+            "x": 250.49074981456133,
+            "y": 80.10542691819737,
+            "heading": -0.0382680213722848,
+            "leg": "leftTurn"
+          },
+          "x": 389.20000000000005,
+          "y": 95.57282679432265
+        },
+        {
+          "time": 10.688706268759288,
+          "hp": 2,
+          "position": {
+            "x": 319.39218029220365,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 116.22099099558211
+        },
+        {
+          "time": 11.682596289125936,
+          "hp": 1,
+          "position": {
+            "x": 390.9522617586023,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 119.15378121961484
+        },
+        {
+          "time": 12.676486309492581,
+          "hp": 0,
+          "position": {
+            "x": 462.5123432250008,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 122.08657144364757
+        }
+      ],
+      "lastAim": {
+        "x": 389.20000000000005,
+        "y": 682.8,
+        "facing": "up"
+      },
+      "ongoing_response": "none after initial two-station positioning/aim"
+    },
+    {
+      "name": "keyboard-tank-loss",
+      "input": "keyboard",
+      "outcome": "defeat",
+      "finishedAt": 21.790555555555276,
+      "tankHits": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ],
+      "shipHP": 6
+    },
+    {
+      "name": "touch-informed",
+      "input": "CDP touch",
+      "outcome": "success",
+      "finishedAt": 12.676486309492581,
+      "shots": 13,
+      "tankHP": 3,
+      "hits": [
+        {
+          "time": 0.778906992532246,
+          "hp": 5,
+          "position": {
+            "x": 112,
+            "y": 647.9186965376783,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 152.72464358452137,
+          "y": 688
+        },
+        {
+          "time": 1.7727970128988426,
+          "hp": 4,
+          "position": {
+            "x": 112,
+            "y": 576.3586150712833,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 155.65743380855395,
+          "y": 688
+        },
+        {
+          "time": 9.73172327751189,
+          "hp": 3,
+          "position": {
+            "x": 250.49074981456133,
+            "y": 80.10542691819737,
+            "heading": -0.0382680213722848,
+            "leg": "leftTurn"
+          },
+          "x": 389.20000000000005,
+          "y": 95.57282679432265
+        },
+        {
+          "time": 10.688706268759288,
+          "hp": 2,
+          "position": {
+            "x": 319.39218029220365,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 116.22099099558211
+        },
+        {
+          "time": 11.682596289125936,
+          "hp": 1,
+          "position": {
+            "x": 390.9522617586023,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 119.15378121961484
+        },
+        {
+          "time": 12.676486309492581,
+          "hp": 0,
+          "position": {
+            "x": 462.5123432250008,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 389.20000000000005,
+          "y": 122.08657144364757
+        }
+      ],
+      "lastAim": {
+        "x": 389.20000000000005,
+        "y": 682.8,
+        "facing": "up"
+      },
+      "ongoing_response": "none after initial two-station positioning/aim"
+    },
+    {
+      "name": "touch-tank-loss",
+      "input": "CDP touch",
+      "outcome": "defeat",
+      "finishedAt": 21.790555555555276,
+      "tankHits": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ],
+      "shipHP": 6
+    },
+    {
+      "name": "offline-informed",
+      "input": "keyboard",
+      "outcome": "success",
+      "finishedAt": 12.692609866858502,
+      "shots": 13,
+      "tankHP": 3,
+      "hits": [
+        {
+          "time": 0.7900882552613703,
+          "hp": 5,
+          "position": {
+            "x": 112,
+            "y": 647.1136456211814,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 152.75763747454175,
+          "y": 688
+        },
+        {
+          "time": 1.7839782756279667,
+          "hp": 4,
+          "position": {
+            "x": 112,
+            "y": 575.5535641547864,
+            "heading": -1.5707963267948966,
+            "leg": "left"
+          },
+          "x": 155.69042769857433,
+          "y": 688
+        },
+        {
+          "time": 9.736171889332427,
+          "hp": 3,
+          "position": {
+            "x": 250.8108287286035,
+            "y": 80.09352863225325,
+            "heading": -0.036043715462016124,
+            "leg": "leftTurn"
+          },
+          "x": 384,
+          "y": 101.43749312046516
+        },
+        {
+          "time": 10.704829826125208,
+          "hp": 2,
+          "position": {
+            "x": 320.5530764225498,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 384,
+          "y": 116.48168345994057
+        },
+        {
+          "time": 11.698719846491855,
+          "hp": 1,
+          "position": {
+            "x": 392.1131578889484,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 384,
+          "y": 119.4144736839733
+        },
+        {
+          "time": 12.692609866858502,
+          "hp": 0,
+          "position": {
+            "x": 463.67323935534705,
+            "y": 80,
+            "heading": 0,
+            "leg": "top"
+          },
+          "x": 384,
+          "y": 122.34726390800603
+        }
+      ],
+      "lastAim": {
+        "x": 384,
+        "y": 682.8,
+        "facing": "up"
+      },
+      "ongoing_response": "none after initial two-station positioning/aim"
+    },
+    {
+      "name": "offline-tank-loss",
+      "input": "keyboard",
+      "outcome": "defeat",
+      "finishedAt": 21.790555555555276,
+      "tankHits": [
+        {
+          "time": 4.148888888888881,
+          "hp": 2,
+          "x": 384.8000000000003,
+          "y": 576
+        },
+        {
+          "time": 14.071666666666763,
+          "hp": 1,
+          "x": 413.80532894153487,
+          "y": 518.899999999999
+        },
+        {
+          "time": 21.790555555555276,
+          "hp": 0,
+          "x": 447.7000000000003,
+          "y": 547.6106578830697
+        }
+      ],
+      "shipHP": 6
+    }
+  ],
+  "errors": [],
+  "method": "actual keyboard/CDP touch, controlled clock, read-only game snapshots and rendered Canvas command checks",
+  "independent_first_time_player": "Not performed",
+  "physical_phone": "Not performed",
+  "other_browser_engines": "Not performed"
+}

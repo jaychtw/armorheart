@@ -1,0 +1,131 @@
+{
+  "status": "One original editable visual assessment; pending creative review, not Stage3 production integration",
+  "source_png": "planning/interception-m3/art/source/hull-underpainting.png",
+  "source_sha256": "cacce504a22d53e2a65a5232cb8f5a368e62ce47fa30e529ac1902aa7606e786",
+  "source_dimensions": [
+    2172,
+    724
+  ],
+  "turret_source_png": "planning/interception-m3/art/source/turret-house.png",
+  "turret_source_sha256": "b94c95c16dbca6d67263834c79cde6c7a5ccbcea031dbab147e9a9b63c956242",
+  "turret_source_dimensions": [
+    1386,
+    1135
+  ],
+  "turret_alpha16_box": [
+    148,
+    51,
+    1236,
+    1078
+  ],
+  "alpha16_registration_box": [
+    68,
+    67,
+    2108,
+    655
+  ],
+  "registration": {
+    "destination_deck_rect": [
+      -158,
+      -41,
+      316,
+      82
+    ],
+    "aspect": "explicit nonuniform underpainting registration inside exact hull; original PNG untouched"
+  },
+  "body_polygon": [
+    [
+      160,
+      0
+    ],
+    [
+      124,
+      34
+    ],
+    [
+      -120,
+      44
+    ],
+    [
+      -150,
+      26
+    ],
+    [
+      -160,
+      0
+    ],
+    [
+      -150,
+      -26
+    ],
+    [
+      -120,
+      -44
+    ],
+    [
+      124,
+      -34
+    ]
+  ],
+  "body_dimensions": [
+    320,
+    88
+  ],
+  "muzzles": [
+    {
+      "mount": [
+        -88,
+        0
+      ],
+      "mouth": [
+        -88,
+        66
+      ],
+      "local_direction": [
+        0,
+        1
+      ]
+    },
+    {
+      "mount": [
+        0,
+        0
+      ],
+      "mouth": [
+        0,
+        66
+      ],
+      "local_direction": [
+        0,
+        1
+      ]
+    },
+    {
+      "mount": [
+        88,
+        0
+      ],
+      "mouth": [
+        88,
+        66
+      ],
+      "local_direction": [
+        0,
+        1
+      ]
+    }
+  ],
+  "barrel_render": "one visible heavy bore per battery, one-to-one with approved3-shell volley",
+  "svg_sha256": "3eda4858e442181cf9125af205068e583390f7582e4a4bb4d35915e4e5cd71dd",
+  "reference_pixels_in_asset": false,
+  "editable_layers": [
+    "hull-silhouette",
+    "deck-and-superstructure (preserved raster)",
+    "hull-edge",
+    "main-batteries-fixed-starboard",
+    "battery-component/painted-turret-house (preserved raster)",
+    "primary-bore-component (vector; beneath turret)",
+    "muzzle-registration (hidden diagnostic)"
+  ],
+  "limitation": "painted deck and turret houses are raster, not separated original architecture layers or fully vector; original poster binary not exposed"
+}

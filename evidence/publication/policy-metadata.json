@@ -1,0 +1,105 @@
+{
+  "repos/jaychtw/armorheart/actions/permissions": {
+    "exit_code": 1,
+    "result": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/actions/permissions#get-github-actions-permissions-for-a-repository",
+      "status": "403"
+    }
+  },
+  "repos/jaychtw/armorheart/actions/permissions/workflow": {
+    "exit_code": 1,
+    "result": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/actions/permissions#get-default-workflow-permissions-for-a-repository",
+      "status": "403"
+    }
+  },
+  "repos/jaychtw/armorheart/actions/secrets": {
+    "exit_code": 1,
+    "result": {
+      "total_count": null,
+      "names": [],
+      "message": "Resource not accessible by integration"
+    }
+  },
+  "repos/jaychtw/armorheart/hooks": {
+    "exit_code": 1,
+    "result": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/repos/webhooks#list-repository-webhooks",
+      "status": "403"
+    }
+  },
+  "repos/jaychtw/armorheart/branches/main": {
+    "exit_code": 0,
+    "result": {
+      "name": "main",
+      "sha": "a70a447512b7956128dd386ef6c447fbdc801c3f",
+      "protected": false
+    }
+  },
+  "repos/jaychtw/jaychtw.github.io/actions/workflows": {
+    "exit_code": 0,
+    "result": {
+      "total_count": 3,
+      "workflows": [
+        {
+          "id": 397963282,
+          "node_id": "W_kwDOVYXa5c4XuHAS",
+          "name": "Validate release candidate",
+          "path": ".github/workflows/ci.yml",
+          "state": "active",
+          "created_at": "2026-10-27T07:28:25.000Z",
+          "updated_at": "2026-10-27T07:28:25.000Z",
+          "url": "https://api.github.com/repos/jaychtw/jaychtw.github.io/actions/workflows/397963282",
+          "html_url": "https://github.com/jaychtw/jaychtw.github.io/blob/main/.github/workflows/ci.yml",
+          "badge_url": "https://github.com/jaychtw/jaychtw.github.io/workflows/Validate%20release%20candidate/badge.svg"
+        },
+        {
+          "id": 397963284,
+          "node_id": "W_kwDOVYXa5c4XuHAU",
+          "name": "Publish approved Possibility release",
+          "path": ".github/workflows/deploy.yml",
+          "state": "active",
+          "created_at": "2026-10-27T07:28:25.000Z",
+          "updated_at": "2026-10-27T07:28:25.000Z",
+          "url": "https://api.github.com/repos/jaychtw/jaychtw.github.io/actions/workflows/397963284",
+          "html_url": "https://github.com/jaychtw/jaychtw.github.io/blob/main/.github/workflows/deploy.yml",
+          "badge_url": "https://github.com/jaychtw/jaychtw.github.io/workflows/Publish%20approved%20Possibility%20release/badge.svg"
+        },
+        {
+          "id": 397461777,
+          "node_id": "W_kwDOVYXa5c4XsMkR",
+          "name": "pages-build-deployment",
+          "path": "dynamic/pages/pages-build-deployment",
+          "state": "active",
+          "created_at": "2026-10-26T19:24:29.000Z",
+          "updated_at": "2026-10-26T19:24:29.000Z",
+          "url": "https://api.github.com/repos/jaychtw/jaychtw.github.io/actions/workflows/397461777",
+          "html_url": "https://github.com/jaychtw/jaychtw.github.io/actions/workflows/pages/pages-build-deployment",
+          "badge_url": "https://github.com/jaychtw/jaychtw.github.io/actions/workflows/pages/pages-build-deployment/badge.svg"
+        }
+      ]
+    }
+  },
+  "repos/jaychtw/jaychtw.github.io/pages": {
+    "exit_code": 0,
+    "result": {
+      "url": "https://api.github.com/repos/jaychtw/jaychtw.github.io/pages",
+      "status": "built",
+      "cname": null,
+      "custom_404": false,
+      "html_url": "https://jaychtw.github.io/",
+      "build_type": "workflow",
+      "source": {
+        "branch": "main",
+        "path": "/"
+      },
+      "public": true,
+      "protected_domain_state": null,
+      "pending_domain_unverified_at": null,
+      "https_enforced": true
+    }
+  }
+}

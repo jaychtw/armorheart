@@ -1,0 +1,8 @@
+{
+  "method": "git archive of committed HEAD to a separate temporary directory; run its Python stdlib preview builder; byte-compare to committed preview",
+  "source_commit": "b0b3ffcacb845255146c2a20ba6ffb87d8b5fbd9",
+  "byte_identical": true,
+  "bytes": 345033,
+  "sha256": "9c30126ba7c2a84163cfc7372f558cc4eda1cb27bd4560f20a540d52ce3fe2c6",
+  "limitation": "Independent archive reconstruction, not a fresh GitHub clone or physical-device run"
+}

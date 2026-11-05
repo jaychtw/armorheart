@@ -1,0 +1,260 @@
+
+> armorheart-guardian-poc@1.0.0-rc.1 test
+> node tests/engine.test.mjs && node tests/breakthrough.test.mjs && node tests/r3.test.mjs && node tests/colossus.test.mjs && node tests/interception.test.mjs && node tests/siege.test.mjs && node tests/progress.test.mjs
+
+✔ facing changes while an adjacent solid wall prevents movement (1.714356ms)
+✔ cardinal movement has fixed speed, no diagonal and remains in bounds (12.181998ms)
+✔ first held shot is immediate, repeat interval is one second, ammunition is unlimited (3.997317ms)
+✔ tapping fire cannot bypass cooldown (0.364208ms)
+✔ one shell hits nearest wall, consumes itself and does not pierce (0.242805ms)
+✔ muzzle overlap cannot shoot through an adjacent wall (0.092339ms)
+✔ steel consumes shell and remains unchanged (0.105128ms)
+✔ swept collision finds thin crossing even when endpoint is beyond wall (0.103005ms)
+✔ completion occurs on sixth removed brick and reset restores scene (0.135164ms)
+✔ independent recoil peaks then recovers; reduced motion preserves smaller cue (0.251017ms)
+✔ settings reject corrupt fields and localization key coverage matches (0.873623ms)
+✔ hull envelope uses artwork pivot/scale and excludes the protruding barrel (0.07988ms)
+✔ brick contact clamps visible hull in up across frame deltas (9.540918ms)
+✔ brick contact clamps visible hull in right across frame deltas (6.773741ms)
+✔ brick contact clamps visible hull in down across frame deltas (6.435251ms)
+✔ brick contact clamps visible hull in left across frame deltas (10.899431ms)
+✔ steel contact clamps visible hull in up across frame deltas (10.036453ms)
+✔ steel contact clamps visible hull in right across frame deltas (5.452544ms)
+✔ steel contact clamps visible hull in down across frame deltas (5.2238ms)
+✔ steel contact clamps visible hull in left across frame deltas (6.848923ms)
+✔ adjacent walls, corner and parallel sliding do not clip or stick (0.287292ms)
+✔ blocked cardinal turn resolves hull clearance and never moves through a wall (0.22606ms)
+✔ barrel overlap still consumes one projectile at the first wall (0.07954ms)
+✔ revised proving ground keeps wall counts and avoids corridor-sized turn relocations (950.012386ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1042.737086
+✔ M1 subset 0: independent oracle connectivity and shortest route (3.427942ms)
+✔ M1 subset 1: independent oracle connectivity and shortest route (1.713375ms)
+✔ M1 subset 2: independent oracle connectivity and shortest route (0.829336ms)
+✔ M1 subset 3: independent oracle connectivity and shortest route (4.330317ms)
+✔ M1 subset 4: independent oracle connectivity and shortest route (2.005474ms)
+✔ M1 subset 5: independent oracle connectivity and shortest route (0.460502ms)
+✔ M1 subset 6: independent oracle connectivity and shortest route (3.771157ms)
+✔ M1 subset 7: independent oracle connectivity and shortest route (1.799224ms)
+✔ tied lower routes prefer left, deterministic across wall array order (1.125702ms)
+✔ mid-edge route compares both endpoints and preserves continuation on ties (0.308113ms)
+✔ swept group edges reject corner cuts even with clear endpoints (0.15948ms)
+✔ group pixels fit the envelope and full exit containment, not center alone, wins (0.131117ms)
+✔ route only replans after effective destruction; first full route announces once (1.135947ms)
+✔ crowd remains inside walls and corridor at every intermediate movement sample (3.042092ms)
+✔ long frame processes the full route, reports earlier success before late render (0.692731ms)
+✔ arrival with elapsed 88.999 respects strict deadline (0.225208ms)
+✔ arrival with elapsed 89 respects strict deadline (0.636967ms)
+✔ arrival with elapsed 89.001 respects strict deadline (0.204127ms)
+✔ visible time cannot be extended by physics clamp and terminal state is immutable (1.103227ms)
+✔ tank at exit and every brick removed do not trigger six-block/range completion (0.388564ms)
+✔ stationary spawn firing cannot open route; shells do not interact with crowd (1.784542ms)
+✔ large blocks consume one shell/one hit and corridor side boundary consumes fire (0.185629ms)
+✔ fresh Retry state resets map, time, route, shots and completion (0.371248ms)
+✔ all map subsets/orientations stay clear with local R2 turn correction (6125.783924ms)
+✔ crowd overlap never blocks tank motion or consumes a shot (0.527383ms)
+✔ topology change after a deadline cannot create a late win (0.217056ms)
+✔ replan while moving keeps the continuous crowd center and valid edge (0.381813ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6167.7903
+✔ R3 runtime geometry is exactly the approved map, spawns and clearance (1.28482ms)
+✔ R3 state 0: runtime matches independent geometry oracle and swept actions (5.455295ms)
+✔ R3 state 1: runtime matches independent geometry oracle and swept actions (3.238455ms)
+✔ R3 state 2: runtime matches independent geometry oracle and swept actions (2.705785ms)
+✔ R3 state 3: runtime matches independent geometry oracle and swept actions (3.363873ms)
+✔ R3 state 4: runtime matches independent geometry oracle and swept actions (3.789683ms)
+✔ R3 state 5: runtime matches independent geometry oracle and swept actions (3.316573ms)
+✔ R3 state 6: runtime matches independent geometry oracle and swept actions (2.192954ms)
+✔ R3 state 7: runtime matches independent geometry oracle and swept actions (2.476992ms)
+✔ R3 state 8: runtime matches independent geometry oracle and swept actions (1.953905ms)
+✔ R3 state 9: runtime matches independent geometry oracle and swept actions (2.912515ms)
+✔ R3 state 10: runtime matches independent geometry oracle and swept actions (1.903559ms)
+✔ R3 state 11: runtime matches independent geometry oracle and swept actions (1.873915ms)
+✔ R3 state 12: runtime matches independent geometry oracle and swept actions (1.447244ms)
+✔ R3 state 13: runtime matches independent geometry oracle and swept actions (1.486233ms)
+✔ R3 state 14: runtime matches independent geometry oracle and swept actions (1.586163ms)
+✔ R3 state 15: runtime matches independent geometry oracle and swept actions (1.971161ms)
+✔ deterministic routes survive reversed wall iteration order (2.455599ms)
+✔ one effective projectile removes one cell, not the mixed 2x2 island (0.890268ms)
+✔ waiting steel impacts never trigger replanning or solve the maze (3.525967ms)
+✔ route-open cue occurs only once after both upper cells are gone (4.449975ms)
+✔ one lower cell does not create the shortcut (4.647282ms)
+✔ newly available shortcut replans at a legal action endpoint without a jump (3.425506ms)
+✔ partial pivots are timed in place and their interpolation is preserved (4.051597ms)
+✔ entire truck and north-facing orientation required at exit (0.068783ms)
+✔ pivot arrival at elapsed 89.649 honors strict90-second boundary (1.548246ms)
+✔ pivot arrival at elapsed 89.65 honors strict90-second boundary (1.135175ms)
+✔ pivot arrival at elapsed 89.651 honors strict90-second boundary (1.299152ms)
+✔ late rendered frame retains earlier valid arrival and freezes terminal state (1.480955ms)
+✔ no route times out on real active interval and late demolition cannot win (0.781664ms)
+✔ tank and shots do not block or damage the transport (1.241485ms)
+✔ Retry creates fresh transport/map/time without stale actions (1.831992ms)
+✔ all bricks removed or Guardian reaching refuge is not mission success (1.459632ms)
+✔ navigation rejects a point-only passage and radius76 protects full pivot (0.760723ms)
+✔ R3 state 0: each remaining brick takes exactly one shot from a legal pose (3.203122ms)
+✔ R3 state 1: each remaining brick takes exactly one shot from a legal pose (4.217365ms)
+✔ R3 state 2: each remaining brick takes exactly one shot from a legal pose (4.023435ms)
+✔ R3 state 3: each remaining brick takes exactly one shot from a legal pose (3.349903ms)
+✔ R3 state 4: each remaining brick takes exactly one shot from a legal pose (4.262864ms)
+✔ R3 state 5: each remaining brick takes exactly one shot from a legal pose (3.110843ms)
+✔ R3 state 6: each remaining brick takes exactly one shot from a legal pose (1.863259ms)
+✔ R3 state 7: each remaining brick takes exactly one shot from a legal pose (0.898059ms)
+✔ R3 state 8: each remaining brick takes exactly one shot from a legal pose (2.838665ms)
+✔ R3 state 9: each remaining brick takes exactly one shot from a legal pose (2.413255ms)
+✔ R3 state 10: each remaining brick takes exactly one shot from a legal pose (1.34446ms)
+✔ R3 state 11: each remaining brick takes exactly one shot from a legal pose (1.051009ms)
+✔ R3 state 12: each remaining brick takes exactly one shot from a legal pose (1.508646ms)
+✔ R3 state 13: each remaining brick takes exactly one shot from a legal pose (0.941324ms)
+✔ R3 state 14: each remaining brick takes exactly one shot from a legal pose (0.739491ms)
+✔ R3 state 15: each remaining brick takes exactly one shot from a legal pose (0.021082ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 120.783485
+safe-lane actual simulation 7.373874950320498 5 [
+  { time: 3.95074570032051, hp: 3, stop: 'UR', view: 'south' },
+  { time: 4.945303512820507, hp: 2, stop: 'UR', view: 'south' },
+  { time: 6.3999999999999835, hp: 1, stop: 'LR', view: 'south' },
+  { time: 7.373874950320498, hp: 0, stop: 'LR', view: 'west' }
+]
+✔ M2 exact approved stop sequence, no walls/deadline, initial health (1.080864ms)
+✔ full16-second cycle includes five exact2s pauses and five1.2s hops (2.878474ms)
+✔ takeoff/landing boundaries, essential height and exact arrival anchor (0.667553ms)
+✔ health stages, required poses and genuine four views exist (0.182074ms)
+✔ registered visible pixels stay in arena over all five hop paths (0.516927ms)
+✔ zero-time input keeps accepted immediate facing and muzzle collision semantics (0.82505ms)
+✔ actual visible body core accepts cardinal shots in every grounded direction/pose (0.37272ms)
+✔ initial muzzle consumes a projectile on one boss hit, not a repeated body hit (0.670468ms)
+✔ one-second shared cooldown retained in M2 (3.970204ms)
+✔ optional target hook preserves nearest walls and equal-time wall priority (0.359149ms)
+✔ conservative swept contact covers crossing, tangency and misses (0.324908ms)
+✔ contact1HP, immunity3sec, movement/fire usable without displacement (0.300431ms)
+✔ immunity exact expiry is eligible, immediately before is protected (0.220491ms)
+✔ tank can pass under an airborne boss without contact or body hit (0.101693ms)
+✔ earlier lethal contact beats a later projectile, exact tie favors final boss hit (0.299841ms)
+✔ landing causes contact immediately but takeoff endpoint is not a ground hit (0.427673ms)
+✔ safe-lane risk is reproduced in actual simulation without HP/timer changes (5.051498ms)
+✔ repeat contact over cycles yields3HP loss, clean retry and terminal freeze (3.48789ms)
+✔ all M2 fixed simulation clocks pause together; a large input step is capped (0.133581ms)
+✔ simultaneous projectiles clamp bossHP and suppress later queued impacts (0.315674ms)
+✔ a travelling shell reaching the body at takeoff boundary passes underneath (0.09313ms)
+✔ instant muzzle endpoint hit before takeoff is not discarded as a late flight hit (0.085098ms)
+✔ leaving contact before immunity expires does not cause a deferred hit (0.065689ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27.682125
+M3 informed actual rule simulation 12.711659425582225 13 [
+  0.7956788866259321,
+  1.789568906992529,
+  9.75137210631335,
+  10.723879384848928,
+  11.717769405215575,
+  12.711659425582225
+]
+✔ runtime map is the exact accepted working JSON (1.135636ms)
+✔ clockwise route, continuous tangent joins and exact exit (0.276425ms)
+✔ fixed bores point east/south/west on the three coasts (0.167331ms)
+✔ correct body stages with no mechanical attack phases (0.081272ms)
+✔ shore is movement-only; bullets cross coast and hit actual hull (1.623248ms)
+✔ accepted tank hull stays on land and every extreme turn correction <=19 (4.095282ms)
+✔ healthy complete trip exposes all4 volleys,4 held slots,exact3 mouths and escape (6.817371ms)
+✔ charge warning starts0.6s before eligible slots,never a held tick (0.237036ms)
+✔ one fired shell produces one damage and one consumption (0.284938ms)
+✔ actual accepted cadence remains one second and unlimited (1.022175ms)
+✔ moving polygon sweep catches crossing,tip entry and transparent hull corners (0.192549ms)
+✔ barrels/water are not the whole rectangular hull target (0.076234ms)
+✔ player shell eligibility clips to visible field,never offscreen geometry (0.048783ms)
+✔ approved480/s moving sweep converges at1/480 versus1/960 over both curves (0.766091ms)
+✔ enemy shell collision uses rounded radius,not square-corner phantom hits (0.122424ms)
+✔ 3s immunity absorbs shells once and allows movement/fire (0.276926ms)
+✔ informed two-station strategy is feasible without stat or timer changes (4.192588ms)
+✔ spawn-held fire cannot finish the approved ship before exit (5.75804ms)
+✔ actual damage route permits tank defeat before ship exit (3.157713ms)
+✔ simultaneous final impact wins; earlier lethal tank impact remains defeat (0.157407ms)
+✔ exact simultaneous final hit/exit is a win,not a boundary-wall rejection (0.150075ms)
+✔ terminal outcomes freeze and retry creates an empty fresh encounter (2.670422ms)
+✔ fixed simulation bounds and invalid intervals are explicit (0.246891ms)
+✔ shore-clamped tank motion resolves the moving-then-stationary contact time (0.112109ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 38.579475
+M4 aggressive left 10.440384615384712 HP 1
+M4 aggressive right 10.440384615384712 HP 1
+M4 tactical32cases 20.80705128205116 23.80705128205116
+✔ M4 uses the exact approved map, defaults and independent64-unit cells (1.294715ms)
+✔ accepted HP stage boundaries carry no mechanical phase changes (0.095344ms)
+✔ solid fortress blocks tank but does not cause contact damage (1.860034ms)
+✔ 0.6-second precharge locks nearest gun; lower index breaks tie (1.454294ms)
+✔ aim snapshots at launch, emits five registered rays, freezes after movement (1.884731ms)
+✔ exact three-second opportunities do not wait for previous rounds (8.960121ms)
+✔ spawn cannot fire through permanent steel; holding retains one-second cooldown (5.818781ms)
+✔ each effective player shot removes just one cell and is consumed (0.224227ms)
+✔ enemy shots independently destroy brick and steel consumes without loss (0.27297ms)
+✔ same-time opposite-side impacts use one pre-impact cover snapshot (0.235874ms)
+✔ a later round passes cover destroyed earlier in the same frame (0.148873ms)
+✔ terrain occludes entity at exact same entry; first collision is non-piercing (0.128263ms)
+✔ muzzle-range walls resolve immediately at their actual contact position (0.136505ms)
+✔ three-second immunity consumes all contacts and permits normal input (1.00497ms)
+✔ actual rule adapter preserves accepted aggressive left/right strategies (18.135295ms)
+✔ all16 cover states have both tactical eight-hit solutions with <=1 contact (383.819677ms)
+✔ tank defeat is possible without altering cover or HP defaults (7.852597ms)
+✔ simultaneous final hit is player-safe; earlier lethal hit ends attempt (0.211708ms)
+✔ defeat and victory freeze; retry creates fresh cover and no queued salvo (5.200923ms)
+✔ projectile lifetime and diagnostic history are bounded in a no-timer encounter (84.636794ms)
+✔ invalid dt rejected; oversized frame is bounded to50ms (0.408184ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 535.3543
+✔ empty campaign has only Guardian and no commendation (1.089687ms)
+✔ all24 arbitrary victory orders grant exactly three tanks then commendation (1.25139ms)
+✔ repeat victories and result revisits do not grant rewards or change order (0.120762ms)
+✔ range, failures, unknown IDs and navigation cannot grant mission progress (0.098218ms)
+✔ selection is cosmetic, earned and preserves exact mission history (0.105148ms)
+✔ schema validates IDs, removes duplicates and falls back from unavailable selection (0.074882ms)
+✔ all five distinct completion-count states survive save/reload with selection (0.456125ms)
+✔ replays cause no duplicate storage writes or grants (0.696746ms)
+✔ blocked storage allows meaningful session-only progress and selection (0.204848ms)
+✔ write failure preserves session progress instead of rolling back a victory (0.185919ms)
+✔ corrupt or oversized data starts safely and can save a later actual victory (0.21991ms)
+✔ recognized pre-RC v0 schema migrates once to minimal v1 data (0.12652ms)
+✔ unknown future saves are preserved and play remains session-only (0.11337ms)
+✔ snapshots and reward results cannot mutate the live store (0.072809ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8.971046

@@ -1,0 +1,14 @@
+{
+  "name": "armorheart-guardian-poc",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "test": "node tests/engine.test.mjs && node tests/breakthrough.test.mjs && node tests/r3.test.mjs && node tests/colossus.test.mjs && node tests/interception.test.mjs && node tests/siege.test.mjs && node tests/progress.test.mjs",
+    "assets": "python3 tools/export_guardian.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

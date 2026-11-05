@@ -1,0 +1,193 @@
+[
+  {
+    "mask": 0,
+    "removed": [],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 1,
+    "removed": [
+      "U0"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 2,
+    "removed": [
+      "U1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 3,
+    "removed": [
+      "U0",
+      "U1"
+    ],
+    "reachable": true,
+    "seconds": 22.083333333333325,
+    "distance": 976,
+    "turns": 5,
+    "clear": true
+  },
+  {
+    "mask": 4,
+    "removed": [
+      "L0"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 5,
+    "removed": [
+      "U0",
+      "L0"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 6,
+    "removed": [
+      "U1",
+      "L0"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 7,
+    "removed": [
+      "U0",
+      "U1",
+      "L0"
+    ],
+    "reachable": true,
+    "seconds": 22.083333333333325,
+    "distance": 976,
+    "turns": 5,
+    "clear": true
+  },
+  {
+    "mask": 8,
+    "removed": [
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 9,
+    "removed": [
+      "U0",
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 10,
+    "removed": [
+      "U1",
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 11,
+    "removed": [
+      "U0",
+      "U1",
+      "L1"
+    ],
+    "reachable": true,
+    "seconds": 22.083333333333325,
+    "distance": 976,
+    "turns": 5,
+    "clear": true
+  },
+  {
+    "mask": 12,
+    "removed": [
+      "L0",
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 13,
+    "removed": [
+      "U0",
+      "L0",
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 14,
+    "removed": [
+      "U1",
+      "L0",
+      "L1"
+    ],
+    "reachable": false,
+    "seconds": null,
+    "distance": 0,
+    "turns": 0,
+    "clear": true
+  },
+  {
+    "mask": 15,
+    "removed": [
+      "U0",
+      "U1",
+      "L0",
+      "L1"
+    ],
+    "reachable": true,
+    "seconds": 14.716666666666674,
+    "distance": 656,
+    "turns": 3,
+    "clear": true
+  }
+]

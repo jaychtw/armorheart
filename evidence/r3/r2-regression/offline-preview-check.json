@@ -1,0 +1,9 @@
+{
+  "opened_via": "local HTTP, all requests other than initial HTML blocked",
+  "direct_file_test": "Not verified: managed Chromium ERR_BLOCKED_BY_ADMINISTRATOR",
+  "passed": true,
+  "shots": 1,
+  "walls_destroyed": 1,
+  "runtime_errors": [],
+  "additional_requests": []
+}

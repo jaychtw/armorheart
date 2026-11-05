@@ -1,0 +1,20 @@
+{
+  "source": [
+    256,
+    112
+  ],
+  "alphaBounds": [
+    0,
+    0,
+    256,
+    112
+  ],
+  "opaquePixels": 22587,
+  "worldScale": 0.5,
+  "body": [
+    128,
+    56
+  ],
+  "padding": 4,
+  "rotationCornerRadius": 75.15317691222374
+}

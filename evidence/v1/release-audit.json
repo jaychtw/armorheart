@@ -1,0 +1,31 @@
+{
+  "observed_utc": "2026-11-04",
+  "method": "Read-only GitHub API; no settings/workflows/deployments changed",
+  "game": {
+    "public": true,
+    "default_branch": "main",
+    "archived": false,
+    "workflow_count": 0,
+    "ruleset_count": 0,
+    "pages_build_type": "workflow",
+    "pages_configured_source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "pages_status": null,
+    "secrets_and_webhook_metadata": "Earlier metadata requests returned403; not independently verified. No credentials or secret values requested."
+  },
+  "portal": {
+    "repository": "jaychtw/jaychtw.github.io",
+    "read_main_sha": "20608379166853fe3704f1bbff858e1488d7f7e2",
+    "armorheart_entry_exists": false,
+    "documents_read": [
+      "docs/CATALOG.md",
+      "docs/MAINTENANCE.md",
+      "docs/DEPLOYMENT.md"
+    ],
+    "current_rules": "One content/projects/games/<id>.json; optional summaryZhTW fact-sheet translation; actual publishedAt; destination/link/asset evidence; manual exact-SHA workflow with authorization; automatic publication disabled",
+    "mutations": "None"
+  },
+  "cost": "Static no-backend/no-runtime-dependency architecture; $0 incremental resources used. No paid services activated. Future Pages publication requires explicit authority and current policy/usage recheck."
+}

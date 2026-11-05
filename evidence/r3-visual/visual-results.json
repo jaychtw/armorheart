@@ -1,0 +1,3486 @@
+{
+  "date": "2026-11-03 Asia/Taipei",
+  "baseline": "7d9720d8cee846735d5f1bb2dfc231b66eb4af7c",
+  "passed": 198,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "baseline reproduces barrel-over-turret defect",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333334,
+        "offset": 8.888888888888891,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 83,
+        "oldOrderWitnessPixels": 83,
+        "visibleBarrelPixels": 34
+      }
+    },
+    {
+      "name": "1440 up rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 0,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 62,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 40
+      }
+    },
+    {
+      "name": "1440 up recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 76,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 75,
+        "visibleBarrelPixels": 34
+      }
+    },
+    {
+      "name": "1440 up recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 83,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 80,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 up recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 76,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 76,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 up recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 69,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 68,
+        "visibleBarrelPixels": 38
+      }
+    },
+    {
+      "name": "1440 up recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 62,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 39
+      }
+    },
+    {
+      "name": "1440 up recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 62,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 39
+      }
+    },
+    {
+      "name": "1440 up recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 54,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 up recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 up recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 48
+      }
+    },
+    {
+      "name": "1440 up recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 up fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "1440 right rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 0,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 42
+      }
+    },
+    {
+      "name": "1440 right recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 83,
+        "visibleBarrelPixels": 34
+      }
+    },
+    {
+      "name": "1440 right recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 90,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 right recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 84,
+        "visibleBarrelPixels": 33
+      }
+    },
+    {
+      "name": "1440 right recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 35
+      }
+    },
+    {
+      "name": "1440 right recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 76,
+        "visibleBarrelPixels": 39
+      }
+    },
+    {
+      "name": "1440 right recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 41
+      }
+    },
+    {
+      "name": "1440 right recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 67,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 right recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 46
+      }
+    },
+    {
+      "name": "1440 right recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 48
+      }
+    },
+    {
+      "name": "1440 right recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 61,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 right recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 right fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "1440 down rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 0,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 62,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 40
+      }
+    },
+    {
+      "name": "1440 down recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 76,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 75,
+        "visibleBarrelPixels": 34
+      }
+    },
+    {
+      "name": "1440 down recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 83,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 80,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 down recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 76,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 76,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 down recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 69,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 35
+      }
+    },
+    {
+      "name": "1440 down recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 69,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 68,
+        "visibleBarrelPixels": 38
+      }
+    },
+    {
+      "name": "1440 down recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 54,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 down recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 down recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 48
+      }
+    },
+    {
+      "name": "1440 down recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 55,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 48
+      }
+    },
+    {
+      "name": "1440 down recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 48,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 48,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 down fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "1440 left rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 0,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 42
+      }
+    },
+    {
+      "name": "1440 left recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 83,
+        "visibleBarrelPixels": 34
+      }
+    },
+    {
+      "name": "1440 left recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 89,
+        "visibleBarrelPixels": 32
+      }
+    },
+    {
+      "name": "1440 left recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 84,
+        "visibleBarrelPixels": 33
+      }
+    },
+    {
+      "name": "1440 left recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 35
+      }
+    },
+    {
+      "name": "1440 left recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 76,
+        "visibleBarrelPixels": 39
+      }
+    },
+    {
+      "name": "1440 left recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 41
+      }
+    },
+    {
+      "name": "1440 left recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 66,
+        "visibleBarrelPixels": 44
+      }
+    },
+    {
+      "name": "1440 left recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 61,
+        "visibleBarrelPixels": 46
+      }
+    },
+    {
+      "name": "1440 left recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 48
+      }
+    },
+    {
+      "name": "1440 left recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 61,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 left recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 49
+      }
+    },
+    {
+      "name": "1440 left recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 55,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.31666666666666665,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 56,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 56,
+        "visibleBarrelPixels": 51
+      }
+    },
+    {
+      "name": "1440 left fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "390 up rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 0,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 90,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 up recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 93,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 up recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 111,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 101,
+        "visibleBarrelPixels": 68
+      }
+    },
+    {
+      "name": "390 up recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 93,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 up recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 92,
+        "visibleBarrelPixels": 76
+      }
+    },
+    {
+      "name": "390 up recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 98,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 86,
+        "visibleBarrelPixels": 80
+      }
+    },
+    {
+      "name": "390 up recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 up recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 90,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 87
+      }
+    },
+    {
+      "name": "390 up recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 83,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 up recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 82,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 92
+      }
+    },
+    {
+      "name": "390 up recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 82,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 75,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.31666666666666665,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "up"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 up fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "390 right rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 0,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 right recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 90,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 right recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 98,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 98,
+        "visibleBarrelPixels": 68
+      }
+    },
+    {
+      "name": "390 right recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 91,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 right recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 91,
+        "visibleBarrelPixels": 76
+      }
+    },
+    {
+      "name": "390 right recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 84,
+        "visibleBarrelPixels": 80
+      }
+    },
+    {
+      "name": "390 right recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 right recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 right recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 right recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 92
+      }
+    },
+    {
+      "name": "390 right recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "right"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 right fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "390 down rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 0,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 90,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 down recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 92,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 down recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 111,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 101,
+        "visibleBarrelPixels": 68
+      }
+    },
+    {
+      "name": "390 down recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 93,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 down recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 105,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 92,
+        "visibleBarrelPixels": 76
+      }
+    },
+    {
+      "name": "390 down recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 98,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 86,
+        "visibleBarrelPixels": 80
+      }
+    },
+    {
+      "name": "390 down recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 down recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 90,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 87
+      }
+    },
+    {
+      "name": "390 down recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 83,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 down recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 82,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 69,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 75,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.23333333333333334,
+        "offset": 0.014025860179706324,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "down"
+        },
+        "shots": 1,
+        "overlapPixels": 74,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 down fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "390 left rest mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 100.01666666666667,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 0,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame0 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame1 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.01666666666666667,
+        "offset": 4.4444444444444455,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 left recoil frame2 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.03333333333333333,
+        "offset": 8.88888888888889,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 90,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 left recoil frame3 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.049999999999999996,
+        "offset": 11.392504930966469,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 98,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 98,
+        "visibleBarrelPixels": 68
+      }
+    },
+    {
+      "name": "390 left recoil frame4 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.06666666666666665,
+        "offset": 9.481481481481483,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 91,
+        "visibleBarrelPixels": 72
+      }
+    },
+    {
+      "name": "390 left recoil frame5 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.08333333333333331,
+        "offset": 7.745781284242824,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 91,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 91,
+        "visibleBarrelPixels": 76
+      }
+    },
+    {
+      "name": "390 left recoil frame6 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.1,
+        "offset": 6.185404339250492,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 84,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 84,
+        "visibleBarrelPixels": 80
+      }
+    },
+    {
+      "name": "390 left recoil frame7 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.11666666666666667,
+        "offset": 4.8003506465044925,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 82
+      }
+    },
+    {
+      "name": "390 left recoil frame8 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.13333333333333333,
+        "offset": 3.5906202060048225,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 77,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 77,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 left recoil frame9 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.15,
+        "offset": 2.55621301775148,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 88
+      }
+    },
+    {
+      "name": "390 left recoil frame10 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.16666666666666666,
+        "offset": 1.697129081744467,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 92
+      }
+    },
+    {
+      "name": "390 left recoil frame11 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.18333333333333332,
+        "offset": 1.013368397983784,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 70,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 70,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame12 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.19999999999999998,
+        "offset": 0.5049309664694288,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame13 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.21666666666666665,
+        "offset": 0.17181678720140328,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame14 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.25,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame15 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.26666666666666666,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame16 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.2833333333333333,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame17 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.3,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left recoil frame18 mounting occlusion",
+      "passed": true,
+      "detail": {
+        "age": 0.31666666666666665,
+        "offset": 0,
+        "tank": {
+          "x": 384,
+          "y": 384,
+          "facing": "left"
+        },
+        "shots": 1,
+        "overlapPixels": 63,
+        "mismatches": 0,
+        "oldOrderWitnessPixels": 63,
+        "visibleBarrelPixels": 94
+      }
+    },
+    {
+      "name": "390 left fixed hull and accepted recoil range",
+      "passed": true,
+      "detail": {
+        "peak": 11.392504930966469,
+        "returned": 0
+      }
+    },
+    {
+      "name": "before-departure-1440 waiting has no box",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "before-departure-1440 open box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 2,
+        "phase": "evacuating",
+        "truck": {
+          "x": 272.768,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.016
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-1440 moving box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 18,
+        "phase": "evacuating",
+        "truck": {
+          "x": 285.056,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.27200000000000013
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-1440 cue-window box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 81,
+        "phase": "evacuating",
+        "truck": {
+          "x": 333.44000000000005,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 320,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 336,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.28000000000000075
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-1440 post-cue box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 125,
+        "phase": "evacuating",
+        "truck": {
+          "x": 391.04,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 384,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 400,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.1466666666666669
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-1440 localized announcement and HUD retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "before-departure-1440 live Traditional Chinese cue retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-1440 waiting has no box",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-1440 open box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 272.768,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.016
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-1440 moving box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 285.056,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.27200000000000013
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-1440 cue-window box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 332.672,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 320,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 336,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.26400000000000073
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-1440 post-cue box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 390.272,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 384,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 400,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.13066666666666688
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-1440 localized announcement and HUD retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-1440 live Traditional Chinese cue retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "before-departure-320 waiting has no box",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "before-departure-320 open box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 2,
+        "phase": "evacuating",
+        "truck": {
+          "x": 272.768,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.016
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-320 moving box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 18,
+        "phase": "evacuating",
+        "truck": {
+          "x": 285.056,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.27200000000000013
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-320 cue-window box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 80,
+        "phase": "evacuating",
+        "truck": {
+          "x": 332.672,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 320,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 336,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.26400000000000073
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-320 post-cue box reproduced",
+      "passed": true,
+      "detail": {
+        "strokes": 125,
+        "phase": "evacuating",
+        "truck": {
+          "x": 390.272,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 384,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 400,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.13066666666666688
+          }
+        }
+      }
+    },
+    {
+      "name": "before-departure-320 localized announcement and HUD retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "before-departure-320 live Traditional Chinese cue retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-320 waiting has no box",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-320 open box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 272.768,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.016
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-320 moving box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 284.288,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 272,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 288,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.2560000000000001
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-320 cue-window box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 332.672,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 320,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 336,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.26400000000000073
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-320 post-cue box absent",
+      "passed": true,
+      "detail": {
+        "strokes": 0,
+        "phase": "evacuating",
+        "truck": {
+          "x": 390.272,
+          "y": 688,
+          "heading": 1,
+          "action": {
+            "kind": "forward",
+            "from": {
+              "x": 384,
+              "y": 688,
+              "heading": 1
+            },
+            "to": {
+              "x": 400,
+              "y": 688,
+              "heading": 1
+            },
+            "duration": 0.3333333333333333,
+            "progress": 0.13066666666666688
+          }
+        }
+      }
+    },
+    {
+      "name": "after-departure-320 localized announcement and HUD retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "after-departure-320 live Traditional Chinese cue retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no visual-suite runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "method": "Actual Chromium frames; initial-pose-only fixtures for recoil, real keyboard maze for departure; clock controlled; read-only simulation",
+  "recording": "Actual 60Hz screenshot samples, enlarged3x nearest-neighbor; one shot per facing, up/right/down/left, rest hold between facings; not generated animation",
+  "errors": []
+}

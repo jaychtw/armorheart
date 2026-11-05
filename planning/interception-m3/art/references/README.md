@@ -1,0 +1,9 @@
+# Owner battleship reference
+
+2026-11-04 Asia/Taipei. The owner supplied an inline poster titled **WORLD WAR II BATTLESHIPS BY COUNTRY — SIZE COMPARISON**, displayed at495×619 pixels, and explicitly authorized archival here for the bounded M3 art assessment. Visually inspected: Yamato, Iowa, Bismarck, Vanguard, Richelieu, Littorio, KGV, North Carolina and South Dakota; nine top-down ships with deck/superstructure, fore/aft main batteries, country labels/flags and dimensions.
+
+**Binary archival remains incomplete:** the inline image is visually available but has no downloadable file pointer or workspace file. No original bytes, native filename/format, source URL, creator or license can be verified. Do not fabricate a SHA-256 or archive a generated facsimile as the original. This visual record is not the poster itself. The original must be saved here unchanged once its file bytes are available, then its hash/size/dimensions and actual filename recorded in `reference.json`.
+
+Owner provenance: supplied in this Armorheart conversation for visual inspiration and original asset design; permission to commit it to this path is explicit. Underlying creator/copyright/license are unknown; do not infer public domain from the historical ships or a blanket redistribution/production license. Keep labels/attribution intact in the archived original. No poster pixels, flags, national identifiers or copied named-ship artwork enter runtime assets. Do not treat reference receipt or this art study as Stage3 execution/production acceptance.
+
+The [M3 execution authorization](../../../../docs/decisions/M3_IMPLEMENTATION_AUTHORIZATION.md) supplies expected original PNG SHA-256 `68e90b405d9c35eeada65da05f27a15b3a90bfe4f0eb586ae444c09ceff25e9f` and archive name `Armorheart_Interception_Original_Reference.zip`. No such ZIP/file pointer is visible in the current session yet. This expected hash does not prove receipt; gameplay development proceeds as expressly authorized.

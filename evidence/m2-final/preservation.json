@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "baseline": "1d6abaa4f8f98bb0034641bde855ac4b16786bed",
+  "frozen_sections": [
+    {
+      "section": "export function hullBounds",
+      "sha256": "6e6990d05e53dc50919fa563ea7c39044138d7d5d45746aab100e690dd08e741",
+      "identical": true
+    },
+    {
+      "section": "export function createState",
+      "sha256": "d4fff03ec3b2501750a79ee5b31a531c0ae31cfbf0015c1c994f1909ae9b3677",
+      "identical": true
+    },
+    {
+      "section": "export function canMove",
+      "sha256": "d1fe3af36a7e1658a36698a2f32c69d1675e7e4ae1cc8657d79410555807e078",
+      "identical": true
+    },
+    {
+      "section": "function turn",
+      "sha256": "bf46dd591e7cb003b0b00b179b23eabfc00fc2e4cc0d1e11d66a5d9391fdee1b",
+      "identical": true
+    },
+    {
+      "section": "function moveTank",
+      "sha256": "2281bc174bb2c0bab6395da28db3e48b2e2e194bbce3120d91bd5940fdbdc75b",
+      "identical": true
+    },
+    {
+      "section": "export function intersect",
+      "sha256": "6b5964c6d3d10fbaf96379b696079c84b0adfa65b0fb0dc4ce6c9405402e173c",
+      "identical": true
+    },
+    {
+      "section": "export function recoil",
+      "sha256": "1010b840bce06cc5e714fb2db976ebdaac4fc8202304b0d144ed2fc1eb377c62",
+      "identical": true
+    },
+    {
+      "section": "function tank(",
+      "sha256": "af476ea0eceb388416d8ec82b673a52cd9c29b46cb1ddaaf22f84248b0feb220",
+      "identical": true
+    },
+    {
+      "section": " const flashAge=",
+      "sha256": "f68c39ab7ed333c9658d3dc9bd12745aef14d920366ec69a6856639e8527a69e",
+      "identical": true
+    }
+  ],
+  "unchanged_files": [
+    "src/breakthrough.mjs",
+    "src/maps/breakthrough.mjs",
+    "src/transport.mjs",
+    "planning/r3-geometry/map.json",
+    "docs/ARMORHEART_GDD_v1.0.md",
+    "docs/standards/UGDS.md",
+    "docs/standards/AICP.md",
+    "assets/guardian/ORIGINAL_README.md",
+    "assets/guardian/PROVENANCE.md",
+    "assets/guardian/anchors.json",
+    "assets/guardian/barrel.svg",
+    "assets/guardian/guardian-source.svg",
+    "assets/guardian/hull.svg",
+    "assets/guardian/original-master.png",
+    "assets/transport/PROVENANCE.md",
+    "assets/transport/anchors.json",
+    "assets/transport/transport.svg"
+  ],
+  "original_zips_unchanged": true,
+  "old_localizations_unchanged": true,
+  "default_engine_state_comparisons": 16080,
+  "range_removal_states": 64,
+  "r3_removal_states": 16,
+  "method": "byte-identical accepted geometry/recoil/draw/flash sections and assets; deterministic differential full-state stepping against the accepted engine without M2 hook"
+}

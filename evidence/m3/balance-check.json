@@ -1,0 +1,31 @@
+{
+  "method": "actual production M3 adapter simulation, not browser/player input; cardinal approach to49legal stations,4facings,8initial shot-delay phases, then stationary heldFire; no HP/route/stat fixtures",
+  "samples": 1568,
+  "positions": {
+    "x": [
+      272,
+      304,
+      352,
+      384,
+      416,
+      464,
+      496
+    ],
+    "y": [
+      288,
+      352,
+      432,
+      512,
+      592,
+      688,
+      720
+    ]
+  },
+  "totals": {
+    "escaped": 1104,
+    "defeat": 464
+  },
+  "maxHits": 5,
+  "winners": [],
+  "scope": "bounded sample only, not proof camping is impossible; informed two-station12.69s actual browser victory still has little ongoing response after setup; defaults unchanged"
+}

@@ -1,0 +1,83 @@
+{
+  "baseline": "bfd228359fbf56f03f921cb3d3439c7c26ed5c79",
+  "approved_geometry": "026fb7a68b6a2e6ae18c11e38fee6a75e8d9c931",
+  "map_sha256": "eaf26607ef26331fba5e22147e45b828adf50ae6f00c6c410811fcd1957586d6",
+  "checks": [
+    {
+      "path": "src/engine.mjs",
+      "identical": true,
+      "sha256": "70da6c1c67604d120f0237595e27ebd4a8248d233624909c9a2cb25cde785499"
+    },
+    {
+      "path": "index.html",
+      "identical": true,
+      "sha256": "53cdb1070190a186975c21aed6e4fc7dae4e3981b0ab024815b3854354866047"
+    },
+    {
+      "path": "style.css",
+      "identical": true,
+      "sha256": "fecb746bed1279146ec784e679292a8fda3feab854d54300af7efd65ec92e236"
+    },
+    {
+      "path": "docs/ARMORHEART_GDD_v1.0.md",
+      "identical": true,
+      "sha256": "ec962170e521a71993529b5c186be71396b6729492333446c139d4674570ca40"
+    },
+    {
+      "path": "docs/standards/UGDS.md",
+      "identical": true,
+      "sha256": "0dcbc47f98436284f595badddd084a016ebefe67f2de9a78c9290f81cef5b2d5"
+    },
+    {
+      "path": "docs/standards/AICP.md",
+      "identical": true,
+      "sha256": "073bd08425973dbd43bb65c1b3cf79d500ef6a832c609e032851be14200422ca"
+    },
+    {
+      "path": "assets/guardian/ORIGINAL_README.md",
+      "identical": true,
+      "sha256": "383b9f305aeeb11a1f98f3bd99aded91832d9df2fbef5f59de284e5701d68224"
+    },
+    {
+      "path": "assets/guardian/PROVENANCE.md",
+      "identical": true,
+      "sha256": "588baf161a20fb57bb09d4fbaaeaed5c3b039cd47172517aee7e6911d835f7a1"
+    },
+    {
+      "path": "assets/guardian/anchors.json",
+      "identical": true,
+      "sha256": "d04791a4e2656ac8515f3b3680f5fb32e68a63493c53bee9c2fc678b0a292fd4"
+    },
+    {
+      "path": "assets/guardian/barrel.svg",
+      "identical": true,
+      "sha256": "8d86bc0a74d3ec8e780e114bd955cdc243c9d164c865b05a3a738b08e94a62bf"
+    },
+    {
+      "path": "assets/guardian/guardian-source.svg",
+      "identical": true,
+      "sha256": "6f872a505d8f453e01e13a76442415d272973e1d8d66e61caf49aaa5e4f167ba"
+    },
+    {
+      "path": "assets/guardian/hull.svg",
+      "identical": true,
+      "sha256": "659ec5516f0f2a6bdf8b8a1bc44407ae720756a73d47d4a615c57254a80d5304"
+    },
+    {
+      "path": "assets/guardian/original-master.png",
+      "identical": true,
+      "sha256": "46f96b4afd18469a294ac4581fef96f4e46b04f4b0c9804b685691cd88c25f42"
+    },
+    {
+      "path": "src/app.mjs: tank draw",
+      "identical": true,
+      "sha256": "eb4b3edc1efb9dacd88cf06716674cce43ef1bffe4c142cade4fc74d75f898af"
+    },
+    {
+      "path": "src/app.mjs: muzzle flash",
+      "identical": true,
+      "sha256": "736ae9e11049c199b02bb959545ebb2a747f095ccbf93443cbce6e5d8ff88800"
+    }
+  ],
+  "guardian_unchanged": true
+}
